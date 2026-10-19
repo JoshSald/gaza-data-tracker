@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["ingest/tests"]
+pythonpath = [".", "ingest/tests"]
+
+[tool.ruff]
+line-length = 140

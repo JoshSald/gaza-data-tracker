@@ -1,0 +1,56 @@
+name: Ingest
+
+# Runs the importers on a schedule and opens (or updates) one pull request with anything new.
+# Nothing is published until you merge that pull request.
+on:
+  schedule:
+    - cron: "17 5,17 * * *" # 05:17 and 17:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-llm.txt  # includes requirements.txt
+      - name: Run importers
+        id: run
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+        run: python -m ingest run
+      - name: Update the named victims list
+        id: names
+        continue-on-error: true
+        run: python -m ingest names
+      - name: Validate before proposing
+        run: python scripts/validate.py
+      - name: Open or update the data pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/auto-update
+          commit-message: "data: scheduled import"
+          title: "Data update (needs review)"
+          body-path: .ingest-report.md
+          labels: data, needs-review
+          add-paths: |
+            data/**
+            archive/**
+      - name: Fail the run if a source failed
+        if: steps.run.outcome == 'failure' || steps.names.outcome == 'failure'
+        run: |
+          echo "At least one source failed. See the Notes section of the report."
+          exit 1

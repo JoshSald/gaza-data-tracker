@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "name", "type", "affiliation", "url"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name": { "type": "string" },
+      "type": { "enum": ["authority", "party", "un", "ngo", "study", "aggregator", "media"] },
+      "affiliation": { "type": "string" },
+      "url": { "type": "string", "pattern": "^https?://" },
+      "notes": { "type": "string" }
+    }
+  }
+}

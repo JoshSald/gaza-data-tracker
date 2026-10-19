@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gaza-tracker/schema/observation.schema.json",
+  "title": "Observation",
+  "description": "One figure, from one publisher, for one period. Observations are never edited after merge: a correction is a new observation that names the one it replaces in `supersedes`.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "metric", "value", "kind", "bound", "source", "as_of", "period_end", "document", "added_by"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,160}$" },
+    "metric": { "type": "string", "description": "An id from data/metrics.json" },
+    "value": { "type": "number", "minimum": 0 },
+    "low": { "type": "number", "minimum": 0, "description": "Lower end of an estimate's interval" },
+    "high": { "type": "number", "minimum": 0, "description": "Upper end of an estimate's interval" },
+    "kind": {
+      "enum": ["count", "claim", "estimate"],
+      "description": "count: a tally a named body recorded. claim: a figure a party states without a checkable method. estimate: a modeled number with an interval."
+    },
+    "bound": {
+      "enum": ["exact", "at_least", "approximate"],
+      "description": "How the publisher qualified the number: 'at least 1,760' is at_least, 'around 1,200' is approximate."
+    },
+    "source": { "type": "string", "description": "The body that produced the figure: an id from data/sources.json" },
+    "as_of": { "type": "string", "format": "date" },
+    "period_start": { "type": ["string", "null"], "format": "date" },
+    "period_end": { "type": "string", "format": "date" },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Breakdown keys, e.g. {\"age_group\": \"child\", \"sex\": \"female\"}"
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "publisher", "retrieved_at"],
+      "properties": {
+        "url": { "type": "string", "pattern": "^https?://" },
+        "publisher": { "type": "string", "description": "Where the figure was read, which may be an outlet reporting the source" },
+        "retrieved_at": { "type": "string" },
+        "archive": { "type": "string", "description": "Path under archive/ or a web.archive.org URL" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "note": { "type": "string" }
+      }
+    },
+    "quote": { "type": "string", "description": "The exact sentence the figure appears in. Required for importer-added observations." },
+    "caveat": { "type": "string" },
+    "supersedes": { "type": "string", "description": "id of the observation this one corrects" },
+    "added_by": { "type": "string", "description": "'seed', 'manual:<name>', 'importer:<name>' or 'agent:<name>'" },
+    "flags": { "type": "array", "items": { "type": "string" } }
+  }
+}

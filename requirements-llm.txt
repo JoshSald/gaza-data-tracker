@@ -1,0 +1,3 @@
+# Optional: only for the press-release importer and `python -m ingest add-url`.
+-r requirements.txt
+anthropic>=1.15,<2

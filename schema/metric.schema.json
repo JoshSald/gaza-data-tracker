@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metric",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "label", "definition", "unit", "cumulative"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9_]+(\\.[a-z0-9_]+)+$" },
+      "label": { "type": "string" },
+      "definition": { "type": "string" },
+      "unit": { "type": "string" },
+      "cumulative": { "type": "boolean", "description": "True when later values for the same source, period start and dimensions should never be lower" }
+    }
+  }
+}

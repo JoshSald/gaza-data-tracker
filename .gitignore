@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ingest-report.md
+.env
+.DS_Store
+site/node_modules/
+site/.next/
+site/out/
+site/public/data/
+site/next-env.d.ts
+.claude/
+CLAUDE.md
+docs/CONTEXT.md
+docs/research/
