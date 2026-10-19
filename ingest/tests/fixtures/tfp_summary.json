@@ -1,0 +1,18 @@
+{
+  "gaza": {
+    "reports": 1105,
+    "last_update": "2026-10-15",
+    "massacres": 12000,
+    "killed": {"total": 74396, "children": 20179, "women": 12500, "civil_defence": 140, "press": 262, "medical": 1701},
+    "famine": {},
+    "aid_seeker": {},
+    "injured": {"total": 175449}
+  },
+  "known_killed_in_gaza": {
+    "records": 72835,
+    "male": {"adult": 36067, "senior": 2089, "child": 12803},
+    "female": {"adult": 11733, "senior": 1309, "child": 8834},
+    "last_update": "2026-07-27",
+    "includes_until": "2026-05-07"
+  }
+}
