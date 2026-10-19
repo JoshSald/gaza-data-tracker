@@ -1,0 +1,411 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* The site follows the reader's system setting, so shadcn's dark: variant does too. */
+@custom-variant dark (@media (prefers-color-scheme: dark));
+
+/* Layout: one reading column of sections, each a heading, a short note, then figures; archival, source-first.
+   The site's own palette comes first; shadcn's tokens below are mapped onto it. */
+:root {
+  --paper: #f3f4f2;
+  --panel: #fbfbfa;
+  --ink: #141716;
+  --ink-2: #4c5450;
+  --rule: #d5d9d6;
+  --red: #a3361f;
+  --claim: #8a5a00;
+  --count: #2d6a3e;
+  --status-partial: #c08a2a;
+  --status-down: #4c5450;
+  --series-2: #6f7d77;
+
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body:
+    "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-code:
+    "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-ar:
+    "IBM Plex Sans Arabic", "Geeza Pro", "Noto Sans Arabic", sans-serif;
+
+  --step--1: 0.8125rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.75rem;
+  --step-3: 2.75rem;
+  --gap: 1rem;
+  color-scheme: light;
+
+  --radius: 4px;
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--panel);
+  --card-foreground: var(--ink);
+  --popover: var(--panel);
+  --popover-foreground: var(--ink);
+  --primary: var(--red);
+  --primary-foreground: var(--panel);
+  --secondary: var(--paper);
+  --secondary-foreground: var(--ink);
+  --muted: var(--paper);
+  --muted-foreground: var(--ink-2);
+  --accent: var(--paper);
+  --accent-foreground: var(--ink);
+  --destructive: var(--red);
+  --border: var(--rule);
+  --input: var(--rule);
+  --ring: var(--red);
+  --chart-1: var(--red);
+  --chart-2: var(--series-2);
+  --chart-3: var(--ink);
+  --chart-4: var(--claim);
+  --chart-5: var(--ink-2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #111413;
+    --panel: #181c1a;
+    --ink: #e6e9e7;
+    --ink-2: #a2aba6;
+    --rule: #2d3330;
+    --red: #e0775f;
+    --claim: #e3ac4a;
+    --count: #7cc48d;
+    --status-partial: #d9a441;
+    --status-down: #8c9a94;
+    --series-2: #8c9a94;
+    --primary-foreground: var(--paper);
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-display);
+  --font-mono: var(--font-code);
+  --font-arabic: var(--font-ar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* Element styles sit in the base layer so Tailwind utilities on shadcn components can override them. */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: var(--step-0);
+    line-height: 1.55;
+  }
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+    text-underline-offset: 3px;
+  }
+  a:hover {
+    color: var(--red);
+  }
+  :focus-visible {
+    outline: 2px solid var(--red);
+    outline-offset: 2px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    margin: 0;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: var(--step-3);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: var(--step-2);
+    line-height: 1.2;
+  }
+  h3 {
+    font-size: var(--step-0);
+    font-weight: 600;
+  }
+  p {
+    margin: 0;
+    max-width: 68ch;
+  }
+  code {
+    font-family: var(--font-code);
+    font-size: 0.9em;
+  }
+}
+
+@layer components {
+  .wrap {
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
+  .site-head {
+    border-bottom: 1px solid var(--rule);
+  }
+  .site-head-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 2rem;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-block: 1rem;
+  }
+  .wordmark {
+    font-family: var(--font-code);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: var(--step--1);
+    text-decoration: none;
+  }
+  .site-head nav {
+    display: flex;
+    gap: 1.25rem;
+    font-size: var(--step--1);
+  }
+  .site-head nav a {
+    text-decoration: none;
+    color: var(--ink-2);
+  }
+  .site-head nav a:hover {
+    color: var(--ink);
+  }
+
+  .site-foot {
+    border-top: 1px solid var(--rule);
+    margin-top: 4rem;
+    padding-block: 2rem;
+    color: var(--ink-2);
+    font-size: var(--step--1);
+  }
+
+  .hero {
+    display: grid;
+    gap: 1rem;
+    padding-block: 3rem 2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero .lede {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    line-height: 1.45;
+    max-width: 46ch;
+  }
+  .hero .lede strong {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .eyebrow {
+    font-family: var(--font-code);
+    font-size: var(--step--1);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-2);
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    font-size: var(--step--1);
+    color: var(--ink-2);
+  }
+  .legend > span {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  section.block {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    padding-block: 2.5rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .block-head {
+    display: grid;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .note {
+    color: var(--ink-2);
+    font-size: var(--step--1);
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr));
+    border-top: 1px solid var(--rule);
+    border-left: 1px solid var(--rule);
+  }
+  .stat {
+    display: grid;
+    gap: 0.25rem;
+    align-content: start;
+    padding: 1rem;
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    background: var(--panel);
+  }
+  .stat-label {
+    font-size: var(--step--1);
+    color: var(--ink-2);
+  }
+  .stat-value {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-lead .stat-value {
+    color: var(--red);
+  }
+  .stat-asof {
+    font-family: var(--font-code);
+    font-size: 0.6875rem;
+    color: var(--ink-2);
+  }
+  .stat-bound {
+    font-family: var(--font-body);
+    font-size: var(--step--1);
+    color: var(--ink-2);
+    margin-right: 0.25em;
+  }
+
+  .attr {
+    font-size: var(--step--1);
+    color: var(--ink-2);
+  }
+
+  .grid-2 {
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr));
+  }
+  .flag-value {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .caveat {
+    font-size: var(--step--1);
+    color: var(--ink-2);
+    border-top: 1px solid var(--rule);
+    padding-top: 0.75rem;
+  }
+
+  /* Data tables: mono uppercase headings, figures right-aligned, long notes allowed to wrap. */
+  .data-table {
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: var(--panel);
+  }
+  .data-table th {
+    font-family: var(--font-code);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-2);
+    padding-inline: 0.75rem;
+  }
+  .data-table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    line-height: 1.45;
+    font-size: var(--step--1);
+  }
+  .data-table .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .data-table td.num {
+    font-family: var(--font-code);
+    font-size: var(--step-0);
+  }
+  .data-table td.wide {
+    min-width: 18rem;
+  }
+
+  .prose {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    padding-block: 2.5rem;
+  }
+  .prose h2 {
+    margin-top: 1.5rem;
+  }
+  .prose ul {
+    margin: 0;
+    padding-left: 1.25rem;
+    list-style: disc;
+    display: grid;
+    gap: 0.5rem;
+    max-width: 68ch;
+  }
+  .prose dl {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0;
+    max-width: 68ch;
+  }
+  .prose dt {
+    font-weight: 600;
+  }
+  .prose dd {
+    margin: 0;
+    color: var(--ink-2);
+  }
+}
