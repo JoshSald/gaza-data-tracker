@@ -202,3 +202,24 @@ def check_oct7(victims: dict | None) -> list[str]:
         if memorial is not None and not str(memorial).startswith("https://"):
             errors.append(f"{where}: memorial link must be https")
     return errors
+
+
+def check_memorial_links(links: dict | None, victims: dict | None) -> list[str]:
+    """Rules for data/lists/gaza-memorial-links.json: every link points at exactly one name on the Gaza list."""
+    if links is None:
+        return []
+    if links.get("fields") != ["ar_name", "age", "sex", "url", "project", "basis"]:
+        return ["gaza-memorial-links.json: unexpected fields"]
+    counts: dict[tuple, int] = {}
+    for _, ar, age, sex, _ in (victims or {}).get("records", []):
+        counts[(ar, age, sex)] = counts.get((ar, age, sex), 0) + 1
+    errors = []
+    for i, (ar, age, sex, url, project, basis) in enumerate(links.get("records", [])):
+        where = f"gaza-memorial-links.json #{i + 1} ({ar})"
+        if counts.get((ar, age, sex)) != 1:
+            errors.append(f"{where}: must match exactly one name on the Gaza list, matches {counts.get((ar, age, sex), 0)}")
+        if project not in links.get("projects", {}) or not str(url).startswith("https://"):
+            errors.append(f"{where}: unknown project or a link that is not https")
+        if not basis:
+            errors.append(f"{where}: needs the basis for the match")
+    return errors

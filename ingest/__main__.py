@@ -6,6 +6,7 @@
   names [--dry-run]               update data/lists/named-victims.json from the Ministry's list of names
   hospitals [--dry-run]           update data/lists/hospitals.json, the list of Gaza's 36 hospitals
   oct7 [--dry-run]                update data/lists/oct7-victims.json, people killed in the 7 October attack
+  memorials [--dry-run]           update data/lists/gaza-memorial-links.json, links from Gaza names to memorial pages
 """
 from __future__ import annotations
 
@@ -16,7 +17,7 @@ import sys
 
 from . import checks, store
 from .paths import REPORT, WATCH_STATE, WATCHLIST
-from .sources import hospitals, names, oct7, press, techforpalestine, un2720, unosat, who_health
+from .sources import hospitals, memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
 from .sources.base import Proposal
 
 ROW_LIMIT = 100  # above this many new rows, the report summarises instead of listing each one
@@ -176,6 +177,8 @@ def main(argv: list[str] | None = None) -> int:
     hp.add_argument("--dry-run", action="store_true", help="show what would change without writing")
     o7 = sub.add_parser("oct7")
     o7.add_argument("--dry-run", action="store_true", help="show what would change without writing")
+    mem = sub.add_parser("memorials")
+    mem.add_argument("--dry-run", action="store_true", help="show what would change without writing")
     args = ap.parse_args(argv)
     if args.dry_run:
         os.environ["ARCHIVE_DISABLED"] = "1"  # a dry run leaves no copies in archive/
@@ -184,6 +187,9 @@ def main(argv: list[str] | None = None) -> int:
         lines = oct7.run(args.dry_run)
         print("\n".join(lines))
         return 1 if lines[0].endswith("not updated:") else 0
+    if args.cmd == "memorials":
+        print("\n".join(memorials.run(args.dry_run)))
+        return 0
     if args.cmd == "hospitals":
         print("\n".join(hospitals.run(args.dry_run)))
         return 0
