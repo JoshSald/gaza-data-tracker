@@ -90,8 +90,15 @@ export default function NamedVictims() {
           identification rests on, and are kept in a separate file so they are never mistaken for matches the rules made.
         </p>
         <p className="note">
-          Airwars, which investigates civilian harm, has matched several thousand names on the Ministry&apos;s list to the
-          incidents it documents, using ID numbers. That would give far more links, but it does not state terms for reusing
+          <a href="https://airwars.org/" {...ext}>
+            Airwars
+          </a>
+          , which investigates civilian harm, has matched several thousand names on the Ministry&apos;s list to the
+          incidents it documents, using ID numbers; its{" "}
+          <a href="https://airwars.org/moh-list/" {...ext}>
+            list of identified victims
+          </a>{" "}
+          shows which. That would give far more links, but it does not state terms for reusing
           that data and we have not asked for permission, so it is not used here.
         </p>
       </details>
