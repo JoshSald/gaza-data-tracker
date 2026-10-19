@@ -184,3 +184,22 @@ export function oct7Meta(): Oct7Meta {
   );
   return { ...meta, count: records.length, inCaptivity: records.filter((r) => r[6]).length, linked: records.filter((r) => r[7]).length };
 }
+
+export interface MemorialLinksMeta {
+  projects: Record<string, { name: string; url: string; by?: string }>;
+  pages_read: number;
+  counts: Record<"linked" | "ambiguous" | "no match" | "not corroborated" | "contradicted" | "skipped", number>;
+  /** People on the Gaza list with at least one linked page (a person can have a page on both projects). */
+  people: number;
+  byProject: Record<string, number>;
+}
+
+/** About the links from Gaza names to independent memorial pages, without the links themselves. */
+export function memorialLinksMeta(): MemorialLinksMeta {
+  const { records, ...meta } = read<Omit<MemorialLinksMeta, "people" | "byProject"> & { records: [string, number, string, string, string, string][] }>(
+    join(DATA, "lists", "gaza-memorial-links.json"),
+  );
+  const byProject: Record<string, number> = {};
+  for (const r of records) byProject[r[4]] = (byProject[r[4]] ?? 0) + 1;
+  return { ...meta, people: new Set(records.map((r) => `${r[0]}|${r[1]}|${r[2]}`)).size, byProject };
+}
