@@ -23,6 +23,10 @@ Pages about several people (a family, a couple) are skipped, since the page cann
 
 Run with `python -m ingest memorials`; it is not part of the scheduled import. It writes
 data/lists/gaza-memorial-links.json and prints every proposed link for review.
+
+Pages these rules cannot link can be linked by hand in data/lists/gaza-memorial-links-by-hand.json, with the basis
+spelled out and the date added. This command never writes to that file, and the site marks those links as checked
+by hand.
 """
 from __future__ import annotations
 
