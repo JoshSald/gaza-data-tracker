@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Enable Git LFS, so newly archived PDFs are committed as LFS files
+        run: git lfs install --local
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -38,12 +40,19 @@ jobs:
         run: python -m ingest names
       - name: Validate before proposing
         run: python scripts/validate.py
+      - name: Choose the pull request title
+        id: title
+        # AGENTS.md rule 7: a change to a headline figure is announced in the title.
+        run: |
+          title="chore(data): scheduled data update"
+          if grep -q "headline figure" .ingest-report.md 2>/dev/null; then title="HEADLINE: $title"; fi
+          echo "title=$title" >> "$GITHUB_OUTPUT"
       - name: Open or update the data pull request
         uses: peter-evans/create-pull-request@v7
         with:
           branch: data/auto-update
-          commit-message: "data: scheduled import"
-          title: "Data update (needs review)"
+          commit-message: "chore(data): scheduled import"
+          title: ${{ steps.title.outputs.title }}
           body-path: .ingest-report.md
           labels: data, needs-review
           add-paths: |
