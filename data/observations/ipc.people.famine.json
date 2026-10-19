@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ipc-ipc-people-famine-2025-08-22",
+    "metric": "ipc.people.famine",
+    "value": 500000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "ipc",
+    "as_of": "2025-08-22",
+    "period_start": null,
+    "period_end": "2025-08-22",
+    "document": {
+      "url": "https://abc7news.com/post/famine-determined-parts-gaza-500000-experiencing-catastrophic-hunger-report/17612781/",
+      "publisher": "ABC News",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Famine confirmed in Gaza Governorate. Israel's PM office and COGAT rejected the finding."
+  }
+]

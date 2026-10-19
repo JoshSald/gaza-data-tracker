@@ -1,0 +1,376 @@
+[
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-02-28-20250201",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 19500,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un2720",
+    "as_of": "2025-02-28",
+    "period_start": "2025-02-01",
+    "period_end": "2025-02-28",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly-Infographic-February.pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:52+00:00",
+      "sha256": "da9066ea3938871c9d8e4059ea0e70b8a5c0a0f3970490622bb3f0e5ad0185dc",
+      "archive": "archive/2026/10/da9066ea3938871c.pdf"
+    },
+    "quote": "In February 2025, 19.5K metric tonnes (t) of humanitarian aid processed through the UN 2720 Mechanism were delivered",
+    "caveat": "Stated as 19.5K t in the report. Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-05-31-20250501",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 12300,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un2720",
+    "as_of": "2025-05-31",
+    "period_start": "2025-05-01",
+    "period_end": "2025-05-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(May).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:51+00:00",
+      "sha256": "0bb680a2357c6517ed14f28238c27881c4fb83429b37112689cae6830200844e",
+      "archive": "archive/2026/10/0bb680a2357c6517.pdf"
+    },
+    "quote": "In May 2025, 12.3K metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Stated as 12.3K t in the report. Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-06-30-20250601",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 12700,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-06-30",
+    "period_start": "2025-06-01",
+    "period_end": "2025-06-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(June).pdf",
+      "publisher": "UN2720",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-07-31-20250701",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 19800,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un2720",
+    "as_of": "2025-07-31",
+    "period_start": "2025-07-01",
+    "period_end": "2025-07-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(July).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:50+00:00",
+      "sha256": "41b87f5e591a85ae0f5f02680155e0d2e0d487efb5c1cea2aa9843fb587b0789",
+      "archive": "archive/2026/10/41b87f5e591a85ae.pdf"
+    },
+    "quote": "In July 2025, 19.8K metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Stated as 19.8K t in the report. Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-08-31-20250801",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 30400,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un2720",
+    "as_of": "2025-08-31",
+    "period_start": "2025-08-01",
+    "period_end": "2025-08-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(August).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:50+00:00",
+      "sha256": "5db227bb650ea20844df4b02791fef86e4f7db09bda989a9765ac9a3cf68fe3c",
+      "archive": "archive/2026/10/5db227bb650ea208.pdf"
+    },
+    "quote": "In August 2025, 30.4K metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Stated as 30.4K t in the report. Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-09-30-20250901",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 29200,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un2720",
+    "as_of": "2025-09-30",
+    "period_start": "2025-09-01",
+    "period_end": "2025-09-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Sep).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:49+00:00",
+      "sha256": "37e54bf3fb3132f0b7ad2e376c95e77bfcf00950936bd93a2a4d3e3b6afc0a70",
+      "archive": "archive/2026/10/37e54bf3fb3132f0.pdf"
+    },
+    "quote": "In September 2025, 29.2K metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Stated as 29.2K t in the report. Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-10-31-20251001",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 39400,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un2720",
+    "as_of": "2025-10-31",
+    "period_start": "2025-10-01",
+    "period_end": "2025-10-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Oct).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:48+00:00",
+      "sha256": "49d8e103de46187afd6fa0016a8a3887b0ed75106dfedc66de2f2b3fa5d450df",
+      "archive": "archive/2026/10/49d8e103de46187a.pdf"
+    },
+    "quote": "In October 2025, 39.4K metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Stated as 39.4K t in the report. Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-11-30-20251101",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 54200,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un2720",
+    "as_of": "2025-11-30",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Nov).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:47+00:00",
+      "sha256": "c595dba28430d5c364bd63b24f9ebb4dfc92b6f386e4bb3280694a9fe07d9c09",
+      "archive": "archive/2026/10/c595dba28430d5c3.pdf"
+    },
+    "quote": "In November 2025, 54.2K metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Stated as 54.2K t in the report. Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2025-12-31-20251201",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 65500,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-12-31",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly_Infographic_(Dec).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:47+00:00",
+      "sha256": "1177019c4c6a7480e75aa713ba213ce70519d28974a501c9e8d5195b56263320",
+      "archive": "archive/2026/10/1177019c4c6a7480.pdf"
+    },
+    "quote": "In December 2025, a total of 65,500 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-01-31-20260101",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 44400,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-01-31",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Jan).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:46+00:00",
+      "sha256": "cbb68510a2f88a5daa37cc0865d942386cc95af4bf6bc8c4eda5968fb4420a2a",
+      "archive": "archive/2026/10/cbb68510a2f88a5d.pdf"
+    },
+    "quote": "In January 2026, 44,400 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-02-28-20260201",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 35392,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-02-28",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly_Infographic_February.pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:46+00:00",
+      "sha256": "3aa8d2a635192ac8ab252af75ec0a9d7ac82e847821cb73234b3465a73de633e",
+      "archive": "archive/2026/10/3aa8d2a635192ac8.pdf"
+    },
+    "quote": "In February 2026, 35,392 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-03-31-20260301",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 34200,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-03-31",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/UN2720_Infographic_March%202026.pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:46+00:00",
+      "sha256": "3c621aa89f51db216da3c107a4bd3f9a3369880751fdeeeb9b1584172c6eea35",
+      "archive": "archive/2026/10/3c621aa89f51db21.pdf"
+    },
+    "quote": "In March 2026, 34,200 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-04-30-20260401",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 35300,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-04-30",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Apr_1).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:45+00:00",
+      "sha256": "7016fce68586a7ab751cf76196fcf9799aae2c410405cf941d40f292ed3deea9",
+      "archive": "archive/2026/10/7016fce68586a7ab.pdf"
+    },
+    "quote": "In April 2026, 35,300 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-05-31-20260501",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 36662,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-05-31",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(may).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:45+00:00",
+      "sha256": "97fec0e0912e4b9b6126a852682d018fbbca4bae473335d94107b943ddaf8155",
+      "archive": "archive/2026/10/97fec0e0912e4b9b.pdf"
+    },
+    "quote": "In May 2026, 36,662 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism were delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-06-30-20260601",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 26800,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-06-30",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Inforaphic(June-2026).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:45+00:00",
+      "sha256": "465d6c72c926a43f6773e968a54fc5e6551abf0f1741ef461f556d26228bac31",
+      "archive": "archive/2026/10/465d6c72c926a43f.pdf"
+    },
+    "quote": "In June 2026, 26,800 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism was delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-07-31-20260701",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 35200,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-07-31",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Inforaphic(July-2026).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:44+00:00",
+      "sha256": "568362de5f39f9987b86f0a9537a2dac726b7f68798e9577c2ae7f5a8de28967",
+      "archive": "archive/2026/10/568362de5f39f998.pdf"
+    },
+    "quote": "In July 2026, 35,200 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism was delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-08-31-20260801",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 28781,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-08-31",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Inforaphic(Aug-2026).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:44+00:00",
+      "sha256": "26218731ff06be8922365fa1178b83ae9fc992f1a0e4553550fbc34b50447605",
+      "archive": "archive/2026/10/26218731ff06be89.pdf"
+    },
+    "quote": "In August 2026, 28,781 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism was delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-delivered-tonnes-2026-09-30-20260901",
+    "metric": "aid.un2720.delivered_tonnes",
+    "value": 17765,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2026-09-30",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Inforaphic(Sep-2026).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:43+00:00",
+      "sha256": "9be6a3f6e6d03fd0b5c4d66f5ecf107401911adf5c37cc11549ddc3b4cb06ba1",
+      "archive": "archive/2026/10/9be6a3f6e6d03fd0.pdf"
+    },
+    "quote": "In September 2026, 17,765 metric tonnes (t) of humanitarian aid processed through the UN2720 Mechanism was delivered",
+    "caveat": "Only UN-manifested aid, not all aid.",
+    "added_by": "importer:un2720"
+  }
+]

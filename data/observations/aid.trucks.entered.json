@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cogat-aid-trucks-entered-2025-08-19-20250519",
+    "metric": "aid.trucks.entered",
+    "value": 9200,
+    "kind": "count",
+    "bound": "exact",
+    "source": "cogat",
+    "as_of": "2025-08-19",
+    "period_start": "2025-05-19",
+    "period_end": "2025-08-19",
+    "document": {
+      "url": "https://www.jns.org/israel-news/cogat-un-boosted-gaza-aid-collection-sharply",
+      "publisher": "JNS",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "COGAT said the UN dashboard counted 3,553 trucks for the same period because it covers only UN-facilitated cargo."
+  },
+  {
+    "id": "cogat-aid-trucks-entered-2026-02-07-20251010",
+    "metric": "aid.trucks.entered",
+    "value": 65000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "cogat",
+    "as_of": "2026-02-07",
+    "period_start": "2025-10-10",
+    "period_end": "2026-02-07",
+    "document": {
+      "url": "https://www.yahoo.com/news/articles/over-65-000-aid-trucks-195922270.html",
+      "publisher": "Jerusalem Post via Yahoo",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "All cargo COGAT cleared, including private-sector goods. Over 47,000 carried food."
+  }
+]
