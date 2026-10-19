@@ -166,3 +166,21 @@ export function hospitals(): { list: Hospital[]; listDate: string | null; listDo
     sourceNote: list.source_note,
   };
 }
+
+export interface Oct7Meta {
+  source_note: string;
+  scope: string;
+  note: string;
+  document: Observation["document"] & { page?: string };
+  count: number;
+  inCaptivity: number;
+  linked: number;
+}
+
+/** About the list of people killed in the 7 October attack, without its records (the page loads those in the browser). */
+export function oct7Meta(): Oct7Meta {
+  const { records, ...meta } = read<Omit<Oct7Meta, "count" | "inCaptivity" | "linked"> & { records: [string, string, number | null, string | null, string, string, boolean, string | null][] }>(
+    join(DATA, "lists", "oct7-victims.json"),
+  );
+  return { ...meta, count: records.length, inCaptivity: records.filter((r) => r[6]).length, linked: records.filter((r) => r[7]).length };
+}
