@@ -184,3 +184,27 @@ export function oct7Meta(): Oct7Meta {
   );
   return { ...meta, count: records.length, inCaptivity: records.filter((r) => r[6]).length, linked: records.filter((r) => r[7]).length };
 }
+
+export interface MemorialLinksMeta {
+  projects: Record<string, { name: string; url: string; by?: string }>;
+  pages_read: number;
+  counts: Record<"linked" | "ambiguous" | "no match" | "not corroborated" | "contradicted" | "skipped", number>;
+  /** People on the Gaza list with at least one linked page (a person can have a page on both projects). */
+  people: number;
+  byProject: Record<string, number>;
+  /** Links added and checked by hand, for pages the matching rules cannot link; kept in their own file. */
+  byHand: number;
+}
+
+/** About the links from Gaza names to independent memorial pages, without the links themselves. */
+export function memorialLinksMeta(): MemorialLinksMeta {
+  type Link = [string, number, string, string, string, string];
+  const { records, ...meta } = read<Omit<MemorialLinksMeta, "people" | "byProject" | "byHand"> & { records: Link[] }>(
+    join(DATA, "lists", "gaza-memorial-links.json"),
+  );
+  const byHand = read<{ records: Link[] }>(join(DATA, "lists", "gaza-memorial-links-by-hand.json")).records;
+  const byProject: Record<string, number> = {};
+  for (const r of records) byProject[r[4]] = (byProject[r[4]] ?? 0) + 1;
+  const people = new Set([...records, ...byHand].map((r) => `${r[0]}|${r[1]}|${r[2]}`)).size;
+  return { ...meta, people, byProject, byHand: byHand.length };
+}

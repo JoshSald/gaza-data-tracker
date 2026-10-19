@@ -1,6 +1,8 @@
 "use client";
 // The Ministry's list of named victims, searched and paged in the browser. The list is ~7 MB, so it is fetched
-// once from /data/lists/ rather than built into the page.
+// once from /data/lists/ rather than built into the page. Names that independent projects remember on a memorial page
+// link to it; those links come from separate files, matched to the list by the Ministry's Arabic name, age and sex.
+// Links added by hand, for pages the matching rules cannot link, come from their own file and are marked as such.
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -9,7 +11,9 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { fmt } from "@/lib/format";
 
 type Row = [en: string, ar: string, age: number, sex: "m" | "f", update: number];
-interface Entry { n: number; en: string; ar: string; age: number; sex: "m" | "f"; key: string }
+type LinkRow = [ar: string, age: number, sex: "m" | "f", url: string, project: string, basis: string];
+interface Memorial { url: string; project: string; basis: string; byHand: boolean }
+interface Entry { n: number; en: string; ar: string; age: number; sex: "m" | "f"; key: string; memorials: Memorial[] }
 
 const PAGE = 100;
 // Shortcuts that fill in the age range. Ages are whole years as the Ministry records them (0 = under one year old).
@@ -36,33 +40,55 @@ function normalise(s: string) {
     .trim();
 }
 
-export function VictimList({ src }: { src: string }) {
+export function VictimList({ src, links, byHand }: { src: string; links: string; byHand: string }) {
   const [entries, setEntries] = useState<Entry[] | null>(null);
   const [failed, setFailed] = useState(false);
   const [query, setQuery] = useState("");
   const [sex, setSex] = useState<"all" | "m" | "f">("all");
+  const [onlyLinked, setOnlyLinked] = useState(false);
+  const [projects, setProjects] = useState<Record<string, { name: string }>>({});
   const [ageFrom, setAgeFrom] = useState("");
   const [ageTo, setAgeTo] = useState("");
   const [page, setPage] = useState(0);
   const deferredQuery = useDeferredValue(query);
 
   useEffect(() => {
-    fetch(src)
-      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
-      .then((d: { records: Row[] }) =>
-        setEntries(d.records.map(([en, ar, a, s], i) => ({ n: i + 1, en, ar, age: a, sex: s, key: normalise(`${en} ${ar}`) }))),
-      )
+    const json = (url: string) => fetch(url).then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
+    // The list still loads if the links file cannot; the names are then shown without links.
+    const none = { projects: {}, records: [] };
+    Promise.all([json(src), json(links).catch(() => none), json(byHand).catch(() => none)])
+      .then(([d, l, h]: [{ records: Row[] }, ...{ projects: Record<string, { name: string }>; records: LinkRow[] }[]]) => {
+        const byKey = new Map<string, Memorial[]>();
+        for (const [file, hand] of [[l, false], [h, true]] as const)
+          for (const [ar, age, sex, url, project, basis] of file.records) {
+            const k = `${ar}|${age}|${sex}`;
+            byKey.set(k, [...(byKey.get(k) ?? []), { url, project, basis, byHand: hand }]);
+          }
+        setProjects(l.projects);
+        setEntries(
+          d.records.map(([en, ar, a, s], i) => ({
+            n: i + 1, en, ar, age: a, sex: s, key: normalise(`${en} ${ar}`), memorials: byKey.get(`${ar}|${a}|${s}`) ?? [],
+          })),
+        );
+      })
       .catch(() => setFailed(true));
-  }, [src]);
+  }, [src, links, byHand]);
 
   const matches = useMemo(() => {
     if (!entries) return [];
     const terms = normalise(deferredQuery).split(" ").filter(Boolean);
     const lo = toAge(ageFrom) ?? 0, hi = toAge(ageTo) ?? Infinity;
-    return entries.filter((e) => (sex === "all" || e.sex === sex) && e.age >= lo && e.age <= hi && terms.every((t) => e.key.includes(t)));
-  }, [entries, deferredQuery, sex, ageFrom, ageTo]);
+    return entries.filter(
+      (e) =>
+        (sex === "all" || e.sex === sex) &&
+        (!onlyLinked || e.memorials.length > 0) &&
+        e.age >= lo &&
+        e.age <= hi &&
+        terms.every((t) => e.key.includes(t)),
+    );
+  }, [entries, deferredQuery, sex, onlyLinked, ageFrom, ageTo]);
 
-  useEffect(() => setPage(0), [deferredQuery, sex, ageFrom, ageTo]);
+  useEffect(() => setPage(0), [deferredQuery, sex, onlyLinked, ageFrom, ageTo]);
   const preset = AGE_PRESETS.find((p) => p.from === ageFrom.trim() && p.to === ageTo.trim())?.key ?? "custom";
 
   if (failed)
@@ -142,6 +168,15 @@ export function VictimList({ src }: { src: string }) {
             className="h-9 w-20 rounded-[var(--radius)] bg-card"
           />
         </fieldset>
+        <Select value={onlyLinked ? "linked" : "all"} onValueChange={(v) => setOnlyLinked(v === "linked")}>
+          <SelectTrigger aria-label="Memorial pages" className="h-9 w-52 rounded-[var(--radius)] bg-card">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">All names</SelectItem>
+            <SelectItem value="linked">With a memorial page</SelectItem>
+          </SelectContent>
+        </Select>
       </div>
 
       <p className="note" aria-live="polite">
@@ -164,7 +199,33 @@ export function VictimList({ src }: { src: string }) {
               <TableRow key={e.n}>
                 <TableCell className="num hidden text-muted-foreground sm:table-cell">{fmt(e.n)}</TableCell>
                 <TableCell className="whitespace-normal">
-                  {e.en}
+                  {e.memorials.length ? (
+                    <a href={e.memorials[0].url} target="_blank" rel="noopener noreferrer" title={`Memorial page. ${e.memorials[0].byHand ? "Linked by hand" : "Matched by"}: ${e.memorials[0].basis}`}>
+                      {e.en}
+                    </a>
+                  ) : (
+                    e.en
+                  )}
+                  {e.memorials.length > 0 && (
+                    <span className="block text-xs text-muted-foreground">
+                      {e.memorials.map((m, i) => (
+                        <span key={m.url}>
+                          {i > 0 && " · "}
+                          <a href={m.url} target="_blank" rel="noopener noreferrer" className="text-muted-foreground" title={`${m.byHand ? "Linked by hand" : "Matched by"}: ${m.basis}`}>
+                            {projects[m.project]?.name ?? m.project}
+                          </a>
+                          {m.byHand && (
+                            <span
+                              title={`Linked by hand, not by the matching rules: ${m.basis}`}
+                              className="ml-1.5 inline-block rounded-[2px] border border-dashed border-current px-[0.4em] py-[0.1em] align-[0.1em] font-mono text-[0.625rem] leading-none tracking-[0.06em] uppercase"
+                            >
+                              linked by hand
+                            </span>
+                          )}
+                        </span>
+                      ))}
+                    </span>
+                  )}
                   {/* On narrow screens the Arabic name sits under the English one instead of in its own column. */}
                   <span className="block font-arabic text-muted-foreground sm:hidden" lang="ar" dir="rtl">
                     {e.ar}

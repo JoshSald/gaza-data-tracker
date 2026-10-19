@@ -49,3 +49,15 @@ def test_hospital_status_rules():
     bad = {"statements": [{**ok["statements"][0], "hospital": "Unknown Hospital", "status": "fine"}]}
     errs = checks.check_hospitals(hl, bad)
     assert any("not in hospitals.json" in e for e in errs) and any("unknown status" in e for e in errs)
+
+
+def test_memorial_links_by_hand_are_checked_like_matched_ones():
+    victims = {"records": [["Reem Ali Khalil Badwan", "ريم علي خليل بدوان", 3, "f", 5]]}
+    projects = {"gaza-shaheed": {"name": "Martyrs of Gaza", "url": "https://gazashaheed.com/"}}
+    hand = {"projects": projects, "fields": ["ar_name", "age", "sex", "url", "project", "basis", "added"],
+            "records": [["ريم علي خليل بدوان", 3, "f", "https://gazashaheed.com/reem/", "gaza-shaheed", "why", "2026-10-19"]]}
+    assert checks.check_memorial_links(None, victims, hand) == []
+    hand["records"][0][6] = ""
+    hand["records"][0][1] = 4
+    errors = checks.check_memorial_links(None, victims, hand)
+    assert any("exactly one name" in e for e in errors) and any("date it was added" in e for e in errors)

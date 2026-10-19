@@ -202,3 +202,35 @@ def check_oct7(victims: dict | None) -> list[str]:
         if memorial is not None and not str(memorial).startswith("https://"):
             errors.append(f"{where}: memorial link must be https")
     return errors
+
+
+def check_memorial_links(links: dict | None, victims: dict | None, by_hand: dict | None = None) -> list[str]:
+    """Rules for data/lists/gaza-memorial-links.json and gaza-memorial-links-by-hand.json: every link points at exactly
+    one name on the Gaza list and says what it rests on; links added by hand also say when, and repeat no matched page."""
+    counts: dict[tuple, int] = {}
+    for _, ar, age, sex, _ in (victims or {}).get("records", []):
+        counts[(ar, age, sex)] = counts.get((ar, age, sex), 0) + 1
+    errors = []
+    files = [("gaza-memorial-links.json", links, ["ar_name", "age", "sex", "url", "project", "basis"]),
+             ("gaza-memorial-links-by-hand.json", by_hand, ["ar_name", "age", "sex", "url", "project", "basis", "added"])]
+    for name, data, fields in files:
+        if data is None:
+            continue
+        if data.get("fields") != fields:
+            errors.append(f"{name}: unexpected fields")
+            continue
+        for i, (ar, age, sex, url, project, basis, *rest) in enumerate(data.get("records", [])):
+            where = f"{name} #{i + 1} ({ar})"
+            if counts.get((ar, age, sex)) != 1:
+                errors.append(f"{where}: must match exactly one name on the Gaza list, matches {counts.get((ar, age, sex), 0)}")
+            if project not in data.get("projects", {}) or not str(url).startswith("https://"):
+                errors.append(f"{where}: unknown project or a link that is not https")
+            if not basis:
+                errors.append(f"{where}: needs the basis for the match")
+            if rest and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(rest[0])):
+                errors.append(f"{where}: needs the date it was added (YYYY-MM-DD)")
+    matched = {r[3] for r in (links or {}).get("records", [])}
+    for r in (by_hand or {}).get("records", []):
+        if r[3] in matched:
+            errors.append(f"gaza-memorial-links-by-hand.json ({r[0]}): {r[3]} is already linked by the matcher")
+    return errors

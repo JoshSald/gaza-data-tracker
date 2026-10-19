@@ -2,7 +2,7 @@ import json
 
 from conftest import FIXTURES
 from ingest import store
-from ingest.sources import names, oct7, press, techforpalestine, un2720, unosat, who_health
+from ingest.sources import memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
 from ingest.archive import Document
 
 
@@ -189,3 +189,52 @@ def test_oct7_keeps_only_people_killed_in_the_attack():
     assert by_name["Dipesh Raj Bista"][1:6] == ["דיפש ראג׳ ביסט", 32, "m", "civilian", "2023-10-07"]
     assert by_name["Dipesh Raj Bista"][6] is False and by_name["Carmel Gat"][6] is True
     assert by_name["Carmel Gat"][7] is None
+
+
+MINISTRY = [
+    ["Anas Jamal Mahmoud Al-Sharif", "انس جمال محمود الشريف", 28, "m", 1],
+    ["Anas Khaled Ali Al-Sharif", "انس خالد علي الشريف", 40, "m", 1],
+    ["Mariam Omar Khader Abu Daqqa", "مريم عمر خضر ابو دقه", 19, "f", 1],
+    ["Omar Mohammed Saud Al-Karanz", "عمر محمد سعود الكرنز", 13, "m", 1],
+    ["Lina Sami Yousef Abu Mailaq", "لينا سامى يوسف ابو معيلق", 23, "f", 1],
+    ["Lina Sami Ahmed Abu Mailaq", "لينا سامي احمد أبو معيلق", 30, "f", 1],
+    ["Marwa Ashraf Mohammed Muslim", "مروه اشرف محمد مسلم", 29, "f", 1],
+]
+
+
+def _judge(**page):
+    return memorials.match([memorials.Page(url="u", project="p", **page)], MINISTRY)[0]
+
+
+def test_memorials_link_only_one_fitting_record():
+    # Spelling forms (أ/ا, ة/ه, ى/ي, vowel marks) do not matter; the order of the names does.
+    r = _judge(ar_name="عُمَر الكرنز", text="عمره 14 عامًا", ages={14})
+    assert (r.status, r.record) == ("linked", 3)
+    # Two Linas fit "Lina Sami Abu Mailaq", so neither is linked.
+    assert _judge(ar_name="لينا سامي أبو معيلق").status == "ambiguous"
+    assert _judge(ar_name="لينا سامي يوسف أبو معيلق").record == 4
+
+
+def test_memorials_need_a_second_fact_for_two_part_names():
+    assert _judge(ar_name="مروة مسلم").status == "not corroborated"
+    # Two Anas al-Sharifs: the father's name in the English biography picks one.
+    r = _judge(ar_name="أنس الشريف", en_name="Anas Jamal Mahmoud al-Sharif", birth_year=1996)
+    assert (r.status, r.record) == ("linked", 0)
+
+
+def test_memorials_refuse_a_record_the_page_contradicts():
+    assert _judge(ar_name="مريم ابو دقة", birth_year=1992).status == "contradicted"
+    assert _judge(ar_name="عمر الكرنز", ages={40}).status == "contradicted"
+    assert _judge(ar_name="الشهيدة عمر محمد الكرنز", sex="f").status == "contradicted"
+
+
+def test_memorials_skip_pages_about_several_people():
+    pages = memorials.gaza_shaheed_pages([{"link": "u", "title": {"rendered": "عائلة الكرنز"}, "content": {"rendered": ""}},
+                                          {"link": "v", "title": {"rendered": "عمر و سارة الكرنز"}, "content": {"rendered": ""}}])
+    assert all(memorials.match([p], MINISTRY)[0].status == "skipped" for p in pages)
+
+
+def test_living_record_biography_name():
+    text = "Anas al-Sharif Biography Anas Jamal Mahmoud al-Sharif was born in the Jabalia refugee camp in 1996."
+    assert memorials.biography_name(text) == "Anas Jamal Mahmoud al-Sharif"
+    assert memorials.birth_year_in(text) == 1996

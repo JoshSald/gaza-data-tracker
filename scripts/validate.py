@@ -43,6 +43,9 @@ def main() -> int:
     load = lambda name: store.load_json(lists / name) if (lists / name).exists() else None  # noqa: E731
     errors += checks.check_hospitals(load("hospitals.json"), load("hospital-status.json"))
     errors += checks.check_oct7(load("oct7-victims.json"))
+    errors += checks.check_memorial_links(
+        load("gaza-memorial-links.json"), load("named-victims.json"), load("gaza-memorial-links-by-hand.json")
+    )
     if args.base and (args.base / "lists" / "hospital-status.json").exists():
         # Statements are append-only, like observations.
         current = {json.dumps(s, sort_keys=True) for s in (load("hospital-status.json") or {}).get("statements", [])}

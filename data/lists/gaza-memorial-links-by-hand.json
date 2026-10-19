@@ -1,0 +1,11 @@
+{
+  "note": "Links from names on the Gaza list to memorial pages, added and checked by hand. Each one is for a page that the strict name-matching rules in ingest/sources/memorials.py cannot link, because the page itself does not give enough of the person's name. The basis says what the identification rests on, including anything that does not come from the page. `python -m ingest memorials` never writes to this file. The site marks these links as checked by hand.",
+  "projects": {
+    "gaza-shaheed": {"name": "Martyrs of Gaza", "url": "https://gazashaheed.com/"},
+    "living-record": {"name": "The Living Record", "url": "https://newyorkwarcrimes.com/livingrecord/", "by": "Writers Against the War on Gaza"}
+  },
+  "fields": ["ar_name", "age", "sex", "url", "project", "basis", "added"],
+  "records": [
+    ["ريم علي خليل بدوان", 3, "f", "https://gazashaheed.com/reem-soul-of-the-soul/", "gaza-shaheed", "The page gives only the first name Reem, with photographs captioned 'soul of the soul'. It was identified by hand as the widely reported story of the girl whose grandfather called her 'soul of my soul'. Palestinians Are Not Numbers (https://www.aintnumbers.com/2023/11/22/reem-ali-badwan/) names her as Reem Ali Badwan (ريم علي بدوان), about two and a half years old. It quotes her uncle, Mahmoud Badwan, who says she was killed with her brother Tariq when their home in Nuseirat camp was bombed, and that the man holding her is her maternal grandfather. It also quotes the videographer who filmed them, Ashraf Abu Amra. On the Ministry's list, Reem Ali Khalil Badwan (3) and Tariq Ali Khalil Badwan (5) are the only sister and brother with those names and ages.", "2026-10-19"]
+  ]
+}
