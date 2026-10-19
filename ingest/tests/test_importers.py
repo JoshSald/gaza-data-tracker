@@ -2,7 +2,7 @@ import json
 
 from conftest import FIXTURES
 from ingest import store
-from ingest.sources import names, press, techforpalestine, un2720, unosat, who_health
+from ingest.sources import names, oct7, press, techforpalestine, un2720, unosat, who_health
 from ingest.archive import Document
 
 
@@ -167,3 +167,25 @@ def test_gmo_infrastructure_uses_reported_values_as_claims():
              "places_of_worship": {"ext_mosques_destroyed": 835}}]
     [o] = techforpalestine.parse_infrastructure(rows, META)
     assert (o["metric"], o["value"], o["kind"], o["source"]) == ("infra.housing_units.destroyed", 416000, "claim", "gaza-gmo")
+
+
+def test_oct7_keeps_only_people_killed_in_the_attack():
+    header = ("pid,first name,last name,middle name,nickname,שם פרטי,שם משפחה,שם נוסף,כינוי,Gender,Age,Residence,Country,Role,"
+              "Party,Status,Event date,Death date,מקום האירוע,מקום המוות,front,סיבת המוות,הנצחה,הספריה הלאומית\n")
+    rows = [
+        "1,Dipesh,Bista,Raj,,דיפש,ביסט,ראג׳,,M,32,,נפאל,אזרח,,killed,2023-10-07,2023-10-07,,,Gaza,,https://laad.btl.gov.il/x,",
+        "2,Carmel,Gat,,,כרמל,גת,,,F,39,,ישראל,אזרח,,kidnapped; killed; retrieved,2023-10-07,2024-08-29,,,Gaza,,,",
+        "5,Judith,Weiss,,,יהודית,וייס,,,F,65,,ישראל,אזרח,,kidnapped; killed; retrieved,2023-10-07,2023,,,Gaza,,,",
+        "6,Ilan,Taken,,,אילן,נלקח,,,M,50,,ישראל,אזרח,,killed; kidnapped; retrieved,2023-10-07,2023-10-07,,,Gaza,,,",
+        "3,Noa,Example,,,נועה,דוגמה,,,F,26,,ישראל,אזרח,,kidnapped; released,2023-10-07,,,,Gaza,,,",
+        "4,Avi,Later,,,אבי,מאוחר,,,M,20,,ישראל,חייל,,killed,2024-03-01,2024-03-01,,,North,,https://www.idf.il/y,",
+    ]
+    records, problems = oct7.parse((header + "\n".join(rows) + "\n").encode("utf-8"))
+    assert problems == []
+    by_name = {r[0]: r for r in records}
+    assert set(by_name) == {"Dipesh Raj Bista", "Carmel Gat", "Judith Weiss", "Ilan Taken"}
+    assert by_name["Judith Weiss"][5:7] == ["2023", True]  # only the year is known
+    assert by_name["Ilan Taken"][6] is False  # killed on the day, then taken
+    assert by_name["Dipesh Raj Bista"][1:6] == ["דיפש ראג׳ ביסט", 32, "m", "civilian", "2023-10-07"]
+    assert by_name["Dipesh Raj Bista"][6] is False and by_name["Carmel Gat"][6] is True
+    assert by_name["Carmel Gat"][7] is None
