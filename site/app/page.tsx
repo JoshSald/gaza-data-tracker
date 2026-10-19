@@ -559,7 +559,8 @@ export default function Home() {
             Deaths on the Israeli side, and figures the IDF has given about the war in Gaza. Israeli deaths and hostage figures are
             counts recorded by named bodies. Only the IDF&apos;s figures for combatants killed in Gaza are labelled claims, because
             the military has not published names or a method others can check. That label is about what can be checked, not a
-            finding that the figures are wrong.
+            finding that the figures are wrong. The names of those killed in the 7 October attack are on the{" "}
+            <a href="/named-victims/#oct7">named victims page</a>.
           </p>
         </div>
         <Panel

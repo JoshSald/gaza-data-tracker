@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 import statistics
 from dataclasses import dataclass, field
 
@@ -171,4 +172,33 @@ def check_hospitals(hospital_list: dict | None, status_file: dict | None, today:
         if key in seen:
             errors.append(f"{where}: duplicate statement")
         seen.add(key)
+    return errors
+
+
+OCT7_ROLES = ("civilian", "soldier", "police officer", "local security squad", "medical staff", "Shin Bet", "firefighter")
+
+
+def check_oct7(victims: dict | None) -> list[str]:
+    """Rules for data/lists/oct7-victims.json."""
+    if victims is None:
+        return []
+    errors = []
+    if victims.get("fields") != ["en_name", "he_name", "age", "sex", "role", "died", "in_captivity", "memorial"]:
+        errors.append("oct7-victims.json: unexpected fields")
+        return errors
+    if not victims.get("document", {}).get("sha256"):
+        errors.append("oct7-victims.json: needs the source file's sha256")
+    for i, (en, he, age, sex, role, died, captivity, memorial) in enumerate(victims.get("records", [])):
+        where = f"oct7-victims.json #{i + 1} ({en})"
+        if not en or not he:
+            errors.append(f"{where}: needs an English and a Hebrew name")
+        if age is not None and not (isinstance(age, int) and 0 <= age < 120):
+            errors.append(f"{where}: odd age {age!r}")
+        if sex not in ("m", "f", None) or role not in OCT7_ROLES:
+            errors.append(f"{where}: unknown sex or role")
+        # A full date, or only the month or year when the source does not know the exact date.
+        if not re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?)?", str(died or "")) or str(died) < "2023-10-07"[: len(str(died))]:
+            errors.append(f"{where}: date of death must be 7 Oct 2023 or later (YYYY-MM-DD, YYYY-MM or YYYY)")
+        if memorial is not None and not str(memorial).startswith("https://"):
+            errors.append(f"{where}: memorial link must be https")
     return errors
