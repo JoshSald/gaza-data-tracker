@@ -1,0 +1,120 @@
+[
+  {
+    "id": "tfp-summary",
+    "importer": "techforpalestine",
+    "url": "https://data.techforpalestine.org/api/v3/summary.json",
+    "enabled": true,
+    "comment": "Named victims by age and sex only. The daily totals here are carried forward from the last report; they come from tfp-daily."
+  },
+  {
+    "id": "tfp-daily",
+    "importer": "techforpalestine-daily",
+    "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+    "enabled": true,
+    "comment": "Every Ministry of Health daily report since 7 Oct 2023. Only figures reported that day; carried-forward ext_ values are ignored."
+  },
+  {
+    "id": "un2720-monthly",
+    "importer": "un2720",
+    "index_url": "https://info.un2720.org/",
+    "link_pattern": "[^\"'<>\\s]*reports-infographics/(?![^\"'<>]*Pipeline)[^\"'<>/]*Info[^\"'<>/]*\\.pdf",
+    "urls": [
+      "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(June).pdf"
+    ],
+    "max_documents": 30,
+    "enabled": true,
+    "comment": "Report links sit in onclick=\"openPdfModal('...')\" buttons and some file names contain spaces. The pattern skips the separate pipeline, rejection and CHI overviews."
+  },
+  {
+    "id": "ohchr-reliefweb",
+    "importer": "press",
+    "source": "ohchr",
+    "reliefweb": {
+      "source": "OHCHR",
+      "limit": 10
+    },
+    "metrics": [
+      "gaza.killed.seeking_aid",
+      "gaza.killed.total",
+      "gaza.killed.since_ceasefire"
+    ],
+    "kind": "count",
+    "enabled": false,
+    "comment": "Needs RELIEFWEB_APPNAME (request one at https://apidoc.reliefweb.int) and ANTHROPIC_API_KEY."
+  },
+  {
+    "id": "who-reliefweb",
+    "importer": "press",
+    "source": "who",
+    "reliefweb": {
+      "source": "WHO",
+      "limit": 10
+    },
+    "metrics": [
+      "gaza.deaths.awaiting_medevac",
+      "gaza.deaths.malnutrition",
+      "gaza.killed.medical"
+    ],
+    "kind": "count",
+    "enabled": false,
+    "comment": "Needs RELIEFWEB_APPNAME and ANTHROPIC_API_KEY."
+  },
+  {
+    "id": "who-sitreps",
+    "importer": "who-sitreps",
+    "urls": [
+      "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf"
+    ],
+    "unispal": {
+      "search": [
+        "sitrep",
+        "emergency situation update"
+      ],
+      "filename_pattern": "^(Sitrep_-_issue_\\w+|Sitrep[-_]\\d+|WHO_(oPt_)?Sitrep_\\d+|oPt_Emergency_Situation_Update_-_\\w+?|Sitrep)\\.pdf$"
+    },
+    "max_documents": 120,
+    "enabled": true,
+    "comment": "WHO oPt Emergency Situation Updates. WHO's page links only the latest issue, under a file name that changes (sitrep66.pdf, Sitrep_67a_January_2026.pdf); earlier issues are hosted on UNISPAL (un.org/unispal).",
+    "index_url": "https://www.emro.who.int/opt/information-resources/emergency-situation-reports.html",
+    "link_pattern": "/images/stories/palestine/(?!Polio)[^/\\\"'<>\\s]*[Ss]itrep[^/\\\"'<>\\s]*\\.pdf"
+  },
+  {
+    "id": "who-herams",
+    "importer": "who-herams",
+    "index_url": "https://www.who.int/publications/m/item/herams-opt-gaza-infographics-2026-04",
+    "max_documents": 40,
+    "enabled": true,
+    "comment": "WHO HeRAMS monthly Gaza infographics. Each publication page links the earlier months; later months are tried by date."
+  },
+  {
+    "id": "unosat-gaza",
+    "importer": "unosat",
+    "product_ids": [
+      3714,
+      3734,
+      3769,
+      3793,
+      3804,
+      3861,
+      3904,
+      3984,
+      4047,
+      4130,
+      4165,
+      4213
+    ],
+    "search": [
+      "Gaza Strip Comprehensive Damage Assessment"
+    ],
+    "title_pattern": "Gaza Strip (\\d+th )?Comprehensive Damage Assessment(?! 1km)",
+    "enabled": true,
+    "comment": "UNOSAT Gaza-wide damage assessments. Product 3804 has a different title, so the ids are listed as well as searched."
+  },
+  {
+    "id": "tfp-infrastructure",
+    "importer": "techforpalestine-infrastructure",
+    "url": "https://data.techforpalestine.org/api/v3/infrastructure-damaged.json",
+    "enabled": true,
+    "comment": "Gaza Government Media Office building figures, republished by Tech for Palestine. Labelled claims. Only values reported that day; ext_ values are ignored."
+  }
+]
