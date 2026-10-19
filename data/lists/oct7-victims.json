@@ -7,7 +7,7 @@
     "sha256": "e431be109809dc745971964697a92f0095fef1ff59b5e9e3d0d5d8aaf5ab0fcd",
     "page": "https://www.oct7database.com/"
   },
-  "scope": "People killed in the 7 October 2023 attack on Israel from Gaza: those killed that day and those abducted that day and killed in captivity. Released or rescued hostages are not included.",
+  "scope": "People killed in the 7 October 2023 attack on Israel from Gaza: those killed that day and those taken hostage that day who died in captivity (the list does not record how). Released or rescued hostages are not included.",
   "note": "English and Hebrew names are as oct7database spells them; English spellings are not official. The raw file is not copied into archive/; its sha256 pins the version read.",
   "fields": [
     "en_name",

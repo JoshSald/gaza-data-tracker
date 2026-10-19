@@ -7,12 +7,12 @@ compilation checked against those official lists, the way the Gaza list is label
 Palestine.
 
 Kept: English and Hebrew names as oct7database spells them, age, sex, role (civilian, soldier, police...), date of
-death (as stated: a full date, or only the month or year when the exact date is not known), whether the person was killed in
-captivity, and the link to the official memorial record. Left out: home
+death (as stated: a full date, or only the month or year when the exact date is not known), whether the person died in
+captivity (the source does not record how), and the link to the official memorial record. Left out: home
 town, place of death, party attended, library catalogue numbers.
 
-Scope: people whose event date is 7 October 2023 on the Gaza front and who were killed, that day or later in
-captivity. Hostages who were released or rescued are not included.
+Scope: people whose event date is 7 October 2023 on the Gaza front and who died: killed that day, or taken hostage
+and died in captivity. Hostages who were released or rescued are not included.
 
 Run once with `python -m ingest oct7`; it is not part of the scheduled import.
 """
@@ -70,7 +70,7 @@ def parse(content: bytes) -> tuple[list[list], list[str]]:
             {"M": "m", "F": "f"}.get(r["Gender"].strip()),
             role,
             r["Death date"] or None,
-            # Abducted first and killed afterwards ("kidnapped; killed; ..."), as opposed to killed and then taken.
+            # Taken hostage first and died afterwards ("kidnapped; killed; ..."), as opposed to killed and then taken.
             r["Status"].startswith("kidnapped") and r["Death date"] != "2023-10-07",
             r["הנצחה"] if r["הנצחה"].startswith("https://") else None,
         ])
@@ -85,7 +85,7 @@ def run(dry_run: bool) -> list[str]:
         return ["7 October list not updated:"] + [f"- {p}" for p in problems[:10]]
     captivity = sum(1 for r in records if r[6])
     linked = sum(1 for r in records if r[7])
-    lines = [f"7 October list: {len(records):,} people ({captivity} killed in captivity); {linked:,} link to an official memorial record."]
+    lines = [f"7 October list: {len(records):,} people ({captivity} died in captivity); {linked:,} link to an official memorial record."]
     if dry_run:
         return lines + ["(dry run: nothing written)"]
     meta = {
@@ -93,7 +93,8 @@ def run(dry_run: bool) -> list[str]:
                         "memorial record (National Insurance Institute, IDF, Israel Police, Shin Bet, Ministry of Defence)."),
         "document": {**doc.meta("oct7database"), "page": SITE},
         "scope": ("People killed in the 7 October 2023 attack on Israel from Gaza: those killed that day and those "
-                  "abducted that day and killed in captivity. Released or rescued hostages are not included."),
+                  "taken hostage that day who died in captivity (the list does not record how). Released or rescued hostages are "
+                  "not included."),
         "note": ("English and Hebrew names are as oct7database spells them; English spellings are not official. "
                  "The raw file is not copied into archive/; its sha256 pins the version read."),
         "fields": FIELDS,

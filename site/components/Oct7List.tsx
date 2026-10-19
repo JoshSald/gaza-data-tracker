@@ -171,7 +171,7 @@ export function Oct7List({ src }: { src: string }) {
                   <span className="block text-muted-foreground sm:hidden" lang="he" dir="rtl">{e.he}</span>
                   <span className="block text-xs text-muted-foreground sm:hidden">
                     {e.role} · {died(e.died)}
-                    {e.captivity && " · killed in captivity"}
+                    {e.captivity && " · died in captivity"}
                   </span>
                 </TableCell>
                 <TableCell className="hidden whitespace-normal text-right sm:table-cell" lang="he" dir="rtl">{e.he}</TableCell>
@@ -179,7 +179,7 @@ export function Oct7List({ src }: { src: string }) {
                 <TableCell className="hidden sm:table-cell">{e.role}</TableCell>
                 <TableCell className="hidden whitespace-normal sm:table-cell">
                   {died(e.died)}
-                  {e.captivity && <span className="block text-xs text-muted-foreground">killed in captivity</span>}
+                  {e.captivity && <span className="block text-xs text-muted-foreground">died in captivity</span>}
                 </TableCell>
               </TableRow>
             ))}

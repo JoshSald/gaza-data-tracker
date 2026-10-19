@@ -20,10 +20,10 @@ export default function NamedVictims() {
       <HashTabs values={["gaza", "oct7"]} className="gap-4">
         <TabsList className="grid h-auto w-full grid-cols-1 gap-1 rounded-[var(--radius)] group-data-horizontal/tabs:h-auto sm:inline-flex sm:w-fit">
           <TabsTrigger value="gaza" className="h-8 rounded-[calc(var(--radius)-1px)] data-[state=active]:bg-card data-[state=active]:text-foreground data-[state=active]:ring-1 data-[state=active]:ring-border">
-            Killed in Gaza ({fmt(gaza.count)})
+            Gaza ({fmt(gaza.count)})
           </TabsTrigger>
           <TabsTrigger value="oct7" className="h-8 rounded-[calc(var(--radius)-1px)] data-[state=active]:bg-card data-[state=active]:text-foreground data-[state=active]:ring-1 data-[state=active]:ring-border">
-            Killed in the 7 October attack ({fmt(oct7.count)})
+            7 October attack ({fmt(oct7.count)})
           </TabsTrigger>
         </TabsList>
 
@@ -54,9 +54,9 @@ export default function NamedVictims() {
 
         <TabsContent value="oct7" className="grid gap-4">
           <p>
-            The {fmt(oct7.count)} people killed in the 7 October 2023 attack on Israel from Gaza: civilians, including foreign
-            nationals, and soldiers, police officers and members of local security squads. {fmt(oct7.inCaptivity)} of them were
-            abducted that day and killed in captivity.
+            The {fmt(oct7.count)} people who were killed in the 7 October 2023 attack on Israel from Gaza, or taken hostage that
+            day and later died in captivity: civilians, including foreign nationals, and soldiers, police officers and members of local
+            security squads. {fmt(oct7.inCaptivity)} of them died in captivity; the list does not record how they died.
           </p>
           <p className="note">
             This list is a volunteer compilation, not an official one. It comes from{" "}
