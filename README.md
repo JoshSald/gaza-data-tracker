@@ -53,6 +53,7 @@ AGENTS.md               rules for AI agents and contributors
 | Gaza Government Media Office (via Tech for Palestine) | Destroyed and damaged buildings, labelled claims | `techforpalestine-infrastructure` |
 | OCHA (HDX) | List of Gaza's 36 hospitals | `hospitals` |
 | oct7database (volunteer compilation, checked against Israeli official memorial lists) | People killed in the 7 October 2023 attack | `oct7` |
+| Martyrs of Gaza and The Living Record (independent memorial projects) | Links from Gaza names to memorial pages, matched by name under strict rules | `memorials` |
 | OHCHR, WHO and others (press releases) | Figures in free text, verified against the document | `press`, `add-url` (optional, see below) |
 | IPC, COGAT, IDF, Israeli ministries, peer-reviewed studies | Food security, aid, Israeli casualties, estimates | Added by hand with quotes |
 
@@ -85,6 +86,7 @@ python -m ingest run --only who-herams    # one source from data/watchlist.json
 python -m ingest names                    # update the named-victims list
 python -m ingest hospitals                # update the hospital list
 python -m ingest oct7                     # update the list of people killed in the 7 October attack (run by hand)
+python -m ingest memorials                # link Gaza names to independent memorial pages, printing each link for review (run by hand)
 ```
 
 **Optional: reading press releases.** The `press` importer and `add-url` use a language model to propose figures from
