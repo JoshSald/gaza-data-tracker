@@ -1,0 +1,4279 @@
+occupied Palestinian
+territory
+Gaza
+Infographics July 2025
+TABLE OF CONTENTS
+Infographic
+Interpretation guide
+Pages 3-5
+All health service
+delivery units1 All hospitals2 Govermental hospitals3
+Pages 6-10 Pages 11-15 Pages 16-20
+Government primary
+Field hospitals4 UNRWA health centers6
+healthcare centers5
+Pages 21-25 Pages 26-30 Pages 31-35
+HeRAMS service
+definitions
+Pages 36-39
+1 All HSDUs: This infographic includes data from all Health Service Delivery Units (HSDUs) monitored by HeRAMS, offering a comprehensive snapshot of service
+availability across the Gaza Strip. It encompasses hospitals, field hospitals, governmental primary health care centers (PHCs) and UNRWA health centers.
+2 All hospitals: This infographic presents data from general and specialized hospitals operated by governmental and non-governmental organizations. Field
+hospitals established in response to the ongoing conflict are excluded from this infographic and instead presented in a standalone infographic.
+3 Governmental hospitals: This infographic is a subset of the “All Hospitals” infographic, focusing exclusively on governmental hospitals.
+4 Field hospitals: This infographic provides special insights on services provided by field hospitals deployed in across the Gaza Strip.
+5 Government primary healthcare centers: This infographic provides insights on governmental primary healthcare centers and focuses on a limited number of
+services deemed priority for PHCs.
+6 UNRWA health centers: This infographic provides insights on UNRWA health centers and focuses on a limited number of services deemed priority for health
+centers.
+HeRAMS occupied Palestinian
+territory
+Infographic interpretation guide
+Purpose
+This guide provides practical guidance on HeRAMS infographic products produced for the occupied Palestinian territory. Its purpose is to stream-
+line understanding, and support readers in navigating the various components of these products.
+Background
+Disruptions to health systems can impede availability and access to essential health services. A lack of reliable information prevents sound
+decision-making, increasing a community’s vulnerability to morbidity and mortality, especially in rapidly changing environments that require
+continued monitoring. The Health Resources and Services Availability Monitoring System (HeRAMS) aims to provide decision-makers and health
+stakeholders with vital and up-to-date information on the availability of essential health resources and services, helping them to identify gaps and
+determine priorities for intervention. This is accomplished by evaluating the availability of health services using standardized definitions adapted
+to the local context.
+The HeRAMS data model
+HeRAMS provides a high-level, indicator-based snapshot of the health system status. Definitions are aligned with established standards to facili-
+tate data integration and harmonization. Each indicator is assessed through two key questions:
+1. What is the availability level of the service?
+2. If partially or not available, what barriers are impeding service delivery?
+Availability: is defined as the service being present in sufficient quality and quantity to meet the daily demands of the health service delivery
+unit (HSDU) 1. A resource or service is considered “available” only if the HSDU has the necessary resources to deliver it in accordance with national
+standards. Availability is categorized as follows:
+AVAILABILITY
+● Available: The service is present in sufficient quality and Is the service available?
+quantity to fully meet the daily demands of the HSDU, and
+the necessary staff and resources are in place to deliver it in Available aa PP vv aa aa rr ii tt ll ii aa aa bb llll ll yy ee Not available No p t r n o o vi r d m e a d lly
+accordance with national standards.
+● Partially available: The HSDU is able to provide some parts MAIN BARRIERS
+What are the main (max. 3) barriers impeding availability?
+of the service but due to current constraints, has insufficient
+capacity or resources to meet daily demand, or is unable to
+provide the full service in accordance with national standards.
+Lack of Lack of Lack of Lack of Lack of financial
+● Not available: The HSDU is expected to provide the service staff training equipment supplies resources
+but, due to current constraints (such as insufficient resources
+or staff), is unable to deliver it at all.
+● Not normally provided: The service falls outside of the current package of services the HSDU aims to provide.
+Expected versus not expected
+Focal points specify for each service whether an HSDU anticipates providing it. “Expected” indicates that the HSDU plans to offer
+the service, regardless of its current availability status—whether available, partially available, or unavailable. Conversely, “not
+expected” means the HSDU does not plan to provide the service, even if all obstacles were removed, and the service is considered
+“not normally provided.” This categorization is based on the HSDU’s perspective and current circumstances and may differ from
+assumptions based on national service packages.
+1 Rather than health facility, HeRAMS uses the term health service delivery unit (HSDU) to include any modality through which healthcare services may be
+provided such as health centres, clinics, hospitals, mobile clinics, temporary or emergency structures, and in some cases individual providers such as
+community health workers.
+3
+When an indicator is not available up to standard (partially or not available), barriers impeding service availability are systematically collected
+using the following categories:
+● Lack of staff ● Lack of (medical) supplies
+● Lack of training ● Lack of financial resources
+● Lack of equipment
+Reporting frequency and methodology
+Information in HeRAMS is dynamically maintained through a collaborative network of trained focal points who are responsible for updating the
+status of health service delivery units (HSDUs) as new information emerges. The HeRAMS project in occupied Palestinian Territory is an ongoing
+process, with continuous reporting, data validation and verification. As such, the analyses presented in these infographics are preliminary and
+intended solely to inform operations. Each infographic clearly states the cut-of date as of which data was included.
+Infographic content
+Overall considerations
+The initial section of the infographic provides an overview of the overall status of HSDUs and includes all reporting HSDUs in HeRAMS, while sub-
+sequent analyses focus exclusively on HSDUs that are at least partially functioning. The analysis of individual services excludes HSDUs reporting
+a service as “not normally provided.” As a result, the total number of HSDUs included in the analysis of each service may vary. Any changes are
+clearly indicated through supporting text labels accompanying the charts.
+Information on barriers hindering service availability is collected only when a service is reported as “partially available” or “not available,” with
+each HSDU able to report up to three barriers. The analyses are restricted to HSDUs reporting barriers, and results are limited to the top three
+barriers reported. The number of HSDUs included is clearly indicated through supporting text labels, and footnotes provide important details,
+such as non-reporting HSDUs, specific exclusions, or other relevant considerations.
+Operational status
+To determine whether the HSDU is currently capable of providing health services, XX Partially damaged
+XX Fully damaged
+the initial section of the HeRAMS questionnaire focuses on infrastructure status, Building condition XX Not applicable
+overall functionality, and patient’s ability to access the HSDU. HSDUs reported
+XX Partially damaged
+as destroyed or non-functioning are considered “not operational” meaning they Equipment XX Fully damaged
+condition
+are unable to provide any health service in their current state. Thus, these HSDUs
+XX Partially functioning
+are excluded from further analysis resulting in a difference in the total number of XX Non-functional
+Functionality XX Fully damaged
+HSDUs included in subsequent sections of the infographic. To understand why an
+XX Partially accessible
+HSDU is not fully operational, underlying causes are systematically collected. The XX Inaccessible
+Accessibility XX D fu e n s c t t r i o o y n e i d n / g non-
+analysis is limited to HSDUs reporting
+causes, with each HSDU able to report up to three. Results presented in this infographic are limited to
+the top three causes reported.
+Functionality
+This section assesses the HSDU’s overall functionality, defined by the absence of major or systemic issues impeding the ability to deliver the full
+range of expected services. An HSDU may still be considered fully functional if some services are partially or temporarily unavailable. An HSDU
+is considered partially functional when its capacity to deliver services is significantly affected, potentially due to infrastructure damage, resource
+shortages, or a surge in service demand.
+The subsequent analyses are limited to operational HSDUs, defined as those that are at least partially functioning.
+Partner support
+Partner support refers to assistance from entities outside the owning organization, categorized as major, partial, or no support. Major support
+indicates that the HSDU would not function without it. Partial support indicates that the HSDU can continue to sustain its services independently
+of the support. For HSDUs receiving support, the type of assistance provided is recorded using standardized categories. Though information on
+support provided by individual partners is available in HeRAMS, it is excluded from these infographics.
+4
+Basic amenities
+Basic amenities include cross-cutting amenities essential for an HSDU to operate effectively. The
+percentage of HSDUs where an amenity is not available up to standard is indicated next to the bar
+chart. While information on barriers is available, it is excluded from the infographics.
+For water, sanitation, waste management, power, cold chain, and communication, additional
+questions gather information about the sources or types of available amenities. These sub-questions apply only to HSDUs where the amenity is
+at least partially available, and HSDUs can report up to three sources or types for each amenity. The analysis follows the same logic as for barriers
+and is systematically limited to HSDUs where the amenity is at least partially available with results limited to the top three amenities present
+across all HSDUs.
+Health information management systems
+This section provides information on the availability of facility-based disease reporting and electronic health information systems. Availability is
+defined by completeness, timeliness, and accuracy of reports.
+Health services
+Health services are divided into five domains:
+● General clinical services ● Sexual and reproductive health
+● Child health and nutrition ● Noncommunicable diseases and
+● Communicable diseases mental health
+General clinical and
+trauma care
+Service availability across a domain is summarized in a donut chart and includes all services within that domain. A
+XX%
+XX%
+detailed list of individual services and their definitions is available here. In this figure, all responses to the respective
+XX%
+service domain are aggregated to calculate the availability of services within that domain.
+Municipality A XX%
+(n=xx) Municipality A
+(n=xx) For a more detailed analysis of individual services, bar charts provide a breakdown of availability
+Municipality B
+(n=xx) Municipality B levels by service. Unlike the service domain overviews, the analysis of individual services is limited
+(n=xx)
+Available Available Partia P lly a r a tia v l a ly i l a a v b a le ilable No N t o a t v a a v i a la ila b b le le to the HSDUs reported to provide the service, resulting in varying counts of HSDUs included for each
+service. The total number of HSDUs included is stated in the text label below the service.
+Additionally, the top three reported barriers are represented as icons next to the bar charts, with the percentage of HSDUs
+reporting each barrier displayed below. Analyses of barriers are further restricted to HSDUs where the service is not available
+up to standards. Similar to previous sections, results are limited to the top three barriers reported.
+Example: Out of 25 HSDUs reported to provide the services, only 5 (20%) are currently able to provide service up to standard. Among
+the 20 HSDUs (80%) where the service is partially or not
+Acceptance of 20% 52% 28%
+referrals Not available up to standard in 20 (80%) out of the 25 80% 75% 45% available, 16 (80%) report lack of medical supplies as
+HSDUs expected to provide the service. primary barrier.
+5
+occupied Palestinian territory
+Gaza Strip
+SNAPSHOT JULY 2025
+All health service delivery units (HSDUs)
+HSDU STATUS MAIN CAUSES OF...
+Building damage
+Out of 128 HSDUs evaluated.
+28 Intact
+The 3 primary causes of building damage as reported by 63 partially
+63 Partially damaged damaged and 35 fully damaged HSDUs.
+35 Destroyed
+Building condition 2 Not relevant 98 % Insecurity
+27 Intact 15 % Lack of maintenance
+47 Partially damaged
+Equipment
+condition 54 Destroyed 8 % Other
+1 Functioning
+43 Partially Functioning Equipment damage
+49 Non-Functioning
+Functionality 35 Destroyed T pa h r e t ia 3 l l p y r d im am a a ry g e c d a u an se d s 5 o 4 f f u e l q ly u d ip a m ma e g n e t d d H a S m D a U g s e . as reported by 47
+2 2 1 3 P A a cc rt e ia ss ll i y b a le ccessible 97 % Insecurity
+0 Not accessible
+Accessibility 84 Destroyed / Non- 27 % Lack of maintenance
+Functioning
+10 % Other
+34 NORTH GAZA Functionality constraints
+%
+The 3 primary causes of functionality constraints as reported by 43
+partially functioning and 49 non-functioning HSDUs.
+60 % Insecurity
+“44 (34%) out of 128 HSDUs
+evaluated are at least
+partially functioning.” 47 % Lack of equipment
+GAZA CITY
+40 % Lack of supplies
+Accessibility constraints
+The 3 primary causes of accessibility constraints as reported by 21
+partially accessible HSDUs.
+DEIR AL-BALAH
+81 % Insecurity
+71 % Other physical barriers
+KHAN YOUNIS
+14 Financial barriers such as
+Functioning % user-fees
+Partially functioning Major support Partially support
+Partner Support**
+Non-functioning No support
+Destroyed
+7% 50% 43%
+The number of points displayed on the map
+is based on facilities with coordination. Partner support types
+Any missing facility indicates a lack of Out of 25 HSDUs supported by partners.
+coordinates.
+80 Provision of 60 Provision of
+RAFAH %medical supplies % health staff
+64 %N P m m o r e e o td n y v t i i pc s a i e o l n se q o ou f f i ps-upport re5p6or%tedP he ro a v lt i h si o se n r o vi f c es
+60 %T h r e a a i l n t i h n s g t a o ff f 52 % P o co p ro s e t v r s a is t i i o o n n a o l f
+* This infographic includes data from all Health Service Delivery Units (HSDUs) monitored by HeRAMS, offering a
+comprehensive snapshot of service availability across the Gaza Strip. It encompasses hospitals, field hospitals, 48 %Governance /
+Oversight
+governmental primary health care centers (PHCs) and UNRWA health centers.
+** Out of 44 HSDUs, HSDUs reported as destroyed, non-functioning, or inaccessible are considered unable to provide
+health services in their current state and are therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+6
+BASIC AMENITIES*
+Available Partially available Not available Not normally provided
+Inpatient bed capacity WASH
+Water
+Availablity Number of
+available beds 50 % 50% 48%
+ICU beds 9% 18% 9% 64%
+88
+N
+w
+o
+at
+t
+e
+a
+r
+v
+a
+a
+v
+i
+a
+la
+il
+b
+a
+l
+b
+e
+l e
+u
+.
+p to standard in 22 (50%) out of 44 HSDUs expected to have
+Out of 16 HSDUs expected to provide intensive care beds 12 (75%) do
+not have sufficient bed capacity. Main water sources
+Out of 43 HSDUs where water is at least partially available.
+Maternity beds 9% 20% 16% 55%
+206
+Out of 20 HSDUs expected to provide maternity beds 16 (80%) do not Piped N S et u w p o p r l k y 56 % P d ro u t g e c w te e d ll 40 % Tu b b o e re w h e o l l l e / 35 %
+have sufficient bed capacity.
+Sanitation facilities
+General inpatient
+beds 20% 34% 5% 41% 2076 59 % 41% 57%
+Out of 26 HSDUs expected to provide inpatient beds 17 (65.4%) do not Not available up to standard in 26 (59.1%) out of 44 HSDUs expected to have
+have sufficient bed capacity. sanitation facilities.
+Out of 43 HSDUs where sanitation facilities is at least partially available.
+Incubators 9% 18% 11% 61%
+102
+Out of 17 HSDUs expected to provide incubators 13 (76.5%) do not Sanitation facilities types*
+have E su m ffi e ci r e g nt e b n e c d y c apacity. F s l y t u o s s t h e p m / ip p e o o d u r r s s e e fl p w u t s e i h c r |88 % Compo t s o t i i l n e g t |26 % C V o l e v a n e t r r t e i i n l d a e t P e o d i r t |12 %
+room beds
+20% 36% 7% 36%
+318
+tank Improved Pit
+Sanitation facilities accessibility*
+Out of 28 HSDUs expected to provide emergency room beds 19
+Toilets for
+(67.9%) do not have sufficient bed capa M cit a y. in barriers* D st e a d ff i c t a o t i e le d t |95 % s G e e p n t a o d ra i e le t r e t - |77 % peo m p l l i o e m b w i i t l i e i t t d h y |42 %
+Hand hygiene
+m L e a d ck ic o a f l |92 % No ba m r L r e a i d c e k ic r o a s f l r | e 7 po 7 r % ted fin L a a n ck c i o a f l |42 % N 6 ot 8 av % aila ble up to 3 2 sta % ndard in 30 (68.2%) 6 ou 4 t % of 44 HSDUs ex 5 p % ected to
+equipment supplies resources maintain hand hygiene practices.
+Waste management Environmental cleaning
+Waste segregation 80 % 20% 77%
+68 % 32% 61% 7% Not available up to standard in 35 (79.5%) out of 44 HSDUs expected to
+maintain environmental cleaning practices.
+Not available up to standard in 30 (68.2%) out of 44 HSDUs expected to maintain
+waste segregation practices.
+Personal Protective Equipment (PPE)
+Final disposal of sharps
+52 % 48% 39% 14% 75 % 25% 73%
+Not available up to standard in 33 (75%) out of 44 HSDUs expected to have
+Not available up to standard in 23 (52.3%) out of 44 HSDUs expected to personal protective equipment.
+dispose of sharps.
+Final disposal of infectious waste Communication
+58 % 41% 45% 11% 84 % 16% 82%
+Not available up to standard in 25 (58.1%) out of 43 HSDUs expected
+to dispose of infectious waste. Not available up to standard in 37 (84.1%) out of 44 HSDUs expected to have
+communication means.
+Waste disposal methods Communication equipment types
+Out of 38 HSDUs where final disposal of sharps or infectious waste are at least partially Out of 43 HSDUs where communication is at least partially available.
+available.
+di m sp C e o o d s l i l c a e a l c l o t w e ff d - a s s f i o t t e e r |63 % Incine o ra t t h e e d r |26 % Others |18 % Mobile phone |91 % Computer |77 % Telephone |16 %
+Transportation of patients
+Power
+73 % 27% 70% 71 % 27% 45% 20% 7%
+Not available up to standard in 32 (72.7%) out of 44 HSDUs expected to have Not available up to standard in 29 (70.7%) out of 41 HSDUs expected to have means
+power available. for patient transportation.
+Power sources Transportation types
+Out of 43 HSDUs where power is at least partially available. Out of 32 HSDUs where transportation of patients is at least partially available.
+Generator |100 % Solar |56 % Other |2 % Ambul P a R n C c S e |53 % Amb F u a la c n ili c t e y |34 % Other |34 %
+Health information management systems
+Cold chain
+Facility-based diseases reporting systems (e.g., EWARS, etc.)
+59 % 36% 36% 16% 11% 67 % 25% 36% 14% 25%
+Not available up to standard in 23 (59%) out of 39 HSDUs expected to
+have cold chain capacity. Not available up to standard in 22 (66.7%) out of 33 HSDUs where the
+information system is expected.
+Cold chain sources
+Out of 32 HSDUs where cold chain is at least partially available. Facility-based information system (e.g., DHIS2, Avicena, etc.)
+|97 |62 77 % 18% 50% 11% 20%
+Generator % Solar %
+Not available up to standard in 27 (77.1%) out of 35 HSDUs where the
+information system is expected.
+* Out of 44 HSDUs, HSDUs reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore
+excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+7
+ESSENTIAL HEALTH SERVICES*
+Service domain overview
+Available Partially available Not available Not normally provided
+General clinical and Child health and Communicable Sexual and NCD and mental
+trauma care nutrition diseases reproductive health health
+18% 21% 14% 11% 10%
+34% 31% 23% 20% 19%
+9% 7% 6% 7% 7%
+39% 41% 57% 63% 64%
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+General clinical and emergency care services
+Recognition of 47% 47% 6% Acuity-based 27% 63% 10%
+danger signs Not available up to standard in 17 (53.1%) out of 32 94% 94% 35% formal triage Not available up to standard in 22 (73.3%) out of 30 91% 73% 36%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Initial syndrome- 21% 71% 7% WHO basic 27% 70% 3%
+based management emergency care
+Not available up to standard in 22 (78.6%) out of 28 91% 73% 36% Not available up to standard in 24 (72.7%) out of 33 96% 92% 33%
+at scene
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Advanced syn- 13% 78% 9% Monitored 44% 47% 8%
+drome-based referral
+Not available up to standard in 20 (87%) out of 23 90% 80% 30% Not available up to standard in 20 (55.6%) out of 36 85% 80% 40%
+management
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Referral capacity 46% 49% 5% Acceptance of 36% 57% 7%
+referrals
+Not available up to standard in 20 (54.1%) out of 37 90% 65% 60% Not available up to standard in 18 (64.3%) out of 28 89% 78% 28%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Acceptance 33% 50% 17% Essential 20% 77% 3%
+of c r o ef m er p ra le l x s H No S t D a U v s a e il x a p b e le c t u ed p t t o o p st r a o n vi d d a e r d th i e n s 1 e 6 rv ( i 6 ce 6 . .7%) out of 24 88% 81% 38% servic h e e s a p lt r h im ca a r r e y N HS o D t U av s a e il x a p b e l c e t e u d p t o to p s r t o a v n id d e a r t d he i n se 2 rv 8 i c ( e 8 . 0%) out of 35 100%50% 36%
+Specialized
+services at 15% 76% 9% Home visits 8% 17% 75%
+primary health Not available up to standard in 29 (85.3%) out of 34 97% 55% 45% Not available up to standard in 11 (91.7%) out of 12 82% 73% 45%
+care HSDUs expected to provide the service. HSDUs expected to provide the service.
+Minor trauma 33% 58% 8% Emergency 27% 65% 8%
+definitive department
+Not available up to standard in 24 (66.7%) out of 36 100%71% 25% Not available up to standard in 19 (73.1%) out of 26 100%74% 32%
+management
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Inpatient surgery Inpatient surgery
+ward with at least 52% 35% 13% ward with at least 50% 41% 9%
+one operating Not available up to standard in 11 (47.8%) out of 23 91% 91% 27% two operating Not available up to standard in 11 (50%) out of 22 100%73% 36%
+theater HSDUs expected to provide the service. theatres HSDUs expected to provide the service.
+Burns treatment 11% 58% 32% Orthopedic/ 21% 68% 11%
+trauma ward
+Not available up to standard in 17 (89.5%) out of 19 100%65% 47% Not available up to standard in 15 (78.9%) out of 19 107%93% 40%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+20 Inpatient bed 52% 43% 4% 50 Inpatient bed 37% 42% 21%
+capacity Not available up to standard in 11 (47.8%) out of 23 91% 91% 36% capacity Not available up to standard in 12 (63.2%) out of 19 100%83% 42%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Inpatient 24% 52% 24% Intensive care 36% 50% 14%
+critical care unit
+Not available up to standard in 16 (76.2%) out of 21 94% 88% 50% Not available up to standard in 9 (64.3%) out of 14 100%78% 56%
+management
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Basic laboratory 33% 62% 5% Secondary 18% 54% 29%
+services Not available up to standard in 26 (66.7%) out of 39 92% 73% 27% laboratory Not available up to standard in 23 (82.1%) out of 28 96% 87% 35%
+services
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+* Out of 44 HSDUs, HSDUs reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore
+excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+8
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Tertiary 11% 44% 44% Blood bank 18% 71% 12%
+laboratory services
+Not available up to standard in 16 (88.9%) out of 18 94% 81% 38% Not available up to standard in 14 (82.4%) out of 17 93% 79% 57%
+services
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Hemodialysis 33% 50% 17% Basic X-ray 34% 50% 16%
+unit Not available up to standard in 4 (66.7%) out of 6 100%100%75% service Not available up to standard in 21 (65.6%) out of 32 90% 62% 33%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Comprehensive 14% 50% 36% CT scan 20% 40% 40%
+X-ray service
+Not available up to standard in 19 (86.4%) out of 22 95% 42% 32% Not available up to standard in 8 (80%) out of 10 88% 75% 50%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+MRI 100% Procedures for 30% 65% 5%
+Not available up to standard in 5 (100%) out of 5 80% 60% 40% mass casualty Not available up to standard in 14 (70%) out of 20 86% 71% 29%
+scenarios
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Child health and nutrition services
+Integrated
+Pediatric first 32% 66% 3% management 34% 52% 14%
+aid of newborn and
+Not available up to standard in 26 (68.4%) out of 38 100%77% 19% childhood illnesses Not available up to standard in 19 (65.5%) out of 29 100%74% 21%
+HSDUs expected to provide the service. (IMNCI) HSDUs expected to provide the service.
+Management of
+IMNCI Un C d l e in r i 5 c Not avai 3 la 9 b % le up to standard in 4 2 8 0 % (60.6%) out 1 o 2 f 3 % 3 100%50% 30% ch a i s ld s r e e v n e r c e la o s r s i v fi e e r d y Not 2 a 2 va % ilable up to standar 6 d 7 in % 14 (77.8%) out 1 o 1 f 1 % 8 93% 86% 29%
+HSDUs expected to provide the service. severe diseases HSDUs expected to provide the service.
+Inpatient surgical 10% 80% 10% Expanded 48% 48% 5%
+care for newborns Not available up to standard in 9 (90%) out of 10 100%78% 56% programme on Not available up to standard in 11 (52.4%) out of 21 82% 55% 27%
+and children immunization
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Info
+a
+rm
+nd
+a t
+c
+i
+o
+o
+m
+n,
+m
+ed
+u
+u
+n
+c
+ic
+a
+a
+t
+t
+io
+io
+n
+n
+, 46% 38% 15% Growth monitoring 36% 50% 14%
+on infant, young, Not available up to standard in 14 (53.8%) out of 26 71% 50% 43% Not available up to standard in 18 (64.3%) out of 28 89% 50% 50%
+and child feeding
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Integrated Stabilization
+management 35% 48% 17% center for 44% 22% 33%
+of acute Not available up to standard in 15 (65.2%) out of 23 87% 40% 33% severe acute Not available up to standard in 5 (55.6%) out of 9 100%60% 40%
+malnutrition HSDUs expected to provide the service. malnutrition HSDUs expected to provide the service.
+Communicable diseases
+Syndromic 50% 38% 12% Event-based 41% 48% 11%
+surveillance Not available up to standard in 13 (50%) out of 26 77% 54% 38% surveillance Not available up to standard in 16 (59.3%) out of 27 81% 62% 31%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Diagnosis and
+treatment of 17% 78% 6% Multidrug- 17% 50% 33%
+tuberculosis Not available up to standard in 15 (83.3%) out of 18 80% 73% 27% resistant of Not available up to standard in 5 (83.3%) out of 6 80% 60% 60%
+cases HSDUs expected to provide the service. tuberculosis HSDUs expected to provide the service.
+Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 54% 38% 8% Locally relevant 21% 67% 12%
+on local priority Not available up to standard in 11 (45.8%) out of 24 73% 64% 36% diseases Not available up to standard in 19 (79.2%) out of 24 95% 68% 26%
+diseases
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Isolation unit or 9% 55% 36% Management of 60% 40%
+room severe/ compli-
+Not available up to standard in 10 (90.9%) out of 11 80% 70% 50% Not available up to standard in 10 (100%) out of 10 100%60% 50%
+cated diseases
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Sexual and reproductive health
+Free access to 29% 50% 21% Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 14% 57% 29%
+condoms on STI/HIV
+Not available up to standard in 17 (70.8%) out of 24 Not available up to standard in 12 (85.7%) out of 14
+100%18% 12% 75% 50% 42%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Syndromic
+management of 7% 64% 29% HIV counselling 20% 80%
+sexu
+i
+a
+n
+l
+f
+l
+e
+y
+c
+t
+t
+r
+i
+a
+o
+n
+n
+s
+s
+m
+(S
+it
+T
+te
+Is
+d
+)
+Not available up to standard in 13 (92.9%) out of 14 100%46% 31% and testing Not available up to standard in 5 (100%) out of 5 100%80% 20%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Prevention of
+mother-to-child 67% 33% Antiretroviral 20% 20% 60%
+treatment
+HIV transmission Not available up to standard in 3 (100%) out of 3 100%100%33% Not available up to standard in 4 (80%) out of 5 100%25% 25%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Family planning 41% 45% 14% Family planning 19% 74% 7%
+- pregnancy test - contraceptive
+Not available up to standard in 17 (58.6%) out of 29 100%59% 35% Not available up to standard in 22 (81.5%) out of 27 95% 45% 41%
+methods
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+9
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Antenatal care 30% 63% 7% Skilled 42% 37% 21%
+care during
+H
+No
+S
+t
+D
+a
+U
+v
+s
+a
+e
+il
+x
+a
+p
+b
+e
+le
+c t
+u
+ed
+p
+t
+t
+o
+o
+p
+st
+r
+a
+o
+n
+vi
+d
+d
+a
+e
+r d
+th
+i
+e
+n
+s
+1
+e
+9
+rv
+(
+i
+7
+ce
+0
+.
+.4%) out of 27
+100%63% 32% childbirth
+N
+H
+o
+S
+t
+D
+a
+U
+v
+s
+a
+e
+il
+x
+a
+p
+b
+e
+le
+c t
+u
+ed
+p
+t
+t
+o
+o
+p
+st
+r
+a
+o
+n
+vi
+d
+d
+a
+e
+r d
+th
+i
+e
+n
+s
+1
+e
+1
+rv
+(
+i
+5
+ce
+7
+.
+.9%) out of 19 82% 73% 45%
+Basic 35% 40% 25% Comprehensive 47% 29% 24%
+emergency Not available up to standard in 13 (65%) out of 20 100%100%23% emergency Not available up to standard in 9 (52.9%) out of 17 89% 89% 56%
+obstetric care obstetric care
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Postpartum care 47% 42% 11% Comprehensive 17% 72% 11%
+abortion care
+Not available up to standard in 10 (52.6%) out of 19 100%40% 30% Not available up to standard in 15 (83.3%) out of 18
+100%60% 40%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Clinical 29% 57% 14% Emergency 38% 50% 12%
+management of Not available up to standard in 10 (71.4%) out of 14 70% 70% 30% contraception Not available up to standard in 10 (62.5%) out of 16 90% 60% 60%
+rape survivors HSDUs expected to provide the service. HSDUs expected to provide the service.
+Post-exposure 25% 75%
+prophylaxis
+Not available up to standard in 6 (75%) out of 8 100%50% 50%
+HSDUs expected to provide the service.
+Noncommunicable diseases and mental health
+Promote self-care 27% 54% 19% Noncommunicable 35% 43% 22%
+diseases clinic
+Not available up to standard in 19 (73.1%) out of 26 89% 47% 47% Not available up to standard in 15 (65.2%) out of 23 93% 60% 40%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Asthma and
+chronic obstructive 38% 55% 7% Hypertension 42% 52% 6%
+c
+p
+la
+u
+s
+l
+s
+m
+ifi
+o
+ca
+n
+ti
+a
+o a
+r
+n n
+y
+, d t
+d
+f r o e
+i
+l a
+s
+l t o
+e
+m w
+a
+e
+s
+u n
+e
+p t H
+No
+S
+t
+D
+a
+U
+v
+s
+a
+e
+il
+x
+a
+p
+b
+e
+le
+c t
+u
+ed
+p
+t
+t
+o
+o
+p
+st
+r
+a
+o
+n
+vi
+d
+d
+a
+e
+r d
+th
+i
+e
+n
+s
+1
+e
+8
+rv
+(
+i
+6
+ce
+2
+.
+.1%) out of 29 89% 50% 33% ma e n ar a l g y
+c
+e d
+o
+m e
+u
+t e
+n
+e n
+s
+c t
+e
+t a i
+l
+o
+i
+n
+n
+n d
+g
+, N
+H
+o
+S
+t
+D
+a
+U
+v
+s
+a
+e
+il
+x
+a
+p
+b
+e
+le
+c t
+u
+ed
+p
+t
+t
+o
+o
+p
+st
+r
+a
+o
+n
+vi
+d
+d
+a
+e
+r d
+th
+i
+e
+n
+s
+1
+e
+9
+rv
+(
+i
+5
+ce
+7
+.
+.6%) out of 33 95% 37% 26%
+man e a a g r D l e y m i d a e e n b te t e , c f t t o io e o n t s - , Not avai 3 la 9 bl % e up to standard in 2 5 0 5 (6 % 0.6%) out of 6 3 % 3 80% 35% 30% In r p e a h t a ie b n il t i t a a c t u io t n e Not 2 a 1 va % ilable up to standa 6 rd 4 i % n 11 (78.6%) out 1 o 4 f % 14 91% 73% 45%
+care, and counseling HSDUs expected to provide the service. HSDUs expected to provide the service.
+Outpatient 15% 70% 15% Prosthetics and 11% 56% 33%
+rehabilitation orthotics
+Not available up to standard in 17 (85%) out of 20 82% 71% 24% Not available up to standard in 8 (88.9%) out of 9 100%75% 25%
+services
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Oral health and 21% 54% 25% Psychological 52% 33% 14%
+dental care first aid
+Not available up to standard in 19 (79.2%) out of 24 100%84% 26% Not available up to standard in 10 (47.6%) out of 21 70% 50% 40%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Management of 17% 61% 22% Inpatient care for 75% 25%
+mental disorders management of
+Not available up to standard in 15 (83.3%) out of 18 87% 33% 33% Not available up to standard in 8 (100%) out of 8 75% 62% 38%
+mental disorders
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Cancer 73% 27% Primary cancer 33% 47% 20%
+diagnostics screening
+services Not available up to standard in 11 (100%) out of 11 73% 64% 64% (non-instrumental Not available up to standard in 10 (66.7%) out of 15 70% 50% 50%
+HSDUs expected to provide the service. methods) HSDUs expected to provide the service.
+Mammography 30% 70% Colonoscopy 23% 38% 38%
+Not available up to standard in 10 (100%) out of 10 90% 60% 40% Not available up to standard in 10 (76.9%) out of 13 90% 70% 40%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Cancer treatment 67% 33% Chemotherapy 50% 50%
+services
+Not available up to standard in 3 (100%) out of 3 67% 67% 33% Not available up to standard in 1 (50%) out of 2 100%100%100%
+HSDUs expected to provide the service. HSDUs expected to provide the service.
+Radiological Hematological and
+100% 100%
+treatment oncohematological
+Not available up to standard in 1 (100%) out of 1 100%100%100% care in all settings Not available up to standard in 2 (100%) out of 2 100%50% 50%
+HSDU expected to provide the service. HSDUs expected to provide the service.
+This analysis was produced based on the information reported into HeRAMS up to 31 July 2025 and while the the Notes:
+d is e p p r l o o d y u m c e e n d t s o o f l e H l e y R fo A r M t S h , e i n p c u l r u p d o in se g s d o a f t i a n v fo e r r m ifi i c n a g t i o o p n e a r n at d io v n a s li . dation, continue. Hence, this analysis is not final and 1. T w h a e s a li n m a i l t y e s d is t o o f H b S a D rr U ie s r w s i h m er p e e t d h in e g r e s s e p r e vi c c t e iv s e a i v n a d il i a ca b t i o lit r y w , c a a s u n s o e t s a o v f a d il a a m bl a e g u e p , n to o n st - a fu n n d c a t r i d o . n O al n it ly y t a h n e d t i o n p a c th ce re s e si m bil o it s y t
+This infographic includes data from all Health Service Delivery Units (HSDUs) monitored by HeRAMS, offering a frequently reported barriers are presented for each indicator.
+comprehensive snapshot of service availability across the Gaza Strip. It encompasses hospitals, field hospitals, 2. The analysis of basic amenities follows the same approach as barriers and was restricted to HSDUs where the
+governmental primary health care centers (PHCs) , and UNRWA health centers. indicator was at least partially available.
+The designations employed and the presentation of the material in this report do not imply the expression of any 3. The analysis of individual services excludes HSDUs reporting a service as “not normally provided.” Conse-
+opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city, or area or of its quently, the total number of HSDUs included in the analysis varies by service.
+authorities, or concerning the delimitation of its frontiers or boundaries. Dotted lines on maps represent approxi-
+mate border lines for which there may not yet be full agreement.
+Data source: HeRAMS occupied
+Palestinian territory
+Date data: 31 July 2025
+Date created: 04 August 2025
+Contact: herams@who.int 10
+occupied Palestinian territory
+Gaza Strip
+SNAPSHOT JULY 2025
+All hospitals* (excluding field hospitals)
+HOSPITAL STATUS MAIN CAUSES OF...
+Building damage
+Out of 35 hospitals evaluated.
+2 Intact
+The 3 primary causes of building damage as reported by 27 partially
+27 Partially damaged damaged and 6 fully damaged hospitals.
+6 Destroyed
+Building condition 97 % Insecurity
+0 Intact 27 % Lack of maintenance
+22 Partially damaged
+Equipment
+condition 13 Destroyed 18 % Other
+0 Functioning
+18 Partially Functioning Equipment damage
+11 Non-Functioning
+Functionality 6 Destroyed T d h am e a 3 g p e r d im an a d ry 1 c 3 a f u u s l e ly s d o a f m e a q g u e ip d m ho e s n p t i d ta a ls m . age as reported by 22 partially
+1 6 2 P A a cc rt e ia ss ll i y b a le ccessible 97 % Insecurity
+0 Not accessible
+Accessibility 17 Destroyed / Non- 46 % Lack of maintenance
+Functioning
+17 % Industrial incidents
+51 NORTH GAZA Functionality constraints
+%
+The 3 primary causes of functionality constraints as reported by 18
+partially functioning and 11 non-functioning hospitals.
+62 % Insecurity
+“18 (51%) out of 35
+hospitals evaluated are at
+least partially functioning.” 52 % Lack of equipment
+GAZA CITY
+45 % Damages to the facility
+Accessibility constraints
+The 3 primary causes of accessibility constraints as reported by 12
+partially accessible hospitals.
+DEIR AL-BALAH
+92 % Insecurity
+67 % Other physical barriers
+KHAN YOUNIS
+17 Financial barriers such as
+Functioning % user-fees
+Partially functioning Major support Partially support
+Partner Support**
+Non-functioning No support
+Destroyed
+6% 67% 28%
+The number of points displayed on the map
+is based on facilities with coordination. Partner support types
+Any missing facility indicates a lack of Out of 13 hospitals supported by partners.
+coordinates.
+69 Provision of 62 Training of
+RAFAH %health staff % health staff
+69 %NP
+m
+or
+e
+ot
+d
+yv
+i
+ip
+c
+s
+a
+ieo
+l
+ns
+su
+oo
+p
+ff
+p l
+s
+ie
+u
+s
+pport re6p2or%tedP
+he
+ro
+a
+v
+lt
+i
+h
+si o
+se
+n
+r
+o
+vi
+f
+c es
+62 % P o eq f r o m u v ip e is d m io ic e n a n l t 54 % G O o ve ve rs r i n g a h n t ce /
+* This infographic presents data from general and specialized hospitals operated by governmental and non-gov- 54 Provision of
+ernmental organizations. Field hospitals established in response to the ongoing conflict are excluded from this %operational
+infographic and instead presented in a standalone infographic. costs
+** Out of 18 hospitals, hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to
+provide health services in their current state and are therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+This total excludes hospitals that were reported as closed by administrative decision. There is one hospital “Al-Naser hospital” that was permanently closed and merged with another existing
+hospital “Al-Naser AlRantisi hospital”.
+11
+BASIC AMENITIES*
+Available Partially available Not available Not normally provided
+Inpatient bed capacity WASH
+Water
+Availablity Number of
+available beds 67 % 33% 67%
+ICU beds 11% 39% 6% 44%
+68
+N
+w
+o
+at
+t
+e
+a
+r
+v
+a
+a
+v
+il
+a
+a
+i
+b
+la
+le
+b l
+u
+e
+p
+.
+to standard in 12 (66.7%) out of 18 hospitals expected to have
+Out of 10 hospitals expected to provide intensive care beds 8 (80%) do
+not have sufficient bed capacity. Main water sources
+Out of 18 hospitals where water is at least partially available.
+Maternity beds 17% 33% 22% 28%
+171
+Out of 13 hospitals expected to provide maternity beds 10 (76.9%) do Piped N S et u w p o p r l k y 67 % Tu b b o e re w h e o l l l e / 56 % P d ro u t g e c w te e d ll 44 %
+not have sufficient bed capacity.
+Sanitation facilities
+General inpatient
+beds 28% 61% 11% 1547 78 % 22% 78%
+Out of 18 hospitals expected to provide inpatient beds 13 (72.2%) do Not available up to standard in 14 (77.8%) out of 18 hospitals expected to have
+not have sufficient bed capacity. sanitation facilities.
+Out of 18 hospitals where sanitation facilities is at least partially available.
+Incubators 17% 33% 6% 44%
+92
+Out of 10 hospitals expected to provide incubators 7 (70%) do not Sanitation facilities types*
+have sufficient bed capacity.
+Emergency F s l y t u o s s t h e p m / ip p e o o d u r r s s e e fl p w u t s e i h c r |100 % Compo t s o t i i l n e g t |39 % Other |11 %
+room beds
+22% 50% 11% 17%
+207
+tank
+Sanitation facilities accessibility*
+Out of 15 hospitals expected to provide emergency room beds 11
+(73.3%) do not have sufficient bed capa M cit a y. in barriers* D st e a d ff i c t a o t i e le d t |100 % s G e e p n t a o d ra i e le t r e t - |72 % pe T o o m p i l l l i o e e m t b w s i i t l f i e i o t t d h y r |44 %
+Hand hygiene
+m L e a d ck ic o a f l |93 % No ba m r L r e a i d c e k ic r o a s f l r | e 8 po 0 r % ted fin L a a n ck c i o a f l |47 % N 7 ot 2 av % aila ble up t 2 o 8 st % andard in 13 (72.2% 6 ) 1 ou % t of 18 hospitals 1 e 1 x % pected to
+equipment supplies resources maintain hand hygiene practices.
+Waste management Environmental cleaning
+Waste segregation 89 % 11% 83% 6%
+89 % 11% 83% 6% Not available up to standard in 16 (88.9%) out of 18 hospitals expected to
+maintain environmental cleaning practices.
+Not available up to standard in 16 (88.9%) out of 18 hospitals expected to maintain
+waste segregation practices.
+Personal Protective Equipment (PPE)
+Final disposal of sharps
+78 % 22% 67% 11% 78 % 22% 72% 6%
+Not available up to standard in 14 (77.8%) out of 18 hospitals expected to have
+Not available up to standard in 14 (77.8%) out of 18 hospitals expected to personal protective equipment.
+dispose of sharps.
+Final disposal of infectious waste Communication
+89 % 11% 78% 11% 94 % 6% 94%
+Not available up to standard in 16 (88.9%) out of 18 hospitals
+expected to dispose of infectious waste. Not available up to standard in 17 (94.4%) out of 18 hospitals expected to have
+communication means.
+Waste disposal methods Communication equipment types
+Out of 16 hospitals where final disposal of sharps or infectious waste are at least Out of 18 hospitals where communication is at least partially available.
+partially available.
+di m sp C e o o d s l i l c a e a l c l o t w e ff d - a s s f i o t t e e r |75 % Incine o ra t t h e e d r |25 % Open t r d e u w a m t it m h p o e in n u g t t |12 % Mobile phone |100 % Computer |94 % Telephone |22 %
+Transportation of patients
+Power
+89 % 11% 83% 6% 89 % 11% 61% 28%
+Not available up to standard in 16 (88.9%) out of 18 hospitals expected to have Not available up to standard in 16 (88.9%) out of 18 hospitals expected to have
+power available. means for patient transportation.
+Power sources Transportation types
+Out of 17 hospitals where power is at least partially available. Out of 13 hospitals where transportation of patients is at least partially available.
+Generator |100 % Solar |65 % Other |6 % Ambul P a R n C c S e |62 % Amb F u a la c n ili c t e y |54 % amb P u r la iv n a c te e |23 %
+Health information management systems
+Cold chain
+Facility-based diseases reporting systems (e.g., EWARS, etc.)
+80 % 17% 44% 22% 17% 87 % 11% 50% 22% 17%
+Not available up to standard in 12 (80%) out of 15 hospitals expected to
+have cold chain capacity. Not available up to standard in 13 (86.7%) out of 15 hospitals where the
+information system is expected.
+Cold chain sources
+Out of 11 hospitals where cold chain is at least partially available. Facility-based information system (e.g., DHIS2, Avicena, etc.)
+|100 |73 82 % 17% 67% 11%6%
+Generator % Solar %
+Not available up to standard in 14 (82.4%) out of 17 hospitals where the
+information system is expected.
+* Out of 18 hospitals, hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore
+excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+12
+ESSENTIAL HEALTH SERVICES*
+Service domain overview
+Available Partially available Not available Not normally provided
+General clinical and Child health and Communicable Sexual and NCD and mental
+trauma care nutrition diseases reproductive health health
+18% 12% 1% 11% 4%
+40% 21% 25% 14% 20%
+11% 14% 11% 11% 11%
+31% 52% 62% 64% 64%
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+General clinical and emergency care services
+Recognition of 29% 64% 7% Acuity-based 21% 57% 21%
+danger signs Not available up to standard in 10 (71.4%) out of 14 100%100%50% formal triage Not available up to standard in 11 (78.6%) out of 14 91% 73% 55%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Initial syndrome- 8% 85% 8% WHO basic 25% 67% 8%
+based management emergency care
+Not available up to standard in 12 (92.3%) out of 13 83% 75% 42% Not available up to standard in 9 (75%) out of 12 100%89% 67%
+at scene
+hospitals expected to provide the service. hospitals expected to provide the service.
+Advanced syn- 8% 75% 17% Monitored 20% 73% 7%
+drome-based referral
+Not available up to standard in 11 (91.7%) out of 12 91% 82% 36% Not available up to standard in 12 (80%) out of 15 75% 75% 50%
+management
+hospitals expected to provide the service. hospitals expected to provide the service.
+Referral capacity 31% 62% 6% Acceptance of 29% 57% 14%
+referrals
+Not available up to standard in 11 (68.8%) out of 16 82% 73% 64% Not available up to standard in 10 (71.4%) out of 14 80% 70% 40%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Acceptance 23% 62% 15% Essential 23% 69% 8%
+of c r o ef m er p ra le l x s h N o o s t p a i v ta a l i s la e b x l p e e u c p te t d o t o st a p n ro d v a i r d d e i t n h e 1 0 s e ( r 7 v 6 ic .9 e % . ) out of 13 80% 70% 50% servic h e e s a p lt r h im ca a r r e y N ho o s t p a i v ta a l i s la e b x l p e e u c p te t d o t o st a p n ro d v a i r d d e i t n h e 1 0 s e ( r 7 v 6 ic .9 e % . ) out of 13 100%70% 50%
+Specialized
+services at 8% 75% 17% Home visits 100%
+primary health Not available up to standard in 11 (91.7%) out of 12 91% 73% 55% Not available up to standard in 2 (100%) out of 2 100%50% 50%
+care hospitals expected to provide the service. hospitals expected to provide the service.
+Minor trauma 31% 54% 15% Emergency 23% 69% 8%
+definitive department
+Not available up to standard in 9 (69.2%) out of 13 100%89% 33% Not available up to standard in 10 (76.9%) out of 13 100%80% 40%
+management
+hospitals expected to provide the service. hospitals expected to provide the service.
+Inpatient surgery Inpatient surgery
+ward with at least 47% 40% 13% ward with at least 43% 50% 7%
+one operating Not available up to standard in 8 (53.3%) out of 15 88% 88% 25% two operating Not available up to standard in 8 (57.1%) out of 14 100%75% 25%
+theater hospitals expected to provide the service. theatres hospitals expected to provide the service.
+Burns treatment 58% 42% Orthopedic/ 9% 82% 9%
+trauma ward
+Not available up to standard in 12 (100%) out of 12 100%67% 50% Not available up to standard in 10 (90.9%) out of 11 100%80% 40%
+hospitals expected to provide the service. hospitals expected to provide the service.
+20 Inpatient bed 53% 40% 7% 50 Inpatient bed 33% 50% 17%
+capacity Not available up to standard in 7 (46.7%) out of 15 86% 86% 43% capacity Not available up to standard in 8 (66.7%) out of 12 100%88% 38%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Inpatient 23% 54% 23% Intensive care 30% 60% 10%
+critical care unit
+Not available up to standard in 10 (76.9%) out of 13 100%90% 50% Not available up to standard in 7 (70%) out of 10 100%71% 71%
+management
+hospitals expected to provide the service. hospitals expected to provide the service.
+Basic laboratory 44% 50% 6% Secondary 27% 53% 20%
+services Not available up to standard in 9 (56.2%) out of 16 89% 67% 44% laboratory Not available up to standard in 11 (73.3%) out of 15 91% 91% 27%
+services
+hospitals expected to provide the service. hospitals expected to provide the service.
+* Out of 18 hospitals, hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore
+excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+13
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Tertiary 11% 56% 33% Blood bank 17% 75% 8%
+laboratory services
+Not available up to standard in 8 (88.9%) out of 9 100%100%38% Not available up to standard in 10 (83.3%) out of 12 100%90% 60%
+services
+hospitals expected to provide the service. hospitals expected to provide the service.
+Hemodialysis 40% 40% 20% Basic X-ray 44% 44% 12%
+unit Not available up to standard in 3 (60%) out of 5 hospi- 100%100%100% service Not available up to standard in 9 (56.2%) out of 16 100%89% 44%
+tals expected to provide the service. hospitals expected to provide the service.
+Comprehensive 15% 46% 38% CT scan 20% 40% 40%
+X-ray service
+Not available up to standard in 11 (84.6%) out of 13 100%55% 55% Not available up to standard in 8 (80%) out of 10 88% 75% 50%
+hospitals expected to provide the service. hospitals expected to provide the service.
+MRI 100% Procedures for 33% 67%
+Not available up to standard in 5 (100%) out of 5 80% 60% 40% mass casualty Not available up to standard in 8 (66.7%) out of 12 88% 50% 50%
+scenarios
+hospitals expected to provide the service. hospitals expected to provide the service.
+Child health and nutrition services
+Integrated
+Pediatric first 47% 47% 7% management 22% 33% 44%
+aid of newborn and
+Not available up to standard in 8 (53.3%) out of 15 100%75% 62% childhood illnesses Not available up to standard in 7 (77.8%) out of 9 100%71% 57%
+hospitals expected to provide the service. (IMNCI) hospitals expected to provide the service.
+Management of
+IMNCI Un C d l e in r i 5 c Not av 3 ai 3 la % ble up to stan 3 d 3 ar % d in 8 (66.7% 3 ) 3 o % ut of 12 100%75% 62% ch a i s ld s r e e v n e r c e la o s r s i v fi e e r d y No 1 t 7 a % vailable up to stan 6 da 7 rd % in 10 (83.3%) ou 1 t 7 of % 12 90% 90% 30%
+hospitals expected to provide the service. severe diseases hospitals expected to provide the service.
+Inpatient surgical 11% 78% 11% Expanded 100%
+care for newborns Not available up to standard in 8 (88.9%) out of 9 100%75% 62% programme on Not available up to standard in 1 (100%) out of 1 100% 100%
+and children immunization
+hospitals expected to provide the service. hospital expected to provide the service.
+Info
+a
+rm
+nd
+a t
+c
+i
+o
+o
+m
+n,
+m
+ed
+u
+u
+n
+c
+ic
+a
+a
+t
+t
+io
+io
+n
+n
+, 29% 14% 57% Growth monitoring 11% 44% 44%
+on infant, young, Not available up to standard in 5 (71.4%) out of 7 80% 80% 60% Not available up to standard in 8 (88.9%) out of 9 88% 88% 38%
+and child feeding
+hospitals expected to provide the service. hospitals expected to provide the service.
+Integrated Stabilization
+management 14% 43% 43% center for 40% 20% 40%
+of acute Not available up to standard in 6 (85.7%) out of 7 83% 67% 50% severe acute Not available up to standard in 3 (60%) out of 5 hospi- 100%67% 67%
+malnutrition hospitals expected to provide the service. malnutrition tals expected to provide the service.
+Communicable diseases
+Syndromic 62% 38% Event-based 70% 30%
+surveillance Not available up to standard in 8 (100%) out of 8 62% 62% 50% surveillance Not available up to standard in 10 (100%) out of 10 70% 70% 50%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Diagnosis and
+treatment of 75% 25% Multidrug- 33% 67%
+tuberculosis Not available up to standard in 4 (100%) out of 4 100%75% 50% resistant of Not available up to standard in 3 (100%) out of 3 100%67% 67%
+cases hospitals expected to provide the service. tuberculosis hospitals expected to provide the service.
+Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 29% 43% 29% Locally relevant 86% 14%
+on local priority Not available up to standard in 5 (71.4%) out of 7 80% 60% 40% diseases Not available up to standard in 7 (100%) out of 7 86% 71% 57%
+diseases
+hospitals expected to provide the service. hospitals expected to provide the service.
+Isolation unit or 75% 25% Management of 71% 29%
+room severe/ compli-
+Not available up to standard in 8 (100%) out of 8 75% 75% 50% Not available up to standard in 7 (100%) out of 7 100%71% 71%
+cated diseases
+hospitals expected to provide the service. hospitals expected to provide the service.
+Sexual and reproductive health
+Free access to 17% 33% 50% Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 50% 50%
+condoms on STI/HIV
+Not available up to standard in 5 (83.3%) out of 6 Not available up to standard in 4 (100%) out of 4
+100%20% 20% 75% 50% 50%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Syndromic
+management of 25% 75% HIV counselling 25% 75%
+sexu
+i
+a
+n
+l
+f
+l
+e
+y
+c
+t
+t
+r
+i
+a
+o
+n
+n
+s
+s
+m
+(S
+it
+T
+te
+Is
+d
+)
+Not available up to standard in 4 (100%) out of 4 100%50% 50% and testing Not available up to standard in 4 (100%) out of 4 100%75% 25%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Prevention of
+mother-to-child 100% Antiretroviral 100%
+treatment
+HIV transmission Not available up to standard in 1 (100%) out of 1 100%100%100% Not available up to standard in 1 (100%) out of 1 100% 100%
+hospital expected to provide the service. hospital expected to provide the service.
+Family planning 60% 20% 20% Family planning 12% 62% 25%
+- pregnancy test - contraceptive
+Not available up to standard in 4 (40%) out of 10 100%75% 75% Not available up to standard in 7 (87.5%) out of 8 86% 57% 43%
+methods
+hospitals expected to provide the service. hospitals expected to provide the service.
+14
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Antenatal care 9% 73% 18% Skilled 50% 25% 25%
+care during
+h
+N
+o
+o
+s
+t
+p
+a
+i
+v
+ta
+a
+l
+i
+s
+la
+e
+b
+x
+l
+p
+e
+e
+u
+c
+p
+te
+t
+d
+o
+t o
+st a
+p
+n
+ro
+d
+v
+a
+i
+r
+d
+d
+e
+i
+t
+n
+h e
+1 0
+s e
+(
+r
+9
+v
+0
+ic
+.9
+e
+%
+.
+) out of 11
+100%70% 40% childbirth
+h
+N
+o
+o
+s
+t
+p
+a
+it
+v
+a
+a
+ls
+il a
+ex
+b
+p
+le
+e c
+u
+te
+p
+d
+t o
+to
+s
+p
+ta
+ro
+n
+v
+d
+id
+a
+e
+rd
+th
+i
+e
+n
+s
+6
+e r
+(
+v
+5
+ic
+0
+e
+%
+.
+) out of 12 83% 67% 67%
+Basic 38% 31% 31% Comprehensive 54% 23% 23%
+emergency Not available up to standard in 8 (61.5%) out of 13 100%100%38% emergency Not available up to standard in 6 (46.2%) out of 13 100%83% 67%
+obstetric care obstetric care
+hospitals expected to provide the service. hospitals expected to provide the service.
+Postpartum care 33% 33% 33% Comprehensive 22% 67% 11%
+abortion care
+Not available up to standard in 4 (66.7%) out of 6 100%75% 50% Not available up to standard in 7 (77.8%) out of 9
+100%43% 43%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Clinical 25% 50% 25% Emergency 25% 50% 25%
+management of Not available up to standard in 3 (75%) out of 4 hospi- 67% 67% 67% contraception Not available up to standard in 3 (75%) out of 4 hospi- 67% 67% 67%
+rape survivors tals expected to provide the service. tals expected to provide the service.
+Post-exposure 100%
+prophylaxis
+Not available up to standard in 1 (100%) out of 1 100%100%100%
+hospital expected to provide the service.
+Noncommunicable diseases and mental health
+Promote self-care 12% 38% 50% Noncommunicable 17% 83%
+diseases clinic
+Not available up to standard in 7 (87.5%) out of 8 86% 71% 29% Not available up to standard in 6 (100%) out of 6 83% 67% 50%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Asthma and
+chronic obstructive 22% 56% 22% Hypertension 8% 75% 17%
+c
+p
+la
+u
+s
+l
+s
+m
+ifi
+o
+ca
+n
+ti
+a
+o a
+r
+n n
+y
+, d t
+d
+f r o e
+i
+l a
+s
+l t o
+e
+m w
+a
+e
+s
+u n
+e
+p t h
+N
+o
+o
+s
+t
+p
+a
+it
+v
+a
+a
+ls
+il a
+e
+b
+xp
+le
+e c
+u
+t
+p
+ed
+t o
+to
+s
+p
+ta
+ro
+n
+v
+d
+i
+a
+d
+r
+e
+d
+t h
+in
+e s
+7
+e
+(
+r
+7
+vi
+7
+c
+.
+e
+8
+.
+%) out of 9 71% 71% 43% ma e n ar a l g y
+c
+e d
+o
+m e
+u
+t e
+n
+e n
+s
+c t
+e
+t a i
+l
+o
+i
+n
+n
+n d
+g
+, N
+ho
+o
+s
+t
+p
+a
+i
+v
+ta
+a
+l
+i
+s
+la
+e
+b
+x
+l
+p
+e
+e
+u
+c
+p
+te
+t
+d
+o
+t o
+st a
+p
+n
+ro
+d
+v
+a
+i
+r
+d
+d
+e
+i
+t
+n
+h e
+1 1
+s e
+(
+r
+9
+v
+1
+ic
+.7
+e
+%
+.
+) out of 12 91% 64% 27%
+man e a a g r D l e y m i d a e e n b te t e , c f t t o io e o n t s - , N 8 o % t available up to sta 7 n 5 da % rd in 11 (91.7%) ou 1 t 7 of % 12 64% 55% 36% In r p e a h t a ie b n il t i t a a c t u io t n e N 1 o 0 t % available up to sta 8 nd 0 a % rd in 9 (90%) out o 1 f 0 1 % 0 100%67% 56%
+care, and counseling hospitals expected to provide the service. hospitals expected to provide the service.
+Outpatient 22% 56% 22% Prosthetics and 100%
+rehabilitation orthotics
+Not available up to standard in 7 (77.8%) out of 9 71% 71% 43% Not available up to standard in 1 (100%) out of 1 100%100%100%
+services
+hospitals expected to provide the service. hospital expected to provide the service.
+Oral health and 30% 40% 30% Psychological 25% 50% 25%
+dental care first aid
+Not available up to standard in 7 (70%) out of 10 100%71% 29% Not available up to standard in 3 (75%) out of 4 hospi- 100%67% 67%
+hospitals expected to provide the service. tals expected to provide the service.
+Management of 33% 67% Inpatient care for 86% 14%
+mental disorders management of
+Not available up to standard in 3 (100%) out of 3 100%67% 67% Not available up to standard in 7 (100%) out of 7 71% 71% 43%
+mental disorders
+hospitals expected to provide the service. hospitals expected to provide the service.
+Cancer 80% 20% Primary cancer 67% 33%
+diagnostics screening
+services Not available up to standard in 5 (100%) out of 5 80% 60% 60% (non-instrumental Not available up to standard in 6 (100%) out of 6 83% 67% 50%
+hospitals expected to provide the service. methods) hospitals expected to provide the service.
+Mammography 38% 62% Colonoscopy 25% 33% 42%
+Not available up to standard in 8 (100%) out of 8 88% 50% 50% Not available up to standard in 9 (75%) out of 12 89% 67% 44%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Cancer treatment 67% 33% Chemotherapy 50% 50%
+services
+Not available up to standard in 3 (100%) out of 3 67% 67% 33% Not available up to standard in 1 (50%) out of 2 hospi- 100%100%100%
+hospitals expected to provide the service. tals expected to provide the service.
+Radiological Hematological and
+100% 100%
+treatment oncohematological
+Not available up to standard in 1 (100%) out of 1 100%100%100% care in all settings Not available up to standard in 2 (100%) out of 2 100%50% 50%
+hospital expected to provide the service. hospitals expected to provide the service.
+This analysis was produced based on the information reported into HeRAMS up to 31 July 2025 and while the the Notes:
+d is e p p r l o o d y u m c e e n d t s o o f l e H l e y R fo A r M t S h , e i n p c u l r u p d o in se g s d o a f t i a n v fo e r r m ifi i c n a g t i o o p n e a r n at d io v n a s li . dation, continue. Hence, this analysis is not final and 1. T w h a e s a li n m a i l t y e s d is t o o f h b o a s rr p ie it r a s l s im w p h e e d re in t g h s e e r r e v s ic p e e s c a ti v v a e i l i a n b d i i l c it a y t , o c r a w us a e s s n o o f t d a a v m ai a la ge b , l e n o u n p - f t u o n s c t t a i n o d na a l r i d ty . O an n d ly i n th a e c c t e o s p s i t b h i r li e t e y
+This report includes data from 35 general and specialized hospitals operated by governmental and non-govern- most frequently reported barriers are presented for each indicator.
+mental organizations (NGOs). Originally, there were 36 hospitals, but Al-Nasr and Al-Rantisi hospitals have since 2. The analysis of basic amenities follows the same approach as barriers and was restricted to hospitals where the
+merged into a single facility. Field hospitals established in response to the ongoing conflict and deteriorating indicator was at least partially available.
+h w e il a l l b th e c re o p n o d r i t t e io d n s s e a p r a e r a n t o e t l y in in cl a u n d e in d f o in g r t a h p is h r ic e p sp o e rt c , i f a ic s t t o h e fi y e l a d r e h o te s m pi p ta o l r s a . ry entities. Data from these field hospitals 3. T q h u e e n a t n ly a , l t y h s e is t o o f t a in l n d u iv m id b u e a r l o s f e h rv o i s c p e i s t a e l x s c i l n u c d lu es d e h d o s in p i t t h a e ls a r n e a p l o ys rt is in v g a r a i e s s e b rv y i c s e e r a v s ic “ e n . ot normally provided.” Conse-
+The designations employed and the presentation of the material in this report do not imply the expression of any
+opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city, or area or of its
+authorities, or concerning the delimitation of its frontiers or boundaries. Dotted lines on maps represent approxi-
+mate border lines for which there may not yet be full agreement.
+Data source: HeRAMS occupied
+Palestinian territory
+Date data: 31 July 2025
+Date created: 04 August 2025
+Contact: herams@who.int 15
+occupied Palestinian territory
+Gaza Strip
+SNAPSHOT JULY 2025
+Governmental hospitals*
+GOVERNMENTAL HOSPITAL STATUS MAIN CAUSES OF...
+Building damage
+Out of 15 governmental hospitals evaluated.
+0 Intact
+The 3 primary causes of building damage as reported by 12 partially
+12 Partially damaged damaged and 3 fully damaged governmental hospitals.
+3 Destroyed
+Building condition 100 % Insecurity
+0 Intact 27 % Lack of maintenance
+8 Partially damaged
+Equipment
+condition 7 Destroyed 20 % Other
+0 Functioning
+5 Partially Functioning Equipment damage
+7 Non-Functioning
+Functionality 3 Destroyed T d h am e 3 a g p e ri d m a a n r d y c 7 a f u u s ll e y s d o a f m eq a u g i e p d m g e o n v t e d rn a m m e a n g t e a a l s h o re s p p o it r a t l e s d . by 8 partially
+4 1 P A a cc rt e ia ss ll i y b a le ccessible 100 % Insecurity
+0 Not accessible
+Accessibility 10 Destroyed / Non- 60 % Lack of maintenance
+Functioning
+13 % Industrial incidents
+Al Shifa
+33 Hospital NORTH GAZA Functionality constraints
+% Complex
+The 3 primary causes of functionality constraints as reported by 5
+partially functioning and 7 non-functioning governmental hospitals.
+67 % Insecurity
+Al Nasr
+“Only 5 (33%) out of 15 Al Rantisi
+Ophthalmic
+g e o v v a e lu rn a m te e d n a t r a e l h p o ar s t p ia it l a ly ls hospital Children's Hospital 50 % Lack of equipment
+functioning.”
+GAZA CITY
+50 % Damages to the facility
+Al Aqsa
+Martyrs
+Hospital Accessibility constraints
+The 3 primary causes of accessibility constraints as reported by 4
+partially accessible governmental hospitals.
+DEIR AL-BALAH
+100 % Insecurity
+Nasser 100 % Other physical barriers
+Medical
+KHAN YOUNIS
+Complex
+25 Financial barriers such as
+Functioning % user-fees
+Partially functioning Major support Partially support
+Partner Support**
+Non-functioning No support
+Destroyed
+60% 40%
+Partner support types
+Out of 3 governmental hospitals supported by partners.
+67 Training of 33 Provision of
+RAFAH %health staff % operational costs
+33 %NG
+O
+oo
+v
+t
+e
+vye
+rs
+pr
+i
+n
+g
+ea
+h
+sn
+t
+coef / support re3p3or%tedP
+he
+ro
+a
+v
+lt
+i
+h
+si o
+st
+n
+a ff
+of
+33 % P o eq f r o m u v ip e is d m io ic e n a n l t 33 % P he ro a v lt i h si o se n r o vi f c es
+* This infographic is a subset of the “All Hospitals” infographic, focusing exclusively on governmental hospitals.
+** Out of 5 governmental hospitals, governmental hospitals reported as destroyed, non-functioning, or inaccessible %
+are considered unable to provide health services in their current state and are therefore excluded from this section
+as reporting ends upon confirmation of their inability to provide any health services.
+This total excludes hospitals that were reported as closed by administrative decision. There is one hospital “Al-Naser hospital” that was permanently closed and merged with another existing
+hospital “Al-Naser AlRantisi hospital”.
+16
+BASIC AMENITIES*
+Available Partially available Not available Not normally provided
+Inpatient bed capacity WASH
+Water
+Availablity Number of
+available beds 100 % 100%
+ICU beds 20% 60% 20%
+41
+N
+ex
+o
+p
+t
+e
+a
+c
+v
+te
+a
+d
+il a
+to
+b l
+h
+e
+a v
+u
+e
+p
+w
+to
+at e
+st
+r
+a
+a
+n
+v
+d
+a
+a
+ila
+rd
+b l
+i
+e
+n
+.
+5 (100%) out of 5 governmental hospitals
+Out of 4 governmental hospitals expected to provide intensive care beds 3
+(75%) do not have sufficient bed capacity. Main water sources
+Out of 5 governmental hospitals where water is at least partially available.
+Maternity beds 40% 20% 40%
+81
+Out of 3 governmental hospitals expected to provide maternity beds 3 Tu b b o e re w h e o l l l e / 80 % Piped N S et u w p o p r l k y 60 % Tanker truck 60 %
+(100%) do not have sufficient bed capacity.
+Sanitation facilities
+General inpatient
+beds 100% 950 80 % 20% 80%
+Out of 5 governmental hospitals expected to provide inpatient beds 5 Not available up to standard in 4 (80%) out of 5 governmental hospitals expected to
+(100%) do not have sufficient bed capacity. have sanitation facilities.
+Out of 5 governmental hospitals where sanitation facilities is at least partially available.
+Incubators 20% 60% 20%
+60
+Out of 4 governmental hospitals expected to provide incubators 3 Sanitation facilities types*
+(75%) do not have sufficient bed capacity.
+Emergency F s l y t u o s s t h e p m / ip p e o o d u r r s s e e fl p w u t s e i h c r |100 % Compo t s o t i i l n e g t |20 %
+room beds
+20% 80%
+124
+tank
+Sanitation facilities accessibility*
+Out of 5 governmental hospitals expected to provide emergency room beds
+4 (80%) do not have sufficient bed capacity M . ain barriers* D st e a d ff i c t a o t i e le d t |100 % s G e e p n t a o d ra i e le t r e t - |40 %
+Hand hygiene
+m L e a d ck ic o a f l |100 % No ba m r L r e a i d c e k ic r o a s f l r | e 8 po 0 r % ted fin L a a n ck c i o a f l |60 % N 1 ot 0 av 0 ail % abl e up to standard in 5 ( 8 1 0 00 % %) out of 5 governmen 2 ta 0 l % hospitals
+equipment supplies resources expected to maintain hand hygiene practices.
+Waste management Environmental cleaning
+Waste segregation 100 % 100%
+100 % 100% Not available up to standard in 5 (100%) out of 5 governmental hospitals
+expected to maintain environmental cleaning practices.
+Not available up to standard in 5 (100%) out of 5 governmental hospitals
+expected to maintain waste segregation practices.
+Personal Protective Equipment (PPE)
+Final disposal of sharps
+100 % 80% 20% 100 % 100%
+Not available up to standard in 5 (100%) out of 5 governmental hospitals
+Not available up to standard in 5 (100%) out of 5 governmental hospitals expected to have personal protective equipment.
+expected to dispose of sharps.
+Final disposal of infectious waste Communication
+100 % 80% 20% 100 % 100%
+Not available up to standard in 5 (100%) out of 5 governmental
+hospitals expected to dispose of infectious waste. Not available up to standard in 5 (100%) out of 5 governmental hospitals expected to
+have communication means.
+Waste disposal methods Communication equipment types
+Out of 4 governmental hospitals where final disposal of sharps or infectious waste are Out of 5 governmental hospitals where communication is at least partially available.
+at least partially available.
+di m sp C e o o d s l i l c a e a l c l o t w e ff d - a s s f i o t t e e r |50 % Autoclaved |25 % p B ro u t r e n c in te g d i n p i a t |25 % Mobile phone |100 % Computer |100 % Telephone |20 %
+Transportation of patients
+Power
+100 % 100% 100 % 60% 40%
+Not available up to standard in 5 (100%) out of 5 governmental hospitals Not available up to standard in 5 (100%) out of 5 governmental hospitals
+expected to have power available. expected to have means for patient transportation.
+Power sources Transportation types
+Out of 5 governmental hospitals where power is at least partially available. Out of 3 governmental hospitals where transportation of patients is at least partially
+available.
+Generator |100 % Solar |60 % Amb F u a la c n ili c t e y |67 % amb P u r la iv n a c te e |67 % Ambul P a R n C c S e |67 %
+Health information management systems
+Cold chain
+Facility-based diseases reporting systems (e.g., EWARS, etc.)
+80 % 20% 40% 40% 80 % 20% 80%
+Not available up to standard in 4 (80%) out of 5 governmental hospitals
+expected to have cold chain capacity. Not available up to standard in 4 (80%) out of 5 governmental hospitals where
+the information system is expected.
+Cold chain sources
+Out of 3 governmental hospitals where cold chain is at least partially available. Facility-based information system (e.g., DHIS2, Avicena, etc.)
+|100 |67 60 % 40% 60%
+Generator % Solar %
+Not available up to standard in 3 (60%) out of 5 governmental hospitals where
+the information system is expected.
+* Out of 5 governmental hospitals, governmental hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their
+current state and are therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+17
+ESSENTIAL HEALTH SERVICES*
+Service domain overview
+Available Partially available Not available Not normally provided
+General clinical and Child health and Communicable Sexual and NCD and mental
+trauma care nutrition diseases reproductive health health
+20% 12% 2% 8% 2%
+53% 22% 38% 4% 20%
+6% 24% 20% 13% 12%
+21% 42% 40% 75% 66%
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+General clinical and emergency care services
+Recognition of 50% 50% Acuity-based 40% 60%
+danger signs Not available up to standard in 2 (50%) out of 4 gov- 100%100%50% formal triage Not available up to standard in 3 (60%) out of 5 gov- 100%100%67%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Initial syndrome- 25% 75% WHO basic 25% 75%
+based management emergency care
+Not available up to standard in 3 (75%) out of 4 gov- 100%100%67% Not available up to standard in 3 (75%) out of 4 gov- 100%100%100%
+at scene
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Advanced syn- 100% Monitored 100%
+drome-based referral
+Not available up to standard in 4 (100%) out of 4 gov- 100%100%50% Not available up to standard in 5 (100%) out of 5 gov- 100%60% 60%
+management
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Referral capacity 40% 60% Acceptance of 20% 80%
+referrals
+Not available up to standard in 3 (60%) out of 5 gov- 100%67% 67% Not available up to standard in 4 (80%) out of 5 gov- 100%50% 50%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Acceptance 20% 80% Essential 100%
+of c r o ef m er p ra le l x s e N r o n t m a e va n i t l a a l b h le o s u p p it t a o ls s e ta xp n e d c a t r e d d i n to 4 p ( r 8 o 0 v % ide ) o th u e t s o e f r 5 v ic g e o . v- 75% 75% 50% servic h e e s a p lt r h im ca a r r e y N er o n t m a e va n i t l a a l b h le o s u p p i t t a o l s s t e a x n p d e a c r t d ed in t o 5 p (1 ro 0 v 0 i % de ) t o h u e t s o e f r 5 vi c g e o . v- 100%80% 40%
+Specialized
+services at 100% Home visits
+primary health Not available up to standard in 4 (100%) out of 4 gov- 75% 75% 75% Not expected in any operational governmental
+care ernmental hospitals expected to provide the service. hospital.
+Minor trauma 25% 50% 25% Emergency 25% 75%
+definitive department
+Not available up to standard in 3 (75%) out of 4 gov- 100%100%67% Not available up to standard in 3 (75%) out of 4 gov- 100%100%100%
+management
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Inpatient surgery Inpatient surgery
+ward with at least 50% 50% ward with at least 50% 50%
+one operating Not available up to standard in 2 (50%) out of 4 gov- 100%100%50% two operating Not available up to standard in 2 (50%) out of 4 gov- 100%100%50%
+theater ernmental hospitals expected to provide the service. theatres ernmental hospitals expected to provide the service.
+Burns treatment 67% 33% Orthopedic/ 33% 67%
+trauma ward
+Not available up to standard in 3 (100%) out of 3 gov- 100%67% 67% Not available up to standard in 2 (66.7%) out of 3 gov- 100%100%50%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+20 Inpatient bed 25% 75% 50 Inpatient bed 25% 75%
+capacity Not available up to standard in 3 (75%) out of 4 gov- 100%67% 67% capacity Not available up to standard in 3 (75%) out of 4 gov- 100%67% 33%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Inpatient 25% 50% 25% Intensive care 50% 50%
+critical care unit
+Not available up to standard in 3 (75%) out of 4 gov- 100%100%67% Not available up to standard in 2 (50%) out of 4 gov- 100%100%50%
+management
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Basic laboratory 40% 60% Secondary 40% 60%
+services Not available up to standard in 3 (60%) out of 5 gov- 100%67% 33% laboratory Not available up to standard in 3 (60%) out of 5 gov- 100%100%33%
+services
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+* Out of 5 governmental hospitals, governmental hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their
+current state and are therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+18
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Tertiary 25% 50% 25% Blood bank 25% 75%
+laboratory services
+Not available up to standard in 3 (75%) out of 4 gov- 100%100%33% Not available up to standard in 3 (75%) out of 4 gov- 100%100%67%
+services
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Hemodialysis 50% 50% Basic X-ray 25% 75%
+unit Not available up to standard in 2 (50%) out of 4 gov- 100%100%100% service Not available up to standard in 3 (75%) out of 4 gov- 100%67% 33%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Comprehensive 33% 67% CT scan 67% 33%
+X-ray service
+Not available up to standard in 3 (100%) out of 3 gov- 100%67% 33% Not available up to standard in 3 (100%) out of 3 gov- 67% 67% 67%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+MRI 100% Procedures for 33% 67%
+Not available up to standard in 2 (100%) out of 2 gov- 100%50% 50% mass casualty Not available up to standard in 2 (66.7%) out of 3 gov- 100%100%50%
+scenarios
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Child health and nutrition services
+Integrated
+Pediatric first 50% 50% management 50% 50%
+aid of newborn and
+Not available up to standard in 2 (50%) out of 4 gov- 100%100%50% childhood illnesses Not available up to standard in 1 (50%) out of 2 gov- 100%100%100%
+ernmental hospitals expected to provide the service. (IMNCI) ernmental hospitals expected to provide the service.
+Management of
+IMNCI Un C d l e in r i 5 c Not availab 5 le 0 u % p to standard in 2 2 5 ( % 50%) out 2 o 5 f 4 % gov- 100%100%50% ch a i s ld s r e e v n e r c e la o s r s i v fi e e r d y Not 2 av 5 a % ilable up to stand 5 a 0 rd % in 3 (75%) out 2 o 5 f 4 % gov- 100%100%33%
+ernmental hospitals expected to provide the service. severe diseases ernmental hospitals expected to provide the service.
+Inpatient surgical 67% 33% Expanded
+care for newborns Not available up to standard in 3 (100%) out of 3 gov- 100%67% 33% programme on Not expected in any operational governmental
+and children immunization
+ernmental hospitals expected to provide the service. hospital.
+Info
+a
+rm
+nd
+a t
+c
+i
+o
+o
+m
+n,
+m
+ed
+u
+u
+n
+c
+ic
+a
+a
+t
+t
+io
+io
+n
+n
+, 50% 50% Growth monitoring 25% 75%
+on infant, young, Not available up to standard in 2 (100%) out of 2 gov- 100%100%50% Not available up to standard in 4 (100%) out of 4 gov- 100%75% 50%
+and child feeding
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Integrated Stabilization
+management 33% 67% center for 33% 67%
+of acute Not available up to standard in 3 (100%) out of 3 gov- 100%67% 67% severe acute Not available up to standard in 3 (100%) out of 3 gov- 100%67% 67%
+malnutrition ernmental hospitals expected to provide the service. malnutrition ernmental hospitals expected to provide the service.
+Communicable diseases
+Syndromic 33% 67% Event-based 33% 67%
+surveillance Not available up to standard in 3 (100%) out of 3 gov- 100%67% 67% surveillance Not available up to standard in 3 (100%) out of 3 gov- 100%67% 67%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Diagnosis and
+treatment of 50% 50% Multidrug- 50% 50%
+tuberculosis Not available up to standard in 2 (100%) out of 2 gov- 100%100%50% resistant of Not available up to standard in 2 (100%) out of 2 gov- 100%100%50%
+cases ernmental hospitals expected to provide the service. tuberculosis ernmental hospitals expected to provide the service.
+Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 33% 33% 33% Locally relevant 100%
+on local priority Not available up to standard in 2 (66.7%) out of 3 gov- 100%100%50% diseases Not available up to standard in 3 (100%) out of 3 gov- 100%100%33%
+diseases
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Isolation unit or 75% 25% Management of 100%
+room severe/ compli-
+Not available up to standard in 4 (100%) out of 4 gov- 75% 75% 50% Not available up to standard in 4 (100%) out of 4 gov- 100%100%75%
+cated diseases
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Sexual and reproductive health
+Free access to 100% Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 100%
+condoms on STI/HIV
+Not available up to standard in 1 (100%) out of 1 gov- Not available up to standard in 1 (100%) out of 1 gov-
+100% 100%
+ernmental hospital expected to provide the service. ernmental hospital expected to provide the service.
+Syndromic
+management of 100% HIV counselling 50% 50%
+sexu
+i
+a
+n
+l
+f
+l
+e
+y
+c
+t
+t
+r
+i
+a
+o
+n
+n
+s
+s
+m
+(S
+it
+T
+te
+Is
+d
+)
+Not available up to standard in 1 (100%) out of 1 gov- 100% and testing Not available up to standard in 2 (100%) out of 2 gov- 100%50% 50%
+ernmental hospital expected to provide the service. ernmental hospitals expected to provide the service.
+Prevention of
+Antiretroviral
+mother-to-child
+treatment
+HIV transmission Not expected in any operational governmental Not expected in any operational governmental
+hospital. hospital.
+Family planning 100% Family planning 100%
+- pregnancy test - contraceptive
+Available up to standard in all 1 governmental hospital Not available up to standard in 1 (100%) out of 1 gov- 100% 100%
+methods
+expected to provide the service. ernmental hospital expected to provide the service.
+19
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Antenatal care 50% 50% Skilled 67% 33%
+care during
+N
+er
+o
+n
+t
+m
+a
+e
+va
+n
+i
+t
+l
+a
+a
+l
+b
+h
+le
+o s
+u
+p
+p
+i t
+t
+a
+o
+l s
+s t
+e
+a
+x
+n
+p
+d
+e
+a
+c
+r
+t
+d
+ed
+in
+t o
+2
+p
+(1
+ro
+0
+v
+0
+i
+%
+de
+)
+t
+o
+h
+u
+e
+t
+s
+o
+e
+f
+r
+2
+vi c
+g
+e
+o
+.
+v-
+100%100%50% childbirth
+N
+er
+o
+n
+t
+m
+av
+e
+a
+n
+i
+t
+l
+a
+a
+l
+b
+h
+le
+o
+u
+sp
+p
+i t
+t
+a
+o
+l s
+s t
+e
+a
+x
+n
+p
+d
+e
+a
+c
+r
+t
+d
+e d
+in
+t
+1
+o
+(
+p
+3
+r
+3
+o
+.
+v
+3
+id
+%
+e
+)
+t
+o
+h
+u
+e
+t
+s
+o
+e
+f
+r
+3
+vi c
+g
+e
+o
+.
+v- 100%100%100%
+Basic 67% 33% Comprehensive 67% 33%
+emergency Not available up to standard in 1 (33.3%) out of 3 gov- 100%100%100% emergency Not available up to standard in 1 (33.3%) out of 3 gov- 100% 100%
+obstetric care obstetric care
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Postpartum care 100% Comprehensive 100%
+abortion care
+Not available up to standard in 1 (100%) out of 1 gov- 100% 100% Not available up to standard in 1 (100%) out of 1 gov-
+100% 100%
+ernmental hospital expected to provide the service. ernmental hospital expected to provide the service.
+Clinical 100% Emergency
+management of contraception
+Not available up to standard in 1 (100%) out of 1 gov- 100%100%100% Not expected in any operational governmental
+rape survivors ernmental hospital expected to provide the service. hospital.
+Post-exposure
+prophylaxis
+Not expected in any operational governmental
+hospital.
+Noncommunicable diseases and mental health
+Promote self-care 50% 50% Noncommunicable 100%
+diseases clinic
+Not available up to standard in 1 (50%) out of 2 gov- 100% 100% Not available up to standard in 1 (100%) out of 1 gov- 100% 100%
+ernmental hospitals expected to provide the service. ernmental hospital expected to provide the service.
+Asthma and
+chronic obstructive 25% 75% Hypertension 75% 25%
+c
+p
+la
+u
+s
+l
+s
+m
+ifi
+o
+ca
+n
+ti
+a
+o a
+r
+n n
+y
+, d t
+d
+f r o e
+i
+l a
+s
+l t o
+e
+m w
+a
+e
+s
+u n
+e
+p t e
+N
+r
+o
+n
+t
+m
+a
+e
+va
+n
+i
+t
+l
+a
+a
+l
+b
+h
+le
+o s
+u
+p
+p
+it
+t
+a
+o
+ls
+s
+e
+ta
+xp
+n
+e
+d
+c
+a
+t
+r
+e
+d
+d
+i n
+to
+3
+p
+(
+r
+7
+o
+5
+v
+%
+ide
+) o
+th
+u
+e
+t
+s
+o
+e
+f
+r
+4
+v ic
+g
+e
+o
+.
+v- 100%100%67% ma e n ar a l g y
+c
+e d
+o
+m e
+u
+t e
+n
+e n
+s
+c t
+e
+t a i
+l
+o
+i
+n
+n
+n d
+g
+, N
+er
+o
+n
+t
+m
+a
+e
+va
+n
+i
+t
+l
+a
+a
+l
+b
+h
+le
+o s
+u
+p
+p
+i t
+t
+a
+o
+l s
+s t
+e
+a
+x
+n
+p
+d
+e
+a
+c
+r
+t
+d
+ed
+in
+t o
+4
+p
+(1
+ro
+0
+v
+0
+i
+%
+de
+)
+t
+o
+h
+u
+e
+t
+s
+o
+e
+f
+r
+4
+vi c
+g
+e
+o
+.
+v- 100%75% 50%
+man e a a g r D l e y m i d a e e n b te t e , c f t t o io e o n t s - , Not available up to 7 s 5 ta % ndard in 4 (100%) out 2 o 5 f 4 % gov- 75% 50% 50% In r p e a h t a ie b n il t i t a a c t u io t n e Not available up to stan 1 da 0 rd 0 % in 2 (100%) out of 2 gov- 100%50% 50%
+care, and counseling ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Outpatient 100% Prosthetics and
+rehabilitation orthotics
+Not available up to standard in 1 (100%) out of 1 gov- 100% 100% Not expected in any operational governmental
+services
+ernmental hospital expected to provide the service. hospital.
+Oral health and 100% Psychological
+dental care first aid
+Not available up to standard in 1 (100%) out of 1 gov- 100% 100% Not expected in any operational governmental
+ernmental hospital expected to provide the service. hospital.
+Management of Inpatient care for 75% 25%
+mental disorders management of
+Not expected in any operational governmental Not available up to standard in 4 (100%) out of 4 gov- 75% 50% 50%
+mental disorders
+hospital. ernmental hospitals expected to provide the service.
+Cancer 100% Primary cancer 100%
+diagnostics screening
+services Not available up to standard in 1 (100%) out of 1 gov- 100% 100% (non-instrumental Not available up to standard in 1 (100%) out of 1 gov- 100% 100%
+ernmental hospital expected to provide the service. methods) ernmental hospital expected to provide the service.
+Mammography 50% 50% Colonoscopy 33% 67%
+Not available up to standard in 2 (100%) out of 2 gov- 100%100%50% Not available up to standard in 3 (100%) out of 3 gov- 100%67% 67%
+ernmental hospitals expected to provide the service. ernmental hospitals expected to provide the service.
+Cancer treatment 100% Chemotherapy 100%
+services
+Not available up to standard in 1 (100%) out of 1 gov- 100% 100% Not available up to standard in 1 (100%) out of 1 gov- 100%100%100%
+ernmental hospital expected to provide the service. ernmental hospital expected to provide the service.
+Radiological Hematological and
+100% 100%
+treatment oncohematological
+Not available up to standard in 1 (100%) out of 1 gov- 100%100%100% care in all settings Not available up to standard in 1 (100%) out of 1 gov- 100%100%100%
+ernmental hospital expected to provide the service. ernmental hospital expected to provide the service.
+This analysis was produced based on the information reported into HeRAMS up to 31 July 2025 and while the the Notes:
+d is e p p r l o o d y u m c e e n d t s o o f l e H l e y R fo A r M t S h , e i n p c u l r u p d o in se g s d o a f t i a n v fo e r r m ifi i c n a g t i o o p n e a r n at d io v n a s li . dation, continue. Hence, this analysis is not final and 1. T w h a e s a li n m a i l t y e s d is t o o f g b o a v r e ri r e n r m s i e m n p ta e l d h in o g s p s i e t r a v ls ic w es h a e v re a i t la h b e i l r i e ty s , p c e a c u ti s v e e s i o n f d d ic a a m to a r g w e, a n s o n n o - t f u a n v c a t i i l o a n b a le li t u y p a t n o d s i t n a a n c d c a e r s d s . i b O il n it ly y
+This report is a subset of the “All Hospitals” report, focusing exclusively on governmental hospitals data that is a the top three most frequently reported barriers are presented for each indicator.
+subset from 15 general and specialized hospitals operated by governmental and non-governmental organizations 2. The analysis of basic amenities follows the same approach as barriers and was restricted to governmental
+(NGOs). Originally, there were 16 hospitals, but Al-Nasr and Al-Rantisi hospitals have since merged into a single hospitals where the indicator was at least partially available.
+facility. 3. The analysis of individual services excludes governmental hospitals reporting a service as “not normally pro-
+The designations employed and the presentation of the material in this report do not imply the expression of any vided.” Consequently, the total number of governmental hospitals included in the analysis varies by service.
+opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city, or area or of its
+authorities, or concerning the delimitation of its frontiers or boundaries. Dotted lines on maps represent approxi-
+mate border lines for which there may not yet be full agreement.
+Data source: HeRAMS occupied
+Palestinian territory
+Date data: 31 July 2025
+Date created: 04 August 2025
+Contact: herams@who.int 20
+occupied Palestinian territory
+Gaza Strip
+SNAPSHOT JULY 2025
+Field hospitals*
+FIELD HOSPITAL STATUS MAIN CAUSES OF...
+Building damage
+Out of 11 field hospitals evaluated.
+7 Intact
+The primary cause of building damage as reported by 2 partially
+2 Partially damaged damaged field hospitals.
+0 Destroyed
+Building condition 2 Not relevant 100 % Insecurity
+9 Intact
+2 Partially damaged
+Equipment
+condition 0 Destroyed
+0 Functioning
+8 Partially Functioning Equipment damage
+3 Non-Functioning
+Functionality 0 Destroyed T d h am e p ag ri e m d a f r ie y l d ca h u o s s e p o it f a e ls q . uipment damage as reported by 2 partially
+6 2 P A a cc rt e ia ss ll i y b a le ccessible 100 % Insecurity
+0 Not accessible
+Accessibility 3 Destroyed / Non-
+Functioning
+73 NORTH GAZA Functionality constraints
+%
+The 3 primary causes of functionality constraints as reported by 8
+partially functioning and 3 non-functioning field hospitals.
+73 % Lack of supplies
+“8 (73%) out of 11 field
+hospitals evaluated are at
+least partially functioning.” 64 % Lack of equipment
+IMC Field
+Hospital -
+GAZA CITY
+AlZawida 27 % Lack of staff
+Al-Zwayda
+field hospital
+Accessibility constraints
+IMC #2 field hospital
+- Dier Al-Balah The 3 primary causes of accessibility constraints as reported by 6
+partially accessible field hospitals.
+MSF-France
+f D ie e ld ir h A o l- s B p a it la a h l - DEIR AL-BALAH 83 % Other physical barriers
+50 % Insecurity
+KHAN YOUNIS
+33 % Information barriers
+Functioning
+UK MED field Partially functioning Major support Partially support
+hospital Non-functioning Partner Support** No support
+Indonesian Destroyed
+field hospital 12% 62% 25%
+hospital The number of points displayed on the map
+is based on facilities with coordination. Partner support types
+Any missing facility indicates a lack of Out of 6 field hospitals supported by partners.
+RAFAH coordinates. 83 % P o eq f r o m u v ip e is d m io ic e n a n l t 50 % P op ro e v ra is t i i o o n n a o l f costs
+83 %NP
+m
+or
+e
+ot
+d
+yv
+i
+ip
+c
+s
+a
+ieo
+l
+ns
+su
+oo
+p
+ff
+p l
+s
+ie
+u
+s
+pport re5p0or%tedP
+he
+ro
+a
+v
+lt
+i
+h
+si o
+st
+n
+a ff
+of
+67 %Training of 50 % Provision of
+health staff health services
+* This infographic provides special insights on services provided by field hospitals deployed in across the Gaza Strip. Three function-
+ing reporting entities have opted not to share their data in compliance with data privacy laws enforced by their respective NGOs or 33 %Governance /
+were unable to provide information beyond the hospital status section. This restriction is in place to protect sensitive information Oversight
+and adhere to organizational policies on data confidentiality. Consequently, while these entities do exist and provide health ser-
+vices, their data has not been included in this report.
+** Out of 8 field hospitals, field hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore excluded
+from this section as reporting ends upon confirmation of their inability to provide any health services.
+21
+BASIC AMENITIES*
+Available Partially available Not available Not normally provided
+Inpatient bed capacity WASH
+Water
+Availablity Number of
+available beds 50 % 50% 50%
+ICU beds 25% 12% 38% 25%
+20
+N
+w
+o
+at
+t
+e
+a
+r
+v
+a
+a
+v
+il
+a
+a
+i
+b
+la
+le
+b l
+u
+e
+p
+.
+to standard in 4 (50%) out of 8 field hospitals expected to have
+Out of 6 field hospitals expected to provide intensive care beds 4
+(66.7%) do not have sufficient bed capacity. Main water sources
+Out of 8 field hospitals where water is at least partially available.
+Maternity beds 12% 25% 38% 25%
+35
+Out of 6 field hospitals expected to provide maternity beds 5 (83.3%) Tanker truck 38 % Other 25 % Piped N S et u w p o p r l k y 12 %
+do not have sufficient bed capacity.
+Sanitation facilities
+General inpatient
+beds 50% 50% 529 62 % 38% 62%
+Out of 8 field hospitals expected to provide inpatient beds 4 (50%) do Not available up to standard in 5 (62.5%) out of 8 field hospitals expected to
+not have sufficient bed capacity. have sanitation facilities.
+Out of 8 field hospitals where sanitation facilities is at least partially available.
+Incubators 12% 25% 50% 12%
+10
+Out of 7 field hospitals expected to provide incubators 6 (85.7%) do Sanitation facilities types*
+not h E av m e s e u r ff g ic e ie n n c t y be d capacity. F s l y t u o s s t h e p m / ip p e o o d u r r s s e e fl p w u t s e i h c r |50 % C V o l e v a n e t r r t e i i n l d a e t P e o d i r t |38 % Other |38 %
+room beds
+50% 50%
+97
+tank Improved Pit
+Sanitation facilities accessibility*
+Out of 8 field hospitals expected to provide emergency room beds 4
+(50%) do not have sufficient bed capaci M ty. ain barriers* s G e e p n t a o d ra i e le t r e t - |100 % D st e a d ff i c t a o t i e le d t |88 % pe T o o m p i l l l i o e e m t b w s i i t l f i e i o t t d h y r |25 %
+Hand hygiene
+m L e a d ck ic o a f l |86 % No ba m r L r e a i d c e k ic r o a s f l r | e 7 po 1 r % ted Lack of staff |57 % N 5 ot 0 ava % ilab le up to standar 5 d 0 in % 4 (50%) out of 8 field hosp 5 it 0 al % s expected to maintain
+equipment supplies hand hygiene practices.
+Waste management Environmental cleaning
+Waste segregation 50 % 50% 50%
+50 % 50% 50% Not available up to standard in 4 (50%) out of 8 field hospitals expected to
+maintain environmental cleaning practices.
+Not available up to standard in 4 (50%) out of 8 field hospitals expected to
+maintain waste segregation practices.
+Personal Protective Equipment (PPE)
+Final disposal of sharps
+38 % 62% 38% 50 % 50% 50%
+Not available up to standard in 4 (50%) out of 8 field hospitals expected to have
+Not available up to standard in 3 (37.5%) out of 8 field hospitals expected to personal protective equipment.
+dispose of sharps.
+Final disposal of infectious waste Communication
+38 % 62% 38% 62 % 38% 62%
+Not available up to standard in 3 (37.5%) out of 8 field hospitals
+expected to dispose of infectious waste. Not available up to standard in 5 (62.5%) out of 8 field hospitals expected to
+have communication means.
+Waste disposal methods Communication equipment types
+Out of 8 field hospitals where final disposal of sharps or infectious waste are at least Out of 8 field hospitals where communication is at least partially available.
+partially available.
+di m sp C e o o d s l i l c a e a l c l o t w e ff d - a s s f i o t t e e r |62 % tw I o n c c i h n a e m ra b te e d r |25 % Others |25 % Mobile phone |88 % Computer |75 % Other |12 %
+Transportation of patients
+Power
+50 % 50% 50% 62 % 38% 50% 12%
+Not available up to standard in 4 (50%) out of 8 field hospitals expected to Not available up to standard in 5 (62.5%) out of 8 field hospitals expected to
+have power available. have means for patient transportation.
+Power sources Transportation types
+Out of 8 field hospitals where power is at least partially available. Out of 7 field hospitals where transportation of patients is at least partially available.
+Generator |100 % Solar |38 % Ambul P a R n C c S e |57 % Amb F u a la c n ili c t e y |43 % Car |14 %
+Health information management systems
+Cold chain
+Facility-based diseases reporting systems (e.g., EWARS, etc.)
+67 % 25% 38% 12% 25% 40 % 38% 12% 12% 38%
+Not available up to standard in 4 (66.7%) out of 6 field hospitals
+expected to have cold chain capacity. Not available up to standard in 2 (40%) out of 5 field hospitals where the
+information system is expected.
+Cold chain sources
+Out of 5 field hospitals where cold chain is at least partially available. Facility-based information system (e.g., DHIS2, Avicena, etc.)
+|100 |20 57 % 38% 38% 12% 12%
+Generator % Solar %
+Not available up to standard in 4 (57.1%) out of 7 field hospitals where the
+information system is expected.
+* Out of 8 field hospitals, field hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are
+therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+22
+ESSENTIAL HEALTH SERVICES*
+Service domain overview
+Available Partially available Not available Not normally provided
+General clinical and Child health and Communicable Sexual and NCD and mental
+trauma care nutrition diseases reproductive health health
+29% 24% 11% 17% 12%
+39% 21% 12% 15% 10%
+11% 2% 9% 7% 4%
+21% 52% 67% 61% 74%
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+General clinical and emergency care services
+Recognition of 60% 40% Acuity-based 57% 43%
+danger signs Not available up to standard in 2 (40%) out of 5 field 100%100%50% formal triage Not available up to standard in 3 (42.9%) out of 7 field 100%100%33%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Initial syndrome- 38% 62% WHO basic 38% 62%
+based management emergency care
+Not available up to standard in 5 (62.5%) out of 8 field 100%60% 40% Not available up to standard in 5 (62.5%) out of 8 field 100%80% 40%
+at scene
+hospitals expected to provide the service. hospitals expected to provide the service.
+Advanced syn- 25% 75% Monitored 50% 50%
+drome-based referral
+Not available up to standard in 6 (75%) out of 8 field 83% 67% 33% Not available up to standard in 4 (50%) out of 8 field 100%100%25%
+management
+hospitals expected to provide the service. hospitals expected to provide the service.
+Referral capacity 50% 38% 12% Acceptance of 38% 62%
+referrals
+Not available up to standard in 4 (50%) out of 8 field 100%50% 50% Not available up to standard in 5 (62.5%) out of 8 field 100%80% 40%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Acceptance 33% 33% 33% Essential 33% 67%
+of c r o ef m er p ra le l x s N ho o s t p a i v ta a l i s la e b x l p e e u c p t e to d s to ta p n r d o a v r i d d e in t h 4 e ( 6 s 6 e . r 7 v % ice ) . out of 6 field 100%100%50% servic h e e s a p lt r h im ca a r r e y N ho o s t p a i v ta a l i s la e b x l p e e u c p t e to d s to ta p n r d o a v r i d d e in t h 4 e ( 6 s 6 e . r 7 v % ice ) . out of 6 field 100%50% 25%
+Specialized
+services at 29% 57% 14% Home visits
+primary health Not available up to standard in 5 (71.4%) out of 7 field 100%80% 40% Not expected in any operational field hospital.
+care hospitals expected to provide the service.
+Minor trauma 29% 57% 14% Emergency 25% 62% 12%
+definitive department
+Not available up to standard in 5 (71.4%) out of 7 field 100% 60% Not available up to standard in 6 (75%) out of 8 field 100%67% 33%
+management
+hospitals expected to provide the service. hospitals expected to provide the service.
+Inpatient surgery Inpatient surgery
+ward with at least 62% 25% 12% ward with at least 62% 25% 12%
+one operating Not available up to standard in 3 (37.5%) out of 8 field 100%100%33% two operating Not available up to standard in 3 (37.5%) out of 8 field 100%67% 67%
+theater hospitals expected to provide the service. theatres hospitals expected to provide the service.
+Burns treatment 33% 50% 17% Orthopedic/ 38% 50% 12%
+trauma ward
+Not available up to standard in 4 (66.7%) out of 6 field 100%50% 50% Not available up to standard in 5 (62.5%) out of 8 field 100%100%20%
+hospitals expected to provide the service. hospitals expected to provide the service.
+20 Inpatient bed 50% 50% 50 Inpatient bed 43% 29% 29%
+capacity Not available up to standard in 4 (50%) out of 8 field 100%100%25% capacity Not available up to standard in 4 (57.1%) out of 7 field 100%75% 75%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Inpatient 25% 50% 25% Intensive care 50% 25% 25%
+critical care unit
+Not available up to standard in 6 (75%) out of 8 field 83% 83% 50% Not available up to standard in 2 (50%) out of 4 field 100%100%50%
+management
+hospitals expected to provide the service. hospitals expected to provide the service.
+Basic laboratory 25% 62% 12% Secondary 12% 50% 38%
+services Not available up to standard in 6 (75%) out of 8 field 83% 83% 33% laboratory Not available up to standard in 7 (87.5%) out of 8 field 100%86% 43%
+services
+hospitals expected to provide the service. hospitals expected to provide the service.
+* Out of 8 field hospitals, field hospitals reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are
+therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+23
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Tertiary 12% 38% 50% Blood bank 20% 60% 20%
+laboratory services
+Not available up to standard in 7 (87.5%) out of 8 field 86% 57% 43% Not available up to standard in 4 (80%) out of 5 field 75% 50% 50%
+services
+hospitals expected to provide the service. hospitals expected to provide the service.
+Hemodialysis 100% Basic X-ray 43% 43% 14%
+unit Not available up to standard in 1 (100%) out of 1 field 100%100%100% service Not available up to standard in 4 (57.1%) out of 7 field 100%50% 25%
+hospital expected to provide the service. hospitals expected to provide the service.
+Comprehensive 17% 50% 33% CT scan
+X-ray service
+Not available up to standard in 5 (83.3%) out of 6 field 100% 20% Not expected in any operational field hospital.
+hospitals expected to provide the service.
+MRI Procedures for 25% 62% 12%
+Not expected in any operational field hospital. mass casualty Not available up to standard in 6 (75%) out of 8 field 100%83% 33%
+scenarios
+hospitals expected to provide the service.
+Child health and nutrition services
+Integrated
+Pediatric first 43% 57% management 75% 25%
+aid of newborn and
+Not available up to standard in 4 (57.1%) out of 7 field 100%75% 25% childhood illnesses Not available up to standard in 1 (25%) out of 4 field 100% 100%
+hospitals expected to provide the service. (IMNCI) hospitals expected to provide the service.
+Management of
+IMNCI Un C d l e in r i 5 c Not availab 5 le 0 u % p to standard in 2 (50% 5 ) 0 o % ut of 4 field 100%50% 50% ch a i s ld s r e e v n e r c e la o s r s i v fi e e r d y Not avai 4 la 0 bl % e up to standard in 3 (6 6 0 0 % % ) out of 5 field 100%100%33%
+hospitals expected to provide the service. severe diseases hospitals expected to provide the service.
+Inpatient surgical 100% Expanded 67% 33%
+care for newborns Not available up to standard in 1 (100%) out of 1 field 100% 100% programme on Not available up to standard in 1 (33.3%) out of 3 field 100% 100%
+and children immunization
+hospital expected to provide the service. hospitals expected to provide the service.
+Info
+a
+rm
+nd
+a t
+c
+i
+o
+o
+m
+n,
+m
+ed
+u
+u
+n
+c
+ic
+a
+a
+t
+t
+io
+io
+n
+n
+, 67% 33% Growth monitoring 50% 50%
+on infant, young, Not available up to standard in 1 (33.3%) out of 3 field 100% 100% Not available up to standard in 2 (50%) out of 4 field 100%100%50%
+and child feeding
+hospitals expected to provide the service. hospitals expected to provide the service.
+Integrated Stabilization
+management 50% 25% 25% center for 33% 33% 33%
+of acute Not available up to standard in 2 (50%) out of 4 field 100%100%50% severe acute Not available up to standard in 2 (66.7%) out of 3 field 100%100%50%
+malnutrition hospitals expected to provide the service. malnutrition hospitals expected to provide the service.
+Communicable diseases
+Syndromic 50% 50% Event-based 67% 33%
+surveillance Not available up to standard in 2 (50%) out of 4 field 100%50% 50% surveillance Not available up to standard in 1 (33.3%) out of 3 field 100% 100%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Diagnosis and
+treatment of 100% Multidrug- 100%
+tuberculosis Not available up to standard in 1 (100%) out of 1 field 100% 100% resistant of Not available up to standard in 1 (100%) out of 1 field 100% 100%
+cases hospital expected to provide the service. tuberculosis hospital expected to provide the service.
+Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 67% 33% Locally relevant 33% 67%
+on local priority Not available up to standard in 1 (33.3%) out of 3 field 100% 100% diseases Not available up to standard in 3 (100%) out of 3 field 100%33% 33%
+diseases
+hospitals expected to provide the service. hospitals expected to provide the service.
+Isolation unit or 33% 67% Management of 33% 67%
+room severe/ compli-
+Not available up to standard in 2 (66.7%) out of 3 field 100%50% 50% Not available up to standard in 3 (100%) out of 3 field 100%33% 33%
+cated diseases
+hospitals expected to provide the service. hospitals expected to provide the service.
+Sexual and reproductive health
+Free access to 33% 33% 33% Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 33% 33% 33%
+condoms on STI/HIV
+Not available up to standard in 2 (66.7%) out of 3 field Not available up to standard in 2 (66.7%) out of 3 field
+100% 50% 50%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Syndromic
+management of 33% 33% 33% HIV counselling 100%
+sexu
+i
+a
+n
+l
+f
+l
+e
+y
+c
+t
+t
+r
+i
+a
+o
+n
+n
+s
+s
+m
+(S
+it
+T
+te
+Is
+d
+)
+Not available up to standard in 2 (66.7%) out of 3 field 100% and testing Not available up to standard in 1 (100%) out of 1 field 100% 100%
+hospitals expected to provide the service. hospital expected to provide the service.
+Prevention of
+mother-to-child Antiretroviral 33% 67%
+treatment
+HIV transmission Not expected in any operational field hospital. Not available up to standard in 2 (66.7%) out of 3 field 100%
+hospitals expected to provide the service.
+Family planning 75% 25% Family planning 50% 50%
+- pregnancy test - contraceptive
+Not available up to standard in 1 (25%) out of 4 field 100% Not available up to standard in 2 (50%) out of 4 field 100% 50%
+methods
+hospitals expected to provide the service. hospitals expected to provide the service.
+24
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Antenatal care 50% 50% Skilled 25% 50% 25%
+care during
+N
+ho
+o
+s
+t
+p
+a
+i
+v
+ta
+a
+l
+i
+s
+la
+e
+b
+x
+l
+p
+e
+e
+u
+c
+p
+te
+t
+d
+o
+t
+s
+o
+t a
+p
+n
+ro
+d
+v
+a
+i
+r
+d
+d
+e
+i n
+th
+2
+e s
+(5
+e
+0
+rv
+%
+ic
+)
+e
+o
+.
+ut of 4 field
+100%100%50% childbirth
+N
+ho
+o
+s
+t
+p
+a
+i
+v
+ta
+a
+l
+i
+s
+la
+e
+b
+x
+l
+p
+e
+e
+u
+c
+p
+te
+t
+d
+o
+t
+s
+o
+t a
+p
+n
+ro
+d
+v
+a
+i
+r
+d
+d
+e
+i n
+th
+3
+e s
+(7
+e
+5
+rv
+%
+ic
+)
+e
+o
+.
+ut of 4 field 100%33% 33%
+Basic 25% 50% 25% Comprehensive 25% 50% 25%
+emergency Not available up to standard in 3 (75%) out of 4 field 100%100%33% emergency Not available up to standard in 3 (75%) out of 4 field 100%67% 33%
+obstetric care obstetric care
+hospitals expected to provide the service. hospitals expected to provide the service.
+Postpartum care 67% 33% Comprehensive 25% 50% 25%
+abortion care
+Not available up to standard in 1 (33.3%) out of 3 field 100% 100% Not available up to standard in 3 (75%) out of 4 field
+100%100%33%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Clinical 67% 33% Emergency 67% 33%
+management of Not available up to standard in 1 (33.3%) out of 3 field 100%100%100% contraception Not available up to standard in 1 (33.3%) out of 3 field 100%
+rape survivors hospitals expected to provide the service. hospitals expected to provide the service.
+Post-exposure 67% 33%
+prophylaxis
+Not available up to standard in 1 (33.3%) out of 3 field 100%
+hospitals expected to provide the service.
+Noncommunicable diseases and mental health
+Promote self-care 67% 33% Noncommunicable 67% 33%
+diseases clinic
+Not available up to standard in 1 (33.3%) out of 3 field 100%100%100% Not available up to standard in 1 (33.3%) out of 3 field 100%
+hospitals expected to provide the service. hospitals expected to provide the service.
+Asthma and
+chronic obstructive 50% 50% Hypertension 75% 25%
+c
+p
+la
+u
+s
+l
+s
+m
+ifi
+o
+ca
+n
+ti
+a
+o a
+r
+n n
+y
+, d t
+d
+f r o e
+i
+l a
+s
+l t o
+e
+m w
+a
+e
+s
+u n
+e
+p t h
+N
+o
+o
+s
+t
+p
+a
+i
+v
+ta
+a
+l
+i
+s
+la
+e
+b
+x
+l
+p
+e
+e
+u
+c
+p
+te
+t
+d
+o
+t
+s
+o
+t a
+p
+n
+ro
+d
+v
+a
+i
+r
+d
+d
+e
+i n
+th
+2
+e s
+(5
+e
+0
+rv
+%
+ic
+)
+e
+o
+.
+ut of 4 field 100% 50% ma e n ar a l g y
+c
+e d
+o
+m e
+u
+t e
+n
+e n
+s
+c t
+e
+t a i
+l
+o
+i
+n
+n
+n d
+g
+, N
+ho
+o
+s
+t
+p
+a
+i
+v
+ta
+a
+l
+i
+s
+la
+e
+b
+x
+l
+p
+e
+e
+u
+c
+p
+te
+t
+d
+o
+t
+s
+o
+t a
+p
+n
+ro
+d
+v
+a
+i
+r
+d
+d
+e
+i n
+th
+1
+e s
+(2
+e
+5
+rv
+%
+ic
+)
+e
+o
+.
+ut of 4 field 100%
+man e a a g r D l e y m i d a e e n b te t e , c f t t o io e o n t s - , Not availab 5 le 0 u % p to standard in 2 (50% 5 ) 0 o % ut of 4 field 100% In r p e a h t a ie b n il t i t a a c t u io t n e Not availab 5 le 0 u % p to standard in 2 2 5 ( % 50%) out 2 o 5 f 4 % field 100% 50%
+care, and counseling hospitals expected to provide the service. hospitals expected to provide the service.
+Outpatient 25% 50% 25% Prosthetics and 33% 33% 33%
+rehabilitation orthotics
+Not available up to standard in 3 (75%) out of 4 field 67% 33% 33% Not available up to standard in 2 (66.7%) out of 3 field 100% 100%
+services
+hospitals expected to provide the service. hospitals expected to provide the service.
+Oral health and 100% Psychological 75% 25%
+dental care first aid
+Not available up to standard in 1 (100%) out of 1 field 100%100%100% Not available up to standard in 1 (25%) out of 4 field 100% 100%
+hospital expected to provide the service. hospitals expected to provide the service.
+Management of 25% 50% 25% Inpatient care for 100%
+mental disorders management of
+Not available up to standard in 3 (75%) out of 4 field 67% 33% 33% Not available up to standard in 1 (100%) out of 1 field 100% 100%
+mental disorders
+hospitals expected to provide the service. hospital expected to provide the service.
+Cancer Primary cancer 100%
+diagnostics screening
+services Not expected in any operational field hospital. (non-instrumental Not available up to standard in 1 (100%) out of 1 field 100% 100%
+methods) hospital expected to provide the service.
+Mammography Colonoscopy 100%
+Not expected in any operational field hospital. Not available up to standard in 1 (100%) out of 1 field 100% 100%
+hospital expected to provide the service.
+Cancer treatment Chemotherapy
+services
+Not expected in any operational field hospital. Not expected in any operational field hospital.
+Radiological Hematological and
+treatment oncohematological
+Not expected in any operational field hospital. Not expected in any operational field hospital.
+care in all settings
+This analysis was produced based on the information reported into HeRAMS up to 31 July 2025 and while the the Notes:
+d is e p p r l o o d y u m c e e n d t s o o f l e H l e y R fo A r M t S h , e i n p c u l r u p d o in se g s d o a f t i a n v fo e r r m ifi i c n a g t i o o p n e a r n at d io v n a s li . dation, continue. Hence, this analysis is not final and 1. T w h a e s a li n m a i l t y e s d is t o o f f i b e a ld rr h ie o r s s p i i m ta p ls e w di h n e g r e se t r h v e ic r e e s s p a e v c a t i i l v a e b i i l n it d y i , c c a a to u r s e w s a o s f n d o a t m av a a g i e la , b n l o e n u - p fu t n o c s t t i a o n n d a a li r t d y . a O n n d l y in t a h c e c t e o s p s i t b h i r li e t e y
+There are currently 14 field hospitals serving Gaza. Of those, three functioning reporting entities have opted not to most frequently reported barriers are presented for each indicator.
+share their data in compliance with data privacy laws enforced by their respective NGOs or were unable to provide 2. The analysis of basic amenities follows the same approach as barriers and was restricted to field hospitals
+information beyond the hospital status section. This restriction is in place to protect sensitive information and where the indicator was at least partially available.
+a h d ea h l e t r h e s t e o r v o i r c g e a s n , i t z h a e t i i r o d n a a t l a p h o a li s c i n e o s t o b n e d e a n t i a n c c o lu n d fi e d d e i n n t i t a h l i i s ty r . e C p o o n rt s . equently, while these entities do exist and provide 3. T se h q e u a e n n a t l l y y s , i t s h o e f t i o n t d a i l v n id u u m a b l s e e r r o v f i c fi e e s l d e x h c o lu sp d i e t s a l f s ie in ld c l h u o d s e p d it i a n l s t h re e p a o n r a ti l n y g si s a v s a e r r i v e i s c e b y a s s e “ r n v o ic t e n . ormally provided.” Con-
+The designations employed and the presentation of the material in this report do not imply the expression of any
+opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city, or area or of its
+authorities, or concerning the delimitation of its frontiers or boundaries. Dotted lines on maps represent approxi-
+mate border lines for which there may not yet be full agreement.
+Data source: HeRAMS occupied
+Palestinian territory
+Date data: 31 July 2025
+Date created: 04 August 2025
+Contact: herams@who.int 25
+occupied Palestinian territory
+Gaza Strip
+SNAPSHOT JULY 2025
+Government primary healthcare centers (PHCs)*
+PHC STATUS** MAIN CAUSES OF...
+Building damage
+Out of 56 government PHCs evaluated.
+15 Intact
+The 3 primary causes of building damage as reported by 18 partially
+18 Partially damaged damaged and 23 fully damaged government PHCs.
+23 Destroyed
+Building condition 100 % Insecurity
+15 Intact 5 % Other
+11 Partially damaged
+Equipment
+30 Fully damaged
+condition 2 Geohazard events
+%
+1 Functioning
+11 Partially functioning Equipment damage
+21 Non-functional
+Functionality The 3 primary causes of equipment damage as reported by 11
+23 Destroyed partially damaged and 30 fully damaged government PHCs.
+11 Accessible 95 % Insecurity
+1 Partially accessible
+0 Inaccessible
+Accessibility 44 Destroyed / Non- 7 % Lack of maintenance
+Functioning
+5 Other
+%
+21 Functionality constraints
+% NORTH GAZA
+The 3 primary causes of functionality constraints as reported by 11
+partially functioning and 21 non-functioning government PHCs.
+56 % Insecurity
+“Only 12 (21%) out of 56
+government PHCs evaluated
+are partially functioning.” 38 % Lack of equipment
+38 Damages to the facility
+GAZA CITY %
+Accessibility constraints
+The primary cause of accessibility constraints as reported by 1
+partially accessible government PHC.
+DEIR AL-BALAH 100 % Insecurity
+KHAN YOUNIS
+Fully functioning
+Partially functioning
+Partner Support** Major support Partially support
+Non-functioning No support
+Destroyed
+8% 42% 50%
+The number of points displayed on
+the map is based on facilities with Partner support types
+coordination. Any missing facility Out of 6 government PHCs supported by partners.
+indicates a lack of coordinates.
+100 Provision of 50 Training of
+%medical supplies % health staff
+RAFAH
+50 %N G Oo o v te v y e rs r pi n ge a h n st c o e f / support re5p0or%ted P op ro e v ra is t i i o o n n a o l f costs
+50 Provision 50 Provision of
+% of medical % health staff
+equipment
+50 Provision of
+% health services
+* This infographic provides insights on governmental health centers and focuses on a limited number of services deemed priority for PHCs.
+** Out of 12 government PHCs, government PHCs reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore
+excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+26
+BASIC AMENITIES*
+Available Partially available Not available Not normally provided
+Inpatient bed capacity WASH
+Water
+Availablity Number of
+available beds 42 % 58% 33% 8%
+Emergency Not available up to standard in 5 (41.7%) out of 12 govern-
+room beds 8% 25% 8% 58% 14 ment PHCs expected to have water available.
+Out of 5 government PHCs expected to provide emergency room beds Main water sources
+4 (80%) do not have sufficient bed capacity. Out of 11 government PHCs where water is at least partially available.
+Main barriers*
+Piped Supply 73 Tube well/ 36 Protected dug 36
+Network % borehole % well %
+No barriers reported
+Lack
+e
+o
+q
+f
+u
+m
+ip
+e
+m
+di
+e
+c
+n
+a
+t
+l |100
+% s m u
+L
+p e
+a
+d
+c
+p
+k
+i l c i e
+o
+a s
+f
+l
+|75
+% re fi s n
+L
+o a
+a
+u n
+c
+r
+k
+c c i e
+o
+a s
+f
+l
+|50
+%
+Sanit
+4
+at
+2
+ion
+%
+fa cilities
+58% 33% 8%
+Waste management Not available up to standard in 5 (41.7%) out of 12 government PHCs
+expected to have sanitation facilities.
+Waste segregation
+Out of 11 government PHCs where sanitation facilities is at least partially available.
+42 % 58% 25% 17% Sanitation facilities types*
+Not available up to standard in 5 (41.7%) out of 12 government PHCs
+expected to maintain waste segregation practices. Flush/pour
+f
+s
+lu
+e
+s
+w
+h
+e
+t
+r
+o
+s y
+p
+s
+i
+t
+p
+e
+e
+m
+d 91
+%
+Compo
+t
+s
+o
+t
+i
+i
+l
+n
+e
+g
+t
+18
+%
+Final disposal of sharps or septic tank
+Sanitation facilities accessibility*
+42
+% 58% 8% 33%
+Toilets for
+N to o d t i a s v p a o i s la e b o le f s u h p a r t p o s s . tandard in 5 (41.7%) out of 12 government PHCs expected D st e a d ff i c t a o t i e le d t 91 % separa G te e n to d i e le r t - 73 % peop l l i e m w it i e t d h 36 %
+mobility
+Hand hygiene
+Final disposal of infectious waste
+36 % 58% 8% 25% 8% 58 % 42% 58%
+Not available up to standard in 7 (58.3%) out of 12 government
+Not available up to standard in 4 (36.4%) out of 11 government PHCs expected to maintain hand hygiene practices.
+PHCs expected to dispose of infectious waste.
+Environmental cleaning
+Out of 8 government PHCs wh W er a e s f t in e a d l d is is p po o s s a a l l o f m sh e a t r h ps o o d r s infectious waste are at least 75 % 25% 75%
+partially available.
+Not available up to standard in 9 (75%) out of 12 government PHCs
+Collected expected to maintain environmental cleaning practices.
+Incinerated other 62 % Others 38 %was f t o e r d m is e p d o ic s a al l 12 %
+off-site Personal Protective Equipment (PPE)
+Power
+75
+67 % 33% 67% % 25% 75%
+Not available up to standard in 9 (75%) out of 12 government PHCs
+Not available up to standard in 8 (66.7%) out of 12 government PHCs expected to have personal protective equipment.
+expected to have power available.
+Power sources Communication
+Out of 12 government PHCs where power is at least partially available.
+92 % 8% 83% 8%
+100 50
+Generator % Solar %
+Not available up to standard in 11 (91.7%) out of 12 government PHCs
+expected to have communication means.
+Cold chain
+Communication equipment types
+Out of 11 government PHCs where communication is at least partially available.
+50 % 50% 33% 17%
+Not available up to standard in 6 (50%) out of 12 government PHCs 73 45 9
+expected to have cold chain capacity. Mobile phone % Computer % Telephone %
+Cold chain sources Transportation of patients
+Out of 10 government PHCs where cold chain is at least partially available.
+100 50
+44 % 42% 17% 17% 25%
+Generator % Solar %
+Not available up to standard in 4 (44.4%) out of 9 government PHCs
+expected to have means for patient transportation.
+Health Information Management Systems
+Transportation types
+Facility-based diseases reporting systems (e.g., EWARS, etc.) Out of 7 government PHCs where transportation of patients is at least partially avail-
+100 able.
+%
+71 Facility 14 Private 14
+Not available up to standard in 7 (100%) out of 7 government PHCs Other % Ambulance % ambulance %
+where the information system is expected.
+Facility-based information system (e.g., DHIS2, Avicena, etc.)
+100 % 50% 17% 33%
+Not available up to standard in 8 (100%) out of 8 government PHCs
+where the information system is expected.
+* Out of 12 government PHCs. government PHCs reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are
+therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+27
+ESSENTIAL HEALTH SERVICES*
+Service domain overview
+Available Partially available Not available Not normally provided
+General clinical and Child health and Communicable Sexual and NCD and mental
+trauma care nutrition diseases reproductive health health
+16% 21% 25% 4% 13%
+31% 56% 31% 24% 33%
+3% 0% 0% 2% 3%
+50% 22% 44% 70% 51%
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+General clinical and emergency care services
+Recognition of 57% 29% 14% Acuity-based 100%
+danger signs Not available up to standard in 3 (42.9%) out of 7 67% 67% 33% formal triage Not available up to standard in 4 (100%) out of 4 100%75% 50%
+government PHCs expected to provide the service. government PHCs expected to provide the service.
+Initial syndrome- 75% 25% WHO basic 22% 78%
+based management emergency care
+Not available up to standard in 4 (100%) out of 4 100%75% 25% Not available up to standard in 7 (77.8%) out of 9 100%86% 14%
+at scene government PHCs expected to provide the service. government PHCs expected to provide the service.
+Advanced Syn- 100% Monitored 86% 14%
+drome-based referral
+Not available up to standard in 3 (100%) out of 3 100%100%33% Not available up to standard in 1 (14.3%) out of 7 100%100%100%
+management
+government PHCs expected to provide the service. government PHCs expected to provide the service.
+Referral capacity 71% 29% Acceptance of
+referrals
+Not available up to standard in 2 (28.6%) out of 7 100%100%50% Not expected in any operational government PHC.
+government PHCs expected to provide the service.
+Specialized
+Essential 20% 80% services at 11% 89%
+services primary Not available up to standard in 8 (80%) out of 10 100%50% 12% primary health Not available up to standard in 8 (88.9%) out of 9 100%38% 38%
+health care government PHCs expected to provide the service. care government PHCs expected to provide the service.
+Home visits 25% 50% 25% Minor trauma 50% 50%
+definitive
+Not available up to standard in 3 (75%) out of 4 gov- 100%67% 67% Not available up to standard in 5 (50%) out of 10 100%60% 40%
+ernment PHCs expected to provide the service. management government PHCs expected to provide the service.
+Basic laboratory 33% 67% Secondary
+services Not available up to standard in 6 (66.7%) out of 9 100%50% 17% laboratory Not expected in any operational government PHC.
+government PHCs expected to provide the service. services
+Comprehensive 67% 33% Basic X-ray 60% 40%
+X-ray service service
+Not available up to standard in 3 (100%) out of 3 67% 67% Not available up to standard in 5 (100%) out of 5 60% 60% 20%
+government PHCs expected to provide the service. government PHCs expected to provide the service.
+* Out of 12 government PHCs. government PHCs reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are
+therefore excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+28
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Child health and nutrition services
+Pediatric first 18% 82% Integrate
+o
+d
+f
+m
+ne
+a
+w
+n
+b
+a
+o
+ge
+rn
+m
+a
+e
+n
+n
+d
+t 20% 80%
+aid Not available up to standard in 9 (81.8%) out of 11 100% 67% childhood illnesses Not available up to standard in 8 (80%) out of 10 100% 62%
+government PHCs expected to provide the service. (IMNCI) government PHCs expected to provide the service.
+Management of
+IMNCI un c d l e in r i 5 c 45% 55% children classified 100%
+Not available up to standard in 6 (54.5%) out of 11 100% 33% as severe or very
+government PHCs expected to provide the service. severe diseases
+Not available up to standard in 1 (100%) out of 1 100%
+government PHC expected to provide the service.
+Expanded Information, education,
+programme on
+18% 82%
+and communication
+30% 70%
+immunization Not available up to standard in 9 (81.8%) out of 11 78% 44% 33% an o d n C In h fa il n d t F , e Yo ed u i n n g g , Not available up to standard in 7 (70%) out of 10 71% 57% 14%
+government PHCs expected to provide the service. government PHCs expected to provide the service.
+Integrated
+Growth monitoring 44% 56%
+management
+17% 83%
+Not available up to standard in 5 (55.6%) out of 9 80% 40% 20% of acute Not available up to standard in 5 (83.3%) out of 6 80% 60% 40%
+government PHCs expected to provide the service. malnutrition government PHCs expected to provide the service.
+Communicable diseases
+Syndromic 62% 38% Event-based 38% 62%
+surveillance Not available up to standard in 3 (37.5%) out of 8 100% 67% surveillance Not available up to standard in 5 (62.5%) out of 8 100%60% 40%
+government PHCs expected to provide the service. government PHCs expected to provide the service.
+Diagnosis and
+treatment of 29% 71% Multidrug- 100%
+tuberculosis Not available up to standard in 5 (71.4%) out of 7 100% 80% resistant of Available up to standard in all 1 government PHC
+cases government PHCs expected to provide the service. tuberculosis expected to provide the service.
+Information, education,
+on a n lo d c c o a m l m p u r n i i o ca r t i i t o y n 62% 38% Locally relevant 25% 75%
+diseases
+diseases Not available up to standard in 3 (37.5%) out of 8 100%100%33% Not available up to standard in 6 (75%) out of 8 gov- 100%100%33%
+ernment PHCs expected to provide the service.
+government PHCs expected to provide the service.
+Sexual and reproductive health
+Free access to 11% 78% 11% Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 100%
+condoms on STI/HIV
+Not available up to standard in 8 (88.9%) out of 9 Not available up to standard in 3 (100%) out of 3
+government PHCs expected to provide the service.
+100%25% 12%
+government PHCs expected to provide the service.
+67% 67% 67%
+Syndromic
+management of 100% HIV counselling
+sexu i a n l f l e y c t t r i a o n n s s m (S it T te Is d ) Not available up to standard in 2 (100%) out of 2 100%50% 50% and testing Not expected in any operational government PHC.
+government PHCs expected to provide the service.
+Prevention of
+mother-to-child 100% Antiretroviral 100%
+HIV transmission Not available up to standard in 1 (100%) out of 1 gov- 100% 100% treatment Not available up to standard in 1 (100%) out of 1 gov- 100%100%100%
+ernment PHC expected to provide the service. ernment PHC expected to provide the service.
+Family planning 89% 11% Family planning 11% 89%
+- pregnancy test Not available up to standard in 9 (100%) out of 9 100%44% 33% - contraceptive Not available up to standard in 8 (88.9%) out of 9 100%50% 25%
+government PHCs expected to provide the service. methods government PHCs expected to provide the service.
+Antenatal care 33% 67% Skilled
+care during
+Not available up to standard in 4 (66.7%) out of 6 Not expected in any operational government PHC.
+government PHCs expected to provide the service. 100%50% 25% childbirth
+Postpartum care 50% 50% Clinical 100%
+Not available up to standard in 2 (50%) out of 4 gov- 100%50% 50% management of Not available up to standard in 1 (100%) out of 1 gov- 100% 100%
+ernment PHCs expected to provide the service. rape survivors ernment PHC expected to provide the service.
+Emergency 25% 50% 25% Post-exposure 100%
+contraception prophylaxis
+Not available up to standard in 3 (75%) out of 4 gov- 100%100%67% Not available up to standard in 1 (100%) out of 1 gov- 100%100%100%
+ernment PHCs expected to provide the service. ernment PHC expected to provide the service.
+29
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Noncommunicable diseases and mental health
+Promote self-care 89% 11% Noncommunicable 25% 75%
+diseases clinic
+Not available up to standard in 9 (100%) out of 9 89% 78% 56% Not available up to standard in 6 (75%) out of 8 gov- 100%83% 67%
+government PHCs expected to provide the service. ernment PHCs expected to provide the service.
+Asthma and
+chronic obstructive 30% 70% Hypertension 55% 45%
+early detection,
+pulmonary disease Not available up to standard in 7 (70%) out of 10 100%57% 14% management and Not available up to standard in 5 (45.5%) out of 11 100%20% 20%
+classification, treatment government PHCs expected to provide the service. counseling government PHCs expected to provide the service.
+and follow up
+Diabetes 55% 45% Outpatient 100%
+early detection, rehabilitation
+management, foot- Not available up to standard in 5 (45.5%) out of 11 100%20% 20% Not available up to standard in 1 (100%) out of 1 gov- 100% 100%
+care, and counseling government PHCs expected to provide the service. services ernment PHC expected to provide the service.
+Prosthetics and Oral health and 14% 71% 14%
+orthotics Not expected in any operational government PHC. dental care Not available up to standard in 6 (85.7%) out of 7 100%83% 17%
+government PHCs expected to provide the service.
+Psychological 14% 71% 14%
+m
+M
+e
+a
+n
+n
+ta
+a
+l
+g
+d
+e
+i
+m
+so
+e
+r
+n
+d
+t
+e
+o
+rs
+f 80% 20%
+first aid Not available up to standard in 6 (85.7%) out of 7 100%33% 17% Not available up to standard in 5 (100%) out of 5 100%20% 20%
+government PHCs expected to provide the service.
+government PHCs expected to provide the service.
+Cancer 100% Primary cancer 50% 50%
+diagnostics screening
+services N g o o t v e a r v n a m il e a n b t l e P H u C p s t e o x p st e a c n te d d a r t d o p in ro 4 v i ( d 1 e 0 t 0 h % e s ) e o rv u i t c e o . f 4 75% 75% 50% (non-inst m ru e m th e o n d ta s) l e N r o n t m a e va n i t l a P b H le C s u e p x t p o e c st t a e n d d to ar p d r o in v i 2 d e (5 t 0 h % e s ) e o r u vi t c o e f . 4 gov- 100%50% 50%
+Mammography
+Not expected in any operational government PHC.
+This analysis was produced based on the information reported into HeRAMS up to 31 July 2025 and while the the Notes:
+deployment of HeRAMS, including data verification and validation, continue. Hence, this analysis is not final and 1. The analysis of barriers impeding services availability, causes of damage, non-functionality and inaccessibility
+is produced solely for the purposes of informing operations. was limited to government PHCs where the respective indicator was not available up to standard. Only the top
+There are currently 56 primary health care centers run by Ministry of Health (MOH) reporting to HeRAMS. Given the three most frequently reported barriers are presented for each indicator.
+fragility and instability of the Gaza Strip, the actual number of primary health centers available and providing ser- 2. The analysis of basic amenities follows the same approach as barriers and was restricted to government PHCs
+vice can fluctuate over time. About 30% of all health care service provision is provided by MOH in the Gaza Strip. where the indicator was at least partially available.
+The designations employed and the presentation of the material in this report do not imply the expression of any 3. The health services presented here constitute a sub-set of services monitored in HeRAMS. For the purpose of
+opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city, or area or of its this infographic, inclusion was limited those considered priorities for government PHCs in the current con-
+authorities, or concerning the delimitation of its frontiers or boundaries. Dotted lines on maps represent approxi- text. Additionally, the analysis of individual services excludes government PHCs reporting a service as “not nor-
+mate border lines for which there may not yet be full agreement. mally provided.” Consequently, the total number of government PHCs included in the analysis varies by service.
+Data source: HeRAMS occupied
+Palestinian territory
+Date data: 31 July 2025
+Date created: 04 August 2025
+Contact: herams@who.int 30
+occupied Palestinian territory
+Gaza Strip
+SNAPSHOT JULY 2025
+UNRWA health centers*
+HEALTH CENTER STATUS** MAIN CAUSES OF...
+Building damage
+Out of 26 health centers evaluated.
+4 Intact
+The 2 primary causes of building damage as reported by 16 partially
+16 Partially damaged damaged and 6 fully damaged health centers.
+6 Destroyed
+Building condition 95 % Insecurity
+3 Intact 23 % Lack of maintenance
+12 Partially damaged
+Equipment
+11 Fully damaged
+condition
+0 Functioning
+6 Partially functioning Equipment damage
+14 Non-functional
+Functionality The 3 primary causes of equipment damage as reported by 12
+6 Destroyed partially damaged and 11 fully damaged health centers.
+4 Accessible 100 % Insecurity
+2 Partially accessible
+0 Inaccessible
+Accessibility 20 Destroyed / Non- 35 % Lack of maintenance
+Functioning
+13 Other
+%
+23 Functionality constraints
+% NORTH GAZA
+The 3 primary causes of functionality constraints as reported by 6
+partially functioning and 14 non-functioning health centers.
+80 % Insecurity
+“Only 6 (23%) out of 26
+health centers evaluated are
+partially functioning.” 50 % Lack of supplies
+45 Lack of equipment
+GAZA CITY %
+Accessibility constraints
+The 3 primary causes of accessibility constraints as reported by 2
+partially accessible health centers.
+DEIR AL-BALAH 100 % Insecurity
+100 % Other physical barriers
+KHAN YOUNIS
+50 Acceptability constraints
+%
+Fully functioning
+Partially functioning
+Partner Support** Major support Partially support
+Non-functioning No support
+Destroyed
+100%
+The number of points displayed on
+the map is based on facilities with Partner support types
+coordination. Any missing facility
+indicates a lack of coordinates.
+% %
+RAFAH
+N o types of support reporte d
+% %
+% %
+%
+* This infographic provides insights on UNRWA health centers and focuses on a limited number of services deemed priority for health centers.
+** Out of 6 health centers, health centers reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore excluded
+from this section as reporting ends upon confirmation of their inability to provide any health services.
+31
+BASIC AMENITIES*
+Available Partially available Not available Not normally provided
+Inpatient bed capacity WASH
+Water
+Availablity Number of
+available beds 17 % 83% 17%
+Emergency Not available up to standard in 1 (16.7%) out of 6 health cen-
+room beds 100% 0 ters expected to have water available.
+emergency room beds are not expected in any operational health Main water sources
+center. Out of 6 health centers where water is at least partially available.
+Main barriers*
+Protected w du e g ll 67 % Piped N S et u w p o p r l k y 50 % Tanker truck 50 %
+No barriers reported
+Sanitation facilities
+33 % 67% 33%
+Waste management Not available up to standard in 2 (33.3%) out of 6 health centers expected
+to have sanitation facilities.
+Waste segregation
+Out of 6 health centers where sanitation facilities is at least partially available.
+83 % 17% 83% Sanitation facilities types*
+Not available up to standard in 5 (83.3%) out of 6 health centers
+expected to maintain waste segregation practices. Flush/pour Covered Pit
+flush to piped 100 latrine or 17
+sewer system % Ventilated %
+Final disposal of sharps or septic tank Improved Pit
+Sanitation facilities accessibility*
+17
+% 83% 17%
+Toilets for
+d N i o s t p o a s v e a i o la f b s l h e a u rp p s . to standard in 1 (16.7%) out of 6 health centers expected to D st e a d ff i c t a o t i e le d t 100 %separa G te e n to d i e le r t - 67 % peop l l i e m w it i e t d h 67 %
+mobility
+Hand hygiene
+Final disposal of infectious waste
+33 % 67% 33% 100 % 100%
+Not available up to standard in 6 (100%) out of 6 health centers
+Not available up to standard in 2 (33.3%) out of 6 health centers expected to maintain hand hygiene practices.
+expected to dispose of infectious waste.
+Environmental cleaning
+Out of 6 health centers whe W re a fi s n t a e l d d is i p s o p s o al s o a f l s m ha e rp t s h o o r d in s fectious waste are at least 100 % 100%
+partially available.
+Not available up to standard in 6 (100%) out of 6 health centers expected
+Collected for 100 to maintain environmental cleaning practices.
+medical waste %
+disposal off-site
+Personal Protective Equipment (PPE)
+Power
+100
+67 % 33% 67% % 100%
+Not available up to standard in 6 (100%) out of 6 health centers expected
+Not available up to standard in 4 (66.7%) out of 6 health centers expected to have personal protective equipment.
+to have power available.
+Power sources Communication
+Out of 6 health centers where power is at least partially available.
+67 % 33% 67%
+100 67
+Generator % Solar %
+Not available up to standard in 4 (66.7%) out of 6 health centers
+expected to have communication means.
+Cold chain
+Communication equipment types
+Out of 6 health centers where communication is at least partially available.
+17 % 83% 17%
+Not available up to standard in 1 (16.7%) out of 6 health centers 100 83 33
+expected to have cold chain capacity. Mobile phone % Computer % Telephone %
+Cold chain sources Transportation of patients
+Out of 6 health centers where cold chain is at least partially available.
+100 83
+67 % 33% 50% 17%
+Solar % Generator %
+Not available up to standard in 4 (66.7%) out of 6 health centers expected
+to have means for patient transportation.
+Health Information Management Systems
+Transportation types
+Facility-based diseases reporting systems (e.g., EWARS, etc.) Out of 5 health centers where transportation of patients is at least partially available.
+100%
+100 60 40
+Available up to standard in all 6 health centers where the information PRCS Ambulance % Other % Car %
+system is expected.
+Facility-based information system (e.g., DHIS2, Avicena, etc.)
+33 % 33% 17% 50%
+Not available up to standard in 1 (33.3%) out of 3 health centers where
+the information system is expected.
+* Out of 6 health centers. health centers reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore
+excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+32
+ESSENTIAL HEALTH SERVICES*
+Service domain overview
+Available Partially available Not available Not normally provided
+General clinical and Child health and Communicable Sexual and NCD and mental
+trauma care nutrition diseases reproductive health health
+25% 55% 56% 23% 41%
+49% 43% 31% 42% 33%
+10% 0% 0% 4% 12%
+17% 2% 14% 32% 14%
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+General clinical and emergency care services
+Recognition of 67% 33% Acuity-based 20% 80%
+danger signs Not available up to standard in 2 (33.3%) out of 6 100% 100% formal triage Not available up to standard in 4 (80%) out of 5 75% 50% 25%
+health centers expected to provide the service. health centers expected to provide the service.
+Initial syndrome- 67% 33% WHO basic 25% 75%
+based management emergency care
+Not available up to standard in 1 (33.3%) out of 3 100% 100% Not available up to standard in 3 (75%) out of 4 health 100%100%33%
+at scene health centers expected to provide the service. centers expected to provide the service.
+Advanced Syn- Monitored 50% 17% 33%
+drome-based referral
+Not expected in any operational health center. Not available up to standard in 3 (50%) out of 6 health 100%67% 33%
+management centers expected to provide the service.
+Referral capacity 50% 50% Acceptance of 50% 50%
+referrals
+Not available up to standard in 3 (50%) out of 6 health 100%67% 33% Not available up to standard in 3 (50%) out of 6 health 100%100%33%
+centers expected to provide the service. centers expected to provide the service.
+Specialized
+Essential 100% services at 17% 83%
+services primary Not available up to standard in 6 (100%) out of 6 100%50% 33% primary health Not available up to standard in 5 (83.3%) out of 6 100%60% 20%
+health care health centers expected to provide the service. health centers expected to provide the service.
+care
+Home visits 100% Minor trauma 17% 83%
+definitive
+Not available up to standard in 6 (100%) out of 6 100%50% 33% Not available up to standard in 5 (83.3%) out of 6 100%60% 20%
+health centers expected to provide the service. management health centers expected to provide the service.
+Basic laboratory 17% 83% Secondary 60% 40%
+services Not available up to standard in 5 (83.3%) out of 6 100%100%20% laboratory Not available up to standard in 5 (100%) out of 5 100%80% 40%
+health centers expected to provide the service. services health centers expected to provide the service.
+Comprehensive Basic X-ray 25% 75%
+X-ray service service
+Not expected in any operational health center. Not available up to standard in 3 (75%) out of 4 health 100%67% 67%
+centers expected to provide the service.
+* Out of 6 health centers. health centers reported as destroyed, non-functioning, or inaccessible are considered unable to provide health services in their current state and are therefore
+excluded from this section as reporting ends upon confirmation of their inability to provide any health services.
+33
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Child health and nutrition services
+Pediatric first 100% Integrate
+o
+d
+f
+m
+ne
+a
+w
+n
+b
+a
+o
+ge
+rn
+m
+a
+e
+n
+n
+d
+t 50% 50%
+aid Not available up to standard in 5 (100%) out of 5 100%100%20% childhood illnesses Not available up to standard in 3 (50%) out of 6 100% 100%
+health centers expected to provide the service. (IMNCI) health centers expected to provide the service.
+Management of
+IMNCI under 5 33% 67% children classified
+clinic
+Not available up to standard in 4 (66.7%) out of 6 100% 50% as severe or very
+health centers expected to provide the service. severe diseases Not expected in any operational health center.
+Expanded Information, education,
+programme on
+100%
+and communication
+83% 17%
+immunization A ex v p a e il c a te b d le t o u p p r o to vi d s e ta th n e d a se r r d v i i c n e . all 6 health centers an o d n C In h fa il n d t F , e Yo ed u i n n g g , h N e o a t l t a h v a ce il n a t b e l r e s u ex p p t e o c t s e t d a n to d a p r r d o v in id e 1 t ( h 1 e 6 s .7 er % vi ) c e o . ut of 6 100%
+Integrated
+Growth monitoring 50% 50%
+management
+67% 33%
+Not available up to standard in 3 (50%) out of 6 health 100% 100% of acute Not available up to standard in 2 (33.3%) out of 6 100% 50%
+centers expected to provide the service. health centers expected to provide the service.
+malnutrition
+Communicable diseases
+Syndromic 100% Event-based 100%
+surveillance surveillance
+Available up to standard in all 6 health centers Available up to standard in all 6 health centers
+expected to provide the service. expected to provide the service.
+Diagnosis and
+treatment of 17% 83% Multidrug- 100%
+tuberculosis Not available up to standard in 5 (83.3%) out of 6 100%60% 40% resistant of Not available up to standard in 1 (100%) out of 1 100% 100%
+cases health centers expected to provide the service. tuberculosis health center expected to provide the service.
+Information, education,
+on a n lo d c c o a m l m p u r n i i o ca r t i i t o y n 67% 33% Locally relevant 50% 50%
+diseases
+diseases Not available up to standard in 2 (33.3%) out of 6 100% 100% Not available up to standard in 3 (50%) out of 6 health 100%67% 33%
+health centers expected to provide the service. centers expected to provide the service.
+Sexual and reproductive health
+Free access to 67% 33% Info a rm nd a t c i o o m n, m ed u u n c ic a a t t io io n n , 25% 50% 25%
+condoms on STI/HIV
+Not available up to standard in 2 (33.3%) out of 6 Not available up to standard in 3 (75%) out of 4 health
+health centers expected to provide the service. 100% 50% centers expected to provide the service. 100%67% 33%
+Syndromic
+management of 100% HIV counselling
+sexu i a n l f l e y c t t r i a o n n s s m (S it T te Is d ) h N e o a t l t a h v c a e il n a t b e l r e s e u x p p e to ct e st d a t n o d p a r r o d v i i d n e 5 t h ( e 1 0 se 0 r % vi ) c e o . ut of 5 100%60% 40% and testing Not expected in any operational health center.
+Prevention of
+mother-to-child 100% Antiretroviral
+HIV transmission Not available up to standard in 1 (100%) out of 1 100% 100% treatment Not expected in any operational health center.
+health center expected to provide the service.
+Family planning 50% 33% 17% Family planning 17% 83%
+- pregnancy test Not available up to standard in 3 (50%) out of 6 health 100% 100% - contraceptive Not available up to standard in 5 (83.3%) out of 6 100%60% 40%
+centers expected to provide the service. methods health centers expected to provide the service.
+Antenatal care 50% 50% Skilled 33% 67%
+care during
+N ce o n t t a e v r a s i e la x b p l e e c u te p d t o to s t p a r n o d vi a d r e d t i h n e 3 s ( e 5 r 0 v % ice ) . out of 6 health 100%33% 33% childbirth N he o a t l t a h v a ce il n a t b e l r e s u ex p p t e o c t s e t d a n to d a p r r d o v i i n d e 2 t ( h 6 e 6 s . e 7 r % vi ) c e o . ut of 3 100% 100%
+Postpartum care 50% 50% Clinical 17% 67% 17%
+Not available up to standard in 3 (50%) out of 6 health 100% 67% management of Not available up to standard in 5 (83.3%) out of 6 60% 60% 40%
+centers expected to provide the service. rape survivors health centers expected to provide the service.
+Emergency 40% 60% Post-exposure 100%
+contraception prophylaxis
+Not available up to standard in 3 (60%) out of 5 health 100%67% 33% Not available up to standard in 3 (100%) out of 3 100%67% 33%
+centers expected to provide the service. health centers expected to provide the service.
+34
+Lack of staff Lack of supplies
+Lack of financial
+Available Partially available Not available
+resources
+Lack of training Lack of equipment
+Noncommunicable diseases and mental health
+Promote self-care 67% 33% Noncommunicable 67% 33%
+diseases clinic
+Not available up to standard in 2 (33.3%) out of 6 100% 100% Not available up to standard in 2 (33.3%) out of 6 100% 100%
+health centers expected to provide the service. health centers expected to provide the service.
+Asthma and
+chronic obstructive 67% 33% Hypertension 67% 33%
+early detection,
+pulmonary disease Not available up to standard in 2 (33.3%) out of 6 100% 100% management and Not available up to standard in 2 (33.3%) out of 6 100% 100%
+classification, treatment health centers expected to provide the service. counseling health centers expected to provide the service.
+and follow up
+Diabetes 67% 33% Outpatient 100%
+early detection, rehabilitation
+management, foot- Not available up to standard in 2 (33.3%) out of 6 100% 100% Not available up to standard in 6 (100%) out of 6 100%83% 17%
+care, and counseling health centers expected to provide the service. services health centers expected to provide the service.
+Prosthetics and 60% 40% Oral health and 17% 50% 33%
+orthotics Not available up to standard in 5 (100%) out of 5 100%60% 40% dental care Not available up to standard in 5 (83.3%) out of 6 100%100%20%
+health centers expected to provide the service. health centers expected to provide the service.
+Psychological 100%
+m
+M
+e
+a
+n
+n
+ta
+a
+l
+g
+d
+e
+i
+m
+so
+e
+r
+n
+d
+t
+e
+o
+rs
+f 33% 67%
+first aid Available up to standard in all 6 health centers N he o a t l t a h v a ce il n a t b e l r e s u ex p p t e o c t s e t d a n to d a p r r d o v i i n d e 4 t ( h 6 e 6 s . e 7 r % vi ) c e o . ut of 6 100%75% 25%
+expected to provide the service.
+Cancer 100% Primary cancer 75% 25%
+diagnostics screening
+services h N e o a t l t a h v c a e il n a t b e l r e s e u x p p e to ct e st d a t n o d p a r r o d v i i d n e 2 t h ( e 1 0 se 0 r % vi ) c e o . ut of 2 100%100%50% (non-instrumental N ce o n t t a e v r a s i e la x b p l e e c u te p d t o to s t p a r n o d vi a d r e d t i h n e 1 s ( e 2 r 5 v % ice ) . out of 4 health 100% 100%
+methods)
+Mammography 100%
+Not available up to standard in 2 (100%) out of 2 100% 100%
+health centers expected to provide the service.
+This analysis was produced based on the information reported into HeRAMS up to 31 July 2025 and while the the Notes:
+deployment of HeRAMS, including data verification and validation, continue. Hence, this analysis is not final and 1. The analysis of barriers impeding services availability, causes of damage, non-functionality and inaccessibility
+is produced solely for the purposes of informing operations. was limited to health centers where the respective indicator was not available up to standard. Only the top
+In the Gaza Strip, about 70% of health care centers are operated by UNRWA. Currently, 26 UNRWA health care three most frequently reported barriers are presented for each indicator.
+centers are reporting to HeRAMS. The availability and operational status of these health centers may change over 2. The analysis of basic amenities follows the same approach as barriers and was restricted to health centers
+time due to factors including funding, security concerns, and other unforeseen circumstances. where the indicator was at least partially available.
+The designations employed and the presentation of the material in this report do not imply the expression of any 3. The health services presented here constitute a sub-set of services monitored in HeRAMS. For the purpose of
+opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city, or area or of its this infographic, inclusion was limited those considered priorities for health centers in the current context.
+authorities, or concerning the delimitation of its frontiers or boundaries. Dotted lines on maps represent approxi- Additionally, the analysis of individual services excludes health centers reporting a service as “not normally
+mate border lines for which there may not yet be full agreement. provided.” Consequently, the total number of health centers included in the analysis varies by service.
+Data source: HeRAMS occupied
+Palestinian territory
+Date data: 31 July 2025
+Date created: 04 August 2025
+Contact: herams@who.int 35
+HeRAMS occupied Palestinian
+territory
+HeRAMS service definitions
+General clinical and trauma care services
+TITLE SERVICE DEFINITIONS
+Recognition of danger signs in neonates, children, and adults, including early recognition of signs of
+Recognition of danger signs
+serious infection, with timely referral to higher-level care.
+Acuity-based formal triage of children and adults at first entry to the facility with a validated instrument
+Acuity-based formal triage
+such as the WHO/ICRC interagency triage tool.
+Initial syndrome-based management at Initial syndrome-based management at scene by prehospital providers for difficulty breathing, shock,
+scene altered mental status, and polytrauma.
+Basic syndrome-based management of difficulty breathing, shock, altered mental status, and poly-
+trauma for neonates, children, and adults. Interventions include manual airway maneuvers, oral/nasal
+WHO basic emergency care
+airway placement, oxygen administration, bag-valve mask ventilation, temperature management, and
+administration of essential emergency medications, including empiric antibiotics for serious infection.
+Advanced Syndrome-based management of difficulty breathing, shock, altered mental status, and
+polytrauma in a dedicated emergency unit, including for neonates, children, and adults. Interventions
+Advanced syndrome-based management include intubation, mechanical ventilation, surgical airway, placement of chest drain, hemorrhage
+control, defibrillation, administration of IV fluids via peripheral and central venous line, with adjustment
+for age and condition, including malnutrition, and administration of essential emergency medications.
+Direct provider monitoring during transport to an appropriate healthcare facility and structured hando-
+Monitored referral
+ver to facility personnel.
+Referral capacity Referral procedures, means of communication, and access to transportation.
+Acceptance of referrals with remote decision support for prehospital providers and primary healthcare
+Acceptance of referrals
+facilities, and condition-specific protocol-based referral to higher levels.
+Acceptance of complex referrals with remote decision support for prehospital providers and lower-level
+Acceptance of complex referrals
+facilities.
+Essential services primary health care with availability of all essential drugs for primary care as per
+Essential services primary health care
+national guidelines with at least one general physician.
+Specialized services at primary health care with availability of specialized clinics and all essential drugs
+Specialized services at primary health care
+as per national guidelines, including noncommunicable diseases (NCD) and pain management.
+Home visits Including promotion of self-care practices and monitoring of NCD medication compliance.
+Pain management, tetanus toxoid and human antitoxin, minor surgery kits, suture absorbable/silk with
+Minor trauma definitive management
+needles, disinfectant solutions, bandages, gauzes, and cotton wool.
+Emergency department Dedicated emergency beds with basic and advanced life support skills, and full surgical wound care.
+Inpatient surgical ward with at least one
+Inpatient surgical ward with at least one operating theatre (with or without gas).
+operating theatre
+Inpatient surgery ward with at least two
+Inpatient surgery ward with at least two operating theatres with pediatric and adult gaseous anesthetic.
+operating theatres
+Burns treatment Extensive and/or severe burns clinical management.
+Orthopedic/trauma ward For advanced orthopedic and surgical care.
+20 inpatient bed capacity At least 20 inpatient bed capacity with 24/7 availability of medical doctors, nurses and midwifes.
+At least 50 inpatient bed capacity with pediatric and ob-gyn wards with 24/7 availability of doctors and/
+50 inpatient bed capacity
+or specialists (general surgeon, ob-gyn, pediatrician, others).
+Inpatient critical care management with availability of mechanical ventilation, infusion pumps and
+Inpatient critical care management
+third-line emergency drugs.
+Intensive care unit with at least 4 beds Intensive care unit with at least 4 beds.
+36
+TITLE SERVICE DEFINITIONS
+Basic laboratory services Basic laboratory with general microscopy.
+Secondary laboratory services Secondary laboratory services including electrolyte and blood gas concentrations.
+Tertiary laboratory services Tertiary laboratory services with public health laboratory capacities.
+Blood bank services Blood bank services.
+Hemodialysis unit Hemodialysis unit.
+Basic radiology services X-ray and ultrasound.
+Comprehensive X-ray service X-ray with stratigraphy, intraoperative X-ray intensifier, ultrasound.
+CT scan A computed tomography scan (CT scan).
+MRI Magnetic resonance imaging (MRI).
+Procedures in place for early discharge of post-operatory patients through referral to secondary hospi-
+Procedures for mass casualty scenarios
+tals, in mass casualty scenarios.
+Child health and nutrition services
+TITLE SERVICE DEFINITIONS
+Interventions include airway positioning, choking interventions, and basic external hemorrhage con-
+Pediatric first aid
+trol.
+Integrated management of newborn and
+IMNCI for acute respiratory infection, and diarrhea by trained community health workers.
+childhood illnesses (IMNCI)
+Under-5 clinic conducted by IMNCI-trained health staff with available paracetamol, first-line antibiotics,
+IMNCI under 5 clinic
+oral rehydration salts and zinc dispersible tablets, with national IMNCI guidelines and flowcharts.
+Management of children classified as Management of children classified as severe or very severe diseases with parenteral fluids, drugs, and
+severe or very severe diseases oxygen, etc.
+Inpatient surgical care for newborns and
+Inpatient surgical care for newborns and children.
+children
+Expanded programme on immunization Routine immunization against all national target diseases with a functioning cold chain in place.
+Information, education, and Information, education and communications for child caretakers, early initiation of breastfeeding, pro-
+communication on infant, young, and motion of exclusive breastfeeding, and infant, young, and child feeding practices, active case finding,
+child feeding and referral of sick children.
+Growth monitoring and/or screening of acute malnutrition with mid-upper arm circumference (MUAC),
+Growth monitoring
+weight-for-height or oedema.
+Integrated management of acute IMAM for severe acute malnutrition without medical complications with ready-to-use therapeutic foods
+malnutrition (IMAM) available.
+Stabilization center for severe acute For severe acute malnutrition with medical complications, with availability of F75, F100, ready-to-use
+malnutrition therapeutic foods, and a dedicated trained team of doctors, nurses, and nurse aides, 24/7.
+37
+Communicable disease services
+TITLE SERVICE DEFINITIONS
+Syndromic surveillance Regular reporting sentinel site for syndromic surveillance of local relevant diseases/conditions.
+Immediate reporting of unexpected or unusual health events through an event-based surveillance
+Event-based surveillance
+system.
+Diagnosis and treatment of tuberculosis Diagnosis and treatment of tuberculosis cases or detection and referral of suspected cases and fol-
+cases low-up.
+Multidrug-resistant of tuberculosis Diagnosis, management, and follow-up of multidrug-resistant tuberculosis patients.
+Information, education, and Information, education, and communication on the prevention and self-care of local priority diseases,
+communication on local priority diseases such as acute diarrhea and acute respiratory infections.
+Diagnosis and management of other locally relevant diseases such as measles, viral hepatitis, diph-
+Locally relevant diseases theria, pertussis, with protocols available for identification, classification, stabilization, and referral of
+severe cases.
+Isolation unit or room Isolation unit or room for patients with highly infectious diseases.
+Management of severe/complicated Management of severe and/or complicated communicable diseases such as measles with pneumonia,
+communicable diseases others.
+Sexual and reproductive health services
+TITLE SERVICE DEFINITIONS
+Free access to condoms Free access to condoms.
+Syndromic management of sexually
+Syndromic management of STIs, national first-line antibiotics available.
+transmitted infections (STIs)
+Information, education, and Information, education, and communication on prevention of STI/HIV (human immunodeficiency virus)
+communication on STI/HIV infections and behavior change communications.
+HIV counseling and testing HIV counseling and testing.
+Prevention of mother-to-child HIV
+Prophylaxis and treatment of opportunistic infections, prevention of mother-to-child HIV transmission.
+transmission
+Antiretroviral treatment Availability of antiretroviral treatment.
+Family planning - pregnancy test Availability of pregnancy test.
+Family planning - contraceptive methods Availability of contraceptive methods as per national guidelines.
+Assessment of pregnancy, birth and emergency plan, response to problems observed, advise/counsel
+Antenatal care on nutrition and breastfeeding, self-care and family planning, intermittent iron and folate supplementa-
+tion in non-anemic pregnancy.
+Including early essential newborn care: preparing for birth, assessment of labor stage, WHO partograph
+Skilled care during childbirth monitoring, conditions management, drying baby, clean cord care, basic newborn resuscitation, skin-
+to-skin contact, oxytocin, early and exclusive breastfeeding, eye prophylaxis.
+Parenteral antibiotics, oxytocic/anticonvulsant drugs, manual removal of placenta, removal of retained
+Basic emergency obstetric care
+products with MVA, assisted vaginal delivery, HSDU functioning 24/7.
+Comprehensive emergency obstetric care Basic emergency obstetric care, caesarean section, safe blood transfusion.
+Examination of mother (up to 42 days) and newborn baby (up to 5 years), response to observed signs,
+Postpartum care
+breastfeeding support, counsel on complementary feeding, and family planning promotion.
+Safe induced abortion for all legal indications, uterine evacuation using MVA or medical methods where
+Comprehensive abortion care applicable, antibiotic prophylaxis, treatment of abortion complications, counseling for abortion, and
+post-abortion contraception.
+Clinical management of rape survivors including psychological support and provided in dedicate
+Clinical management of rape survivors
+rooms to ensure privacy.
+Emergency contraception Emergency contraception provided as standard to survivors of rape if recommended.
+Post-exposure prophylaxis Post-exposure prophylaxis for STIs and HIV infections.
+38
+Noncommunicable disease and mental health services
+TITLE SERVICE DEFINITIONS
+Provide basic health care and psychosocial support, identify and refer severe cases for treatment, pro-
+Promote self-care vide needed follow-up to patients discharged by the HSDU, and provide social services for people with
+chronic health conditions, disabilities, and mental health problems.
+Brief advice on tobacco, alcohol, and substance abuse, healthy diet, screening and management of
+risks of cardiovascular disease, individual counseling on adherence to chronic therapies, availability of
+Noncommunicable diseases clinic
+blood pressure apparatus, blood glucose and urine ketones test strips, and essential NCD drugs as per
+national list.
+Asthma and chronic obstructive
+Asthma and chronic obstructive pulmonary disease classification, treatment, and follow-up.
+pulmonary disease
+Hypertension Hypertension early detection, management, and counseling (including dietary advice), follow-up.
+Diabetes early detection, management (oral anti-diabetic and insulin available), counseling (including
+Diabetes
+dietary advice), foot care, and follow-up.
+Cancer diagnostics services Availability of cancer diagnostics services.
+Primary cancer screening (non-
+Primary cancer screening using non-instrumental methods.
+instrumental methods)
+Mammography Mammography service.
+Colonoscopy Colonoscopy service.
+Cancer treatment services Availability of cancer treatment services.
+Chemotherapy treatment Chemotherapy treatment and follow-up of adults and children in outpatient and inpatient settings.
+Radiological treatment Radiological treatment and follow-up of adults and children in outpatient and inpatient settings.
+Hematological & oncohematological care Treatment and follow-up of adults and children with hematological and oncohematological diseases in
+in all settings outpatient and inpatient settings.
+Inpatient rehabilitation for people with acute injury or illness, delivered by rehabilitation professionals
+Inpatient acute rehabilitation as part of multi-disciplinary acute care, including the provision of assistive devices such as crutches or
+wheelchairs.
+Outpatient services provided by a rehabilitation professional via an outpatient service often as part of
+Outpatient rehabilitation services
+follow-up care, including assistive device provision or maintenance.
+Prosthetics and orthotics Manufacture, fitting, and training to use prosthetic and orthotic devices.
+Oral health and dental care Oral health and dental care services.
+Psychological first aid for distressed people, survivors of assault, abuse, neglect, domestic violence, and
+Psychological first aid linking vulnerable individuals/families with resources, such as health services, livelihood assistance,
+etc.
+Management of mental disorders by specialized and/or trained and supervised non-specialized health-
+Management of mental disorders
+care providers, availability of fluoxetine, carbamazepine, haloperidol, biperiden, and diazepam.
+Inpatient care for management of mental Inpatient care for management of mental disorders by specialized and/or trained and supervised
+disorders non-specialized healthcare providers.
+39

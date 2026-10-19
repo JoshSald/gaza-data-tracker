@@ -1,0 +1,156 @@
+[
+  {
+    "id": "unosat-infra-structures-possibly-damaged-2024-05-03",
+    "metric": "infra.structures.possibly_damaged",
+    "value": 36825,
+    "kind": "count",
+    "bound": "exact",
+    "source": "unosat",
+    "as_of": "2024-05-03",
+    "period_start": "2023-10-07",
+    "period_end": "2024-05-03",
+    "document": {
+      "url": "https://unosat.org/our_products/3861",
+      "publisher": "UNOSAT",
+      "retrieved_at": "2026-10-19T14:52:22+00:00",
+      "sha256": "9c9ea83238ba05913d8278346aed9967414f55302aa67c2802f043cb961f13fe",
+      "archive": "archive/2026/10/9c9ea83238ba0591.json",
+      "note": "Product page: https://unosat.org/products/3861"
+    },
+    "quote": "UNOSAT identified 36,591 destroyed structures, 16,513 severely damaged structures, 47,368 moderately damaged structures, and 36,825 possibly damaged structures for a total of 137,297 structures.",
+    "caveat": "Satellite images compared with images from before the war; UNOSAT marks this a preliminary analysis not validated on the ground.",
+    "added_by": "importer:unosat"
+  },
+  {
+    "id": "unosat-infra-structures-possibly-damaged-2024-07-06",
+    "metric": "infra.structures.possibly_damaged",
+    "value": 35754,
+    "kind": "count",
+    "bound": "exact",
+    "source": "unosat",
+    "as_of": "2024-07-06",
+    "period_start": "2023-10-07",
+    "period_end": "2024-07-06",
+    "document": {
+      "url": "https://unosat.org/our_products/3904",
+      "publisher": "UNOSAT",
+      "retrieved_at": "2026-10-19T14:52:22+00:00",
+      "sha256": "c2f2c6a338d100e83a928f08b565d3fce13cb3460723a31fb59ec9e9ce3f8c20",
+      "archive": "archive/2026/10/c2f2c6a338d100e8.json",
+      "note": "Product page: https://unosat.org/products/3904"
+    },
+    "quote": "UNOSAT identified 46,223 destroyed structures, 18,478 severely damaged structures, 55,954 moderately damaged structures, and 35,754 possibly damaged structures for a total of 156,409 structures.",
+    "caveat": "Satellite images compared with images from before the war; UNOSAT marks this a preliminary analysis not validated on the ground.",
+    "added_by": "importer:unosat"
+  },
+  {
+    "id": "unosat-infra-structures-possibly-damaged-2024-09-06",
+    "metric": "infra.structures.possibly_damaged",
+    "value": 35591,
+    "kind": "count",
+    "bound": "exact",
+    "source": "unosat",
+    "as_of": "2024-09-06",
+    "period_start": "2023-10-07",
+    "period_end": "2024-09-06",
+    "document": {
+      "url": "https://unosat.org/our_products/3984",
+      "publisher": "UNOSAT",
+      "retrieved_at": "2026-10-19T14:52:22+00:00",
+      "sha256": "2c3cc634cd916fc38737fa51da4485d27f41549a4100b5265df97bbf74145a89",
+      "archive": "archive/2026/10/2c3cc634cd916fc3.json",
+      "note": "Product page: https://unosat.org/products/3984"
+    },
+    "quote": "UNOSAT identified 52,564 destroyed structures, 18,913 severely damaged structures, 56,710 moderately damaged structures, and 35,591 possibly damaged structures for a total of 163,778 structures.",
+    "caveat": "Satellite images compared with images from before the war; UNOSAT marks this a preliminary analysis not validated on the ground.",
+    "added_by": "importer:unosat"
+  },
+  {
+    "id": "unosat-infra-structures-possibly-damaged-2024-12-01",
+    "metric": "infra.structures.possibly_damaged",
+    "value": 34102,
+    "kind": "count",
+    "bound": "exact",
+    "source": "unosat",
+    "as_of": "2024-12-01",
+    "period_start": "2023-10-07",
+    "period_end": "2024-12-01",
+    "document": {
+      "url": "https://unosat.org/our_products/4047",
+      "publisher": "UNOSAT",
+      "retrieved_at": "2026-10-19T14:52:22+00:00",
+      "sha256": "64fdb41aef25401983b02fb00a56dd9ad4b75d0e6bbf72088e431ffd31ec4701",
+      "archive": "archive/2026/10/64fdb41aef254019.json",
+      "note": "Product page: https://unosat.org/products/4047"
+    },
+    "quote": "UNOSAT identified 60,368 destroyed structures, 20,050 severely damaged structures, 56,292 moderately damaged structures, and 34,102 possibly damaged structures for a total of 170,812 structures.",
+    "caveat": "Satellite images compared with images from before the war; UNOSAT marks this a preliminary analysis not validated on the ground.",
+    "added_by": "importer:unosat"
+  },
+  {
+    "id": "unosat-infra-structures-possibly-damaged-2025-04-04",
+    "metric": "infra.structures.possibly_damaged",
+    "value": 33500,
+    "kind": "count",
+    "bound": "exact",
+    "source": "unosat",
+    "as_of": "2025-04-04",
+    "period_start": "2023-10-07",
+    "period_end": "2025-04-04",
+    "document": {
+      "url": "https://unosat.org/our_products/4130",
+      "publisher": "UNOSAT",
+      "retrieved_at": "2026-10-19T14:52:22+00:00",
+      "sha256": "348aaf3d44423a1a635908969843142956377520a3b8dce0b2b2151656427957",
+      "archive": "archive/2026/10/348aaf3d44423a1a.json",
+      "note": "Product page: https://unosat.org/products/4130"
+    },
+    "quote": "UNOSAT identified 70,436 destroyed structures, 18,588 severely damaged structures, 51,962 moderately damaged structures, and 33,500 possibly damaged structures for a total of 174,486 structures.",
+    "caveat": "Satellite images compared with images from before the war; UNOSAT marks this a preliminary analysis not validated on the ground.",
+    "added_by": "importer:unosat"
+  },
+  {
+    "id": "unosat-infra-structures-possibly-damaged-2025-07-08",
+    "metric": "infra.structures.possibly_damaged",
+    "value": 31429,
+    "kind": "count",
+    "bound": "exact",
+    "source": "unosat",
+    "as_of": "2025-07-08",
+    "period_start": "2023-10-07",
+    "period_end": "2025-07-08",
+    "document": {
+      "url": "https://unosat.org/our_products/4165",
+      "publisher": "UNOSAT",
+      "retrieved_at": "2026-10-19T14:52:22+00:00",
+      "sha256": "8aaecc0954bc2dedf0ec90999b986751c746894eb66c4b1e1a5ed24fdddcde35",
+      "archive": "archive/2026/10/8aaecc0954bc2ded.json",
+      "note": "Product page: https://unosat.org/products/4165"
+    },
+    "quote": "UNOSAT identified 102,067 destroyed structures, 17,421 severely damaged structures, 41,895 moderately damaged structures, and 31,429 possibly damaged structures for a total of 192,812 structures.",
+    "caveat": "Satellite images compared with images from before the war; UNOSAT marks this a preliminary analysis not validated on the ground.",
+    "added_by": "importer:unosat"
+  },
+  {
+    "id": "unosat-infra-structures-possibly-damaged-2025-10-11",
+    "metric": "infra.structures.possibly_damaged",
+    "value": 23836,
+    "kind": "count",
+    "bound": "exact",
+    "source": "unosat",
+    "as_of": "2025-10-11",
+    "period_start": "2023-10-07",
+    "period_end": "2025-10-11",
+    "document": {
+      "url": "https://unosat.org/our_products/4213",
+      "publisher": "UNOSAT",
+      "retrieved_at": "2026-10-19T14:52:23+00:00",
+      "sha256": "13ad1cf408765d9e664c843e878a18129798c7589106993fe9dcf93355a2847a",
+      "archive": "archive/2026/10/13ad1cf408765d9e.json",
+      "note": "Product page: https://unosat.org/products/4213"
+    },
+    "quote": "UNOSAT identified 123,464 destroyed structures, 17,116 severely damaged structures, 33,857 moderately damaged structures, and 23,836 possibly damaged structures for a total of 198,273 affected structures.",
+    "caveat": "Satellite images compared with images from before the war; UNOSAT marks this a preliminary analysis not validated on the ground.",
+    "added_by": "importer:unosat"
+  }
+]

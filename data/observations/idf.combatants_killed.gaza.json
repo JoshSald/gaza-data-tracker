@@ -1,0 +1,64 @@
+[
+  {
+    "id": "idf-idf-combatants-killed-gaza-2024-02-29",
+    "metric": "idf.combatants_killed.gaza",
+    "value": 13000,
+    "kind": "claim",
+    "bound": "at_least",
+    "source": "idf",
+    "as_of": "2024-02-29",
+    "period_start": "2023-10-07",
+    "period_end": "2024-02-29",
+    "document": {
+      "url": "https://www.idf.il/183163",
+      "publisher": "Israel Defense Forces",
+      "retrieved_at": "2026-10-19T14:20:31+00:00",
+      "sha256": "a39e5c3686873d796fa3e00faa65024582623b36e0f3a851b683d38f36b7b67f",
+      "archive": "archive/2026/10/a39e5c3686873d79.txt",
+      "note": "Transcript on idf.il, which blocks scripted downloads. It was read in a browser; the archived file holds the quoted passage with the sentence before it, the URL and when it was read."
+    },
+    "quote": "Since the beginning of the war, we have eliminated over 13,000 terrorists.",
+    "caveat": "IDF Spokesperson Daniel Hagari, press briefing of 29 February 2024. Given in the briefing's Gaza update; the briefing does not say whether it includes attackers killed inside Israel on 7 October. Not independently verified.",
+    "added_by": "agent:claude"
+  },
+  {
+    "id": "idf-idf-combatants-killed-gaza-2024-08-15",
+    "metric": "idf.combatants_killed.gaza",
+    "value": 17000,
+    "kind": "claim",
+    "bound": "at_least",
+    "source": "idf",
+    "as_of": "2024-08-15",
+    "period_start": "2023-10-07",
+    "period_end": "2024-08-15",
+    "document": {
+      "url": "https://www.idf.il/en/mini-sites/israel-at-war/briefings-by-idf-spokesperson-bg-effie-defrin/august-24-press-briefings/press-briefing-by-idf-spokesperson-radm-daniel-hagari-august-15-2024/",
+      "publisher": "Israel Defense Forces",
+      "retrieved_at": "2026-10-19T14:20:31+00:00",
+      "sha256": "51f3c03ae490e49824592db730c6cc502645a29513a2db395ac6aa8a742a6256",
+      "archive": "archive/2026/10/51f3c03ae490e498.txt",
+      "note": "Transcript on idf.il, which blocks scripted downloads. It was read in a browser; the archived file holds the quoted passage with the sentence before it, the URL and when it was read."
+    },
+    "quote": "So far we have eliminated over seventeen thousand terrorists.",
+    "caveat": "IDF Spokesperson Daniel Hagari, press briefing of 15 August 2024. The transcript writes the number in words. Given in the briefing's Gaza update; the briefing does not say whether it includes attackers killed inside Israel on 7 October. Not independently verified.",
+    "added_by": "agent:claude"
+  },
+  {
+    "id": "idf-idf-combatants-killed-gaza-2026-10-11",
+    "metric": "idf.combatants_killed.gaza",
+    "value": 24000,
+    "kind": "claim",
+    "bound": "at_least",
+    "source": "idf",
+    "as_of": "2026-10-11",
+    "period_start": "2023-10-07",
+    "period_end": "2026-10-11",
+    "document": {
+      "url": "https://www.timesofisrael.com/liveblog_entry/hamas-run-health-ministry-1488-killed-in-gaza-since-ceasefire-began-a-year-ago/",
+      "publisher": "Times of Israel",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Plus 1,600 killed inside Israel on 7 October. Not independently verified."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "gaza-moh-gaza-bodies-recovered-since-ceasefire-2026-10-13-20251010",
+    "metric": "gaza.bodies_recovered.since_ceasefire",
+    "value": 838,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-13",
+    "period_start": "2025-10-10",
+    "period_end": "2026-10-13",
+    "document": {
+      "url": "https://www.bernama.com/tv/news.php?id=2619824",
+      "publisher": "Bernama / WAFA",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "gaza-moh-gaza-bodies-recovered-since-ceasefire-2026-10-13-20251010-primary",
+    "metric": "gaza.bodies_recovered.since_ceasefire",
+    "value": 838,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-13",
+    "period_start": "2025-10-10",
+    "period_end": "2026-10-13",
+    "document": {
+      "url": "https://t.me/MOHMediaGaza/7664",
+      "publisher": "Gaza Ministry of Health (official Telegram channel)",
+      "retrieved_at": "2026-10-19T14:35:13+00:00",
+      "sha256": "4f8c8bf726194fb2d7e9e711cfe5072805f739ced795df12d5843776495f350f",
+      "note": "Post on the Ministry's Telegram channel t.me/MOHMediaGaza. The archived copy is Telegram's public embed view of the post (?embed=1), which holds the full post text.",
+      "archive": "archive/2026/10/4f8c8bf726194fb2.html"
+    },
+    "quote": "إجمالي حالات الانتشال: 838 شهيدًا",
+    "caveat": "Ministry daily report of 13 October 2026, under the heading since the ceasefire on 11 October 2025. The quote reads: total recovery cases: 838 martyrs.",
+    "supersedes": "gaza-moh-gaza-bodies-recovered-since-ceasefire-2026-10-13-20251010",
+    "added_by": "agent:claude"
+  }
+]

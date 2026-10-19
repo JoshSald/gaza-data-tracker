@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gaza-mortality-survey-gaza-deaths-excess-nonviolent-2025-01-05",
+    "metric": "gaza.deaths.excess_nonviolent",
+    "value": 8540,
+    "kind": "estimate",
+    "bound": "exact",
+    "source": "gaza-mortality-survey",
+    "as_of": "2025-01-05",
+    "period_start": "2023-10-07",
+    "period_end": "2025-01-05",
+    "document": {
+      "url": "https://www.medrxiv.org/content/10.1101/2025.06.19.25329797v3",
+      "publisher": "medRxiv / Lancet Global Health",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "low": 4540,
+    "high": 12500,
+    "caveat": "Far below some earlier projections; the authors expect the non-violent share has risen since."
+  }
+]

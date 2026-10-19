@@ -1,0 +1,22 @@
+[
+  {
+    "id": "lancet-crc-gaza-deaths-traumatic-2024-06-30",
+    "metric": "gaza.deaths.traumatic",
+    "value": 64260,
+    "kind": "estimate",
+    "bound": "exact",
+    "source": "lancet-crc",
+    "as_of": "2024-06-30",
+    "period_start": "2023-10-07",
+    "period_end": "2024-06-30",
+    "document": {
+      "url": "https://researchonline.lshtm.ac.uk/4674812",
+      "publisher": "LSHTM Research Online",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "low": 55298,
+    "high": 78525,
+    "caveat": "Three-list capture–recapture (MoH hospital lists, MoH online survey, social media obituaries). Suggests MoH under-reported by 41%."
+  }
+]

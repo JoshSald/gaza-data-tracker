@@ -1,0 +1,20 @@
+[
+  {
+    "id": "israel-mfa-israel-killed-oct7-2023-11-10",
+    "metric": "israel.killed.oct7",
+    "value": 1200,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "israel-mfa",
+    "as_of": "2023-11-10",
+    "period_start": "2023-10-07",
+    "period_end": "2023-10-07",
+    "document": {
+      "url": "https://www.npr.org/2023/11/11/1212458974/israel-revises-down-death-toll-hamas-attacks-oct-7",
+      "publisher": "NPR",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Revised down from 1,400; the ministry called it an updated estimate."
+  }
+]

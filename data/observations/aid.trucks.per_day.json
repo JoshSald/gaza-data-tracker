@@ -1,0 +1,43 @@
+[
+  {
+    "id": "cogat-aid-trucks-per-day-2026-08-12-20251010",
+    "metric": "aid.trucks.per_day",
+    "value": 600,
+    "kind": "count",
+    "bound": "exact",
+    "source": "cogat",
+    "as_of": "2026-08-12",
+    "period_start": "2025-10-10",
+    "period_end": "2026-08-12",
+    "document": {
+      "url": "https://jpost.com/middle-east/article-906389",
+      "publisher": "Jerusalem Post",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Approximate. COGAT says 70–80% carry food and that volumes exceed UN-defined needs."
+  },
+  {
+    "id": "cogat-aid-trucks-per-day-2026-08-19-20251010",
+    "metric": "aid.trucks.per_day",
+    "value": 600,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "cogat",
+    "as_of": "2026-08-19",
+    "period_start": "2025-10-10",
+    "period_end": "2026-08-19",
+    "document": {
+      "url": "https://t.me/idfofficial/19078",
+      "publisher": "Israel Defense Forces (official Telegram channel)",
+      "retrieved_at": "2026-10-19T14:35:18+00:00",
+      "sha256": "c454580baa427144f1ffc5f67415ae956e503354868335f80eebb0d4918bb4d2",
+      "note": "Post of 19 August 2026 on the IDF's English Telegram channel t.me/idfofficial, summarising the humanitarian response since the ceasefire. The archived copy is Telegram's public embed view of the post.",
+      "archive": "archive/2026/10/c454580baa427144.html"
+    },
+    "quote": "Approximately 600 trucks enter the Gaza Strip every day, with 70–80% of the trucks carrying food.",
+    "caveat": "Published by the IDF; the post does not name COGAT, the MoD unit that coordinates the crossings and that the superseded row credited (via the Jerusalem Post). The post says aid volumes significantly exceed humanitarian needs as defined by UN agencies. The superseded row dated it 12 August. Not independently verified.",
+    "supersedes": "cogat-aid-trucks-per-day-2026-08-12-20251010",
+    "added_by": "agent:claude"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "idf-idf-combatants-killed-since-ceasefire-2026-07-01-20251010",
+    "metric": "idf.combatants_killed.since_ceasefire",
+    "value": 420,
+    "kind": "claim",
+    "bound": "at_least",
+    "source": "idf",
+    "as_of": "2026-07-01",
+    "period_start": "2025-10-10",
+    "period_end": "2026-07-01",
+    "document": {
+      "url": "https://www.jpost.com/israel-news/defense-news/article-902988",
+      "publisher": "Jerusalem Post",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Unofficial, reported by the Jerusalem Post. Israel has not published a comprehensive figure. The as-of date is approximate."
+  }
+]

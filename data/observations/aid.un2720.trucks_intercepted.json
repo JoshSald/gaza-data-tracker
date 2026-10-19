@@ -1,0 +1,20 @@
+[
+  {
+    "id": "un2720-aid-un2720-trucks-intercepted-2025-07-31-20250519",
+    "metric": "aid.un2720.trucks_intercepted",
+    "value": 1753,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-07-31",
+    "period_start": "2025-05-19",
+    "period_end": "2025-07-31",
+    "document": {
+      "url": "https://www.algemeiner.com/2025/08/01/un-data-nearly-90-percent-gaza-aid-intercepted-before-reaching-intended-recipients/",
+      "publisher": "Algemeiner, citing the UN2720 dashboard",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Exact end date not stated in the report; dashboard read at the end of July 2025."
+  }
+]

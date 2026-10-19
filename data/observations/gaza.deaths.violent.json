@@ -1,0 +1,40 @@
+[
+  {
+    "id": "gaza-moh-gaza-deaths-violent-2025-01-05",
+    "metric": "gaza.deaths.violent",
+    "value": 49090,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2025-01-05",
+    "period_start": "2023-10-07",
+    "period_end": "2025-01-05",
+    "document": {
+      "url": "https://www.news24.com/world/scientific-study-finds-higher-violent-deaths-toll-in-gaza-than-health-ministry-reports-20260219-0308",
+      "publisher": "News24, citing the Gaza Mortality Survey",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Ministry figure for the same period, as reported by the survey authors."
+  },
+  {
+    "id": "gaza-mortality-survey-gaza-deaths-violent-2025-01-05",
+    "metric": "gaza.deaths.violent",
+    "value": 75200,
+    "kind": "estimate",
+    "bound": "exact",
+    "source": "gaza-mortality-survey",
+    "as_of": "2025-01-05",
+    "period_start": "2023-10-07",
+    "period_end": "2025-01-05",
+    "document": {
+      "url": "https://www.medrxiv.org/content/10.1101/2025.06.19.25329797v3",
+      "publisher": "medRxiv / Lancet Global Health",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "low": 63600,
+    "high": 86800,
+    "caveat": "Household survey of 2,000 households (about 9,700 people)."
+  }
+]

@@ -1,0 +1,267 @@
+{
+ "source_note": "Compiled by the Gaza Ministry of Health and the Health Cluster; published by OCHA on HDX.",
+ "document": {
+  "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5TVXUBpR3mYG7jsTup0xhppUVyTd9GjyrN-F06KoSlPEe9gwTtYskBKsxMs3kSVnDZn84UyldS0-k/pub?output=xlsx",
+  "publisher": "OCHA (Humanitarian Data Exchange)",
+  "retrieved_at": "2026-10-19T15:25:24+00:00",
+  "sha256": "824eeb4f27e403fe5a0110e1c7aa305e95d787cd56c79518d73ad57b1724f397",
+  "archive": "archive/2026/10/824eeb4f27e403fe.xlsx",
+  "page": "https://data.humdata.org/dataset/state-of-palestine-health-0"
+ },
+ "list_date": "2023-11-09",
+ "note": "Beds are the list's 'Number of beds (All)' before the war. The list does not give each hospital's status.",
+ "hospitals": [
+  {
+   "name": "Yaffa Hospital",
+   "ar_name": "مستشفى يافا الطبي",
+   "type": "NGO",
+   "governorate": "Deir Albalah",
+   "beds": 30
+  },
+  {
+   "name": "Psychiatric hospital",
+   "ar_name": "مستشفي الطب النفسي",
+   "type": "Governmental",
+   "governorate": "Gaza",
+   "beds": 46
+  },
+  {
+   "name": "Ophthalmic hospital",
+   "ar_name": "مستشفي العيون",
+   "type": "Governmental",
+   "governorate": "Gaza",
+   "beds": 40
+  },
+  {
+   "name": "Turkish Friendship Hospital",
+   "ar_name": "المستشفى الصداقة التركي",
+   "type": "Governmental",
+   "governorate": "Gaza",
+   "beds": 272
+  },
+  {
+   "name": "Mohamed Al Durrah Hospital",
+   "ar_name": "مستشفي محمد الدرة للأطفال",
+   "type": "Governmental",
+   "governorate": "Gaza",
+   "beds": 80
+  },
+  {
+   "name": "Al Wafaa Rehabilitation Hospital",
+   "ar_name": "مستشفى الوفاء للتأهيل الطبي والجراحة التخصصية",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 70
+  },
+  {
+   "name": "Patient Friends Association Hospital",
+   "ar_name": "مستشفى جمعية أصدقاء المريض",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 54
+  },
+  {
+   "name": "Sheikh Hamad Hospital for Rehabilitation and Prosthetics",
+   "ar_name": "مستشفى سمو الشيخ حمد للتأهيل والأطراف الصناعية",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 40
+  },
+  {
+   "name": "Public Aid - Cardiovascular Hospital",
+   "ar_name": "مستشفى القلب والأوعية الدموية (الخدمة العامة)",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 30
+  },
+  {
+   "name": "Haifa Charity Hospital",
+   "ar_name": "مستشفى حيفا الخيري",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 26
+  },
+  {
+   "name": "St. John's Eye Hospital",
+   "ar_name": "مستشفى سان جون لطب وجراحة العيون",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 10
+  },
+  {
+   "name": "International Ophthalmic Hospital",
+   "ar_name": "المستشفى الدولي للعيون",
+   "type": "Private",
+   "governorate": "Gaza",
+   "beds": 43
+  },
+  {
+   "name": "Al Hayat Specialized Hospital",
+   "ar_name": "مستشفى الحياة التخصصي",
+   "type": "Private",
+   "governorate": "Gaza",
+   "beds": 40
+  },
+  {
+   "name": "Al-Khair Hospital",
+   "ar_name": "مستشفى الخير",
+   "type": "NGO",
+   "governorate": "Khan Younis",
+   "beds": 15
+  },
+  {
+   "name": "Dar Essalam Hospital",
+   "ar_name": "مستشفى دار السلام",
+   "type": "NGO",
+   "governorate": "Khan Younis",
+   "beds": 35
+  },
+  {
+   "name": "Al Awda Hospital - North",
+   "ar_name": "مستشفى العودة - الشمال",
+   "type": "NGO",
+   "governorate": "North Gaza",
+   "beds": 75
+  },
+  {
+   "name": "Beit Hanoun Hospital",
+   "ar_name": "مستشفي بيت حانون",
+   "type": "Governmental",
+   "governorate": "North Gaza",
+   "beds": 86
+  },
+  {
+   "name": "Al Karama Specialized Hospital",
+   "ar_name": "مستشفى الكرامة التخصصي",
+   "type": "NGO",
+   "governorate": "North Gaza",
+   "beds": 40
+  },
+  {
+   "name": "Al Aqsa Hospital",
+   "ar_name": "مستشفي شهداء الاقصي",
+   "type": "Governmental",
+   "governorate": "Deir Albalah",
+   "beds": 304
+  },
+  {
+   "name": "Al Awda Hospital - Nuseirat",
+   "ar_name": "مستشفى العودة - النصيرات",
+   "type": "NGO",
+   "governorate": "Deir Albalah",
+   "beds": 60
+  },
+  {
+   "name": "Al Shifa Medical Hospital",
+   "ar_name": "مستشفي الشفاء الطبي",
+   "type": "Governmental",
+   "governorate": "Gaza",
+   "beds": 744
+  },
+  {
+   "name": "Al-Ranteesi Al-Naser Paediatric Hospital",
+   "ar_name": "مستشفي النصر للأطفال",
+   "type": "Governmental",
+   "governorate": "Gaza",
+   "beds": 215
+  },
+  {
+   "name": "Al-Rantisi Specialized Hospital",
+   "ar_name": "مستشفي الرنتيسي التخصصي",
+   "type": "Governmental",
+   "governorate": "Gaza",
+   "beds": 99
+  },
+  {
+   "name": "Al-Quds Hospital",
+   "ar_name": "مستشفى القدس",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 102
+  },
+  {
+   "name": "Al Ahli Arab Hospital",
+   "ar_name": "مستشفى الأهلي العربي",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 80
+  },
+  {
+   "name": "Assahaba Medical Complex",
+   "ar_name": "مجمع الصحابة الطبي",
+   "type": "NGO",
+   "governorate": "Gaza",
+   "beds": 24
+  },
+  {
+   "name": "Al Helou International Hospital",
+   "ar_name": "مستشفى الحلو الدولي",
+   "type": "Private",
+   "governorate": "Gaza",
+   "beds": 60
+  },
+  {
+   "name": "Nasser Hospital",
+   "ar_name": "مستشفي ناصر",
+   "type": "Governmental",
+   "governorate": "Khan Younis",
+   "beds": 475
+  },
+  {
+   "name": "European Hospital",
+   "ar_name": "مستشفي الأوروبي",
+   "type": "Governmental",
+   "governorate": "Khan Younis",
+   "beds": 290
+  },
+  {
+   "name": "Algerian Hospital",
+   "ar_name": "مستشفى الجزائري",
+   "type": "Governmental",
+   "governorate": "Khan Younis",
+   "beds": 5
+  },
+  {
+   "name": "Al-Amal Hospital",
+   "ar_name": "مستشفى مدينة الأمل",
+   "type": "NGO",
+   "governorate": "Khan Younis",
+   "beds": 100
+  },
+  {
+   "name": "Indonesian Hospital",
+   "ar_name": "مستشفي الاندونيسي",
+   "type": "Governmental",
+   "governorate": "North Gaza",
+   "beds": 134
+  },
+  {
+   "name": "Kamal Adwan Hospital",
+   "ar_name": "مستشفى كمال عدوان",
+   "type": "Governmental",
+   "governorate": "North Gaza",
+   "beds": 89
+  },
+  {
+   "name": "AL Najjar Hospital",
+   "ar_name": "مستشفي أبو يوسف النجار",
+   "type": "Governmental",
+   "governorate": "Rafah",
+   "beds": 102
+  },
+  {
+   "name": "Al-Helal Al-Emarati Hospital",
+   "ar_name": "مستشفي الهلال الاماراتي",
+   "type": "Governmental",
+   "governorate": "Rafah",
+   "beds": 75
+  },
+  {
+   "name": "Kuwait Hospital",
+   "ar_name": "مستشفى الكويت التخصصي الخيري",
+   "type": "NGO",
+   "governorate": "Rafah",
+   "beds": 16
+  }
+ ]
+}

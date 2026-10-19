@@ -1,0 +1,403 @@
+{
+ "note": "Statements by WHO that name a hospital and its status, quoted word for word. The newest per hospital is shown on the site.",
+ "statuses": {
+  "partially_functioning": "WHO says the hospital is partially functional or operational, or has resumed partial operations.",
+  "not_functioning": "WHO says the hospital is non-functional, non-operational or out of service.",
+  "destroyed": "WHO says the hospital has been destroyed.",
+  "services_reported": "WHO names services running at the hospital but does not state its overall status."
+ },
+ "statements": [
+  {
+   "hospital": "Turkish Friendship Hospital",
+   "status": "not_functioning",
+   "as_of": "2023-11-01",
+   "source": "who",
+   "document": {
+    "url": "https://www.un.org/unispal/wp-content/uploads/2024/06/WHO_oPt_Sitrep_10.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:36+00:00",
+    "sha256": "40716f6ae6830984bb072b3d186f2b1ac190f0d1d5cce19d87fa184db3946e1e",
+    "archive": "archive/2026/10/40716f6ae6830984.pdf"
+   },
+   "quote": "Turkish-Palestinian Friendship Hospital (the only dedicated cancer hospital in the Gaza Strip) became non-operational, risking the lives of cancer patients",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al Helou International Hospital",
+   "status": "partially_functioning",
+   "as_of": "2023-12-29",
+   "source": "who",
+   "document": {
+    "url": "https://www.un.org/unispal/wp-content/uploads/2024/06/Sitrep_-_issue_19.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:30+00:00",
+    "sha256": "0a33005234e51d16f4daacb5bed542d400e5b73d6c95b160d765011bfd3fe826",
+    "archive": "archive/2026/10/0a33005234e51d16.pdf"
+   },
+   "quote": "Only 13 of 36 (36%) hospitals in the Gaza strip are partially functioning including 9 in the south and four hospitals (Patients Friends Association Hospital, Al Helou international Hospital, Assahaba Medical Complex and Al Awda Hospital-North) in Gaza and the north",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Assahaba Medical Complex",
+   "status": "partially_functioning",
+   "as_of": "2023-12-29",
+   "source": "who",
+   "document": {
+    "url": "https://www.un.org/unispal/wp-content/uploads/2024/06/Sitrep_-_issue_19.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:30+00:00",
+    "sha256": "0a33005234e51d16f4daacb5bed542d400e5b73d6c95b160d765011bfd3fe826",
+    "archive": "archive/2026/10/0a33005234e51d16.pdf"
+   },
+   "quote": "Only 13 of 36 (36%) hospitals in the Gaza strip are partially functioning including 9 in the south and four hospitals (Patients Friends Association Hospital, Al Helou international Hospital, Assahaba Medical Complex and Al Awda Hospital-North) in Gaza and the north",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Psychiatric hospital",
+   "status": "not_functioning",
+   "as_of": "2024-08-20",
+   "source": "who",
+   "document": {
+    "url": "https://www.un.org/unispal/wp-content/uploads/2024/08/Sitrep_-_issue_41b.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:42+00:00",
+    "sha256": "b91ac113ca1cb961645c200481326f58dcd415378feb036540f75b34f7381fca",
+    "archive": "archive/2026/10/b91ac113ca1cb961.pdf"
+   },
+   "quote": "the only existing Psychiatric Hospital went out of service in November 2023 after an attack",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al Wafaa Rehabilitation Hospital",
+   "status": "partially_functioning",
+   "as_of": "2024-12-04",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_52.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:44+00:00",
+    "sha256": "5e24277f7450723995078c0b87845cfab8626db3f6e38a6b6808184ece537fb1",
+    "archive": "archive/2026/10/5e24277f74507239.pdf"
+   },
+   "quote": "Al-Wafa Hospital in Gaza City resumed partial functionality",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "AL Najjar Hospital",
+   "status": "not_functioning",
+   "as_of": "2025-02-01",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_54n.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:43+00:00",
+    "sha256": "fc7a622d36bdb58d910cc89ed7cb7484816e0db84cad8acd5e5d28243b3eab28",
+    "archive": "archive/2026/10/fc7a622d36bdb58d.pdf"
+   },
+   "quote": "An-Najjar (non-functional)",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al-Helal Al-Emarati Hospital",
+   "status": "not_functioning",
+   "as_of": "2025-02-01",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_54n.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:43+00:00",
+    "sha256": "fc7a622d36bdb58d910cc89ed7cb7484816e0db84cad8acd5e5d28243b3eab28",
+    "archive": "archive/2026/10/fc7a622d36bdb58d.pdf"
+   },
+   "quote": "Emirati Hospital (non-functional)",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Mohamed Al Durrah Hospital",
+   "status": "not_functioning",
+   "as_of": "2025-05-07",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_58s.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:40+00:00",
+    "sha256": "6a66829c5512fa301e784019a1b2bf9bad95540cfac28a13c8b3580bc4db186f",
+    "archive": "archive/2026/10/6a66829c5512fa30.pdf"
+   },
+   "quote": "Mohamed Al-Durrah Hospital went out of service on 23 April, due to insecurity",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Indonesian Hospital",
+   "status": "not_functioning",
+   "as_of": "2025-05-22",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_59.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:39+00:00",
+    "sha256": "948e40e155a8768304afda41977257b52484751a18eec31a53e95e3f7b53f4c7",
+    "archive": "archive/2026/10/948e40e155a87683.pdf"
+   },
+   "quote": "on 18 May, the Indonesian Hospital became non-operational following attacks",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Kamal Adwan Hospital",
+   "status": "not_functioning",
+   "as_of": "2025-05-22",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_59.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:39+00:00",
+    "sha256": "948e40e155a8768304afda41977257b52484751a18eec31a53e95e3f7b53f4c7",
+    "archive": "archive/2026/10/948e40e155a87683.pdf"
+   },
+   "quote": "after both the Indonesian and Kamal Adwan Hospitals went out of service, due to insecurity and recurrent attacks",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al Awda Hospital - North",
+   "status": "not_functioning",
+   "as_of": "2025-06-17",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_60_GS2.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:38+00:00",
+    "sha256": "b377b44bf36af8cbb6a748541822b19793d37d3f68576d318c3f569ca2a8e587",
+    "archive": "archive/2026/10/b377b44bf36af8cb.txt",
+    "note": "Original is 6 MB; the archive keeps its extracted text. sha256 is of the original file."
+   },
+   "quote": "Al-Awda Jabalia, Haifa and Hamad Hospitals became non-operational due to intensified hostilities and security concerns",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "European Hospital",
+   "status": "not_functioning",
+   "as_of": "2025-06-17",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_60_GS2.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:38+00:00",
+    "sha256": "b377b44bf36af8cbb6a748541822b19793d37d3f68576d318c3f569ca2a8e587",
+    "archive": "archive/2026/10/b377b44bf36af8cb.txt",
+    "note": "Original is 6 MB; the archive keeps its extracted text. sha256 is of the original file."
+   },
+   "quote": "With the European Gaza Hospital out of service",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al Awda Hospital - Nuseirat",
+   "status": "services_reported",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Two SAM SC are operational in Gaza City at Rantissi and Patient Friends Hospitals, two in Deir Al-Balah at the IMC Field Hospital and Al-Awda Nusseirat Hospital, and three in Khan Younis at Nasser and Al-Khair Hospitals and Al-Qarara Field Facility",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al-Khair Hospital",
+   "status": "services_reported",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Two SAM SC are operational in Gaza City at Rantissi and Patient Friends Hospitals, two in Deir Al-Balah at the IMC Field Hospital and Al-Awda Nusseirat Hospital, and three in Khan Younis at Nasser and Al-Khair Hospitals and Al-Qarara Field Facility",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al-Rantisi Specialized Hospital",
+   "status": "partially_functioning",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Four hospitals have resumed partial operations in Gaza City (i.e. Haifa, Rantissi Pediatric, St. John Eye and the MOH Ophthalmic), bringing the total number of partially functioning hospitals in Gaza City to 12",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Beit Hanoun Hospital",
+   "status": "destroyed",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Beit Hanoun and Kuwait Specialized Hospitals have been destroyed",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Haifa Charity Hospital",
+   "status": "partially_functioning",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Four hospitals have resumed partial operations in Gaza City (i.e. Haifa, Rantissi Pediatric, St. John Eye and the MOH Ophthalmic), bringing the total number of partially functioning hospitals in Gaza City to 12",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Kuwait Hospital",
+   "status": "destroyed",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Beit Hanoun and Kuwait Specialized Hospitals have been destroyed",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Ophthalmic hospital",
+   "status": "partially_functioning",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Four hospitals have resumed partial operations in Gaza City (i.e. Haifa, Rantissi Pediatric, St. John Eye and the MOH Ophthalmic), bringing the total number of partially functioning hospitals in Gaza City to 12",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Patient Friends Association Hospital",
+   "status": "services_reported",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Two SAM SC are operational in Gaza City at Rantissi and Patient Friends Hospitals, two in Deir Al-Balah at the IMC Field Hospital and Al-Awda Nusseirat Hospital, and three in Khan Younis at Nasser and Al-Khair Hospitals and Al-Qarara Field Facility",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "St. John's Eye Hospital",
+   "status": "partially_functioning",
+   "as_of": "2025-10-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T14:52:24+00:00",
+    "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+    "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+   },
+   "quote": "Four hospitals have resumed partial operations in Gaza City (i.e. Haifa, Rantissi Pediatric, St. John Eye and the MOH Ophthalmic), bringing the total number of partially functioning hospitals in Gaza City to 12",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al Ahli Arab Hospital",
+   "status": "services_reported",
+   "as_of": "2026-01-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_67a_January_2026.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:34+00:00",
+    "sha256": "d64bd0641aede65c272edd1360631a2ecae43b8fb105ed4482973fb093d892a4",
+    "archive": "archive/2026/10/d64bd0641aede65c.pdf"
+   },
+   "quote": "Oncology services at Al-Ahli Arab Hospital (AAH), supported by Augusta Victoria Hospital, provide about six adult outpatient consultations daily",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Sheikh Hamad Hospital for Rehabilitation and Prosthetics",
+   "status": "partially_functioning",
+   "as_of": "2026-03-31",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_68.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:33+00:00",
+    "sha256": "146f1ab9a99caee5d0100033de1965720afa8d3a7579213d90df845e064e464b",
+    "archive": "archive/2026/10/146f1ab9a99caee5.pdf"
+   },
+   "quote": "only one hospital in North Gaza – Hamad Hospital for Rehabilitation – is partially operational, primarily providing limited rehabilitation services",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al Aqsa Hospital",
+   "status": "services_reported",
+   "as_of": "2026-06-30",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_71.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:30+00:00",
+    "sha256": "a50e90eedfee372f05923e0ef03ded03e5add38fc8dea46e9624fbe91c8f12ba",
+    "archive": "archive/2026/10/a50e90eedfee372f.pdf"
+   },
+   "quote": "four operational units (Al Shifa Hospital, Nasser Medical Complex, Al Aqsa Hospital, and Zawaida Field Unit)",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Al Shifa Medical Hospital",
+   "status": "services_reported",
+   "as_of": "2026-06-30",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_71.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:30+00:00",
+    "sha256": "a50e90eedfee372f05923e0ef03ded03e5add38fc8dea46e9624fbe91c8f12ba",
+    "archive": "archive/2026/10/a50e90eedfee372f.pdf"
+   },
+   "quote": "Oncology services have partially resumed at Al-Shifa Medical Complex, including day-care chemotherapy and in- patient care",
+   "added_by": "agent:claude"
+  },
+  {
+   "hospital": "Nasser Hospital",
+   "status": "services_reported",
+   "as_of": "2026-06-30",
+   "source": "who",
+   "document": {
+    "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_71.pdf",
+    "publisher": "World Health Organization (oPt Emergency Situation Update)",
+    "retrieved_at": "2026-10-19T15:09:30+00:00",
+    "sha256": "a50e90eedfee372f05923e0ef03ded03e5add38fc8dea46e9624fbe91c8f12ba",
+    "archive": "archive/2026/10/a50e90eedfee372f.pdf"
+   },
+   "quote": "four operational units (Al Shifa Hospital, Nasser Medical Complex, Al Aqsa Hospital, and Zawaida Field Unit)",
+   "added_by": "agent:claude"
+  }
+ ]
+}

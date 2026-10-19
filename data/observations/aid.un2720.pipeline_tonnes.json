@@ -1,0 +1,187 @@
+[
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-04-30",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 124000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-04-30",
+    "period_start": null,
+    "period_end": "2025-04-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly-Infographic-April.pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:51+00:00",
+      "sha256": "ae7f8be6cf0593f6a2105cd48313f3639c32d14fd83d09e28268289eaa1e3b22",
+      "archive": "archive/2026/10/ae7f8be6cf0593f6.pdf"
+    },
+    "quote": "As of 30 April 2025, a total of over 124,000 t of aid (over 182,000 pallets) were in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-05-31",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 87000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-05-31",
+    "period_start": null,
+    "period_end": "2025-05-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(May).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:51+00:00",
+      "sha256": "0bb680a2357c6517ed14f28238c27881c4fb83429b37112689cae6830200844e",
+      "archive": "archive/2026/10/0bb680a2357c6517.pdf"
+    },
+    "quote": "As of 31 May, a total of over 87,000 t (over 127,000 pallets) of aid are in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-06-30",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 105000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-06-30",
+    "period_start": null,
+    "period_end": "2025-06-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(June).pdf",
+      "publisher": "UN2720",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-07-31",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 145000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-07-31",
+    "period_start": null,
+    "period_end": "2025-07-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(July).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:50+00:00",
+      "sha256": "41b87f5e591a85ae0f5f02680155e0d2e0d487efb5c1cea2aa9843fb587b0789",
+      "archive": "archive/2026/10/41b87f5e591a85ae.pdf"
+    },
+    "quote": "As of 31 July, a total of over 145,000 t (over 203,000 pallets) of aid are in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-08-31",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 180000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-08-31",
+    "period_start": null,
+    "period_end": "2025-08-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(August).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:50+00:00",
+      "sha256": "5db227bb650ea20844df4b02791fef86e4f7db09bda989a9765ac9a3cf68fe3c",
+      "archive": "archive/2026/10/5db227bb650ea208.pdf"
+    },
+    "quote": "As of 31 August, a total of over 180K t (over 263K pallets) of aid are in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza. Stated as 180K t in the report.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-09-30",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 182000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-09-30",
+    "period_start": null,
+    "period_end": "2025-09-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Sep).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:49+00:00",
+      "sha256": "37e54bf3fb3132f0b7ad2e376c95e77bfcf00950936bd93a2a4d3e3b6afc0a70",
+      "archive": "archive/2026/10/37e54bf3fb3132f0.pdf"
+    },
+    "quote": "As of 30 September, a total of over 182K t (over 268K pallets) of aid is in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza. Stated as 182K t in the report.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-10-31",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 217000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-10-31",
+    "period_start": null,
+    "period_end": "2025-10-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Oct).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:48+00:00",
+      "sha256": "49d8e103de46187afd6fa0016a8a3887b0ed75106dfedc66de2f2b3fa5d450df",
+      "archive": "archive/2026/10/49d8e103de46187a.pdf"
+    },
+    "quote": "As of 31 October, a total of over 217K t (over 365K pallets) of aid is in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza. Stated as 217K t in the report.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-11-30",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 179000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-11-30",
+    "period_start": null,
+    "period_end": "2025-11-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Nov).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:47+00:00",
+      "sha256": "c595dba28430d5c364bd63b24f9ebb4dfc92b6f386e4bb3280694a9fe07d9c09",
+      "archive": "archive/2026/10/c595dba28430d5c3.pdf"
+    },
+    "quote": "As of 30 November, a total of over 179K t (over 313K pallets) of aid were in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza. Stated as 179K t in the report.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-pipeline-tonnes-2025-12-31",
+    "metric": "aid.un2720.pipeline_tonnes",
+    "value": 352000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "un2720",
+    "as_of": "2025-12-31",
+    "period_start": null,
+    "period_end": "2025-12-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly_Infographic_(Dec).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-19T13:11:47+00:00",
+      "sha256": "1177019c4c6a7480e75aa713ba213ce70519d28974a501c9e8d5195b56263320",
+      "archive": "archive/2026/10/1177019c4c6a7480.pdf"
+    },
+    "quote": "As of 31 December, a total of over 352,000 t (nearly 280,000 pallets) of aid were in the pipeline",
+    "caveat": "Approved by COGAT but not yet delivered to Gaza.",
+    "added_by": "importer:un2720"
+  }
+]

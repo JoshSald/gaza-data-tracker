@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ap-israel-hostages-taken-2025-10-13",
+    "metric": "israel.hostages.taken",
+    "value": 251,
+    "kind": "count",
+    "bound": "exact",
+    "source": "ap",
+    "as_of": "2025-10-13",
+    "period_start": "2023-10-07",
+    "period_end": "2023-10-07",
+    "document": {
+      "url": "https://www.pbs.org/newshour/world/a-look-at-the-hostages-left-in-gaza-by-the-numbers",
+      "publisher": "PBS / AP",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  }
+]

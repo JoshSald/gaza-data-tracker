@@ -1,0 +1,219 @@
+[
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-01-29-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 450,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "gaza-moh",
+    "as_of": "2026-01-29",
+    "period_start": "2025-10-10",
+    "period_end": "2026-01-29",
+    "document": {
+      "url": "https://www.timesofisrael.com/idf-believes-70000-gazans-killed-in-war-as-claimed-",
+      "publisher": "Times of Israel",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-06-14-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 986,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "gaza-moh",
+    "as_of": "2026-06-14",
+    "period_start": "2025-10-10",
+    "period_end": "2026-06-14",
+    "document": {
+      "url": "https://live.libnanews.com/event/ev-1781432944274-43a8",
+      "publisher": "Middle East Eye via Libnanews",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-06-14-20251010-primary",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 986,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-06-14",
+    "period_start": "2025-10-10",
+    "period_end": "2026-06-14",
+    "document": {
+      "url": "https://t.me/MOHMediaGaza/7481",
+      "publisher": "Gaza Ministry of Health (official Telegram channel)",
+      "retrieved_at": "2026-10-19T14:35:12+00:00",
+      "sha256": "c7b7381c07ef70580b16ebd6647ad2ef185e131ce8c148129c1926641bc02710",
+      "note": "Post on the Ministry's Telegram channel t.me/MOHMediaGaza. The archived copy is Telegram's public embed view of the post (?embed=1), which holds the full post text.",
+      "archive": "archive/2026/10/c7b7381c07ef7058.html"
+    },
+    "quote": "إجمالي عدد الشهداء: 986",
+    "caveat": "Ministry daily report of 14 June 2026, under the heading since the ceasefire (11 October). The quote reads: total number of martyrs: 986.",
+    "supersedes": "gaza-moh-gaza-killed-since-ceasefire-2026-06-14-20251010",
+    "added_by": "agent:claude"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-08-20-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1283,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-08-20",
+    "period_start": "2025-10-10",
+    "period_end": "2026-08-20",
+    "document": {
+      "url": "https://alquds.com/ar/posts/254791",
+      "publisher": "Al-Quds",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-08-20-20251010-primary",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1283,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-08-20",
+    "period_start": "2025-10-10",
+    "period_end": "2026-08-20",
+    "document": {
+      "url": "https://t.me/MOHMediaGaza/7586",
+      "publisher": "Gaza Ministry of Health (official Telegram channel)",
+      "retrieved_at": "2026-10-19T14:35:12+00:00",
+      "sha256": "7d2df99a30fdeeaf638be102618872a57bbf2a911fc58dbfedd4b0ca29b14397",
+      "note": "Post on the Ministry's Telegram channel t.me/MOHMediaGaza. The archived copy is Telegram's public embed view of the post (?embed=1), which holds the full post text.",
+      "archive": "archive/2026/10/7d2df99a30fdeeaf.html"
+    },
+    "quote": "إجمالي عدد الشهداء: 1,283",
+    "caveat": "Ministry daily report of 20 August 2026, under the heading since the ceasefire (11 October). The quote reads: total number of martyrs: 1,283.",
+    "supersedes": "gaza-moh-gaza-killed-since-ceasefire-2026-08-20-20251010",
+    "added_by": "agent:claude"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-09-01-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1326,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-09-01",
+    "period_start": "2025-10-10",
+    "period_end": "2026-09-01",
+    "document": {
+      "url": "https://t.me/MOHMediaGaza/7596",
+      "publisher": "Gaza Ministry of Health (official Telegram channel)",
+      "retrieved_at": "2026-10-19T14:35:12+00:00",
+      "sha256": "afd043cfb3d2cccc8dbc732e6887e007a2d65cade7717fe430321b6647ae0fff",
+      "note": "Post on the Ministry's Telegram channel t.me/MOHMediaGaza. The archived copy is Telegram's public embed view of the post (?embed=1), which holds the full post text.",
+      "archive": "archive/2026/10/afd043cfb3d2cccc.html"
+    },
+    "quote": "إجمالي عدد الشهداء: 1,326",
+    "caveat": "Ministry daily report of 1 September 2026, under the heading since the ceasefire (11 October). The quote reads: total number of martyrs: 1,326. The superseded row dated it 4 September, when a weekly roundup repeated it.",
+    "supersedes": "gaza-moh-gaza-killed-since-ceasefire-2026-09-04-20251010",
+    "added_by": "agent:claude"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-09-04-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1326,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-09-04",
+    "period_start": "2025-10-10",
+    "period_end": "2026-09-04",
+    "document": {
+      "url": "https://gazaunlocked.org/posts/weekly-gaza-update-september-4",
+      "publisher": "Gaza Unlocked",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-09-12-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1369,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-09-12",
+    "period_start": "2025-10-10",
+    "period_end": "2026-09-12",
+    "document": {
+      "url": "https://t.me/MOHMediaGaza/7609",
+      "publisher": "Gaza Ministry of Health (official Telegram channel)",
+      "retrieved_at": "2026-10-19T14:35:13+00:00",
+      "sha256": "65843ebb08973cc264f2663c08215c422cf2f2751fcb5b5b7d5ea9e7a9c90b70",
+      "note": "Post on the Ministry's Telegram channel t.me/MOHMediaGaza. The archived copy is Telegram's public embed view of the post (?embed=1), which holds the full post text.",
+      "archive": "archive/2026/10/65843ebb08973cc2.html"
+    },
+    "quote": "إجمالي عدد الشهداء: 1,369",
+    "caveat": "Ministry daily report of 12 September 2026 (covering 48 hours), under the heading since the ceasefire (11 October). The quote reads: total number of martyrs: 1,369. The superseded row dated it 13 September.",
+    "supersedes": "gaza-moh-gaza-killed-since-ceasefire-2026-09-13-20251010",
+    "added_by": "agent:claude"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-09-13-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1369,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-09-13",
+    "period_start": "2025-10-10",
+    "period_end": "2026-09-13",
+    "document": {
+      "url": "https://www.qatar-tribune.com/article/253427/world/at-least-10-palestinians-killed-in-gaza-over-past-48-hours-says-health-ministry",
+      "publisher": "Qatar Tribune",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-10-13-20251010",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1498,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-13",
+    "period_start": "2025-10-10",
+    "period_end": "2026-10-13",
+    "document": {
+      "url": "https://www.bernama.com/tv/news.php?id=2619824",
+      "publisher": "Bernama / WAFA",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-since-ceasefire-2026-10-13-20251010-primary",
+    "metric": "gaza.killed.since_ceasefire",
+    "value": 1498,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-13",
+    "period_start": "2025-10-10",
+    "period_end": "2026-10-13",
+    "document": {
+      "url": "https://t.me/MOHMediaGaza/7664",
+      "publisher": "Gaza Ministry of Health (official Telegram channel)",
+      "retrieved_at": "2026-10-19T14:35:13+00:00",
+      "sha256": "4f8c8bf726194fb2d7e9e711cfe5072805f739ced795df12d5843776495f350f",
+      "note": "Post on the Ministry's Telegram channel t.me/MOHMediaGaza. The archived copy is Telegram's public embed view of the post (?embed=1), which holds the full post text.",
+      "archive": "archive/2026/10/4f8c8bf726194fb2.html"
+    },
+    "quote": "إجمالي الشهداء: 1,498 شهيدًا",
+    "caveat": "Ministry daily report of 13 October 2026, under the heading since the ceasefire on 11 October 2025. The quote reads: total martyrs: 1,498 martyrs.",
+    "supersedes": "gaza-moh-gaza-killed-since-ceasefire-2026-10-13-20251010",
+    "added_by": "agent:claude"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "unrwa-aid-trucks-needed-per-day-2024-02-21",
+    "metric": "aid.trucks.needed_per_day",
+    "value": 500,
+    "kind": "claim",
+    "bound": "exact",
+    "source": "unrwa",
+    "as_of": "2024-02-21",
+    "period_start": null,
+    "period_end": "2024-02-21",
+    "document": {
+      "url": "https://www.michiganpublic.org/2024-02-21/how-much-humanitarian-aid-is-getting-into-gaza-the-exact-answer-can-be-hard-to-know",
+      "publisher": "NPR via Michigan Public",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "UNRWA spokesperson's benchmark for humanitarian aid alone, excluding commercial goods."
+  }
+]

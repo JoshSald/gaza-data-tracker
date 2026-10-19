@@ -1,0 +1,61 @@
+[
+  {
+    "id": "ipc-ipc-people-crisis-or-worse-2025-11-30-20251016",
+    "metric": "ipc.people.crisis_or_worse",
+    "value": 1600000,
+    "kind": "count",
+    "bound": "exact",
+    "source": "ipc",
+    "as_of": "2025-11-30",
+    "period_start": "2025-10-16",
+    "period_end": "2025-11-30",
+    "document": {
+      "url": "https://web11.bernama.com/en/news.php?id=2504752",
+      "publisher": "Bernama / Anadolu",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "No area classified in famine after the ceasefire; over 100,000 people in Catastrophe."
+  },
+  {
+    "id": "ipc-ipc-people-crisis-or-worse-2025-11-30-20251016-primary",
+    "metric": "ipc.people.crisis_or_worse",
+    "value": 1600000,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "ipc",
+    "as_of": "2025-11-30",
+    "period_start": "2025-10-16",
+    "period_end": "2025-11-30",
+    "document": {
+      "url": "https://reliefweb.int/attachments/93b64494-2a7b-479c-81c6-27c85c4caea4/IPC_Gaza_Strip_Acute_Food_Insecurity_Oct2025_Apr2026_Special_Brief.pdf",
+      "publisher": "Integrated Food Security Phase Classification (IPC)",
+      "retrieved_at": "2026-10-19T14:35:15+00:00",
+      "sha256": "3e9d7b181afd396ed182798a13fb22b147b35d0b90d17c0372ade2273b7b2fee",
+      "note": "IPC Special Brief, published 19 December 2025; the IPC's own PDF as posted on ReliefWeb under the IPC's name. ipcinfo.org shows a bot check and could not be read.",
+      "archive": "archive/2026/10/3e9d7b181afd396e.pdf"
+    },
+    "quote": "Between 16 October and 30 November 2025, around 1.6 million people (77 percent of the population analysed) faced high levels of acute food insecurity (IPC Phase 3 or above).",
+    "caveat": "No area classified in famine after the ceasefire; the same brief gives 104,000 people in Catastrophe (IPC Phase 5). COGAT rejected the findings.",
+    "supersedes": "ipc-ipc-people-crisis-or-worse-2025-11-30-20251016",
+    "added_by": "agent:claude"
+  },
+  {
+    "id": "ipc-ipc-people-crisis-or-worse-2026-07-01-20260701",
+    "metric": "ipc.people.crisis_or_worse",
+    "value": 1400000,
+    "kind": "count",
+    "bound": "exact",
+    "source": "ipc",
+    "as_of": "2026-07-01",
+    "period_start": "2026-07-01",
+    "period_end": "2026-12-31",
+    "document": {
+      "url": "https://www.foodsecurityportal.org/node/3924",
+      "publisher": "Food Security Portal",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "Projection: the entire Strip in Phase 3 through December 2026."
+  }
+]
