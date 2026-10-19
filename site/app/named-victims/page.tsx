@@ -76,6 +76,12 @@ export default function NamedVictims() {
         and {fmt(mem.counts.skipped)} were about several people or gave too little of a name. Those pages are still worth
         reading on the projects&apos; own sites.
       </p>
+      <p>
+        {fmt(mem.byHand)} {mem.byHand === 1 ? "link was" : "links were"} added by hand, for{" "}
+        {mem.byHand === 1 ? "a page" : "pages"} the rules could not link because the page gives too little of the name.
+        These are marked <span className="font-mono text-xs uppercase">linked by hand</span> in the list, with what the
+        identification rests on, and are kept in a separate file so they are never mistaken for matches the rules made.
+      </p>
       <p className="note">
         Airwars, which investigates civilian harm, has matched several thousand names on the Ministry&apos;s list to the
         incidents it documents, using ID numbers. That would give far more links, but it does not state terms for reusing
@@ -106,16 +112,21 @@ export default function NamedVictims() {
             </a>
             ; the Arabic name is the Ministry&apos;s record. ID numbers and dates of birth in the source are not shown.{" "}
             {fmt(mem.people)} names link to a memorial page written by an independent project, matched as described
-            above; the project&apos;s name is shown under each.
+            above or, where marked, linked by hand; the project&apos;s name is shown under each.
           </p>
-          <VictimList src="/data/lists/named-victims.json" links="/data/lists/gaza-memorial-links.json" />
+          <VictimList
+            src="/data/lists/named-victims.json"
+            links="/data/lists/gaza-memorial-links.json"
+            byHand="/data/lists/gaza-memorial-links-by-hand.json"
+          />
           <p className="attr">
             {source(gaza.source).name} via {gaza.document.publisher} ·{" "}
             <a href={gaza.document.url} target="_blank" rel="noopener noreferrer">
               source
             </a>{" "}
             · <a href="/data/lists/named-victims.json">download the list</a> ·{" "}
-            <a href="/data/lists/gaza-memorial-links.json">download the memorial links</a>
+            <a href="/data/lists/gaza-memorial-links.json">download the memorial links</a> ·{" "}
+            <a href="/data/lists/gaza-memorial-links-by-hand.json">links added by hand</a>
           </p>
         </TabsContent>
 

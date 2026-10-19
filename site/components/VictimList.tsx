@@ -1,7 +1,8 @@
 "use client";
 // The Ministry's list of named victims, searched and paged in the browser. The list is ~7 MB, so it is fetched
 // once from /data/lists/ rather than built into the page. Names that independent projects remember on a memorial page
-// link to it; those links come from a separate file, matched to the list by the Ministry's Arabic name, age and sex.
+// link to it; those links come from separate files, matched to the list by the Ministry's Arabic name, age and sex.
+// Links added by hand, for pages the matching rules cannot link, come from their own file and are marked as such.
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -11,7 +12,7 @@ import { fmt } from "@/lib/format";
 
 type Row = [en: string, ar: string, age: number, sex: "m" | "f", update: number];
 type LinkRow = [ar: string, age: number, sex: "m" | "f", url: string, project: string, basis: string];
-interface Memorial { url: string; project: string; basis: string }
+interface Memorial { url: string; project: string; basis: string; byHand: boolean }
 interface Entry { n: number; en: string; ar: string; age: number; sex: "m" | "f"; key: string; memorials: Memorial[] }
 
 const PAGE = 100;
@@ -39,7 +40,7 @@ function normalise(s: string) {
     .trim();
 }
 
-export function VictimList({ src, links }: { src: string; links: string }) {
+export function VictimList({ src, links, byHand }: { src: string; links: string; byHand: string }) {
   const [entries, setEntries] = useState<Entry[] | null>(null);
   const [failed, setFailed] = useState(false);
   const [query, setQuery] = useState("");
@@ -54,13 +55,15 @@ export function VictimList({ src, links }: { src: string; links: string }) {
   useEffect(() => {
     const json = (url: string) => fetch(url).then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
     // The list still loads if the links file cannot; the names are then shown without links.
-    Promise.all([json(src), json(links).catch(() => ({ projects: {}, records: [] }))])
-      .then(([d, l]: [{ records: Row[] }, { projects: Record<string, { name: string }>; records: LinkRow[] }]) => {
+    const none = { projects: {}, records: [] };
+    Promise.all([json(src), json(links).catch(() => none), json(byHand).catch(() => none)])
+      .then(([d, l, h]: [{ records: Row[] }, ...{ projects: Record<string, { name: string }>; records: LinkRow[] }[]]) => {
         const byKey = new Map<string, Memorial[]>();
-        for (const [ar, age, sex, url, project, basis] of l.records) {
-          const k = `${ar}|${age}|${sex}`;
-          byKey.set(k, [...(byKey.get(k) ?? []), { url, project, basis }]);
-        }
+        for (const [file, hand] of [[l, false], [h, true]] as const)
+          for (const [ar, age, sex, url, project, basis] of file.records) {
+            const k = `${ar}|${age}|${sex}`;
+            byKey.set(k, [...(byKey.get(k) ?? []), { url, project, basis, byHand: hand }]);
+          }
         setProjects(l.projects);
         setEntries(
           d.records.map(([en, ar, a, s], i) => ({
@@ -69,7 +72,7 @@ export function VictimList({ src, links }: { src: string; links: string }) {
         );
       })
       .catch(() => setFailed(true));
-  }, [src, links]);
+  }, [src, links, byHand]);
 
   const matches = useMemo(() => {
     if (!entries) return [];
@@ -166,11 +169,11 @@ export function VictimList({ src, links }: { src: string; links: string }) {
           />
         </fieldset>
         <Select value={onlyLinked ? "linked" : "all"} onValueChange={(v) => setOnlyLinked(v === "linked")}>
-          <SelectTrigger aria-label="Memorial pages" className="h-9 w-56 rounded-[var(--radius)] bg-card">
+          <SelectTrigger aria-label="Memorial pages" className="h-9 w-52 rounded-[var(--radius)] bg-card">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="all">With or without a memorial page</SelectItem>
+            <SelectItem value="all">All names</SelectItem>
             <SelectItem value="linked">With a memorial page</SelectItem>
           </SelectContent>
         </Select>
@@ -197,7 +200,7 @@ export function VictimList({ src, links }: { src: string; links: string }) {
                 <TableCell className="num hidden text-muted-foreground sm:table-cell">{fmt(e.n)}</TableCell>
                 <TableCell className="whitespace-normal">
                   {e.memorials.length ? (
-                    <a href={e.memorials[0].url} target="_blank" rel="noopener noreferrer" title={`Memorial page. Matched by: ${e.memorials[0].basis}`}>
+                    <a href={e.memorials[0].url} target="_blank" rel="noopener noreferrer" title={`Memorial page. ${e.memorials[0].byHand ? "Linked by hand" : "Matched by"}: ${e.memorials[0].basis}`}>
                       {e.en}
                     </a>
                   ) : (
@@ -208,9 +211,17 @@ export function VictimList({ src, links }: { src: string; links: string }) {
                       {e.memorials.map((m, i) => (
                         <span key={m.url}>
                           {i > 0 && " · "}
-                          <a href={m.url} target="_blank" rel="noopener noreferrer" className="text-muted-foreground" title={`Matched by: ${m.basis}`}>
+                          <a href={m.url} target="_blank" rel="noopener noreferrer" className="text-muted-foreground" title={`${m.byHand ? "Linked by hand" : "Matched by"}: ${m.basis}`}>
                             {projects[m.project]?.name ?? m.project}
                           </a>
+                          {m.byHand && (
+                            <span
+                              title={`Linked by hand, not by the matching rules: ${m.basis}`}
+                              className="ml-1.5 inline-block rounded-[2px] border border-dashed border-current px-[0.4em] py-[0.1em] align-[0.1em] font-mono text-[0.625rem] leading-none tracking-[0.06em] uppercase"
+                            >
+                              linked by hand
+                            </span>
+                          )}
                         </span>
                       ))}
                     </span>
