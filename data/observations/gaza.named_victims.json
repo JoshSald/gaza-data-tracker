@@ -1,0 +1,134 @@
+[
+  {
+    "id": "gaza-moh-gaza-named-victims-2026-05-07-age-group-adult-sex-female",
+    "metric": "gaza.named_victims",
+    "value": 11733,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-05-07",
+    "period_start": "2023-10-07",
+    "period_end": "2026-05-07",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v3/summary.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-19",
+      "note": "List revision of 2026-07-27, covering deaths to 2026-05-07"
+    },
+    "added_by": "seed",
+    "dimensions": {
+      "age_group": "adult",
+      "sex": "female"
+    }
+  },
+  {
+    "id": "gaza-moh-gaza-named-victims-2026-05-07-age-group-adult-sex-male",
+    "metric": "gaza.named_victims",
+    "value": 36067,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-05-07",
+    "period_start": "2023-10-07",
+    "period_end": "2026-05-07",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v3/summary.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-19",
+      "note": "List revision of 2026-07-27, covering deaths to 2026-05-07"
+    },
+    "added_by": "seed",
+    "dimensions": {
+      "age_group": "adult",
+      "sex": "male"
+    }
+  },
+  {
+    "id": "gaza-moh-gaza-named-victims-2026-05-07-age-group-child-sex-female",
+    "metric": "gaza.named_victims",
+    "value": 8834,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-05-07",
+    "period_start": "2023-10-07",
+    "period_end": "2026-05-07",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v3/summary.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-19",
+      "note": "List revision of 2026-07-27, covering deaths to 2026-05-07"
+    },
+    "added_by": "seed",
+    "dimensions": {
+      "age_group": "child",
+      "sex": "female"
+    }
+  },
+  {
+    "id": "gaza-moh-gaza-named-victims-2026-05-07-age-group-child-sex-male",
+    "metric": "gaza.named_victims",
+    "value": 12803,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-05-07",
+    "period_start": "2023-10-07",
+    "period_end": "2026-05-07",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v3/summary.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-19",
+      "note": "List revision of 2026-07-27, covering deaths to 2026-05-07"
+    },
+    "added_by": "seed",
+    "dimensions": {
+      "age_group": "child",
+      "sex": "male"
+    }
+  },
+  {
+    "id": "gaza-moh-gaza-named-victims-2026-05-07-age-group-senior-sex-female",
+    "metric": "gaza.named_victims",
+    "value": 1309,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-05-07",
+    "period_start": "2023-10-07",
+    "period_end": "2026-05-07",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v3/summary.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-19",
+      "note": "List revision of 2026-07-27, covering deaths to 2026-05-07"
+    },
+    "added_by": "seed",
+    "dimensions": {
+      "age_group": "senior",
+      "sex": "female"
+    }
+  },
+  {
+    "id": "gaza-moh-gaza-named-victims-2026-05-07-age-group-senior-sex-male",
+    "metric": "gaza.named_victims",
+    "value": 2089,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-05-07",
+    "period_start": "2023-10-07",
+    "period_end": "2026-05-07",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v3/summary.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-19",
+      "note": "List revision of 2026-07-27, covering deaths to 2026-05-07"
+    },
+    "added_by": "seed",
+    "dimensions": {
+      "age_group": "senior",
+      "sex": "male"
+    }
+  }
+]

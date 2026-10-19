@@ -1,0 +1,43 @@
+[
+  {
+    "id": "israel-mod-israel-security-killed-2026-07-31",
+    "metric": "israel.security.killed",
+    "value": 1318,
+    "kind": "count",
+    "bound": "exact",
+    "source": "israel-mod",
+    "as_of": "2026-07-31",
+    "period_start": "2023-10-07",
+    "period_end": "2026-07-31",
+    "document": {
+      "url": "https://www.jpost.com/israel-news/defense-news/article-910632",
+      "publisher": "Jerusalem Post",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "All fronts, not only Gaza."
+  },
+  {
+    "id": "israel-mod-israel-security-killed-2026-10-04",
+    "metric": "israel.security.killed",
+    "value": 1318,
+    "kind": "count",
+    "bound": "exact",
+    "source": "israel-mod",
+    "as_of": "2026-10-04",
+    "period_start": "2023-10-07",
+    "period_end": "2026-10-04",
+    "document": {
+      "url": "https://www.mod.gov.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA-%D7%95%D7%9E%D7%91%D7%96%D7%A7%D7%99%D7%9D/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F/%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F-%D7%9E%D7%A4%D7%A8%D7%A1%D7%9D-%D7%90%D7%AA-%D7%9E%D7%A0%D7%99%D7%99%D7%9F-%D7%94%D7%A0%D7%95%D7%A4%D7%9C%D7%99%D7%9D-%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%94",
+      "publisher": "Israel Ministry of Defense",
+      "retrieved_at": "2026-10-19T14:35:18+00:00",
+      "sha256": "caa43327be1da4599a975f8ae63dad5b61bc57c5d19ba00c301eb81d30a1d310",
+      "note": "Ministry of Defense news item of 4 October 2026 (Families, Commemoration and Heritage Division), in Hebrew.",
+      "archive": "archive/2026/10/caa43327be1da459.html"
+    },
+    "quote": "1,318 חללי מערכות ישראל נפלו מאז 7.10.2023",
+    "caveat": "The quote reads: 1,318 fallen of Israel's security forces since 7.10.2023. Covers the IDF, police, ISA, Prison Service, Fire and Rescue, security coordinators and rapid-response squads, on all fronts (Gaza, south, north, Lebanon, Judea and Samaria), not only Gaza. The superseded row dated it 31 July 2026; the Ministry published it on 4 October 2026.",
+    "supersedes": "israel-mod-israel-security-killed-2026-07-31",
+    "added_by": "agent:claude"
+  }
+]

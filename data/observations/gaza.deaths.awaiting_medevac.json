@@ -1,0 +1,20 @@
+[
+  {
+    "id": "who-gaza-deaths-awaiting-medevac-2025-11-28-20240701",
+    "metric": "gaza.deaths.awaiting_medevac",
+    "value": 1092,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-11-28",
+    "period_start": "2024-07-01",
+    "period_end": "2025-11-28",
+    "document": {
+      "url": "https://arabnews.com/node/2626822/middle-east",
+      "publisher": "Arab News / AFP",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed",
+    "caveat": "WHO cites Gaza MoH data and says the figure is likely underreported."
+  }
+]

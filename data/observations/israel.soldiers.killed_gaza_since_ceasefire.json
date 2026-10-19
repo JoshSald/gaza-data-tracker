@@ -1,0 +1,19 @@
+[
+  {
+    "id": "idf-israel-soldiers-killed-gaza-since-ceasefire-2026-07-25-20251010",
+    "metric": "israel.soldiers.killed_gaza_since_ceasefire",
+    "value": 5,
+    "kind": "count",
+    "bound": "exact",
+    "source": "idf",
+    "as_of": "2026-07-25",
+    "period_start": "2025-10-10",
+    "period_end": "2026-07-25",
+    "document": {
+      "url": "https://thesun.my/news/world-news/israeli-strikes-kill-three-in-gaza-despite-ceasefire",
+      "publisher": "The Sun Malaysia / AFP",
+      "retrieved_at": "2026-10-19"
+    },
+    "added_by": "seed"
+  }
+]
