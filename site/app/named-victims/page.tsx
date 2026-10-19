@@ -17,6 +17,13 @@ export default function NamedVictims() {
         People killed in the war, by name, from two lists kept by different bodies. Each list is shown as its source records
         it, with its own caveats. The two are not added together.
       </p>
+      <p className="note">
+        The lists also differ in what stands behind each name. Israel publishes official memorial pages for its dead, often with
+        their stories and photographs, and {fmt(oct7.linked)} of the {fmt(oct7.count)} names on the 7 October list link to
+        one. There is no official equivalent for people killed in Gaza: the Ministry of Health&apos;s lists give a name, age
+        and sex only, so names on the Gaza list do not link to a memorial page. This reflects what has been published for
+        each list, not a difference in the people named.
+      </p>
       <HashTabs values={["gaza", "oct7"]} className="gap-4">
         <TabsList className="grid h-auto w-full grid-cols-1 gap-1 rounded-[var(--radius)] group-data-horizontal/tabs:h-auto sm:inline-flex sm:w-fit">
           <TabsTrigger value="gaza" className="h-8 rounded-[calc(var(--radius)-1px)] data-[state=active]:bg-card data-[state=active]:text-foreground data-[state=active]:ring-1 data-[state=active]:ring-border">
