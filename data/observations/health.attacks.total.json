@@ -1,0 +1,233 @@
+[
+  {
+    "id": "who-health-attacks-total-2025-05-07",
+    "metric": "health.attacks.total",
+    "value": 686,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-05-07",
+    "period_start": "2023-10-07",
+    "period_end": "2025-05-07",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_58s.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T15:09:40+00:00",
+      "sha256": "6a66829c5512fa301e784019a1b2bf9bad95540cfac28a13c8b3580bc4db186f",
+      "archive": "archive/2026/10/6a66829c5512fa30.pdf"
+    },
+    "quote": "686 Health Attacks As of 7 May 2025 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 58.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2025-05-22",
+    "metric": "health.attacks.total",
+    "value": 720,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-05-22",
+    "period_start": "2023-10-07",
+    "period_end": "2025-05-22",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_59.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T15:09:39+00:00",
+      "sha256": "948e40e155a8768304afda41977257b52484751a18eec31a53e95e3f7b53f4c7",
+      "archive": "archive/2026/10/948e40e155a87683.pdf"
+    },
+    "quote": "720 Health Attacks As of 22 May 2025 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 59.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2025-06-11",
+    "metric": "health.attacks.total",
+    "value": 735,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-06-11",
+    "period_start": "2023-10-07",
+    "period_end": "2025-06-11",
+    "document": {
+      "url": "https://www.un.org/unispal/wp-content/uploads/2025/08/Sitrep_61.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T14:52:44+00:00",
+      "sha256": "55f2d63b0b87a97b124c3f1b9278b5e1afbc38cba6636f73acd0e2995252a561",
+      "archive": "archive/2026/10/55f2d63b0b87a97b.pdf"
+    },
+    "quote": "735 Health Attacks As of 11 June 2025 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 61.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2025-08-07",
+    "metric": "health.attacks.total",
+    "value": 772,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-08-07",
+    "period_start": "2023-10-07",
+    "period_end": "2025-08-07",
+    "document": {
+      "url": "https://www.un.org/unispal/wp-content/uploads/2025/08/Sitrep_62.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T14:52:45+00:00",
+      "sha256": "6da84ab2216712237ea9579bd81a329527a40587b18a7b321d6e95c2a64a4e8f",
+      "archive": "archive/2026/10/6da84ab221671223.pdf"
+    },
+    "quote": "772 Health Attacks As of 7 Aug 2025 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 62.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2025-09-11",
+    "metric": "health.attacks.total",
+    "value": 793,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-09-11",
+    "period_start": "2023-10-07",
+    "period_end": "2025-09-11",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_64.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T15:09:35+00:00",
+      "sha256": "b0fafe138179baaf712ee0780fdf0c81521f199b2529a4c2dcc00adff4af1dc3",
+      "archive": "archive/2026/10/b0fafe138179baaf.pdf"
+    },
+    "quote": "793 Health Attacks As of 11 Sep 2025 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 64.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2025-09-28",
+    "metric": "health.attacks.total",
+    "value": 821,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-09-28",
+    "period_start": "2023-10-07",
+    "period_end": "2025-09-28",
+    "document": {
+      "url": "https://www.un.org/unispal/wp-content/uploads/2025/11/Sitrep_65.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T14:52:46+00:00",
+      "sha256": "163f6015f2f03e38ba5a89a04d60726f9139d87703991be0d8f61a06c6ee76e5",
+      "archive": "archive/2026/10/163f6015f2f03e38.pdf"
+    },
+    "quote": "821 Health Attacks As of 28 Sep 2025 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 65.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2025-10-31",
+    "metric": "health.attacks.total",
+    "value": 840,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2025-10-31",
+    "period_start": "2023-10-07",
+    "period_end": "2025-10-31",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/sitrep66.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T14:52:24+00:00",
+      "sha256": "589a0b5a248c3fcdad8786d94664921cd16c2353a2a2261a0e298e5d7fd489cf",
+      "archive": "archive/2026/10/589a0b5a248c3fcd.pdf"
+    },
+    "quote": "840 Health Attacks As of 31 Oct 2025 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 66.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2026-01-31",
+    "metric": "health.attacks.total",
+    "value": 937,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2026-01-31",
+    "period_start": "2023-10-07",
+    "period_end": "2026-01-31",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_68.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T15:09:33+00:00",
+      "sha256": "146f1ab9a99caee5d0100033de1965720afa8d3a7579213d90df845e064e464b",
+      "archive": "archive/2026/10/146f1ab9a99caee5.pdf"
+    },
+    "quote": "937 Health Attacks As of 31 Jan 2026 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 68.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2026-04-30",
+    "metric": "health.attacks.total",
+    "value": 953,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2026-04-30",
+    "period_start": "2023-10-07",
+    "period_end": "2026-04-30",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_69b.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T15:09:32+00:00",
+      "sha256": "0d00a6f056ba8e76c1c115c6efe7af2909e55c5aeddecf802c6a39b9f8235935",
+      "archive": "archive/2026/10/0d00a6f056ba8e76.pdf"
+    },
+    "quote": "953 Health Attacks As of 30 Apr 2026 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 69.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2026-05-31",
+    "metric": "health.attacks.total",
+    "value": 968,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2026-05-31",
+    "period_start": "2023-10-07",
+    "period_end": "2026-05-31",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_70b_latest_1.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T15:09:31+00:00",
+      "sha256": "db6e7a2062294371c7f48e4ef637414f6ca03a8fd42ce08e28144df80c9194c0",
+      "archive": "archive/2026/10/db6e7a2062294371.pdf"
+    },
+    "quote": "968 Health Attacks As of 31 May 2026 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 70.",
+    "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-total-2026-06-30",
+    "metric": "health.attacks.total",
+    "value": 972,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2026-06-30",
+    "period_start": "2023-10-07",
+    "period_end": "2026-06-30",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep_71.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-10-19T15:09:30+00:00",
+      "sha256": "a50e90eedfee372f05923e0ef03ded03e5add38fc8dea46e9624fbe91c8f12ba",
+      "archive": "archive/2026/10/a50e90eedfee372f.pdf"
+    },
+    "quote": "972 Health Attacks As of 30 June 2026 Source: SSA",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 71.",
+    "added_by": "importer:who"
+  }
+]
