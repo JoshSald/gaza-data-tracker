@@ -1,0 +1,387 @@
+[
+ {
+  "id": "gaza.killed.total",
+  "label": "Killed in Gaza since 7 Oct 2023",
+  "definition": "People recorded as killed in Gaza since 7 October 2023.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.injured.total",
+  "label": "Injured in Gaza since 7 Oct 2023",
+  "definition": "People recorded as injured in Gaza since 7 October 2023.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.killed.children",
+  "label": "Children killed",
+  "definition": "People under 18 recorded as killed.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.killed.women",
+  "label": "Women killed",
+  "definition": "Women recorded as killed.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.killed.medical",
+  "label": "Medical personnel killed",
+  "definition": "Health workers recorded as killed.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.killed.press",
+  "label": "Journalists killed",
+  "definition": "Journalists and media workers recorded as killed.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.killed.civil_defence",
+  "label": "Civil defence workers killed",
+  "definition": "Emergency and rescue personnel recorded as killed.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.killed.since_ceasefire",
+  "label": "Killed since the Oct 2025 ceasefire",
+  "definition": "People recorded as killed since the ceasefire took effect on 10–11 October 2025, excluding bodies recovered from earlier strikes.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.bodies_recovered.since_ceasefire",
+  "label": "Bodies recovered since the ceasefire",
+  "definition": "Bodies recovered from rubble since the ceasefire, counted separately from new deaths.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.named_victims",
+  "label": "Named victims by age and sex",
+  "definition": "Victims identified by name and ID in Ministry lists, by age group and sex.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.deaths.malnutrition",
+  "label": "Deaths from malnutrition and starvation",
+  "definition": "Deaths recorded by health authorities as caused by malnutrition or starvation.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.deaths.awaiting_medevac",
+  "label": "Died awaiting medical evacuation",
+  "definition": "Patients on the medical evacuation list who died before leaving Gaza.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.killed.seeking_aid",
+  "label": "Killed while seeking aid",
+  "definition": "People killed near aid distribution sites or along aid convoy routes.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "gaza.deaths.traumatic",
+  "label": "Deaths from traumatic injury",
+  "definition": "Deaths caused by traumatic injury, including those not recorded by the Ministry.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "gaza.deaths.violent",
+  "label": "Violent deaths",
+  "definition": "Deaths from violence over a defined period.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "gaza.deaths.excess_nonviolent",
+  "label": "Excess non-violent deaths",
+  "definition": "Non-violent deaths above the number expected from pre-war mortality rates.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "aid.trucks.entered",
+  "label": "Aid trucks entered Gaza",
+  "definition": "Trucks carrying aid or goods that crossed into Gaza, as counted by the publisher.",
+  "unit": "trucks",
+  "cumulative": false
+ },
+ {
+  "id": "aid.trucks.per_day",
+  "label": "Aid trucks per day",
+  "definition": "Average trucks entering Gaza per day.",
+  "unit": "trucks/day",
+  "cumulative": false
+ },
+ {
+  "id": "aid.trucks.needed_per_day",
+  "label": "Trucks needed per day",
+  "definition": "Humanitarian trucks a day the publisher says are needed to meet basic needs.",
+  "unit": "trucks/day",
+  "cumulative": false
+ },
+ {
+  "id": "aid.medical.tonnes",
+  "label": "Medical supplies entered",
+  "definition": "Tonnes of medical equipment and medicines entering Gaza.",
+  "unit": "tonnes",
+  "cumulative": false
+ },
+ {
+  "id": "aid.un2720.delivered_tonnes",
+  "label": "UN2720 aid delivered",
+  "definition": "Tonnes of UN-manifested aid delivered to Gaza's crossings in a month.",
+  "unit": "tonnes",
+  "cumulative": false
+ },
+ {
+  "id": "aid.un2720.pipeline_tonnes",
+  "label": "UN2720 aid awaiting delivery",
+  "definition": "Tonnes approved by COGAT but not yet delivered to Gaza.",
+  "unit": "tonnes",
+  "cumulative": false
+ },
+ {
+  "id": "aid.un2720.trucks_collected",
+  "label": "UN2720 trucks collected",
+  "definition": "UN-manifested trucks collected from Gaza's crossings.",
+  "unit": "trucks",
+  "cumulative": false
+ },
+ {
+  "id": "aid.un2720.trucks_intercepted",
+  "label": "UN2720 trucks intercepted",
+  "definition": "UN-manifested trucks intercepted in transit, by hungry people or armed actors, before reaching their destination.",
+  "unit": "trucks",
+  "cumulative": false
+ },
+ {
+  "id": "aid.un2720.trucks_arrived",
+  "label": "UN2720 trucks arrived",
+  "definition": "UN-manifested trucks that reached their intended destination in Gaza.",
+  "unit": "trucks",
+  "cumulative": false
+ },
+ {
+  "id": "ipc.people.famine",
+  "label": "People in famine (IPC Phase 5)",
+  "definition": "People the IPC classified in Catastrophe/Famine conditions.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "ipc.people.crisis_or_worse",
+  "label": "People in Crisis or worse (IPC 3+)",
+  "definition": "People the IPC classified in Phase 3 (Crisis) or worse.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "israel.killed.oct7",
+  "label": "Killed in Israel on 7 Oct 2023",
+  "definition": "People killed in the Hamas-led attack on Israel on 7 October 2023.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "israel.hostages.taken",
+  "label": "Hostages taken into Gaza",
+  "definition": "People abducted into Gaza on 7 October 2023.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "israel.security.killed",
+  "label": "Israeli security personnel killed",
+  "definition": "IDF, police, Shin Bet and other security personnel killed since 7 October 2023, on all fronts.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "israel.soldiers.killed_gaza_since_ceasefire",
+  "label": "Israeli soldiers killed in Gaza since the ceasefire",
+  "definition": "Israeli soldiers killed in Gaza since 10 October 2025.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "idf.combatants_killed.gaza",
+  "label": "Combatants killed in Gaza, per IDF",
+  "definition": "Members of armed groups the IDF says it killed in Gaza.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "idf.estimate.gaza_toll",
+  "label": "Gaza death toll, per IDF",
+  "definition": "The IDF's own estimate of total deaths in Gaza.",
+  "unit": "people",
+  "cumulative": false
+ },
+ {
+  "id": "idf.combatants_killed.since_ceasefire",
+  "label": "Combatants killed since the ceasefire, per IDF",
+  "definition": "Members of armed groups Israeli sources say were killed since 10 October 2025.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "health.hospitals.partially_functional",
+  "label": "Hospitals partially functioning",
+  "definition": "Hospitals WHO reports as at least partially functioning: open, but with their capacity to deliver services significantly affected. See the method page for WHO's definitions.",
+  "unit": "hospitals",
+  "cumulative": false
+ },
+ {
+  "id": "health.hospitals.not_functioning",
+  "label": "Hospitals not functioning",
+  "definition": "Hospitals WHO reports as unable to provide any health service. See the method page for WHO's definitions.",
+  "unit": "hospitals",
+  "cumulative": false
+ },
+ {
+  "id": "health.hospitals.destroyed",
+  "label": "Hospitals destroyed",
+  "definition": "Hospitals WHO's monitoring system reports as destroyed. See the method page for WHO's definitions.",
+  "unit": "hospitals",
+  "cumulative": false
+ },
+ {
+  "id": "health.attacks.total",
+  "label": "Attacks on health care",
+  "definition": "Attacks on health facilities, transport, workers or patients recorded by WHO's Surveillance System for Attacks on Health Care.",
+  "unit": "attacks",
+  "cumulative": true
+ },
+ {
+  "id": "health.attacks.killed",
+  "label": "People killed in attacks on health care",
+  "definition": "People killed in attacks on health care recorded by WHO's Surveillance System for Attacks on Health Care.",
+  "unit": "people",
+  "cumulative": true
+ },
+ {
+  "id": "health.hospitals.damaged",
+  "label": "Hospitals damaged in attacks",
+  "definition": "Hospitals damaged in attacks on health care recorded by WHO's Surveillance System for Attacks on Health Care.",
+  "unit": "hospitals",
+  "cumulative": true
+ },
+ {
+  "id": "infra.structures.affected",
+  "label": "Structures damaged or destroyed",
+  "definition": "Buildings UNOSAT sees as destroyed, severely, moderately or possibly damaged in satellite images, compared with images from before the war.",
+  "unit": "structures",
+  "cumulative": false
+ },
+ {
+  "id": "infra.structures.destroyed",
+  "label": "Structures destroyed",
+  "definition": "Buildings UNOSAT classes as destroyed in satellite images.",
+  "unit": "structures",
+  "cumulative": false
+ },
+ {
+  "id": "infra.structures.severely_damaged",
+  "label": "Structures severely damaged",
+  "definition": "Buildings UNOSAT classes as severely damaged in satellite images.",
+  "unit": "structures",
+  "cumulative": false
+ },
+ {
+  "id": "infra.structures.moderately_damaged",
+  "label": "Structures moderately damaged",
+  "definition": "Buildings UNOSAT classes as moderately damaged in satellite images.",
+  "unit": "structures",
+  "cumulative": false
+ },
+ {
+  "id": "infra.structures.possibly_damaged",
+  "label": "Structures possibly damaged",
+  "definition": "Buildings UNOSAT classes as possibly damaged in satellite images (a category it added in May 2024).",
+  "unit": "structures",
+  "cumulative": false
+ },
+ {
+  "id": "infra.structures.affected_share",
+  "label": "Share of all structures affected",
+  "definition": "Damaged or destroyed structures as a share of all structures in the Gaza Strip, as stated by UNOSAT.",
+  "unit": "percent",
+  "cumulative": false
+ },
+ {
+  "id": "infra.housing_units.destroyed",
+  "label": "Housing units destroyed",
+  "definition": "Residential units the Gaza Government Media Office reports as destroyed.",
+  "unit": "housing units",
+  "cumulative": true
+ },
+ {
+  "id": "infra.schools.destroyed",
+  "label": "Educational buildings destroyed",
+  "definition": "Schools, universities and other educational buildings the Gaza Government Media Office reports as destroyed.",
+  "unit": "buildings",
+  "cumulative": true
+ },
+ {
+  "id": "infra.schools.damaged",
+  "label": "Educational buildings damaged",
+  "definition": "Educational buildings the Gaza Government Media Office reports as partially damaged.",
+  "unit": "buildings",
+  "cumulative": true
+ },
+ {
+  "id": "infra.mosques.destroyed",
+  "label": "Mosques destroyed",
+  "definition": "Mosques the Gaza Government Media Office reports as destroyed.",
+  "unit": "buildings",
+  "cumulative": false
+ },
+ {
+  "id": "infra.mosques.damaged",
+  "label": "Mosques damaged",
+  "definition": "Mosques the Gaza Government Media Office reports as partially damaged.",
+  "unit": "buildings",
+  "cumulative": false
+ },
+ {
+  "id": "infra.churches.destroyed",
+  "label": "Churches destroyed",
+  "definition": "Churches the Gaza Government Media Office reports as destroyed.",
+  "unit": "buildings",
+  "cumulative": true
+ },
+ {
+  "id": "infra.government_buildings.destroyed",
+  "label": "Government buildings destroyed",
+  "definition": "Government (civic) buildings the Gaza Government Media Office reports as destroyed.",
+  "unit": "buildings",
+  "cumulative": true
+ },
+ {
+  "id": "health.hospitals.fully_functional",
+  "label": "Hospitals fully functioning",
+  "definition": "Hospitals WHO reports as fully functioning: no major or systemic issues impeding the full range of expected services. See the method page for WHO's definitions.",
+  "unit": "hospitals",
+  "cumulative": false
+ },
+ {
+  "id": "health.hospitals.evaluated",
+  "label": "Hospitals evaluated by WHO",
+  "definition": "Hospitals whose status WHO's HeRAMS monitoring evaluated that month, excluding field hospitals.",
+  "unit": "hospitals",
+  "cumulative": false
+ }
+]

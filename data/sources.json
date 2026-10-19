@@ -1,0 +1,128 @@
+[
+ {
+  "id": "gaza-moh",
+  "name": "Gaza Ministry of Health",
+  "type": "authority",
+  "affiliation": "Health authority in Gaza's civil administration, which Hamas has governed since 2007",
+  "url": "https://www.moh.gov.ps/",
+  "notes": "UN agencies have treated its totals as reliable; a senior IDF official said in Jan 2026 the overall toll is largely accurate. Does not distinguish civilians from combatants."
+ },
+ {
+  "id": "tech-for-palestine",
+  "name": "Tech for Palestine datasets",
+  "type": "aggregator",
+  "affiliation": "Volunteer open-data collective",
+  "url": "https://data.techforpalestine.org/",
+  "notes": "Republishes Gaza MoH lists and daily reports as an open API."
+ },
+ {
+  "id": "cogat",
+  "name": "COGAT",
+  "type": "party",
+  "affiliation": "Unit of the Israeli Ministry of Defense coordinating civilian matters in Gaza and the West Bank",
+  "url": "https://www.gov.il/en/departments/cogat",
+  "notes": "Counts all cargo it clears, including private-sector goods."
+ },
+ {
+  "id": "idf",
+  "name": "Israel Defense Forces",
+  "type": "party",
+  "affiliation": "Israeli military",
+  "url": "https://www.idf.il/en/",
+  "notes": "Figures on combatants killed are not published with names or a method."
+ },
+ {
+  "id": "israel-mfa",
+  "name": "Israel Ministry of Foreign Affairs",
+  "type": "party",
+  "affiliation": "Government of Israel",
+  "url": "https://www.gov.il/en/departments/ministry_of_foreign_affairs"
+ },
+ {
+  "id": "israel-mod",
+  "name": "Israel Ministry of Defense",
+  "type": "party",
+  "affiliation": "Government of Israel",
+  "url": "https://www.gov.il/en/departments/ministry_of_defense"
+ },
+ {
+  "id": "un2720",
+  "name": "UN2720 Mechanism (UNOPS)",
+  "type": "un",
+  "affiliation": "United Nations, mandated by Security Council resolution 2720",
+  "url": "https://info.un2720.org/",
+  "notes": "Tracks only UN-manifested consignments, not all aid."
+ },
+ {
+  "id": "ohchr",
+  "name": "UN Human Rights Office (OHCHR)",
+  "type": "un",
+  "affiliation": "United Nations",
+  "url": "https://www.ohchr.org/"
+ },
+ {
+  "id": "who",
+  "name": "World Health Organization",
+  "type": "un",
+  "affiliation": "United Nations",
+  "url": "https://www.who.int/"
+ },
+ {
+  "id": "ocha",
+  "name": "UN OCHA oPt",
+  "type": "un",
+  "affiliation": "United Nations",
+  "url": "https://www.ochaopt.org/"
+ },
+ {
+  "id": "unrwa",
+  "name": "UNRWA",
+  "type": "un",
+  "affiliation": "United Nations",
+  "url": "https://www.unrwa.org/"
+ },
+ {
+  "id": "ipc",
+  "name": "Integrated Food Security Phase Classification",
+  "type": "un",
+  "affiliation": "Joint initiative of UN agencies, NGOs and governments",
+  "url": "https://www.ipcinfo.org/"
+ },
+ {
+  "id": "lancet-crc",
+  "name": "Jamaluddine et al., The Lancet (2025)",
+  "type": "study",
+  "affiliation": "LSHTM, Yale and others; no funding declared",
+  "url": "https://researchonline.lshtm.ac.uk/4674812"
+ },
+ {
+  "id": "gaza-mortality-survey",
+  "name": "Gaza Mortality Survey",
+  "type": "study",
+  "affiliation": "Spagat et al. with the Palestinian Center for Policy and Survey Research; Lancet Global Health (2026)",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.06.19.25329797v3"
+ },
+ {
+  "id": "ap",
+  "name": "Associated Press",
+  "type": "media",
+  "affiliation": "News agency",
+  "url": "https://apnews.com/"
+ },
+ {
+  "id": "unosat",
+  "name": "UNOSAT (UN Satellite Centre)",
+  "type": "un",
+  "affiliation": "Satellite analysis centre of UNITAR, the UN training and research institute",
+  "url": "https://unosat.org/",
+  "notes": "Counts damaged structures from satellite images, compared with images from before the war. Its Gaza assessments are marked preliminary and not validated on the ground."
+ },
+ {
+  "id": "gaza-gmo",
+  "name": "Gaza Government Media Office",
+  "type": "authority",
+  "affiliation": "Media office of Gaza's civil administration, which Hamas has governed since 2007",
+  "url": "https://t.me/s/mediagovps",
+  "notes": "Publishes running totals of destroyed and damaged buildings. It does not publish a method, and Tech for Palestine, which republishes them, advises treating them as estimates."
+ }
+]
