@@ -17,7 +17,7 @@ import sys
 
 from . import checks, store
 from .paths import REPORT, WATCH_STATE, WATCHLIST
-from .sources import hospitals, memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
+from .sources import cogat_updates, hospitals, memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
 from .sources.base import Proposal
 
 ROW_LIMIT = 100  # above this many new rows, the report summarises instead of listing each one
@@ -31,6 +31,7 @@ IMPORTERS = {
     "unosat": unosat.run,
     "un2720": un2720.run,
     "press": press.run,
+    "cogat-updates": cogat_updates.run,
 }
 
 
