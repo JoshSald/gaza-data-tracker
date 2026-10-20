@@ -14,6 +14,9 @@ _NUM = re.compile(
 def _matches(text: str) -> list[tuple[float, float]]:
     """(value, rounding tolerance) for each number. '12.7K' may stand for 12,650 to 12,750; '1,760' only for 1,760."""
     out = []
+    # PDF text sometimes loses the space before a unit ("73Trucks"); restore it before a capitalised word only, so
+    # ordinals such as "5th" are still not read as numbers.
+    text = re.sub(r"(\d)(?=[A-Z][a-z]{2,})", r"\1 ", text)
     for m in _NUM.finditer(text):
         whole = re.sub(_SEP, "", m.group(1))
         frac = m.group(2) or ""
