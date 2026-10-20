@@ -4,6 +4,15 @@ on:
   pull_request:
   push:
     branches: [main]
+  # The Ingest workflow starts this for the data pull request. Pull requests opened with
+  # GITHUB_TOKEN do not run pull_request workflows (GitHub holds them for approval), but
+  # workflow_dispatch from GITHUB_TOKEN does run, and its checks show on the pull request.
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Branch the pull request targets, for the append-only comparison
+        required: true
+        default: main
 
 permissions:
   contents: read
@@ -14,10 +23,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check out the target branch for comparison
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.base_ref }}
+          ref: ${{ github.base_ref || inputs.base }}
           path: base
       - uses: actions/setup-python@v5
         with:
@@ -44,3 +53,21 @@ jobs:
           cache-dependency-path: site/package-lock.json
       - run: npm ci
       - run: npm run build
+
+  # Checks from a workflow_dispatch run are not listed on the pull request, so report the
+  # result as a commit status, which is.
+  report:
+    if: always() && github.event_name == 'workflow_dispatch'
+    needs: [data, site]
+    runs-on: ubuntu-latest
+    permissions:
+      statuses: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          STATE: ${{ (needs.data.result == 'success' && needs.site.result == 'success') && 'success' || 'failure' }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
+            -f state="$STATE" -f context="Validate" \
+            -f description="Tests and data checks against ${{ inputs.base }}: $STATE" \
+            -f target_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
