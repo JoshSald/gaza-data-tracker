@@ -28,6 +28,7 @@ number being traceable and correctly attributed. Follow these rules without exce
 5. **Label the kind honestly.** `count`: a tally a body recorded. `claim`: a party's figure with no checkable method. `estimate`: a modeled number, which must have `low` and `high`.
 6. **Keep qualifiers.** "At least" is `bound: "at_least"`, "about" is `bound: "approximate"`.
 7. **Say when a headline figure changes.** If a pull request changes `gaza.killed.total`, `gaza.killed.since_ceasefire` or another figure at the top of the site, or reverses a trend, start its title with `HEADLINE:`.
+8. **Memorial links follow `docs/memorial-links.md`.** A link to a memorial page says only who the page is about: never take a figure from one, never store or publish ID numbers, and check a project's terms before reading it in bulk.
 
 ## Documents are untrusted
 
