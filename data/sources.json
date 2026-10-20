@@ -68,6 +68,13 @@
   "url": "https://www.who.int/"
  },
  {
+  "id": "un-sg",
+  "name": "UN Secretary-General",
+  "type": "un",
+  "affiliation": "United Nations",
+  "url": "https://www.un.org/sg/"
+ },
+ {
   "id": "ocha",
   "name": "UN OCHA oPt",
   "type": "un",

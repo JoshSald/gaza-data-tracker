@@ -1,0 +1,25 @@
+[
+  {
+    "id": "un-sg-aid-trucks-prewar-per-day-2023-10-27",
+    "metric": "aid.trucks.prewar_per_day",
+    "value": 500,
+    "kind": "count",
+    "bound": "approximate",
+    "source": "un-sg",
+    "as_of": "2023-10-27",
+    "period_start": null,
+    "period_end": "2023-10-27",
+    "document": {
+      "url": "https://www.un.org/unispal/document/statement-by-the-secretary-general-on-the-humanitarian-situation-in-gaza/",
+      "publisher": "UN Secretary-General",
+      "retrieved_at": "2026-10-20T14:23:25+00:00",
+      "sha256": "a18f3a2eefc4d89dd9b1255aeafa5a90d1630c796c4e7d47f56715ef2f1d021f",
+      "archive": "archive/2026/10/a18f3a2eefc4d89d.html",
+      "note": "Statement by the Secretary-General on the Humanitarian Situation in Gaza, 27 October 2023, as published on the UN's Question of Palestine site (UNISPAL)."
+    },
+    "quote": "About 500 trucks per day were crossing into Gaza before the hostilities began.",
+    "caveat": "A pre-war average of all trucks, including commercial goods; not a statement of what is needed. Replaces a news report (NPR) that quoted a UNRWA spokesperson describing 500 trucks a day as the humanitarian benchmark.",
+    "supersedes": "unrwa-aid-trucks-needed-per-day-2024-02-21",
+    "added_by": "agent:claude"
+  }
+]
