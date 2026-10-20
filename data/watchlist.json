@@ -26,6 +26,12 @@
     "comment": "Report links sit in onclick=\"openPdfModal('...')\" buttons and some file names contain spaces. The pattern skips the separate pipeline, rejection and CHI overviews."
   },
   {
+    "id": "cogat-updates",
+    "importer": "cogat-updates",
+    "enabled": true,
+    "comment": "COGAT's daily humanitarian updates (Dec 2023 to 16 Jan 2025), read from the archive on gaza-aid-data.gov.il. Trucks entered each day, and the occasional running total since the war began."
+  },
+  {
     "id": "ohchr-reliefweb",
     "importer": "press",
     "source": "ohchr",

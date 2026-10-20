@@ -89,14 +89,23 @@ export default function Home() {
     ...all("aid.trucks.per_day"),
     ...all("aid.medical.tonnes"),
     ...all("aid.trucks.needed_per_day"),
+    ...all("aid.trucks.prewar_per_day"),
     ...all("aid.un2720.delivered_tonnes"),
     ...all("aid.un2720.pipeline_tonnes"),
-    ...all("aid.un2720.trucks_collected"),
-    ...all("aid.un2720.trucks_intercepted"),
-    ...all("aid.un2720.trucks_arrived"),
   ];
   const delivered = series("aid.un2720.delivered_tonnes", { source: "un2720" });
   const deliveredLast = delivered.at(-1)!;
+  // COGAT's own daily count, from its updates of January 2024 to January 2025.
+  const cogatDaily = series("aid.trucks.entered_daily", { source: "cogat" });
+  // UN2720's monthly split of the UN-manifested trucks collected at the crossings, May to November 2025.
+  const un2720Month = (id: string, date: string) => series(id, { source: "un2720" }).find((o) => o.as_of === date)?.value;
+  const un2720Trucks = series("aid.un2720.trucks_arrived", { source: "un2720" }).map((o) => ({
+    date: o.as_of,
+    arrived: o.value,
+    intercepted: un2720Month("aid.un2720.trucks_intercepted", o.as_of) ?? 0,
+    collected: un2720Month("aid.un2720.trucks_collected", o.as_of) ?? "",
+  }));
+  const un2720TrucksLast = latest("aid.un2720.trucks_arrived", { source: "un2720" });
 
   const idfClaims = series("idf.combatants_killed.gaza", { source: "idf", kind: "claim", periodStart: WAR_START });
 
@@ -324,6 +333,45 @@ export default function Home() {
           />
           <Attribution o={deliveredLast} />
         </Panel>
+        <div className="grid-2">
+          <Panel
+            title="Trucks COGAT says entered Gaza each day"
+            note={
+              <>
+                COGAT&apos;s own daily count, from the updates it posted between January 2024 and 16 January 2025, when it
+                stopped. It covers all goods, including commercial. Days its updates did not report are left out; it did not
+                post every day.
+              </>
+            }
+          >
+            <HistoryChart
+              label="Trucks COGAT says entered Gaza each day, January 2024 to January 2025"
+              series={[{ key: "cogat", label: "Trucks that day (COGAT)", points: cogatDaily.map((o) => ({ date: o.as_of, value: o.value })) }]}
+            />
+            <Attribution o={cogatDaily.at(-1)!} showPeriod={false} />
+          </Panel>
+          <Panel
+            title="UN-manifested trucks: arrived or intercepted (UN2720)"
+            note={
+              <>
+                Of the UN-manifested trucks collected from Gaza&apos;s crossings each month, how many reached their destination
+                and how many were intercepted in transit, by hungry people or by armed actors. UN2720 reported this split from
+                May to November 2025.
+              </>
+            }
+          >
+            <StackedBars
+              label="UN-manifested trucks that arrived or were intercepted each month, UN2720 mechanism, May to November 2025"
+              rows={un2720Trucks}
+              stacks={[
+                { key: "arrived", label: "Arrived", color: "var(--count)" },
+                { key: "intercepted", label: "Intercepted", color: "var(--red)" },
+              ]}
+              extra={[{ key: "collected", label: "Collected" }]}
+            />
+            <Attribution o={un2720TrucksLast} />
+          </Panel>
+        </div>
         <div className="data-table">
           <Table>
             <TableHeader>

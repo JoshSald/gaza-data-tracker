@@ -25,3 +25,9 @@ def test_invented_figure_is_rejected():
     doc = "At least 1,760 Palestinians have been killed while seeking aid."
     problems = verify_figure(1960, "At least 1,760 Palestinians have been killed while seeking aid.", doc)
     assert problems and "does not state the value" in problems[0]
+
+
+def test_number_glued_to_a_unit_word():
+    # PDF text can lose the space before a unit; ordinals stay out.
+    assert quote_supports(73, "Arrived Intercepted 73Trucks 1,055 Trucks")
+    assert not quote_supports(5, "the 5th report")
