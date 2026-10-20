@@ -1,5 +1,6 @@
 import { Chapters } from "@/components/Chapters";
-import { Attribution, FlagCard, HospitalStatusBadge, KindBadge, Panel, Stat, StatusBar } from "@/components/Figure";
+import { Attribution, FlagCard, KindBadge, Panel, Stat, StatusBar } from "@/components/Figure";
+import { HospitalList } from "@/components/HospitalList";
 import { GroupedBars, HistoryChart, LineChart, MonthlyBars, RangeChart, StackedBars, StatementChart } from "@/components/Charts";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { all, boundPrefix, fmt, fmtDate, fmtPeriod, hospitals, latest, metric, series, source, type Observation } from "@/lib/data";
@@ -121,7 +122,6 @@ export default function Home() {
   const hrDefinitions = hrPartial.find((o) => o.as_of === "2026-05-31") ?? hrLatest;
   const attacks = latest("health.attacks.total", { source: "who" });
   // Every hospital in the Ministry/Health Cluster list, north to south, with WHO's newest statement naming it.
-  const GOVERNORATES = ["North Gaza", "Gaza", "Deir Albalah", "Khan Younis", "Rafah"];
   const hosp = hospitals();
   const hospNamed = hosp.list.filter((h) => h.latest).length;
 
@@ -374,58 +374,22 @@ export default function Home() {
               All {hosp.list.length} hospitals in the Ministry of Health and Health Cluster list of {fmtDate(hosp.listDate)}, with the
               newest WHO statement that names each one. WHO&apos;s monthly counts above do not say which hospital is in which
               status, so this list uses WHO&apos;s situation reports, which name {hospNamed} of them. Check the date: some statements
-              are old, and a hospital&apos;s status can change without WHO naming it again.
+              are old, and a hospital&apos;s status can change without WHO naming it again. WHO does not publish which services
+              each hospital provides or how many beds it has now; where a statement names services, they are in WHO&apos;s words.
             </>
           }
         >
-          <div className="data-table">
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Hospital</TableHead>
-                  <TableHead>Latest status named by WHO</TableHead>
-                  <TableHead className="hidden sm:table-cell">Date</TableHead>
-                  <TableHead className="num hidden sm:table-cell">Beds before the war</TableHead>
-                  <TableHead className="hidden sm:table-cell">Type</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {GOVERNORATES.flatMap((g) => [
-                  <TableRow key={g} className="hover:bg-transparent">
-                    <TableCell colSpan={5} className="pt-4 font-mono text-[0.6875rem] tracking-[0.06em] text-muted-foreground uppercase">
-                      {g === "Deir Albalah" ? "Deir al-Balah" : g}
-                    </TableCell>
-                  </TableRow>,
-                  ...hosp.list
-                    .filter((h) => h.governorate === g)
-                    .map((h) => (
-                      <TableRow key={h.name}>
-                        <TableCell className="whitespace-normal">
-                          <span className="font-medium">{h.name}</span>
-                          <span className="block font-arabic text-muted-foreground" lang="ar" dir="rtl">{h.ar_name}</span>
-                        </TableCell>
-                        <TableCell className="min-w-40 whitespace-normal">
-                          <HospitalStatusBadge status={h.latest?.status} />
-                          {h.latest && <span className="mt-1 block text-xs text-muted-foreground sm:hidden">{fmtDate(h.latest.as_of)}</span>}
-                          {h.latest && (
-                            <details className="mt-1 text-xs text-muted-foreground">
-                              <summary className="cursor-pointer">WHO&apos;s words</summary>
-                              <p className="mt-1">
-                                &ldquo;{h.latest.quote}&rdquo;{" "}
-                                <a href={h.latest.document.url} target="_blank" rel="noopener noreferrer">source</a>
-                              </p>
-                            </details>
-                          )}
-                        </TableCell>
-                        <TableCell className="hidden sm:table-cell">{h.latest ? fmtDate(h.latest.as_of) : ""}</TableCell>
-                        <TableCell className="num hidden sm:table-cell">{h.beds ?? ""}</TableCell>
-                        <TableCell className="hidden sm:table-cell">{h.type}</TableCell>
-                      </TableRow>
-                    )),
-                ])}
-              </TableBody>
-            </Table>
-          </div>
+          <p className="note rounded-[var(--radius)] border border-[var(--status-partial)] px-3 py-2">
+            <strong className="font-medium text-foreground">Not a guide to where care is available today.</strong> These are
+            WHO&apos;s last published statements, some of them months or years old. For current information, contact the
+            Ministry of Health, the Palestine Red Crescent Society or a health partner working in Gaza.
+          </p>
+          <HospitalList
+            hospitals={hosp.list.map((h) => ({
+              ...h,
+              latest: h.latest && { status: h.latest.status, as_of: h.latest.as_of, quote: h.latest.quote, url: h.latest.document.url },
+            }))}
+          />
           <p className="attr">
             Hospital list: {hosp.sourceNote}{" "}
             <a href={hosp.listDoc.url} target="_blank" rel="noopener noreferrer">source</a>. Statuses: WHO situation reports,
