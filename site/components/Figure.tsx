@@ -112,25 +112,3 @@ export function StatusBar({ parts, total, label }: { parts: { label: string; o: 
   );
 }
 
-
-const STATUS_LABEL: Record<string, string> = {
-  partially_functioning: "Partially functioning",
-  not_functioning: "Not functioning",
-  destroyed: "Destroyed",
-  services_reported: "Services reported",
-};
-const STATUS_STYLE: Record<string, string> = {
-  partially_functioning: "border-transparent bg-[var(--status-partial)] text-white",
-  not_functioning: "border-transparent bg-[var(--status-down)] text-white",
-  destroyed: "border-transparent bg-[var(--red)] text-white",
-  services_reported: "border-[var(--status-partial)] text-foreground",
-};
-
-export function HospitalStatusBadge({ status }: { status?: string }) {
-  if (!status) return <span className="text-muted-foreground">No recent named status from WHO</span>;
-  return (
-    <Badge variant="outline" className={cn("h-auto rounded-[2px] px-[0.5em] py-[0.2em] text-xs font-medium whitespace-nowrap", STATUS_STYLE[status])}>
-      {STATUS_LABEL[status]}
-    </Badge>
-  );
-}

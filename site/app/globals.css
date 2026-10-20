@@ -539,3 +539,55 @@
     color: var(--ink-2);
   }
 }
+
+/* The dot beside each hospital's name, by WHO's last named status. Only "partially functioning" pulses. */
+@layer components {
+  .status-dot {
+    position: relative;
+    display: inline-block;
+    flex: none;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 999px;
+    background: var(--ink-2);
+  }
+  .status-dot-partially_functioning {
+    background: var(--status-partial);
+  }
+  .status-dot-services_reported {
+    background: transparent;
+    box-shadow: inset 0 0 0 2px var(--status-partial);
+  }
+  .status-dot-not_functioning {
+    background: var(--status-down);
+  }
+  .status-dot-destroyed {
+    background: var(--red);
+    border-radius: 1px;
+    transform: rotate(45deg) scale(0.85);
+  }
+  .status-dot-none {
+    background: transparent;
+    box-shadow: inset 0 0 0 1px var(--ink-2);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .status-dot-partially_functioning::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: var(--status-partial);
+      animation: status-pulse 2.4s ease-out infinite;
+    }
+  }
+  @keyframes status-pulse {
+    from {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    to {
+      transform: scale(2.6);
+      opacity: 0;
+    }
+  }
+}
