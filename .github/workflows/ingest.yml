@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write # to start Validate on the data pull request
   contents: write
   pull-requests: write
 
@@ -48,6 +49,7 @@ jobs:
           if grep -q "headline figure" .ingest-report.md 2>/dev/null; then title="HEADLINE: $title"; fi
           echo "title=$title" >> "$GITHUB_OUTPUT"
       - name: Open or update the data pull request
+        id: pr
         uses: peter-evans/create-pull-request@v7
         with:
           branch: data/auto-update
@@ -58,6 +60,13 @@ jobs:
           add-paths: |
             data/**
             archive/**
+      - name: Run Validate on the data pull request
+        # A pull request opened with GITHUB_TOKEN does not start pull_request workflows, so
+        # start Validate directly: same tests and append-only check against the base branch.
+        if: steps.pr.outputs.pull-request-operation == 'created' || steps.pr.outputs.pull-request-operation == 'updated'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run validate.yml --repo "$GITHUB_REPOSITORY" --ref data/auto-update -f base="$GITHUB_REF_NAME"
       - name: Fail the run if a source failed
         if: steps.run.outcome == 'failure' || steps.names.outcome == 'failure'
         run: |
