@@ -1,3 +1,4 @@
+import { Chapters } from "@/components/Chapters";
 import { Attribution, FlagCard, HospitalStatusBadge, KindBadge, Panel, Stat, StatusBar } from "@/components/Figure";
 import { GroupedBars, HistoryChart, LineChart, MonthlyBars, RangeChart, StackedBars, StatementChart } from "@/components/Charts";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -7,6 +8,17 @@ const WAR_START = "2023-10-07";
 // Tech for Palestine's republication of every Ministry daily report; the full-history chart uses only this.
 const DAILY_REPORTS = "https://data.techforpalestine.org/api/v2/casualties_daily.json";
 const CEASEFIRE = "2025-10-10";
+// The sections below, in order, for the chapters list.
+const CHAPTERS = [
+  { id: "deaths", label: "Recorded deaths" },
+  { id: "access", label: "Access-related deaths" },
+  { id: "estimates", label: "Independent estimates" },
+  { id: "aid", label: "Aid" },
+  { id: "hospitals", label: "Hospitals" },
+  { id: "buildings", label: "Buildings and infrastructure" },
+  { id: "food", label: "Food security" },
+  { id: "israel", label: "Israeli casualties and IDF figures" },
+];
 
 function Row({ o, label }: { o: Observation; label?: string }) {
   return (
@@ -150,7 +162,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="top">
         <p className="eyebrow">Updated to {fmtDate(killed.as_of)}</p>
         <h1>What the record shows in Gaza</h1>
         <p className="lede">
@@ -168,6 +180,9 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="chapters-layout">
+      <Chapters items={CHAPTERS} />
+      <div className="chapters-body">
       <section className="block" id="deaths">
         <div className="block-head">
           <h2>Recorded deaths in Gaza</h2>
@@ -591,6 +606,8 @@ export default function Home() {
           </Table>
         </div>
       </section>
+      </div>
+      </div>
     </>
   );
 }
