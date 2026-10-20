@@ -1,5 +1,49 @@
 [
   {
+    "id": "cogat-aid-trucks-entered-2024-12-18",
+    "metric": "aid.trucks.entered",
+    "value": 60000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "cogat",
+    "as_of": "2024-12-18",
+    "period_start": "2023-10-07",
+    "period_end": "2024-12-18",
+    "document": {
+      "url": "https://gaza-aid-data.gov.il/mainhome/archive/",
+      "publisher": "COGAT (Israel Humanitarian Efforts site)",
+      "retrieved_at": "2026-10-20T14:27:19+00:00",
+      "sha256": "85b4aaedeae6f21d8a9245449d8290a13cfc07819da856f99ffccb75d576e808",
+      "archive": "archive/2026/10/85b4aaedeae6f21d.json",
+      "note": "COGAT's update headed \"Most recent update: December 18, 2024\", in the archive of daily updates."
+    },
+    "quote": "over 60,000 trucks entered Gaza since the start of the war",
+    "caveat": "COGAT's own running total since the war began; all goods, including commercial.",
+    "added_by": "importer:cogat-updates"
+  },
+  {
+    "id": "cogat-aid-trucks-entered-2025-01-09",
+    "metric": "aid.trucks.entered",
+    "value": 64000,
+    "kind": "count",
+    "bound": "at_least",
+    "source": "cogat",
+    "as_of": "2025-01-09",
+    "period_start": "2023-10-07",
+    "period_end": "2025-01-09",
+    "document": {
+      "url": "https://gaza-aid-data.gov.il/mainhome/archive/",
+      "publisher": "COGAT (Israel Humanitarian Efforts site)",
+      "retrieved_at": "2026-10-20T14:27:19+00:00",
+      "sha256": "85b4aaedeae6f21d8a9245449d8290a13cfc07819da856f99ffccb75d576e808",
+      "archive": "archive/2026/10/85b4aaedeae6f21d.json",
+      "note": "COGAT's update headed \"Most recent update: January 9, 2025\", in the archive of daily updates."
+    },
+    "quote": "Since the outbreak of the war, over 64,000 trucks carrying humanitarian aid entered",
+    "caveat": "COGAT's own running total since the war began; all goods, including commercial.",
+    "added_by": "importer:cogat-updates"
+  },
+  {
     "id": "cogat-aid-trucks-entered-2025-08-19-20250519",
     "metric": "aid.trucks.entered",
     "value": 9200,

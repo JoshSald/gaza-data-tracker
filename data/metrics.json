@@ -119,6 +119,13 @@
   "cumulative": false
  },
  {
+  "id": "aid.trucks.entered_daily",
+  "label": "Aid trucks entered Gaza in a day",
+  "definition": "Trucks the publisher says entered Gaza on a given day.",
+  "unit": "trucks",
+  "cumulative": false
+ },
+ {
   "id": "aid.trucks.per_day",
   "label": "Aid trucks per day",
   "definition": "Average trucks entering Gaza per day.",
@@ -129,6 +136,13 @@
   "id": "aid.trucks.needed_per_day",
   "label": "Trucks needed per day",
   "definition": "Humanitarian trucks a day the publisher says are needed to meet basic needs.",
+  "unit": "trucks/day",
+  "cumulative": false
+ },
+ {
+  "id": "aid.trucks.prewar_per_day",
+  "label": "Trucks per day before the war",
+  "definition": "Average trucks a day entering Gaza before 7 October 2023, as stated by the publisher. All trucks, not only humanitarian aid.",
   "unit": "trucks/day",
   "cumulative": false
  },
