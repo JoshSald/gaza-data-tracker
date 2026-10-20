@@ -1,5 +1,48 @@
 [
   {
+    "id": "un2720-aid-un2720-trucks-collected-2025-05-31-20250501",
+    "metric": "aid.un2720.trucks_collected",
+    "value": 330,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-05-31",
+    "period_start": "2025-05-01",
+    "period_end": "2025-05-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(May).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-20T14:22:42+00:00",
+      "sha256": "0bb680a2357c6517ed14f28238c27881c4fb83429b37112689cae6830200844e",
+      "archive": "archive/2026/10/0bb680a2357c6517.pdf"
+    },
+    "quote": "330 Trucks Collected",
+    "caveat": "Only UN-manifested aid. Collected trucks are those picked up from Gaza's crossings; arrived and intercepted split them.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-trucks-collected-2025-06-30-20250601",
+    "metric": "aid.un2720.trucks_collected",
+    "value": 1090,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-06-30",
+    "period_start": "2025-06-01",
+    "period_end": "2025-06-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(June).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-20T14:22:33+00:00",
+      "sha256": "6df521557d947f16e5248b2bad2c7be747ecb0c63c9c018c8e3461a14e6cce16",
+      "archive": "archive/2026/10/6df521557d947f16.pdf"
+    },
+    "quote": "1,090 Trucks Collected",
+    "caveat": "Only UN-manifested aid. Collected trucks are those picked up from Gaza's crossings; arrived and intercepted split them. Replaces a news report (Algemeiner) of a 19 May to 31 July 2025 total read from the UN2720 dashboard; UN2720's own monthly reports are used instead, one figure per month.",
+    "added_by": "importer:un2720",
+    "supersedes": "un2720-aid-un2720-trucks-collected-2025-07-31-20250519"
+  },
+  {
     "id": "un2720-aid-un2720-trucks-collected-2025-07-31-20250519",
     "metric": "aid.un2720.trucks_collected",
     "value": 2010,
@@ -16,5 +59,89 @@
     },
     "added_by": "seed",
     "caveat": "Exact end date not stated in the report; dashboard read at the end of July 2025."
+  },
+  {
+    "id": "un2720-aid-un2720-trucks-collected-2025-08-31-20250801",
+    "metric": "aid.un2720.trucks_collected",
+    "value": 3387,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-08-31",
+    "period_start": "2025-08-01",
+    "period_end": "2025-08-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(August).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-20T14:22:41+00:00",
+      "sha256": "5db227bb650ea20844df4b02791fef86e4f7db09bda989a9765ac9a3cf68fe3c",
+      "archive": "archive/2026/10/5db227bb650ea208.pdf"
+    },
+    "quote": "3,387 Collected 36K t",
+    "caveat": "Only UN-manifested aid. Collected trucks are those picked up from Gaza's crossings; arrived and intercepted split them.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-trucks-collected-2025-09-30-20250901",
+    "metric": "aid.un2720.trucks_collected",
+    "value": 2262,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-09-30",
+    "period_start": "2025-09-01",
+    "period_end": "2025-09-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Sep).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-20T14:22:40+00:00",
+      "sha256": "37e54bf3fb3132f0b7ad2e376c95e77bfcf00950936bd93a2a4d3e3b6afc0a70",
+      "archive": "archive/2026/10/37e54bf3fb3132f0.pdf"
+    },
+    "quote": "2,262 Collected 24.8K t",
+    "caveat": "Only UN-manifested aid. Collected trucks are those picked up from Gaza's crossings; arrived and intercepted split them.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-trucks-collected-2025-10-31-20251001",
+    "metric": "aid.un2720.trucks_collected",
+    "value": 2953,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-10-31",
+    "period_start": "2025-10-01",
+    "period_end": "2025-10-31",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Oct).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-20T14:22:39+00:00",
+      "sha256": "49d8e103de46187afd6fa0016a8a3887b0ed75106dfedc66de2f2b3fa5d450df",
+      "archive": "archive/2026/10/49d8e103de46187a.pdf"
+    },
+    "quote": "2,953 Collected 35K t",
+    "caveat": "Only UN-manifested aid. Collected trucks are those picked up from Gaza's crossings; arrived and intercepted split them.",
+    "added_by": "importer:un2720"
+  },
+  {
+    "id": "un2720-aid-un2720-trucks-collected-2025-11-30-20251101",
+    "metric": "aid.un2720.trucks_collected",
+    "value": 4096,
+    "kind": "count",
+    "bound": "exact",
+    "source": "un2720",
+    "as_of": "2025-11-30",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "document": {
+      "url": "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(Nov).pdf",
+      "publisher": "UN2720 Mechanism (UNOPS)",
+      "retrieved_at": "2026-10-20T14:22:38+00:00",
+      "sha256": "c595dba28430d5c364bd63b24f9ebb4dfc92b6f386e4bb3280694a9fe07d9c09",
+      "archive": "archive/2026/10/c595dba28430d5c3.pdf"
+    },
+    "quote": "4,096 Collected 53.7K t",
+    "caveat": "Only UN-manifested aid. Collected trucks are those picked up from Gaza's crossings; arrived and intercepted split them.",
+    "added_by": "importer:un2720"
   }
 ]
