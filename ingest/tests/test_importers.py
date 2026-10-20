@@ -2,7 +2,7 @@ import json
 
 from conftest import FIXTURES
 from ingest import store
-from ingest.sources import memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
+from ingest.sources import cogat_updates, memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
 from ingest.archive import Document
 
 
@@ -283,3 +283,32 @@ def test_memorials_ministry_id_links_only_with_the_same_name():
 def test_memorials_ages_skip_durations():
     assert memorials.ages_in("يعمل في الصحافة منذ 22 عامًا") == set()
     assert memorials.ages_in("الطفل براء، 10 سنوات") == {10}
+
+
+def test_un2720_truck_counts_in_each_layout():
+    head = "In {m} 2025, 12.7K metric tonnes (t) of humanitarian aid processed through the UN2720 mechanism were delivered. "
+    cases = {
+        "August": ("Arrived 589 Trucks Intercepted 2,797 Trucks ... 3,387 Collected 36K t", {"arrived": 589, "intercepted": 2797, "collected": 3387}),
+        "June": ("1,090 Trucks Collected ... 1,043 Trucks Intercepted 47 Trucks Arrived", {"arrived": 47, "intercepted": 1043, "collected": 1090}),
+        "July": ("2025 2025 Collected Daily Trends Arrived Intercepted 73Trucks 1,055 Trucks", {"arrived": 73, "intercepted": 1055}),
+        "May": ("330 Trucks Collected ... 212 Intercepted 118 Arrived Trucks Trucks", {"arrived": 118, "intercepted": 212, "collected": 330}),
+    }
+    for month, (body, want) in cases.items():
+        rows = [r for r in un2720.parse(head.format(m=month) + body, {"url": "u"}) if "trucks" in r["metric"]]
+        assert {r["metric"].rsplit("_", 1)[1]: r["value"] for r in rows} == want, month
+
+
+def test_cogat_updates_read_only_trucks_entered():
+    items = [
+        {"question": "Most recent update: January 16, 2025", "answer": "<ul><li><strong>Aid trucks entry: </strong>260 trucks carrying humanitarian goods were transferred to Gaza yesterday,42 through Zikim.</li><li><strong>Aid Collection:</strong> 272 trucks in total were collected.</li></ul>"},
+        {"question": "Most recent update: Apr. 4, 2024", "answer": "<p>Yesterday, 50 aid trucks were coordinated to northern Gaza.</p>"},
+        {"question": "Most recent update: Dec. 30, 2023", "answer": "<p>XXX humanitarian aid trucks were inspected and transferred to the Gaza Strip yesterday</p>"},
+        {"question": "Most recent update: January 9, 2025", "answer": "<li>Since the outbreak of the war, over 64,000 trucks carrying humanitarian aid entered Gaza.</li>"},
+    ]
+    rows, notes = cogat_updates.parse(items, {"url": "u", "publisher": "p"})
+    got = {(r["metric"], r["as_of"]): (r["value"], r["bound"]) for r in rows}
+    assert got == {
+        ("aid.trucks.entered_daily", "2025-01-15"): (260, "exact"),
+        ("aid.trucks.entered", "2025-01-09"): (64000, "at_least"),
+    }
+    assert notes == []
