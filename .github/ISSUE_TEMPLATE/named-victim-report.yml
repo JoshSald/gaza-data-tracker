@@ -1,0 +1,51 @@
+name: Report a mistake on the named victims page
+description: A wrong memorial link, a mistaken identity, a broken link, or a privacy concern.
+title: "Named victims: "
+labels: ["named-victims"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the lists accurate. **This report is public.** Please do not include ID numbers,
+        phone numbers, addresses or other private details. If your concern involves private information, say so in
+        general terms and we will follow up.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - A memorial link goes to the wrong person
+        - A name, age or other detail is wrong
+        - A link is broken
+        - A privacy concern
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: list
+    attributes:
+      label: Which list?
+      options:
+        - Gaza
+        - 7 October attack
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name as shown on the site
+      description: In English, Arabic or Hebrew, as the list shows it.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: The memorial link involved, if any
+      placeholder: https://
+  - type: textarea
+    id: details
+    attributes:
+      label: What should it be, and how do you know?
+      description: A link to a source helps us check it.
+    validations:
+      required: true

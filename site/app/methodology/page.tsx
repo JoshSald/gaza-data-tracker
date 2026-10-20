@@ -112,6 +112,22 @@ export default function Methodology() {
         </dd>
       </dl>
 
+      <h2 id="memorials">Memorial links</h2>
+      <p>
+        The named victims page links names to memorial pages kept by others: official Israeli memorial records for the 7
+        October list, and independent projects for the Gaza list. Our aim is to acknowledge the individuals behind the
+        statistics while maintaining a consistent, evidence-based approach to the information published on this website.
+      </p>
+      <p className="note">
+        A link shows who a page is about. It never supplies a figure, and it does not endorse the page: memorials are kept by
+        third parties and may express views this site does not hold. How pages are matched to names, which projects are used
+        and which were set aside are set out in the{" "}
+        <a href="https://github.com/JoshSald/gaza-data-tracker/blob/main/docs/memorial-links.md" target="_blank" rel="noopener noreferrer">
+          memorial links policy
+        </a>
+        .
+      </p>
+
       <h2>How figures are added</h2>
       <ul>
         <li>Scheduled importers read structured sources (the Tech for Palestine API) and fixed-format reports (UN2720 monthly PDFs).</li>
