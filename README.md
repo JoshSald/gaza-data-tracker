@@ -14,6 +14,8 @@ and labelled as a **count**, a **claim** or an **estimate**. The project produce
 - **Qualifiers are kept.** "At least" and "about" stay with the number.
 - **Primary sources.** Figures are read from the body's own report, dataset, transcript or channel, not from news coverage.
 - **Append-only.** Stored figures are never edited or deleted; a correction is a new record that supersedes the old one.
+- **Memorial links identify people; they never supply figures.** Names on the lists link to memorial pages kept by
+  others, under the rules in [docs/memorial-links.md](docs/memorial-links.md). A link is not an endorsement of the page.
 
 ## How it works
 
@@ -32,13 +34,16 @@ data/
   sources.json          who publishes figures, and their affiliation
   metrics.json          what each measure means
   observations/         one JSON file per measure, append-only
-  lists/                named victims (no ID numbers or dates of birth), hospitals, WHO statements per hospital
+  lists/                named victims (no ID numbers or dates of birth), memorial links (matched, and checked by
+                        hand), hospitals, WHO statements per hospital
   watchlist.json        what the importers check, and how
 schema/                 JSON Schema for sources, metrics and observations
 archive/                copies of the documents importers read (PDFs via Git LFS)
 ingest/                 Python importers, checks and tests
 scripts/                validate.py (every rule, used in CI), hospital_mentions.py
 site/                   Next.js static site, built from data/
+docs/memorial-links.md  policy for linking names to memorial pages, and the sources in use or set aside
+.github/                scheduled import and checks; the form for reporting mistakes
 AGENTS.md               rules for AI agents and contributors
 ```
 
@@ -53,7 +58,7 @@ AGENTS.md               rules for AI agents and contributors
 | Gaza Government Media Office (via Tech for Palestine) | Destroyed and damaged buildings, labelled claims | `techforpalestine-infrastructure` |
 | OCHA (HDX) | List of Gaza's 36 hospitals | `hospitals` |
 | oct7database (volunteer compilation, checked against Israeli official memorial lists) | People killed in the 7 October 2023 attack | `oct7` |
-| Martyrs of Gaza and The Living Record (independent memorial projects) | Links from Gaza names to memorial pages, matched by name under strict rules | `memorials` |
+| Martyrs of Gaza, The Living Record and Palestinians Are Not Numbers (independent memorial projects) | Links from Gaza names to memorial pages, matched by name under strict rules (see [docs/memorial-links.md](docs/memorial-links.md)) | `memorials` |
 | OHCHR, WHO and others (press releases) | Figures in free text, verified against the document | `press`, `add-url` (optional, see below) |
 | IPC, COGAT, IDF, Israeli ministries, peer-reviewed studies | Food security, aid, Israeli casualties, estimates | Added by hand with quotes |
 
@@ -105,6 +110,13 @@ python -m ingest add-url "https://..." --source ohchr --metrics gaza.killed.seek
   [Conventional Commits](https://www.conventionalcommits.org) (`feat(ingest): ...`, `fix(site): ...`).
 - Read [AGENTS.md](AGENTS.md) for the data rules: every new figure needs a source document, an archived copy and a quote.
 - Before opening a pull request, run `pytest -q`, `python scripts/validate.py` and `npm run build` in `site/`.
+- Changing memorial links? Follow [docs/memorial-links.md](docs/memorial-links.md).
+
+## Reporting a mistake
+
+Found a wrong figure, a wrong memorial link, a mistaken identity or a privacy concern?
+[Open an issue](https://github.com/JoshSald/gaza-data-tracker/issues/new/choose). Reports are public, so please do not
+include ID numbers or other private details.
 
 ## Licence
 
