@@ -313,7 +313,7 @@
     background: var(--panel);
     box-shadow: inset 0 0 0 1px var(--rule);
   }
-  .chapters-layout section.block {
+  .chapters-layout section.chapter {
     /* Leave room for the bar when a chapter link scrolls to a section. */
     scroll-margin-top: 3.75rem;
   }
@@ -362,7 +362,7 @@
       margin-top: 1rem;
       padding-inline-start: 0.75rem;
     }
-    .chapters-layout section.block {
+    .chapters-layout section.chapter {
       scroll-margin-top: 1rem;
     }
   }
@@ -372,7 +372,7 @@
     }
   }
 
-  section.block {
+  section.chapter {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: 1.25rem;
@@ -390,11 +390,23 @@
     font-size: var(--step--1);
   }
 
+  /* Two figures a row on phones and three from tablet width, so six figures fill two rows with none left over. */
   .stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     border-top: 1px solid var(--rule);
     border-left: 1px solid var(--rule);
+  }
+  .stats > .stat:last-child:nth-child(odd) {
+    grid-column: span 2;
+  }
+  @media (min-width: 40rem) {
+    .stats {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .stats > .stat:last-child:nth-child(odd) {
+      grid-column: auto;
+    }
   }
   .stat {
     display: grid;
@@ -483,7 +495,17 @@
     font-size: var(--step-0);
   }
   .data-table td.wide {
-    min-width: 18rem;
+    min-width: 15rem;
+  }
+  /* Narrow minimums for the label, publisher and period, so the notes column fits on a laptop without scrolling. */
+  .data-table td.label {
+    min-width: 10rem;
+  }
+  .data-table td.publisher {
+    min-width: 8rem;
+  }
+  .data-table td.period {
+    min-width: 7.5rem;
   }
 
   .prose {
