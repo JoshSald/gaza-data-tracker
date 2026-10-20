@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Tabs } from "@/components/ui/tabs";
 
-export function HashTabs({ values, children, className }: { values: string[]; children: React.ReactNode; className?: string }) {
+export function HashTabs({ id, values, children, className }: { id?: string; values: string[]; children: React.ReactNode; className?: string }) {
   const [value, setValue] = useState(values[0]);
   useEffect(() => {
     const read = () => {
@@ -16,10 +16,14 @@ export function HashTabs({ values, children, className }: { values: string[]; ch
   }, [values]);
   return (
     <Tabs
+      id={id}
       value={value}
       onValueChange={(v) => {
         setValue(v);
         history.replaceState(null, "", `#${v}`);
+        // Switching from deep in one list starts the other at its top, not part-way down.
+        const root = id ? document.getElementById(id) : null;
+        if (root && root.getBoundingClientRect().top < 0) root.scrollIntoView();
       }}
       className={className}
     >
