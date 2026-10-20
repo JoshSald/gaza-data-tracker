@@ -264,7 +264,115 @@
     align-items: center;
   }
 
-  section.block {
+  /* The overview's chapters: a bar that stays at the top on narrow screens, a list beside the sections on wide ones. */
+  .chapters-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .chapters {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px)));
+    padding: 0.5rem max(16px, env(safe-area-inset-left, 0px));
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--step--1);
+  }
+  .chapters-title,
+  .chapters a.chapters-top {
+    display: none;
+  }
+  .chapters ol {
+    display: flex;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .chapters ol::-webkit-scrollbar {
+    display: none;
+  }
+  .chapters a {
+    display: block;
+    color: var(--ink-2);
+    text-decoration: none;
+  }
+  .chapters ol a {
+    padding: 0.3rem 0.6rem;
+    border-radius: var(--radius);
+    white-space: nowrap;
+  }
+  .chapters a:hover {
+    color: var(--ink);
+  }
+  .chapters a[aria-current] {
+    color: var(--ink);
+    background: var(--panel);
+    box-shadow: inset 0 0 0 1px var(--rule);
+  }
+  .chapters-layout section.chapter {
+    /* Leave room for the bar when a chapter link scrolls to a section. */
+    scroll-margin-top: 3.75rem;
+  }
+  @media (min-width: 64rem) {
+    .chapters-layout {
+      grid-template-columns: 12rem minmax(0, 1fr);
+      gap: 2.5rem;
+    }
+    .chapters {
+      align-self: start;
+      top: 1.5rem;
+      margin: 2.5rem 0 0;
+      padding: 0;
+      background: none;
+      border: 0;
+    }
+    .chapters-title {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-family: var(--font-code);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--ink-2);
+    }
+    .chapters ol {
+      display: grid;
+      gap: 0.125rem;
+      overflow: visible;
+      border-inline-start: 1px solid var(--rule);
+    }
+    .chapters ol a {
+      padding: 0.35rem 0.75rem;
+      margin-inline-start: -1px;
+      border-inline-start: 2px solid transparent;
+      border-radius: 0;
+      white-space: normal;
+    }
+    .chapters a[aria-current] {
+      background: none;
+      box-shadow: none;
+      border-inline-start-color: var(--ink);
+      font-weight: 500;
+    }
+    .chapters a.chapters-top {
+      display: block;
+      margin-top: 1rem;
+      padding-inline-start: 0.75rem;
+    }
+    .chapters-layout section.chapter {
+      scroll-margin-top: 1rem;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  section.chapter {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: 1.25rem;
@@ -282,11 +390,23 @@
     font-size: var(--step--1);
   }
 
+  /* Two figures a row on phones and three from tablet width, so six figures fill two rows with none left over. */
   .stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     border-top: 1px solid var(--rule);
     border-left: 1px solid var(--rule);
+  }
+  .stats > .stat:last-child:nth-child(odd) {
+    grid-column: span 2;
+  }
+  @media (min-width: 40rem) {
+    .stats {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .stats > .stat:last-child:nth-child(odd) {
+      grid-column: auto;
+    }
   }
   .stat {
     display: grid;
@@ -375,7 +495,17 @@
     font-size: var(--step-0);
   }
   .data-table td.wide {
-    min-width: 18rem;
+    min-width: 15rem;
+  }
+  /* Narrow minimums for the label, publisher and period, so the notes column fits on a laptop without scrolling. */
+  .data-table td.label {
+    min-width: 10rem;
+  }
+  .data-table td.publisher {
+    min-width: 8rem;
+  }
+  .data-table td.period {
+    min-width: 7.5rem;
   }
 
   .prose {

@@ -1,3 +1,4 @@
+import { Chapters } from "@/components/Chapters";
 import { Attribution, FlagCard, HospitalStatusBadge, KindBadge, Panel, Stat, StatusBar } from "@/components/Figure";
 import { GroupedBars, HistoryChart, LineChart, MonthlyBars, RangeChart, StackedBars, StatementChart } from "@/components/Charts";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -7,11 +8,22 @@ const WAR_START = "2023-10-07";
 // Tech for Palestine's republication of every Ministry daily report; the full-history chart uses only this.
 const DAILY_REPORTS = "https://data.techforpalestine.org/api/v2/casualties_daily.json";
 const CEASEFIRE = "2025-10-10";
+// The sections below, in order, for the chapters list.
+const CHAPTERS = [
+  { id: "deaths", label: "Recorded deaths" },
+  { id: "access", label: "Access-related deaths" },
+  { id: "estimates", label: "Independent estimates" },
+  { id: "aid", label: "Aid" },
+  { id: "hospitals", label: "Hospitals" },
+  { id: "buildings", label: "Buildings and infrastructure" },
+  { id: "food", label: "Food security" },
+  { id: "israel", label: "Israeli casualties and IDF figures" },
+];
 
 function Row({ o, label }: { o: Observation; label?: string }) {
   return (
     <TableRow>
-      <TableCell className="whitespace-normal">
+      <TableCell className="label whitespace-normal">
         <a href={o.document.url} target="_blank" rel="noopener noreferrer">
           {label ?? metric(o.metric).label}
         </a>
@@ -23,8 +35,8 @@ function Row({ o, label }: { o: Observation; label?: string }) {
       <TableCell>
         <KindBadge kind={o.kind} />
       </TableCell>
-      <TableCell>{source(o.source).name}</TableCell>
-      <TableCell>{fmtPeriod(o)}</TableCell>
+      <TableCell className="publisher whitespace-normal">{source(o.source).name}</TableCell>
+      <TableCell className="period whitespace-normal">{fmtPeriod(o)}</TableCell>
       <TableCell className="wide whitespace-normal">{o.caveat ?? metric(o.metric).definition}</TableCell>
     </TableRow>
   );
@@ -150,7 +162,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="top">
         <p className="eyebrow">Updated to {fmtDate(killed.as_of)}</p>
         <h1>What the record shows in Gaza</h1>
         <p className="lede">
@@ -168,7 +180,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="block" id="deaths">
+      <div className="chapters-layout">
+      <Chapters items={CHAPTERS} />
+      <div className="chapters-body">
+      <section className="chapter" id="deaths">
         <div className="block-head">
           <h2>Recorded deaths in Gaza</h2>
           <p className="note">
@@ -231,7 +246,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="block" id="access">
+      <section className="chapter" id="access">
         <div className="block-head">
           <h2>Deaths recorded with an access-related cause</h2>
           <p className="note">
@@ -251,7 +266,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="block" id="estimates">
+      <section className="chapter" id="estimates">
         <div className="block-head">
           <h2>What independent studies estimate</h2>
           <p className="note">
@@ -290,7 +305,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="block" id="aid">
+      <section className="chapter" id="aid">
         <div className="block-head">
           <h2>Aid: what each side counts</h2>
           <p className="note">
@@ -319,7 +334,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="block" id="hospitals">
+      <section className="chapter" id="hospitals">
         <div className="block-head">
           <h2>Hospitals</h2>
           <p className="note">
@@ -485,7 +500,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="block" id="buildings">
+      <section className="chapter" id="buildings">
         <div className="block-head">
           <h2>Buildings and infrastructure</h2>
           <p className="note">
@@ -535,7 +550,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="block" id="food">
+      <section className="chapter" id="food">
         <div className="block-head">
           <h2>Food security findings (IPC)</h2>
           <p className="note">
@@ -552,7 +567,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="block" id="israel">
+      <section className="chapter" id="israel">
         <div className="block-head">
           <h2>Israeli casualties and IDF figures</h2>
           <p className="note">
@@ -591,6 +606,8 @@ export default function Home() {
           </Table>
         </div>
       </section>
+      </div>
+      </div>
     </>
   );
 }
