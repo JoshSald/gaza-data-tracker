@@ -238,3 +238,48 @@ def test_living_record_biography_name():
     text = "Anas al-Sharif Biography Anas Jamal Mahmoud al-Sharif was born in the Jabalia refugee camp in 1996."
     assert memorials.biography_name(text) == "Anas Jamal Mahmoud al-Sharif"
     assert memorials.birth_year_in(text) == 1996
+
+
+def _aint_post(title, body, categories=(25, 15)):
+    return {"link": "https://www.aintnumbers.com/x/", "title": {"rendered": title}, "content": {"rendered": body},
+            "categories": list(categories)}
+
+
+AINT_CATEGORIES = {25: "Female", 24: "Male", 15: "Children (1 year through 12 years)", 17: "Adults (18 years or older)",
+                   19: "Duplicate"}
+
+
+def test_aint_numbers_reads_the_arabic_name_sex_and_age_group():
+    pages = memorials.aint_numbers_pages([
+        _aint_post("Lina Sami Yousef Abu Mailaq", "<p>لينا سامي يوسف أبو معيلق</p><p>Lina Sami Yousef Abu Mailaq, 23 years old.</p>",
+                   (25, 17)),
+        _aint_post("Duplicate page", "<p>لينا سامي</p>", (19,)),
+        _aint_post("Anas and Habiba Daloul", "<p>أنس وحبيبة دلول</p>"),
+    ], AINT_CATEGORIES)
+    assert len(pages) == 2  # the duplicate is left out
+    lina, family = pages
+    assert (lina.ar_name, lina.sex, lina.age_band, lina.ages) == ("لينا سامي يوسف أبو معيلق", "f", (18, 120), {23})
+    assert memorials.match([lina], MINISTRY)[0].record == 4
+    assert memorials.match([family], MINISTRY)[0].status == "skipped"
+
+
+def test_aint_numbers_page_naming_a_relative_first_is_not_linked():
+    # The page is about Lina, but its first Arabic name is her brother's.
+    page = memorials.Page(url="u", project="aint-numbers", ar_name="عمر محمد سعود الكرنز", en_name="Lina Sami Abu Mailaq")
+    assert memorials.match([page], MINISTRY)[0].status == "contradicted"
+    assert memorials.first_name_agrees("Aleena Mohammad", "Elina Mohammed")
+    assert memorials.first_name_agrees("Alhassan Weam", "Al-Hassan Weam")
+    assert not memorials.first_name_agrees("Joud Mahmoud", "Hassan Mahmoud")
+
+
+def test_memorials_ministry_id_links_only_with_the_same_name():
+    ids = {"900000001": 3}  # Omar Al-Karanz; made-up ID numbers
+    same = memorials.Page(url="u", project="aint-numbers", ar_name="عمر الكرنز", ministry_id="900000001")
+    other = memorials.Page(url="v", project="aint-numbers", ar_name="لينا معيلق", ministry_id="900000001")
+    assert memorials.match([same], MINISTRY, ids)[0].status == "linked"
+    assert memorials.match([other], MINISTRY, ids)[0].status == "contradicted"
+
+
+def test_memorials_ages_skip_durations():
+    assert memorials.ages_in("يعمل في الصحافة منذ 22 عامًا") == set()
+    assert memorials.ages_in("الطفل براء، 10 سنوات") == {10}

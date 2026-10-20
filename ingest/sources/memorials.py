@@ -1,14 +1,20 @@
 """Links from names on the Gaza list to memorial pages written by independent projects.
 
 Israel publishes an official memorial page for almost everyone killed on 7 October, so the 7 October list can link
-each name to one. Nothing official exists for people killed in Gaza. Two independent projects write about them:
+each name to one. Nothing official exists for people killed in Gaza. Independent projects write about them:
 
 - Martyrs of Gaza (gazashaheed.com): stories sent in by families and friends, one page per person, in Arabic.
 - The Living Record (newyorkwarcrimes.com/livingrecord/), by Writers Against the War on Gaza: Gaza's journalists
   remembering colleagues who were killed, in English and Arabic.
+- Palestinians Are Not Numbers (aintnumbers.com): one page per person, with the name in Arabic and English, often a
+  photograph, and an account from the family or the Ministry. It also covers some people killed in the West Bank,
+  who are not on the Gaza list and so are never linked.
 
-Neither project gives the Ministry's ID numbers, so the only way to connect a page to a name on the Ministry's list
-is by the name itself. Names in Gaza are often shared, spelled in more than one way, and given with fewer parts
+Which projects are used, and how, follows docs/memorial-links.md. A link says only who the page is about; it does
+not endorse the page or support any figure on this site.
+
+Most pages give no Ministry ID number, so the usual way to connect a page to a name on the Ministry's list is by the
+name itself. Names in Gaza are often shared, spelled in more than one way, and given with fewer parts
 than the Ministry records (often just a first and family name). A wrong link would attach someone's story to a
 different person, so a page is linked only when the evidence points to exactly one person:
 
@@ -20,6 +26,11 @@ different person, so a page is linked only when the evidence points to exactly o
 4. Anything on the page that disagrees with the record (a different age, the other sex) rules the link out.
 
 Pages about several people (a family, a couple) are skipped, since the page cannot be tied to one name.
+
+Some Palestinians Are Not Numbers pages give the person's Ministry ID number. When the version of the Ministry's list
+in data/lists/named-victims.json can be re-read with its ID numbers, an ID on the page that belongs to a record with
+the same first and family name links the page on its own. An ID that belongs to someone with a different name rules
+the link out. ID numbers are compared in memory only: they are never written to a file, printed or published.
 
 Run with `python -m ingest memorials`; it is not part of the scheduled import. It writes
 data/lists/gaza-memorial-links.json and prints every proposed link for review.
@@ -46,6 +57,23 @@ GS_API = "https://gazashaheed.com/ar/wp-json/wp/v2/posts?per_page=100&page={page
 GS_SITE = "https://gazashaheed.com/"
 LR_SITE = "https://newyorkwarcrimes.com/livingrecord/"
 LR_NOT_PEOPLE = {"about", "journalists-as-a-collective", "contributors", "donate", "ar"}
+AN_SITE = "https://www.aintnumbers.com/"
+AN_API = AN_SITE + "wp-json/wp/v2/posts?per_page=100&page={page}&_fields=id,link,title,content,categories"
+AN_CATEGORIES = AN_SITE + "wp-json/wp/v2/categories?per_page=100&_fields=id,name"
+# The project's age categories, as age ranges in years.
+AN_AGE_BANDS = {
+    "Newborns (birth to 1 month)": (0, 0),
+    "Infants (1 month to 1 year)": (0, 1),
+    "Children (1 year through 12 years)": (1, 12),
+    "Teenagers (13 years through 17 years)": (13, 17),
+    "Adults (18 years or older)": (18, 120),
+    "Seniors (65 and older)": (65, 120),
+}
+PROJECTS = {
+    "gaza-shaheed": {"name": "Martyrs of Gaza", "url": GS_SITE},
+    "living-record": {"name": "The Living Record", "url": LR_SITE, "by": "Writers Against the War on Gaza"},
+    "aint-numbers": {"name": "Palestinians Are Not Numbers", "url": AN_SITE},
+}
 
 # Death dates are not on the Ministry's list; everyone on it died between October 2023 and the list's cut-off.
 FIRST_YEAR, LAST_YEAR = 2023, 2026
@@ -107,6 +135,26 @@ def father_agrees(page_en: str, record_en: str) -> bool:
     return len(a) >= 3 and len(b) >= 3 and a[0] == b[0] and is_subsequence(a[1:-1], b[1:-1])
 
 
+def _first_sound(name: str) -> str:
+    """The opening sound of an English first name, ignoring a leading al-/el- and spelling choices: Aleena and
+    Elina, Emir and Amir, Cila and Sila, Joud and Jud all agree. Used only to tell different people apart."""
+    t = re.sub(r"^(dr|prof|professor)\.?\s+", "", html.unescape(name).lower().strip())
+    # Al-Hassan, Al Hassan and Alhassan are one name; Alaa and Ali keep their opening vowel.
+    t = re.sub(r"^(al|el)(?=[^aeiouy])", "", re.sub(r"[^a-z]", "", re.sub(r"^(al|el)[-\s]", "", t)))
+    if not t:
+        return ""
+    if t[0] in "aeiouy":
+        return "vowel"
+    return {"c": "s", "q": "k", "g": "j"}.get(t[0], t[0])
+
+
+def first_name_agrees(page_en: str, record_en: str) -> bool:
+    """The page's English name and the record's start with the same first-name sound: catches a page that names a
+    relative first (a brother's name before a sister's), not differences in spelling."""
+    a, b = _first_sound(page_en), _first_sound(record_en)
+    return not a or not b or a == b
+
+
 def is_subsequence(short: list[str], long: list[str]) -> bool:
     it = iter(long)
     return all(any(x == y for y in it) for x in short)
@@ -122,6 +170,8 @@ class Page:
     sex: str | None = None
     ages: set[int] = field(default_factory=set)
     birth_year: int | None = None
+    age_band: tuple[int, int] | None = None
+    ministry_id: str | None = None  # compared in memory only; never written or printed
 
 
 @dataclass
@@ -136,7 +186,8 @@ class Result:
 def ages_in(text: str) -> set[int]:
     """Ages stated in Arabic or English text: "27 عامًا", "(27 سنة)", "aged 27", "27 years old"."""
     t = TASHKEEL.sub("", text).translate(AR_DIGITS)
-    found = re.findall(r"(\d{1,3})\s*(?:عاما|عام|سنه|سنة|سنوات|ربيعا)", t)
+    # "منذ 22 عامًا" (for 22 years) is a duration, not an age.
+    found = re.findall(r"(?<!منذ )(?<!منذ)\b(\d{1,3})\s*(?:عاما|عام|سنه|سنة|سنوات|ربيعا)", t)
     found += re.findall(r"(?:عمره|عمرها|العمر)\s*(\d{1,3})", t)
     found += re.findall(r"\b(?:aged|age)\s+(\d{1,3})\b|\b(\d{1,3})[- ]years?[- ]old\b", t)
     flat = [int(x) for f in found for x in (f if isinstance(f, tuple) else (f,)) if x]
@@ -150,8 +201,9 @@ def birth_year_in(text: str) -> int | None:
 
 
 class Index:
-    def __init__(self, records: list[list]):
+    def __init__(self, records: list[list], ids: dict[str, int] | None = None):
         self.records = records
+        self.ids = ids or {}
         self.tokens = [normalise_ar(r[1]) for r in records]
         self.by_ends: dict[tuple[str, str], list[int]] = {}
         for i, t in enumerate(self.tokens):
@@ -165,6 +217,8 @@ class Index:
 
 
 def judge(page: Page, index: Index) -> Result:
+    if page.ministry_id and page.ministry_id in index.ids:
+        return judge_by_id(page, index)
     if not page.ar_name:
         return Result(page, "skipped", basis="no reliable Arabic name on the page")
     tokens = [t for t in normalise_ar(page.ar_name) if t not in HONORIFICS]
@@ -186,11 +240,16 @@ def judge(page: Page, index: Index) -> Result:
     _, _, age, sex, _ = index.records[i]
     if page.sex and sex != page.sex:
         return Result(page, "contradicted", i, "the page gives the other sex", 1)
+    # A page can name a relative first; its English title says whose page it is.
+    if page.en_name and not first_name_agrees(page.en_name, index.records[i][0]):
+        return Result(page, "contradicted", i, "the English name on the page has a different first name", 1)
     ok_ages = {age, age + 1, age - 1}  # the page may give the age at a birthday either side of the Ministry's record
     if page.ages and not page.ages & ok_ages:
         return Result(page, "contradicted", i, f"the page gives age {sorted(page.ages)}, the list {age}", 1)
     if page.birth_year and not (FIRST_YEAR - page.birth_year - 1 <= age <= LAST_YEAR - page.birth_year):
         return Result(page, "contradicted", i, f"born {page.birth_year}, but the list gives age {age}", 1)
+    if page.age_band and not page.age_band[0] - 1 <= age <= page.age_band[1] + 1:
+        return Result(page, "contradicted", i, f"the page's age group does not fit age {age}", 1)
 
     basis = [narrowed or f"{len(tokens)}-part name, one record fits"]
     corroborated = len(tokens) >= 3
@@ -209,7 +268,26 @@ def judge(page: Page, index: Index) -> Result:
     return Result(page, "linked", i, "; ".join(basis), 1)
 
 
-# --- the two projects ---
+def judge_by_id(page: Page, index: Index) -> Result:
+    """A Ministry ID number on the page: decisive when the record it belongs to has the page's first and family name."""
+    i = index.ids[page.ministry_id]
+    tokens = [t for t in normalise_ar(page.ar_name) if t not in HONORIFICS]
+    rec = index.tokens[i]
+    if len(tokens) >= 2 and rec:
+        same_name = (tokens[0], tokens[-1]) == (rec[0], rec[-1])
+    else:
+        # No usable Arabic name on the page: compare the English name's first and family names instead.
+        a, b = normalise_en(page.en_name), normalise_en(index.records[i][0])
+        same_name = len(a) >= 2 and len(b) >= 2 and (a[0], a[-1]) == (b[0], b[-1])
+    if not same_name:
+        return Result(page, "contradicted", i, "the ID number on the page belongs to someone with a different name", 1)
+    _, _, age, sex, _ = index.records[i]
+    if page.sex and sex != page.sex:
+        return Result(page, "contradicted", i, "the page gives the other sex", 1)
+    return Result(page, "linked", i, "the Ministry ID number given on the page belongs to this record, with the same name", 1)
+
+
+# --- the projects ---
 
 def _text(h: str) -> str:
     h = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S)
@@ -285,8 +363,60 @@ def fetch_living_record() -> list[Page]:
     return pages
 
 
-def match(pages: list[Page], records: list[list]) -> list[Result]:
-    index = Index(records)
+def aint_numbers_pages(posts: list[dict], categories: dict[int, str]) -> list[Page]:
+    """One page per post: the Arabic name is the first run of Arabic words; sex and age group come from categories."""
+    pages = []
+    for p in posts:
+        cats = {categories.get(c, "") for c in p.get("categories", [])}
+        if cats & {"Draft", "Duplicate"}:
+            continue
+        title = html.unescape(p["title"]["rendered"]).strip()
+        text = _text(p["content"]["rendered"])
+        if re.search(r"\band\b|&|\bfamily\b|,", title, re.I):
+            pages.append(Page(p["link"], "aint-numbers", title, text="(several people)"))
+            continue
+        # The name comes first, in Arabic and English, sometimes after an ID number. More than eight words is story text.
+        m = re.search(r"[\u0621-\u064a\u064b-\u065f]+(?:\s+[\u0621-\u064a\u064b-\u065f]+)+", text[:400])
+        ar_name = m.group(0) if m and len(m.group(0).split()) <= 8 else ""
+        idm = re.search(r"\bID:?\s*(\d{9})\b", text)
+        bands = [AN_AGE_BANDS[c] for c in cats if c in AN_AGE_BANDS]
+        sex = "f" if "Female" in cats and "Male" not in cats else "m" if "Male" in cats and "Female" not in cats else None
+        ages = ages_in(text)
+        pages.append(Page(p["link"], "aint-numbers", ar_name, text, en_name=title, sex=sex,
+                          ages=ages if len(ages) == 1 else set(), birth_year=birth_year_in(text),
+                          age_band=bands[0] if len(bands) == 1 else None, ministry_id=idm.group(1) if idm else None))
+    return pages
+
+
+def fetch_aint_numbers() -> list[Page]:
+    categories = {c["id"]: c["name"] for c in json.loads(fetch(AN_CATEGORIES).content)}
+    posts, page = [], 1
+    while True:
+        batch = json.loads(fetch(AN_API.format(page=page)).content)
+        posts += batch
+        if len(batch) < 100:
+            return aint_numbers_pages(posts, categories)
+        page += 1
+
+
+def ministry_ids(names: dict) -> dict[str, int]:
+    """ID number to record position, read again from the published Ministry list, in memory only. Empty when the
+    published list is no longer the version stored, since the positions would then not line up."""
+    from .names import URL as NAMES_URL
+
+    doc = fetch(NAMES_URL)
+    if doc.sha256 != names["document"]["sha256"]:
+        return {}
+    rows = json.loads(doc.content)
+    header, body = rows[0], rows[1:]
+    if "id" not in header or len(body) != len(names["records"]):
+        return {}
+    col = header.index("id")
+    return {str(row[col]): i for i, row in enumerate(body) if row[col]}
+
+
+def match(pages: list[Page], records: list[list], ids: dict[str, int] | None = None) -> list[Result]:
+    index = Index(records, ids)
     results = [judge(p, index) if p.text != "(several people)" else Result(p, "skipped", basis="page about several people")
                for p in pages]
     # One person can have pages on both projects; two pages pointing at one record are both fine. But one page
@@ -305,11 +435,14 @@ def match(pages: list[Page], records: list[list]) -> list[Result]:
 def run(dry_run: bool) -> list[str]:
     names = json.loads(NAMES_FILE.read_text())
     records = names["records"]
-    pages = gaza_shaheed_pages(fetch_gaza_shaheed()) + fetch_living_record()
-    results = match(pages, records)
+    pages = gaza_shaheed_pages(fetch_gaza_shaheed()) + fetch_living_record() + fetch_aint_numbers()
+    ids = ministry_ids(names)
+    results = match(pages, records, ids)
     linked = [r for r in results if r.status == "linked"]
 
     lines = [f"Memorial pages read: {len(pages)}; linked to one name on the Gaza list: {len(linked)}."]
+    if not ids:
+        lines.append("ID numbers not used: the published Ministry list has changed since data/lists/named-victims.json.")
     for status in ["ambiguous", "no match", "not corroborated", "contradicted", "skipped"]:
         lines.append(f"- {status}: {sum(1 for r in results if r.status == status)}")
     lines.append("")
@@ -332,18 +465,16 @@ def run(dry_run: bool) -> list[str]:
         if keys[(rec[1], rec[2], rec[3])] == 1:
             out.append([rec[1], rec[2], rec[3], r.page.url, r.page.project, r.basis])
     meta = {
-        "projects": {
-            "gaza-shaheed": {"name": "Martyrs of Gaza", "url": GS_SITE},
-            "living-record": {"name": "The Living Record", "url": LR_SITE,
-                              "by": "Writers Against the War on Gaza"},
-        },
+        "projects": PROJECTS,
         "names_list_sha256": names["document"]["sha256"],
         "pages_read": len(pages),
         "counts": {s: sum(1 for r in results if r.status == s)
                    for s in ["linked", "ambiguous", "no match", "not corroborated", "contradicted", "skipped"]},
         "note": ("Links from names on the Ministry of Health's list to memorial pages kept by independent projects. "
                  "The projects do not give ID numbers, so pages are matched by name, and only where exactly one record "
-                 "fits and nothing on the page disagrees with it. See ingest/sources/memorials.py for the rules."),
+                 "fits and nothing on the page disagrees with it, or where an ID number on the page belongs to the record. A "
+                 "link identifies the person; it does not endorse the page. See docs/memorial-links.md and "
+                 "ingest/sources/memorials.py."),
         "fields": FIELDS,
     }
     body = ",\n".join("    " + json.dumps(r, ensure_ascii=False) for r in out)
