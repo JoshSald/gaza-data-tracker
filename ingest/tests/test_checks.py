@@ -2,7 +2,7 @@ import datetime as dt
 
 from ingest import checks, store
 
-TODAY = dt.date(2026, 10, 19)
+TODAY = dt.date.today()
 
 
 def _obs(**kw):
@@ -30,7 +30,8 @@ def test_running_total_going_down_is_flagged():
 
 
 def test_future_dates_and_missing_intervals_fail():
-    assert not _run([_obs(as_of="2027-01-01", period_end="2027-01-01", id="x-future")]).ok
+    future = (TODAY + dt.timedelta(days=1)).isoformat()
+    assert not _run([_obs(as_of=future, period_end=future, id="x-future")]).ok
     assert not _run([_obs(kind="estimate", id="x-est")]).ok
 
 
