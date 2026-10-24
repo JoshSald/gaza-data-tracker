@@ -21035,5 +21035,45 @@
     },
     "quote": "gaza.killed.total = 74480 (last_update 2026-10-19)",
     "added_by": "importer:techforpalestine"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-total-2026-10-21",
+    "metric": "gaza.killed.total",
+    "value": 74494,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-21",
+    "period_start": "2023-10-07",
+    "period_end": "2026-10-21",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-24T09:35:42+00:00",
+      "sha256": "d7e0cabf3a4678fdf9ad0524882de7012d84f9f08cd2e3e82cce5609df590b96",
+      "archive": "archive/2026/10/d7e0cabf3a4678fd.json"
+    },
+    "quote": "killed_cum = 74494 (report_date 2026-10-21, report_source mohtel)",
+    "added_by": "importer:techforpalestine"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-total-2026-10-22",
+    "metric": "gaza.killed.total",
+    "value": 74498,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-22",
+    "period_start": "2023-10-07",
+    "period_end": "2026-10-22",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-24T09:35:42+00:00",
+      "sha256": "d7e0cabf3a4678fdf9ad0524882de7012d84f9f08cd2e3e82cce5609df590b96",
+      "archive": "archive/2026/10/d7e0cabf3a4678fd.json"
+    },
+    "quote": "killed_cum = 74498 (report_date 2026-10-22, report_source mohtel)",
+    "added_by": "importer:techforpalestine"
   }
 ]
