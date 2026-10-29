@@ -20995,5 +20995,25 @@
     },
     "quote": "injured_cum = 175759 (report_date 2026-10-27, report_source mohtel)",
     "added_by": "importer:techforpalestine"
+  },
+  {
+    "id": "gaza-moh-gaza-injured-total-2026-10-28",
+    "metric": "gaza.injured.total",
+    "value": 175770,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-28",
+    "period_start": "2023-10-07",
+    "period_end": "2026-10-28",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-29T11:34:11+00:00",
+      "sha256": "a56aa635bc6fed403ae9834b75b5a423bbe0b00f8836df59d4550ce732fc5a05",
+      "archive": "archive/2026/10/a56aa635bc6fed40.json"
+    },
+    "quote": "injured_cum = 175770 (report_date 2026-10-28, report_source mohtel)",
+    "added_by": "importer:techforpalestine"
   }
 ]
