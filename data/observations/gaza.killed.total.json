@@ -21175,5 +21175,25 @@
     },
     "quote": "killed_cum = 74564 (report_date 2026-10-28, report_source mohtel)",
     "added_by": "importer:techforpalestine"
+  },
+  {
+    "id": "gaza-moh-gaza-killed-total-2026-10-29",
+    "metric": "gaza.killed.total",
+    "value": 74570,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-10-29",
+    "period_start": "2023-10-07",
+    "period_end": "2026-10-29",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-10-31T10:57:33+00:00",
+      "sha256": "cf6ee77c31500de82886a5e7661fce88ebc1ffb1008b19d9b1454227eb3ab21f",
+      "archive": "archive/2026/10/cf6ee77c31500de8.json"
+    },
+    "quote": "killed_cum = 74570 (report_date 2026-10-29, report_source mohtel)",
+    "added_by": "importer:techforpalestine"
   }
 ]
