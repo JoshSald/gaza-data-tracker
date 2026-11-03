@@ -21055,5 +21055,45 @@
     },
     "quote": "injured_cum = 175834 (report_date 2026-10-31, report_source mohtel)",
     "added_by": "importer:techforpalestine"
+  },
+  {
+    "id": "gaza-moh-gaza-injured-total-2026-11-02",
+    "metric": "gaza.injured.total",
+    "value": 175872,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-11-02",
+    "period_start": "2023-10-07",
+    "period_end": "2026-11-02",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-11-03T22:20:21+00:00",
+      "sha256": "89a6c2a0b5eb64853c85b6bdb6d9ab927b035632d532b96f24d7abb38819ea52",
+      "archive": "archive/2026/11/89a6c2a0b5eb6485.json"
+    },
+    "quote": "injured_cum = 175872 (report_date 2026-11-02, report_source mohtel)",
+    "added_by": "importer:techforpalestine"
+  },
+  {
+    "id": "gaza-moh-gaza-injured-total-2026-11-03",
+    "metric": "gaza.injured.total",
+    "value": 175899,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-11-03",
+    "period_start": "2023-10-07",
+    "period_end": "2026-11-03",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-11-03T22:20:21+00:00",
+      "sha256": "89a6c2a0b5eb64853c85b6bdb6d9ab927b035632d532b96f24d7abb38819ea52",
+      "archive": "archive/2026/11/89a6c2a0b5eb6485.json"
+    },
+    "quote": "injured_cum = 175899 (report_date 2026-11-03, report_source mohtel)",
+    "added_by": "importer:techforpalestine"
   }
 ]
