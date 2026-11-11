@@ -1,0 +1,64 @@
+{
+  "gaza": {
+    "reports": 1131,
+    "last_update": "2026-11-10",
+    "massacres": 12000,
+    "killed": {
+      "total": 74645,
+      "children": 21976,
+      "women": 12500,
+      "civil_defence": 149,
+      "press": 263,
+      "medical": 1723
+    },
+    "famine": {},
+    "aid_seeker": {},
+    "injured": {
+      "total": 175978
+    }
+  },
+  "west_bank": {
+    "reports": 1131,
+    "last_update": "2026-11-10",
+    "settler_attacks": 5212,
+    "killed": {
+      "total": 1129,
+      "children": 240
+    },
+    "injured": {
+      "total": 12356,
+      "children": 1982
+    }
+  },
+  "lebanon": {
+    "reports": 202,
+    "first_report": "2023-11-14",
+    "last_update": "2026-11-05",
+    "killed": {
+      "total": 8437
+    },
+    "injured": {
+      "total": 29067
+    }
+  },
+  "known_killed_in_gaza": {
+    "records": 72835,
+    "pages": 729,
+    "page_size": 100,
+    "male": {
+      "adult": 36067,
+      "senior": 2089,
+      "child": 12803
+    },
+    "female": {
+      "adult": 11733,
+      "senior": 1309,
+      "child": 8834
+    },
+    "last_update": "2026-07-27",
+    "includes_until": "2026-05-07"
+  },
+  "known_press_killed_in_gaza": {
+    "records": 263
+  }
+}

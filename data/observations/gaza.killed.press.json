@@ -3081,6 +3081,26 @@
     "supersedes": "gaza-moh-gaza-killed-press-2026-10-15"
   },
   {
+    "id": "gaza-moh-gaza-killed-press-2026-09-30",
+    "metric": "gaza.killed.press",
+    "value": 263,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2026-09-30",
+    "period_start": "2023-10-07",
+    "period_end": "2026-09-30",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-11-10T22:24:02+00:00",
+      "sha256": "c4aba409c86da7ae09fe4688c09dcd07e7be3400428893fce2ba92b2157235b5",
+      "archive": "archive/2026/11/c4aba409c86da7ae.json"
+    },
+    "quote": "press_killed_cum = 263 (report_date 2026-09-30, report_source mohtel)",
+    "added_by": "importer:techforpalestine"
+  },
+  {
     "id": "gaza-moh-gaza-killed-press-2026-10-15",
     "metric": "gaza.killed.press",
     "value": 262,
