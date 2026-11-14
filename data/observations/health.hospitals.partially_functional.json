@@ -1349,5 +1349,30 @@
     "quote": "18 (51%) out of 35 hospitals evaluated are at least partially functioning.",
     "caveat": "Out of 35 hospitals WHO evaluated, excluding field hospitals. HeRAMS monthly snapshot.",
     "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-hospitals-partially-functional-2026-10-31-monitoring-herams",
+    "metric": "health.hospitals.partially_functional",
+    "value": 18,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2026-10-31",
+    "period_start": null,
+    "period_end": "2026-10-31",
+    "dimensions": {
+      "monitoring": "herams"
+    },
+    "document": {
+      "url": "https://cdn.who.int/media/docs/default-source/documents/emergencies/herams/herams_opt_gaza_infographics_2026-10_en_final.pdf?sfvrsn=163e8f9_7&download=true",
+      "publisher": "World Health Organization (HeRAMS)",
+      "retrieved_at": "2026-11-14T12:16:34+00:00",
+      "sha256": "ef9a85490b15ea2d666274877ee75455a7e23f67ba7ad51af51c1d6340bc79dd",
+      "archive": "archive/2026/11/ef9a85490b15ea2d.txt",
+      "note": "Original is 12 MB; the archive keeps its extracted text. sha256 is of the original file."
+    },
+    "quote": "18 (51%) out of 35 hospitals evaluated are at least partially functioning.",
+    "caveat": "Out of 35 hospitals WHO evaluated, excluding field hospitals. HeRAMS monthly snapshot.",
+    "added_by": "importer:who"
   }
 ]
