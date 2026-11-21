@@ -229,5 +229,26 @@
     "quote": "1003 People killed in attacks",
     "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 71.",
     "added_by": "importer:who"
+  },
+  {
+    "id": "who-health-attacks-killed-2026-10-31",
+    "metric": "health.attacks.killed",
+    "value": 1010,
+    "kind": "count",
+    "bound": "exact",
+    "source": "who",
+    "as_of": "2026-10-31",
+    "period_start": "2023-10-07",
+    "period_end": "2026-10-31",
+    "document": {
+      "url": "https://www.emro.who.int/images/stories/palestine/Sitrep74_Oct_26.pdf",
+      "publisher": "World Health Organization (oPt Emergency Situation Update)",
+      "retrieved_at": "2026-11-21T13:31:16+00:00",
+      "sha256": "1d548e8bae141153e75b4b7754cde1e15cc68ad24db02df59f55632a6311617e",
+      "archive": "archive/2026/11/1d548e8bae141153.pdf"
+    },
+    "quote": "1010 People killed in attacks",
+    "caveat": "Recorded by WHO's Surveillance System for Attacks on Health Care since 7 October 2023. WHO situation report issue 74.",
+    "added_by": "importer:who"
   }
 ]
