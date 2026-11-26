@@ -2,7 +2,7 @@ import json
 
 from conftest import FIXTURES
 from ingest import store
-from ingest.sources import cogat_updates, memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
+from ingest.sources import base, cogat_updates, memorials, names, oct7, press, techforpalestine, un2720, unosat, who_health
 from ingest.archive import Document
 
 
@@ -72,6 +72,32 @@ def test_un2720_month_without_deliveries_records_only_the_pipeline():
     assert (o["metric"], o["value"], o["as_of"]) == ("aid.un2720.pipeline_tonnes", 124000, "2025-04-30")
 
 
+def test_un2720_rejects_non_pdf_response_before_parsing(monkeypatch):
+    doc = Document("https://example.org/report.pdf", b"<!doctype html><title>Moved</title>", "text/html", "a" * 64, "2026-11-26T00:00:00+00:00")
+    monkeypatch.setattr(un2720, "discover", lambda entry: [doc.url])
+    monkeypatch.setattr(un2720, "fetch", lambda url: doc)
+    monkeypatch.setattr(un2720, "pdf_text", lambda content: (_ for _ in ()).throw(AssertionError("invalid PDF reached parser")))
+    prop = un2720.run({"id": "test"}, [], {})
+    assert not prop.observations
+    assert len(prop.rejected) == 1
+    assert prop.rejected[0].reason == "not a PDF"
+
+
+def test_discover_normalizes_escaped_un2720_pdf_paths(monkeypatch):
+    class Response:
+        text = r'<script>{"pdf":"\/site\/pdfs\/monthly-overview-september-2026.pdf"}</script>'
+
+        def raise_for_status(self):
+            pass
+
+    monkeypatch.setattr(base.requests, "get", lambda *args, **kwargs: Response())
+    urls = base.discover({
+        "index_url": "https://un2720.org/",
+        "link_pattern": r"/site/pdfs/monthly-overview-[A-Za-z0-9_-]+\.pdf",
+    })
+    assert urls == ["https://un2720.org/site/pdfs/monthly-overview-september-2026.pdf"]
+
+
 def test_un2720_skips_pipeline_infographics():
     # Their "delivered" sentence disagrees with the monthly overview for the same month.
     text = ("Overview of Humanitarian Aid in the Pipeline As of 31 August 2025 Summary In August 2025, 73 K metric tonnes (t) of "
@@ -97,6 +123,9 @@ def test_techforpalestine_daily_uses_only_reported_values():
     ]
     assert skipped == {"gmotel": 1, "missing": 1}
     assert obs[0]["id"] == "gaza-moh-gaza-killed-total-2023-10-08"
+    by = {(o["metric"], o["as_of"]): o for o in obs}
+    assert by[("gaza.killed.total", "2023-10-08")]["quote"] == '"killed_cum": 370'
+    assert "Tech for Palestine" in by[("gaza.killed.total", "2023-10-08")]["caveat"]
 
 
 def test_names_keeps_only_published_fields():

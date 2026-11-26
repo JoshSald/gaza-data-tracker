@@ -35,6 +35,9 @@ DAILY_FIELDS = {
 # report_source values that are the Ministry's own channel. Others ("gmotel" = Government Media Office,
 # "missing" = unknown) are skipped: they are a different body, or one we cannot name.
 MOH_CHANNELS = {"mohtel"}
+MOH_CAVEAT = ("Tech for Palestine maps report_source 'mohtel' to the Gaza Ministry of Health's Telegram channel. "
+              "This quote is a literal JSON field from Tech for Palestine's dataset, not a verbatim Ministry post. "
+              "The Ministry says its reported totals include deaths it can connect directly to an act of war.")
 
 
 def _get(obj: dict, path: tuple):
@@ -100,7 +103,8 @@ def parse_daily(rows: list[dict], doc_meta: dict) -> tuple[list[dict], dict[str,
                 "period_start": START,
                 "period_end": date,
                 "document": doc_meta,
-                "quote": f"{key} = {value} (report_date {date}, report_source {channel})",
+                "quote": f'"{key}": {value}',
+                "caveat": MOH_CAVEAT,
                 "added_by": "importer:techforpalestine",
             })
     return out, skipped

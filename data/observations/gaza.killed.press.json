@@ -3020,6 +3020,28 @@
     "added_by": "importer:techforpalestine"
   },
   {
+    "id": "gaza-moh-gaza-killed-press-2025-12-02-revision-2026-11-26",
+    "metric": "gaza.killed.press",
+    "value": 257,
+    "kind": "count",
+    "bound": "exact",
+    "source": "gaza-moh",
+    "as_of": "2025-12-02",
+    "period_start": "2023-10-07",
+    "period_end": "2025-12-02",
+    "document": {
+      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
+      "publisher": "Tech for Palestine",
+      "retrieved_at": "2026-11-26T15:22:33+00:00",
+      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
+      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+    },
+    "quote": "\"press_killed_cum\": 257",
+    "caveat": "The Tech for Palestine snapshot retrieved 2026-11-26 reports 257 for this date; the earlier archived snapshot retrieved 2026-10-19 reports 256. The snapshots do not explain the difference, and this correction records the later value.",
+    "supersedes": "gaza-moh-gaza-killed-press-2025-12-02",
+    "added_by": "manual:Hermione"
+  },
+  {
     "id": "gaza-moh-gaza-killed-press-2026-01-21",
     "metric": "gaza.killed.press",
     "value": 260,

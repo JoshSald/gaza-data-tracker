@@ -42,7 +42,7 @@ def discover(entry: dict) -> list[str]:
     if entry.get("url"):
         urls.append(entry["url"])
     if entry.get("index_url") and entry.get("link_pattern"):
-        html = requests.get(entry["index_url"], timeout=60, headers={"User-Agent": USER_AGENT}).text
+        html = requests.get(entry["index_url"], timeout=60, headers={"User-Agent": USER_AGENT}).text.replace("\\/", "/")
         for m in re.finditer(entry["link_pattern"], html):
             # requote_uri escapes the spaces some file names contain and leaves escaped ones alone.
             urls.append(requote_uri(urljoin(entry["index_url"], m.group(0).replace("&amp;", "&"))))

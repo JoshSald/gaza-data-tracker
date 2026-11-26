@@ -21267,14 +21267,14 @@
     "period_start": "2023-10-07",
     "period_end": "2026-11-16",
     "document": {
-      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
-      "publisher": "Tech for Palestine",
-      "retrieved_at": "2026-11-26T15:22:33+00:00",
-      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
-      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+      "url": "https://t.me/s/MOHMediaGaza/7720",
+      "publisher": "Gaza Ministry of Health (Telegram)",
+      "retrieved_at": "2026-11-26T21:00:12+00:00",
+      "sha256": "7a668842bc5656b67d37a50e95dc15b8442b8fa6861c59ba9ab0ce98b80d27bb",
+      "archive": "archive/2026/11/7a668842bc5656b6.html"
     },
-    "quote": "injured_cum = 176105 (report_date 2026-11-16, report_source mohtel)",
-    "added_by": "importer:techforpalestine"
+    "quote": "تراكمي الإصابات: 176,105 إصابة",
+    "added_by": "manual:Hermione"
   },
   {
     "id": "gaza-moh-gaza-injured-total-2026-11-18",
@@ -21287,14 +21287,14 @@
     "period_start": "2023-10-07",
     "period_end": "2026-11-18",
     "document": {
-      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
-      "publisher": "Tech for Palestine",
-      "retrieved_at": "2026-11-26T15:22:33+00:00",
-      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
-      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+      "url": "https://t.me/s/MOHMediaGaza/7725",
+      "publisher": "Gaza Ministry of Health (Telegram)",
+      "retrieved_at": "2026-11-26T21:00:12+00:00",
+      "sha256": "f60fe927025eafeced6018681be35a6b4651ae962382023643cb975634fcf7b0",
+      "archive": "archive/2026/11/f60fe927025eafec.html"
     },
-    "quote": "injured_cum = 176131 (report_date 2026-11-18, report_source mohtel)",
-    "added_by": "importer:techforpalestine"
+    "quote": "تراكمي الإصابات: * 176,131 إصابة",
+    "added_by": "manual:Hermione"
   },
   {
     "id": "gaza-moh-gaza-injured-total-2026-11-19",
@@ -21307,14 +21307,14 @@
     "period_start": "2023-10-07",
     "period_end": "2026-11-19",
     "document": {
-      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
-      "publisher": "Tech for Palestine",
-      "retrieved_at": "2026-11-26T15:22:33+00:00",
-      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
-      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+      "url": "https://t.me/s/MOHMediaGaza/7729",
+      "publisher": "Gaza Ministry of Health (Telegram)",
+      "retrieved_at": "2026-11-26T21:00:12+00:00",
+      "sha256": "a615660c7e956447cda6076fbd3456ab0c2ba4b5156aa7aaf4b898edb5c24494",
+      "archive": "archive/2026/11/a615660c7e956447.html"
     },
-    "quote": "injured_cum = 176139 (report_date 2026-11-19, report_source mohtel)",
-    "added_by": "importer:techforpalestine"
+    "quote": "تراكمي الإصابات: 176,139 إصابة",
+    "added_by": "manual:Hermione"
   },
   {
     "id": "gaza-moh-gaza-injured-total-2026-11-21",
@@ -21327,14 +21327,14 @@
     "period_start": "2023-10-07",
     "period_end": "2026-11-21",
     "document": {
-      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
-      "publisher": "Tech for Palestine",
-      "retrieved_at": "2026-11-26T15:22:33+00:00",
-      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
-      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+      "url": "https://t.me/s/MOHMediaGaza/7733",
+      "publisher": "Gaza Ministry of Health (Telegram)",
+      "retrieved_at": "2026-11-26T21:00:12+00:00",
+      "sha256": "f9a30e97ed91e9e2b67427055e730450a9b77c8e50c03cbaa127aeaf4046176c",
+      "archive": "archive/2026/11/f9a30e97ed91e9e2.html"
     },
-    "quote": "injured_cum = 176194 (report_date 2026-11-21, report_source mohtel)",
-    "added_by": "importer:techforpalestine"
+    "quote": "تراكمي الإصابات: 176,194 إصابة",
+    "added_by": "manual:Hermione"
   },
   {
     "id": "gaza-moh-gaza-injured-total-2026-11-22",
@@ -21347,14 +21347,14 @@
     "period_start": "2023-10-07",
     "period_end": "2026-11-22",
     "document": {
-      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
-      "publisher": "Tech for Palestine",
-      "retrieved_at": "2026-11-26T15:22:33+00:00",
-      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
-      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+      "url": "https://t.me/s/MOHMediaGaza/7744",
+      "publisher": "Gaza Ministry of Health (Telegram)",
+      "retrieved_at": "2026-11-26T21:00:13+00:00",
+      "sha256": "9bb7b0aa3ef5bff196a3cb137528a91bf04cbf22e10e0d67f8a4f6d63e5b69c6",
+      "archive": "archive/2026/11/9bb7b0aa3ef5bff1.html"
     },
-    "quote": "injured_cum = 176227 (report_date 2026-11-22, report_source mohtel)",
-    "added_by": "importer:techforpalestine"
+    "quote": "تراكمي الإصابات:176,227 مصابًا",
+    "added_by": "manual:Hermione"
   },
   {
     "id": "gaza-moh-gaza-injured-total-2026-11-23",
@@ -21367,14 +21367,14 @@
     "period_start": "2023-10-07",
     "period_end": "2026-11-23",
     "document": {
-      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
-      "publisher": "Tech for Palestine",
-      "retrieved_at": "2026-11-26T15:22:33+00:00",
-      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
-      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+      "url": "https://t.me/s/MOHMediaGaza/7748",
+      "publisher": "Gaza Ministry of Health (Telegram)",
+      "retrieved_at": "2026-11-26T21:00:13+00:00",
+      "sha256": "fe5f5b34f81d7eeb150ba60e45e4ae40fd63b2faf03ce1f7b79afcd30feaee44",
+      "archive": "archive/2026/11/fe5f5b34f81d7eeb.html"
     },
-    "quote": "injured_cum = 176234 (report_date 2026-11-23, report_source mohtel)",
-    "added_by": "importer:techforpalestine"
+    "quote": "تراكمي الإصابات: 176,234 مصابًا",
+    "added_by": "manual:Hermione"
   },
   {
     "id": "gaza-moh-gaza-injured-total-2026-11-26",
@@ -21387,13 +21387,13 @@
     "period_start": "2023-10-07",
     "period_end": "2026-11-26",
     "document": {
-      "url": "https://data.techforpalestine.org/api/v2/casualties_daily.json",
-      "publisher": "Tech for Palestine",
-      "retrieved_at": "2026-11-26T15:22:33+00:00",
-      "sha256": "3aa196bfe13b6d54f44cbec58f5ce210433021a6a72551165203c42e12888ef7",
-      "archive": "archive/2026/11/3aa196bfe13b6d54.json"
+      "url": "https://t.me/s/MOHMediaGaza/7761",
+      "publisher": "Gaza Ministry of Health (Telegram)",
+      "retrieved_at": "2026-11-26T21:00:13+00:00",
+      "sha256": "b755a6a155ebb19b346717d2f1ccd17937205f0fdfae881f0e027448dda010cb",
+      "archive": "archive/2026/11/b755a6a155ebb19b.html"
     },
-    "quote": "injured_cum = 176298 (report_date 2026-11-26, report_source mohtel)",
-    "added_by": "importer:techforpalestine"
+    "quote": "تراكمي الإصابات: 176,298 مصابًا",
+    "added_by": "manual:Hermione"
   }
 ]
