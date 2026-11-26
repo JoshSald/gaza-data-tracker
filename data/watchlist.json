@@ -16,14 +16,11 @@
   {
     "id": "un2720-monthly",
     "importer": "un2720",
-    "index_url": "https://info.un2720.org/",
-    "link_pattern": "[^\"'<>\\s]*reports-infographics/(?![^\"'<>]*Pipeline)[^\"'<>/]*Info[^\"'<>/]*\\.pdf",
-    "urls": [
-      "https://info.un2720.org/assets/images/reports-infographics/Monthly%20Infographic(June).pdf"
-    ],
-    "max_documents": 30,
+    "index_url": "https://un2720.org/",
+    "link_pattern": "/site/pdfs/monthly-overview-[A-Za-z0-9_-]+\\.pdf",
+    "max_documents": 1,
     "enabled": true,
-    "comment": "Report links sit in onclick=\"openPdfModal('...')\" buttons and some file names contain spaces. The pattern skips the separate pipeline, rejection and CHI overviews."
+    "comment": "The current homepage embeds escaped monthly-overview PDF paths; discover normalizes escaped slashes and selects the latest monthly PDF."
   },
   {
     "id": "cogat-updates",

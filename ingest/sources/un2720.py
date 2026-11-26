@@ -163,8 +163,15 @@ def run(entry: dict, metrics: list[dict], state: dict) -> Proposal:
         prop.seen[url] = doc.sha256
         if state.get(url) == doc.sha256:
             continue
+        if not doc.content.startswith(b"%PDF"):
+            prop.rejected.append(Rejected(url, "not a PDF", "The report link may have moved or returned an HTML page."))
+            continue
+        try:
+            text = pdf_text(doc.content)
+        except Exception as e:  # noqa: BLE001 - report malformed PDFs instead of aborting this source
+            prop.rejected.append(Rejected(url, "invalid PDF", str(e)))
+            continue
         keep(doc)
-        text = pdf_text(doc.content)
         found = parse(text, doc.meta(PUBLISHER))
         no_aid = NO_AID.search(re.sub(r"\s+", " ", text))
         if no_aid:
